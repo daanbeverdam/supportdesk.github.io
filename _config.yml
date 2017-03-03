@@ -1,11 +1,11 @@
-url: https://mage-academy.training/
-url-non: https://mage-academy.training
+url: https://supportdesk.shop/
+url-non: https://supportdesk.shop
 
 # Site settings
-title: Magento 2 Training Academy
-name: Magento 2 Training Academy
-domain-name: Mage Academy
-robots: INDEX,FOLLOW
+title: SupportDesk
+name: SupportDesk
+domain-name: SupportDesk
+robots: NOINDEX,NOFOLLOW
 email: training@supportdesk.nu
 description: "Magento 2 Training Academy. Learn Magento 2 now, sign up and get started with Magento 2"
 google_analytics: UA-56035124-2
@@ -21,7 +21,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: De Ruijterkade 139
+  - line: Hogehilweg 19
   - line: 1188 DP, Amsterdam
 
 # Build settings
