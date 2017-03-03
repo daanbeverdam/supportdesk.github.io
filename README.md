@@ -1,2 +1,2 @@
-Magento Training Academy
+SupportDesk
 ====================
