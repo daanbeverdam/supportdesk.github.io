@@ -3,26 +3,26 @@ url-non: https://supportdesk.shop
 
 # Site settings
 title: SupportDesk
-name: SupportDesk
+name: Support voor Magento en Joomla
 domain-name: SupportDesk
 robots: NOINDEX,NOFOLLOW
 email: training@supportdesk.nu
-description: "Magento 2 Training Academy. Learn Magento 2 now, sign up and get started with Magento 2"
-google_analytics: UA-56035124-2
+description: "Magento en Joomla support nodig?"
+google_analytics: //UA-31123279-1//unset
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
-    url: https://www.youtube.com/channel/UCL5iTukHCFPemED2kpf56sg
+    url: https://www.youtube.com/supportdesknu
   - title: twitter
-    url: https://twitter.com/rapidonu
+    url: https://twitter.com/supportdesknu
   - title: linkedin
-    url: https://www.linkedin.com/company/rapido-internet-solutions-b-v-
+    url: https://www.linkedin.com/company/supportdesknu
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Hogehilweg 19
-  - line: 1188 DP, Amsterdam
+  - line: 1101 CB, Amsterdam
 
 # Build settings
 markdown: kramdown
