@@ -1,31 +1,43 @@
 <footer>
+  <div class="first-footer">
   <div class="container">
     <div class="row">
-
       <div class="four columns">
-        <a href="{{ site.url }}" class="tab header-title">
-          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-          <span>{{ site.title }}</span>
-        </a>
-        </a>
+          <h3>Laatste nieuws</h3>
+          <ul>
+          {% for post in site.posts limit:5 %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
       </div>
-
       <div class="four columns">
-          <ul class="list-inline social-buttons">
-              {% for network in site.social %}
-              <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
-              {% endfor %}
+          <h3>Populair</h3>
+          <ul>
+          {% for post in site.categories.popular limit:5 %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
           </ul>
       </div>
 
       <div class="four columns">
-          <ul class="list-inline quicklinks">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Use</a></li>
-          </ul>
+          <h3>Support nodig?</h3>
+          <p class="bel-button"><span>Bel nu!</span> 020 337 596</p>
+          <p>SupportDesk B.V<br/>Hogehilweg 19<br />1101 CB Amsterdam<br/>Email: support @ supportdesk.nu<br/><br/>Meer gegevens</p>
       </div>
-
     </div>
-    <div class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</div>
+  </div>
+  </div>
+  <div class="second-footer">
+      <div class="container">
+    <ul>
+    {% for link in site.data.footer_links %}
+        <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+    {% endfor %}
+    </ul>
+    <p><a href="//www.supportdesk.nu">SupportDesk</a>™ name and logo are registered trademarks of SupportDesk.<br />
+        <a href="//www.yoomla.com">Joomla!</a> is a registered trademark of <a href="//opensourcematters.org">Open Source Matters, Inc.</a><br />
+        <a href="//www.magentocommerce.com">Magento</a> is a registered trademark of Magento Inc.<br />
+        All material on this website is copyrighted by <a href="//www.supportdesk.nu">SupportDesk</a>.</p>
+      </div>
   </div>
 </footer>
