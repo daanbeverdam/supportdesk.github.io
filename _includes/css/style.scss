@@ -2684,7 +2684,7 @@ body.case-study blockquote p {
 .toc h2 {
   margin: 0;
   line-height: 0;
-  font-size: 30px
+  font-size: 30px;
 }
 
 form.amp-form-submit-error [submit-error]{
@@ -2698,4 +2698,12 @@ form.amp-form-submit-error [submit-error] {
 }
 form.amp-form-submit-success.hide-inputs > input {
   display: none
+}
+
+.second-footer li {
+    display: inline-block;
+}
+
+.second-footer {
+    text-align: center;
 }
