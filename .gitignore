@@ -36,4 +36,8 @@ Icon
 .Trashes
 
 _site
+**/img/
 amp.html
+.jekyll-metadata
+.bundle
+docker-compose.yml

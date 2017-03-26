@@ -1,28 +1,51 @@
-- text: training
-  url: /#training
-- text: portfolio
-  url: /#portfolio
+nl:
+- text: home
+  url: /home
+- text: Magento Support
+  url: /magento-support
   subitems:
-    - text: magento 2 merchant
-      url: /magento-2-merchant
+    - text: Magento 2
+      url: /magento-2
   subitems:
-    - text: magento 2 webmaster
-      url: /magento-2-webmaster
+    - text: Magento APK
+      url: /magento-apk
+- text: Joomla Support
+  url: /joomla-support
   subitems:
-    - text: magento 2 developer
-      url: /magento-2-developer
+    - text: Joomla APK
+      url: /joomla-apk
   subitems:
-    - text: magento 2 theming
-      url: /magento-2-theming
+    - text: Joomla security
+      url: /joomla-security
+- text: Oro Support
+  url: /oro-support
+- text: Shop
+  url: https://supportdesk.shop/
+- text: Blog
+  url: /blog
+
+en:
+- text: home
+  url: /home
+- text: Magento Support
+  url: /magento-support
   subitems:
-    - text: magento 2 security
-      url: /magento-2-security
+    - text: Magento 2
+      url: /magento-2
   subitems:
-    - text: magento 2 performance
-      url: /magento-2-performance
-- text: about
-  url: /#about
-- text: team
-  url: /#team
-- text: contact
-  url: /#contact
+    - text: Magento APK
+      url: /magento-apk
+- text: Joomla Support
+  url: /joomla-support
+  subitems:
+    - text: Joomla APK
+      url: /joomla-apk
+  subitems:
+    - text: Joomla security
+      url: /joomla-security
+- text: Oro Support
+  url: /oro-support
+- text: Shop
+  url: https://supportdesk.shop/
+- text: Blog
+  url: /blog
