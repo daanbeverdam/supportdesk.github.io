@@ -1,37 +1,63 @@
-    <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
-    <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
-    <nav>
-      <div class="language desktop">
-        <amp-accordion>
-          <section>
-            <h6 class="current">
-              <a class="flag-en"><span>English</span></a>
-            </h6>
-            <div class="others">
-            </div>
-          </section>
-        </amp-accordion>
-      </div>
+<amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+<button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+<nav>
+  <div class="language desktop">
+    <amp-accordion>
+      <section>
+        <h6 class="current">
+          <a class="flag-en"><span>English</span></a>
+        </h6>
+        <div class="others">
+        </div>
+      </section>
+    </amp-accordion>
+  </div>
+    <ul>
+      <li>
         <ul>
-          <li>
-            <ul>
-              <li class="is-active"><a href="{{ site.url }}">Home</a></li>
-              <li class=""><a href="{{ site.url }}magento-support">Magento Support</a></li>
-              <li class=""><a href="{{ site.url }}joomla-support">Joomla Support</a></li>
-              <li class=""><a href="{{ site.url }}oro-support">Oro Support</a></li>
-              <li class=""><a href="{{ site.url }}step-je-vraag">Vraag?</a></li>
-              <li class=""><a href="{{ site.url }}training">Training</a></li>
-              <li class=""><a href="https://supportdesk.shop/">Shop</a></li>
-              <li class=""><a href="{{ site.url }}blog">Blog</a></li>
-            </ul>
-          </li>
+          <li class="is-active"><a href="{{ site.url }}">Home</a></li>
+          <li class=""><a href="{{ site.url }}#training">Training</a></li>
+          <li class=""><a href="{{ site.url }}#portfolio">Portfolio</a></li>
+          <li class=""><a href="{{ site.url }}#about">About</a></li>
+          <li class=""><a href="{{ site.url }}#team">Team</a></li>
+          <li class=""><a href="{{ site.url }}#contact">Contact</a></li>
         </ul>
-      </nav>
+      </li>
+    </ul>
+  </nav>
 
-      <nav>
-        <ul>
-          <li>
-            <h2>Training portfolio</h2>
+  <nav>
+    <ul>
+      <li>
+        <h2>Training portfolio</h2>
+          <ul>
+            <li><a href="{{ site.url }}magento-2-merchant">Merchant</a></li>
+            <li><a href="{{ site.url }}magento-2-webmaster">Webmaster</a></li>
+            <li><a href="{{ site.url }}magento-2-developer">Developer</a></li>
+            <li><a href="{{ site.url }}magento-2-theming">Theming</a></li>
+            <li><a href="{{ site.url }}magento-2-security">Security</a></li>
+            <li><a href="{{ site.url }}magento-2-performance">Performance</a></li>
+          </ul>
+      </li>
+    </ul>
+  </nav>
+</amp-sidebar>
+
+<header class="header fixed">
+  <div class="container">
+    <div class="nav-container">
+      <div class="left-nav">
+            <a href="{{ site.url }}" class="tab header-title">
+              <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+              <span>{{ site.title }}</span>
+            </a>
+          </div>
+          <div class="right alt">
+            <div class="tab">
+              <a href="{{ site.url }}magento-support">Magento Support</a>
+            </div>
+            <div class="tab">
+              <a href="{{ site.url }}#portfolio">Portfolio</a>
               <ul>
                 <li><a href="{{ site.url }}magento-2-merchant">Merchant</a></li>
                 <li><a href="{{ site.url }}magento-2-webmaster">Webmaster</a></li>
@@ -40,37 +66,18 @@
                 <li><a href="{{ site.url }}magento-2-security">Security</a></li>
                 <li><a href="{{ site.url }}magento-2-performance">Performance</a></li>
               </ul>
-          </li>
-        </ul>
-      </nav>
-    </amp-sidebar>
-
-    <header class="header fixed">
-      <div class="container">
-        <div class="nav-container">
-          <div class="left-nav">
-                <a href="{{ site.url }}" class="tab header-title">
-                  <amp-img noloading height="75" width="396" alt="{{ site.description }}" layout="responsive" src="{{site.url-non}}{{site.logo}}"></amp-img>
-                </a>
-              </div>
-              <div class="right alt">
-                <div class="tab">
-                  <a href="{{ site.url }}magento-support"><span><span class="icon" style="background-image: url('https://www.supportdesk.nu/images/icon/icon_magento.png');"></span><span class="title">Magento</span><span class="subtitle">Support</span></span></a>
-                </div>
-                <div class="tab">
-                  <a href="{{ site.url }}joomla-support">Joomla Support</a>
-                  <ul>
-                    <li><a href="{{ site.url }}magento-2-merchant">Merchant</a></li>
-                  </ul>
-                </div>
-                <div class="tab">
-                  <a href="http://supportdesk.shop/">Shop</a>
-                </div>
-                <div class="tab">
-                  <a href="{{ site.url }}blog">Blog</a>
-                </div>
-              <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
             </div>
-          </div>
+            <div class="tab">
+              <a href="{{ site.url }}#about">About</a>
+            </div>
+            <div class="tab">
+              <a href="{{ site.url }}#team">Team</a>
+            </div>
+            <div class="tab">
+              <a href="{{ site.url }}#contact">Contact</a>
+            </div>
+          <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
         </div>
-    </header>
+      </div>
+    </div>
+</header>

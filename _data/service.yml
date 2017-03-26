@@ -1,47 +1,47 @@
 - name: Magento 2
   description: Wil je overstappen naar Magento 2? Hulp nodig bij migratie of upgrade van Magento 1 naar Magento 2?
-  url: sd-magento-2
-  pic: m2
-  title-submenu: Training services
+  url: magento-support/magento-2
+  pic: magento-2-migration-upgrade
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
 
 - name: Magento APK
   description: Wil je graag weten of jouw Magento website voldoet aan de huidige webstandaarden? Vraag dan de Magento APK aan.
-  url: sd-magento-apk
-  pic: apk
-  title-submenu: Training services
+  url: magento-support/magento-apk
+  pic: magento-apk
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
 
 - name: Magento Performance
   description: Is je Magento website traag, performance problemen? Hulp nodig?
-  url: sd-magento-perf
-  pic: perf
-  title-submenu: Training services
+  url: magento-support/magento-performance
+  pic: magento-performance-200
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
 
 - name: Website Problemen?
   description: Heeft je Magento of Joomla website problemen en heb je geen idee wat het is.
-  url: sd-website-problemen
-  pic: fix
-  title-submenu: Training services
+  url: magento-support
+  pic: magento-support
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
 
 - name: Service contract
   description: Service contract afgestemd op de business behoefte van je website of website.
-  url: sd-service-contract
-  pic: contract
-  title-submenu: Training services
+  url: magento-support/service-contract
+  pic: service-contract
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
 
 - name: Stel je vraag
   description: Vragen of hulp nodig bij je Magento of Joomla website, laat het ons weten.
-  url: sd-stel-je-vraag
-  pic: q
-  title-submenu: Training services
+  url: stel-je-vraag
+  pic: stel-je-vraag
+  title-submenu: SupportDesk portfolio
   height: 190
   width: 297
