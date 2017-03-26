@@ -52,29 +52,25 @@
             </a>
           </div>
           <div class="right alt">
+            {% assign navurl = page.url | remove: 'index.html' %}
             <div class="tab">
-              <a href="{{ site.url }}magento-support">Magento Support</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}#portfolio">Portfolio</a>
               <ul>
-                <li><a href="{{ site.url }}magento-2-merchant">Merchant</a></li>
-                <li><a href="{{ site.url }}magento-2-webmaster">Webmaster</a></li>
-                <li><a href="{{ site.url }}magento-2-developer">Developer</a></li>
-                <li><a href="{{ site.url }}magento-2-theming">Theming</a></li>
-                <li><a href="{{ site.url }}magento-2-security">Security</a></li>
-                <li><a href="{{ site.url }}magento-2-performance">Performance</a></li>
+                {% for member in site.data.menu %}
+                  <li>
+                      <a href="{{ item.url }}">
+                          {% if item.url == navurl %}
+                              <b>{{ item.text }}</b>
+                          {% else %}
+                              {{ item.text }}
+                          {% endif %}
+                      </a>
+                  </li>
+                  {% if item.subitems and navurl contains item.url %}
+                      {% include header.html nav=item.subitems %}
+               {% endif %}
               </ul>
             </div>
-            <div class="tab">
-              <a href="{{ site.url }}#about">About</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}#team">Team</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}#contact">Contact</a>
-            </div>
+            {% endfor %}
           <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
         </div>
       </div>
