@@ -1,0 +1,28 @@
+- title: "Home"
+  href: ""
+
+- title: "Magento Support"
+  href: "magento-support"
+  subcategories:
+    - subtitle: "Magento APK"
+      subhref: "magento-apk"
+    - subtitle: "Magento 2"
+      subhref: "magento-2"
+    - subtitle: "Magento Performance"
+      subhref: "magento-performance"
+
+- title: "Joomla Support"
+  href: "joomla-support"
+  subcategories:
+    - subtitle: "Example1"
+      subhref: "#"
+    - subtitle: "Example2"
+      subhref: "#"
+
+- title: "Oro Support"
+  href: "oro-support"
+  subcategories:
+    - subtitle: "Example1"
+      subhref: "#"
+    - subtitle: "Example2"
+      subhref: "#"
