@@ -56,10 +56,13 @@
             {% for menu in site.data.nav %}
               <div class="tab">
               <a href="{{ site.url }}{{ menu.href }}">{{ menu.title }}</a>
-              <ul>
-                <li>
-                </li>
-              </ul>
+              {% if menu.subcategories != null %}
+                <ul>
+                  {% for subcategory in menu.subcategories %}
+                  <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                  {% endif %}
+                </ul>
+              {% endfor %}
               </div>
             {% endfor %}
           <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
