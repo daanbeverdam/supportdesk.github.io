@@ -53,15 +53,15 @@
             </a>
           </div>
           <div class="right alt">
-            <div class="tab">
-              {% for menu in site.data.nav %}
+            {% for menu in site.data.nav %}
+              <div class="tab">
               <a href="{{ site.url }}{{ menu.href }}">{{ menu.title }}</a>
               <ul>
                 <li>
                 </li>
-              </ul>  
-            </div>
-          {% endfor %}
+              </ul>
+              </div>
+            {% endfor %}
           <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
         </div>
       </div>
