@@ -1,20 +1,20 @@
 - title: "Home"
-  href: "/"
+  href: ""
 
 - title: "Magento Support"
-  href: "/magento-support"
+  href: "magento-support"
   subcategories:
     - subtitle: "Magento APK"
-      subhref: "/magento-apk"
+      subhref: "magento-apk"
     - subtitle: "Magento 2"
-      subhref: "/magento-2"
+      subhref: "magento-2"
     - subtitle: "Magento Performance"
-      subhref: "/magento-performance"
+      subhref: "magento-performance"
     - subtitle: "Magento Help"
-      subhref: "/magento-help"
+      subhref: "magento-help"
 
 - title: "Joomla Support"
-  href: "/joomla-support"
+  href: "joomla-support"
   subcategories:
     - subtitle: "Joomla Performance"
       subhref: "/joomla-performance"
