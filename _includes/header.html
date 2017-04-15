@@ -60,9 +60,9 @@
                 <ul>
                   {% for subcategory in menu.subcategories %}
                   <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-                  {% endif %}
+                  {% endfor %}
                 </ul>
-              {% endfor %}
+              {% endif %}
               </div>
             {% endfor %}
           <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>

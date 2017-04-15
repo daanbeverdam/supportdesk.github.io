@@ -10,14 +10,16 @@
       subhref: "/magento-2"
     - subtitle: "Magento Performance"
       subhref: "/magento-performance"
+    - subtitle: "Magento Help"
+      subhref: "/magento-help"
 
 - title: "Joomla Support"
   href: "/joomla-support"
   subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+    - subtitle: "Joomla Performance"
+      subhref: "/joomla-performance"
+    - subtitle: "Joomla Templates"
+      subhref: "/joomla-templates"
 
 - title: "Oro Support"
   href: "/oro-support"
