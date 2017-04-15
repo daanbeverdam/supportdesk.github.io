@@ -55,11 +55,11 @@
           <div class="right alt">
             {% for menu in site.data.nav %}
               <div class="tab">
-              <a href="{{ site.url }}{{ menu.href }}">{{ menu.title }}</a>
+              <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
               {% if menu.subcategories != null %}
                 <ul>
                   {% for subcategory in menu.subcategories %}
-                  <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                  <li><a href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
                   {% endfor %}
                 </ul>
               {% endif %}
