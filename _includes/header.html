@@ -53,35 +53,22 @@
             </a>
           </div>
           <div class="right alt">
-            <div class="tab">
-              <a href="{{ site.url }}magento-support">Magento Support</a>
+          {% for menu in site.data.nav %}
+            {% if menu.subcategories != null %}
               <ul>
-                <li><a href="{{ site.url }}magento-support/magento-2">Magento 2</a></li>
-                <li><a href="{{ site.url }}magento-support/magento-apk">Magento APK</a></li>
+                {% for subcategory in menu.subcategories %}
+                <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                {% endfor %}
               </ul>
-            </div>
+            {% else %}
+
             <div class="tab">
-              <a href="{{ site.url }}joomla-support">Joomla Support</a>
-              <ul>
-                <li><a href="{{ site.url }}joomla-support/joomla-performance">Joomla Performance</a></li>
-                <li><a href="{{ site.url }}joomla-support/joomla-templates">Joomla Templates</a></li>
-              </ul>
+              <li>
+                <a href="{{ site.url }}{{ menu.href }}">{{ menu.title }}</a>
+            {% endif %}
+              </li>
             </div>
-            <div class="tab">
-              <a href="{{ site.url }}oro-support">Oro Support</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}stel-je-vraag">Vraag?</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}magento-training">Training</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}">Shop</a>
-            </div>
-            <div class="tab">
-              <a href="{{ site.url }}blog">Blog</a>
-            </div>
+          {% endfor %}
           <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
         </div>
       </div>

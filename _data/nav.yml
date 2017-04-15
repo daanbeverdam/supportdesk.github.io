@@ -1,18 +1,18 @@
 - title: "Home"
-  href: ""
+  href: "/"
 
 - title: "Magento Support"
-  href: "magento-support"
+  href: "/magento-support"
   subcategories:
     - subtitle: "Magento APK"
-      subhref: "magento-apk"
+      subhref: "/magento-apk"
     - subtitle: "Magento 2"
-      subhref: "magento-2"
+      subhref: "/magento-2"
     - subtitle: "Magento Performance"
-      subhref: "magento-performance"
+      subhref: "/magento-performance"
 
 - title: "Joomla Support"
-  href: "joomla-support"
+  href: "/joomla-support"
   subcategories:
     - subtitle: "Example1"
       subhref: "#"
@@ -20,9 +20,21 @@
       subhref: "#"
 
 - title: "Oro Support"
-  href: "oro-support"
+  href: "/oro-support"
   subcategories:
     - subtitle: "Example1"
-      subhref: "#"
+      subhref: "/#"
     - subtitle: "Example2"
-      subhref: "#"
+      subhref: "/#"
+
+- title: "Stel je vraag?"
+  href: "/stel-je-vraag"
+
+- title: "Training"
+  href: "/magento-training"
+
+- title: "Shop"
+  href: "https://supportdesk.shop/"
+
+- title: "Blog"
+  href: "/blog"
