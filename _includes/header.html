@@ -46,27 +46,48 @@
 <header class="header fixed">
   <div class="container">
     <div class="nav-container">
-      <div class="left-nav">
-            <a href="{{ site.url }}" class="tab header-title">
-              <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-              <span>{{ site.title }}</span>
-            </a>
-          </div>
-          <div class="right alt">
+      <div class="left-nav alt">
+            <a href="{{ site.url }}" class="tab header-title"><span></span></a>
+          <div class="tabs">
             {% for menu in site.data.nav %}
               <div class="tab">
-              <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
-              {% if menu.subcategories != null %}
-                <ul>
-                  {% for subcategory in menu.subcategories %}
-                  <li><a href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
+                <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
+                {% if menu.subcategories != null %}
+                <div class="list-container">
+                  <div class="list-shadow"></div>
+                    <ul>
+                      {% for subcategory in menu.subcategories %}
+                      <li><a href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+                      {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
               </div>
             {% endfor %}
-          <button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
-        </div>
+          </div>
+          <div class="right alt">
+            <form action="//www.google.com/search" method="get" class="searchbar" target="_top" novalidate="">
+              <input class="query" name="q" type="text">
+              <input name="as_sitesearch" type="hidden" value="www.ampproject.org">
+              <button name="search" type="submit"></button>
+            </form>
+            <div class="language desktop">
+              <amp-accordion role="tablist">
+                <section>
+                  <h6 class="current" role="tab" aria-expanded="false">
+                    <a class="flag-en"><span>Nederlands</span></a>
+                  </h6>
+                  <div class="others" role="tabpanel" id="_AMP_content_0">
+                    <div class="others-inner">
+                      <div><a href="/en/" class="flag-de"><span>English</span></a></div>
+                    </div>
+                  </div>
+                </section>
+              </amp-accordion>
+            </div>
+            <button class="tab hamburger" id="menu-button" on="tap:sidebar.toggle"></button>
+          </div>
       </div>
     </div>
+  </div>
 </header>

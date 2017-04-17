@@ -13,22 +13,6 @@
     - subtitle: "Magento Help"
       subhref: "/magento-help"
 
-- title: "Joomla Support"
-  href: "joomla-support"
-  subcategories:
-    - subtitle: "Joomla Performance"
-      subhref: "/joomla-performance"
-    - subtitle: "Joomla Templates"
-      subhref: "/joomla-templates"
-
-- title: "Oro Support"
-  href: "oro-support"
-  subcategories:
-    - subtitle: "Example1"
-      subhref: "/"
-    - subtitle: "Example2"
-      subhref: "/"
-
 - title: "Stel je vraag?"
   href: "stel-je-vraag"
 
@@ -36,7 +20,7 @@
   href: "magento-training"
 
 - title: "Shop"
-  href: https://supportdesk.shop/
+  href: "/"
 
 - title: "Blog"
   href: "blog"
