@@ -1044,6 +1044,144 @@ section {
     }
 }
 
+nav.breadcrumb {
+    margin: 15px 20px;
+    position: absolute;
+    z-index: 2
+}
+
+nav.breadcrumb ul {
+    line-height: 12px;
+    list-style: none
+}
+
+nav.breadcrumb li,
+nav.breadcrumb a {
+    color: #959595;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-transform: none
+}
+
+nav.breadcrumb li {
+    display: inline
+}
+
+nav.breadcrumb li::after {
+    content: '\00bb';
+    margin-left: 5px
+}
+
+nav.breadcrumb li:last-child::after {
+    content: ''
+}
+
+@media only screen and (max-width: 956px) {
+    nav li,
+    nav a {
+        font-size: 10px
+    }
+}
+
+.language {
+    height: 33px;
+    left: 100px;
+    position: relative;
+    top: -4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.language section {
+    border: 0;
+    padding: 0
+}
+
+.language section[expanded] .current,
+.language section[expanded] .others-inner {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1)
+}
+
+.language section[expanded] .current {
+    left: 60px
+}
+
+.language section[expanded] .current::after {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75)
+}
+
+.language .current {
+    font-size: 1em;
+    margin-right: 100px;
+    text-align: right;
+    width: 140px
+}
+
+.language .current::after {
+    width: 16px;
+    height: 8.3px;
+    background-position: -60px -43.66px;
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75)
+}
+
+.language .others {
+    padding: 0 50px 50px 50px;
+    left: -50px;
+    top: -1px
+}
+
+.language .others-inner {
+    background: #fff;
+    margin: 0
+}
+
+.language .others-inner div {
+    width: 200px
+}
+
+.language .others-inner div a {
+    margin: 0 10px;
+    text-transform: capitalize
+}
+
+.language .others-inner div:hover {
+    background-color: #f9f9f9
+}
+
+.language .current,
+.language .others-inner div {
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px 15px 8px
+}
+
+.language .current:hover a,
+.language .others-inner div:hover a {
+    text-decoration: none
+}
+
+.language .current a,
+.language .others-inner div a {
+    color: #333;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
 .column,
 .columns {
     width: 100%;
