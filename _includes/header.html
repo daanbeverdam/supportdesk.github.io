@@ -2,10 +2,13 @@
   <form class="menu-layer primary i-amphtml-form" action="/" target="_top" novalidate="">
     <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
     <div class="items">
-
         {% for menu in site.data.nav %}
         <label class="menu-item item-layer-1 has-sub-level"><input type="checkbox">
-        {{ menu.title }}
+        {% if menu.href != 'magento-support' %}
+          <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
+        {% else %}
+          {{ menu.title }}
+        {% endif %}
           {% if menu.subcategories != null %}
           <div class="submenu menu-layer secondary">
             <div class="return-button">Back</div>
