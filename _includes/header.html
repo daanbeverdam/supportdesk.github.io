@@ -24,20 +24,22 @@
         {% endfor %}
 
     </div>
-<div class="language desktop">
-  <amp-accordion role="tablist">
-    <section>
-      <h6 role="tab" aria-expanded="false">
-        <a class="flag-nl"><span>NL</span></a>
-      </h6>
-      <div role="tabpanel" >
-        <div class="others-inner">
-          <div><a href="/en/" class="flag-en"><span>EN</span></a></div>
-      </div>
-    </section>
-  </amp-accordion>
-</div>  </form>
-<button tabindex="-1">Close the sidebar</button>
+    <div class="language desktop">
+      <amp-accordion role="tablist">
+        <section>
+          <h6 class="current" role="tab" aria-expanded="false">
+            <a class="flag-en"><span>NL</span></a>
+          </h6>
+          <div class="others" role="tabpanel">
+            <div class="others-inner">
+              <div><a href="/en/" class="flag-en"><span>EN</span></a></div>
+            </div>
+          </div>
+        </section>
+      </amp-accordion>
+    </div>
+  </form>
+<button class="i-amphtml-screen-reader" tabindex="-1">Close the sidebar</button>
 <div style="height: 10vh; width: 100%; background-color: transparent;"></div>
 </amp-sidebar>
 
