@@ -1,47 +1,43 @@
-<amp-sidebar id='sidebar' side='right' layout='nodisplay'>
-<button class="tab hamburger" id="menu-button" on='tap:sidebar.toggle'><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
-<nav>
-  <div class="language desktop">
-    <amp-accordion>
-      <section>
-        <h6 class="current">
-          <a class="flag-en"><span>English</span></a>
-        </h6>
-        <div class="others">
-        </div>
-      </section>
-    </amp-accordion>
-  </div>
-    <ul>
-      <li>
-        <ul>
-          <li class="is-active"><a href="{{ site.url }}">Home</a></li>
-          <li class=""><a href="{{ site.url }}#training">Training</a></li>
-          <li class=""><a href="{{ site.url }}#portfolio">Portfolio</a></li>
-          <li class=""><a href="{{ site.url }}#about">About</a></li>
-          <li class=""><a href="{{ site.url }}#team">Team</a></li>
-          <li class=""><a href="{{ site.url }}#contact">Contact</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+<amp-sidebar id="sidebar" side="right" layout="nodisplay" aria-hidden="false" role="menu" tabindex="-1" open="">
+  <form class="menu-layer primary i-amphtml-form" action="/" target="_top" novalidate="">
+    <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
+    <div class="items">
 
-  <nav>
-    <ul>
-      <li>
-        <h2>Training portfolio</h2>
-          <ul>
-            <li><a href="{{ site.url }}magento-2-merchant">Merchant</a></li>
-            <li><a href="{{ site.url }}magento-2-webmaster">Webmaster</a></li>
-            <li><a href="{{ site.url }}magento-2-developer">Developer</a></li>
-            <li><a href="{{ site.url }}magento-2-theming">Theming</a></li>
-            <li><a href="{{ site.url }}magento-2-security">Security</a></li>
-            <li><a href="{{ site.url }}magento-2-performance">Performance</a></li>
-          </ul>
-      </li>
-    </ul>
-  </nav>
+        {% for menu in site.data.nav %}
+        <label class="menu-item item-layer-1 has-sub-level"><input type="checkbox">
+        {{ menu.title }}
+          {% if menu.subcategories != null %}
+          <div class="submenu menu-layer secondary">
+            <div class="return-button">Back</div>
+            <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
+            <div class="items">
+                {% for subcategory in menu.subcategories %}
+                <a class="menu-item item-layer-2" href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a>
+                {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </label>
+        {% endfor %}
+
+    </div>
+<div class="language desktop">
+  <amp-accordion role="tablist">
+    <section>
+      <h6 role="tab" aria-expanded="false">
+        <a class="flag-nl"><span>NL</span></a>
+      </h6>
+      <div role="tabpanel" >
+        <div class="others-inner">
+          <div><a href="/en/" class="flag-en"><span>EN</span></a></div>
+      </div>
+    </section>
+  </amp-accordion>
+</div>  </form>
+<button tabindex="-1">Close the sidebar</button>
+<div style="height: 10vh; width: 100%; background-color: transparent;"></div>
 </amp-sidebar>
+
 
 <header class="header fixed">
   <div class="container">

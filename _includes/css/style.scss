@@ -2763,7 +2763,7 @@ amp-sidebar .menu-item:hover {
 }
 
 amp-sidebar .item-layer-1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 100;
     line-height: 44px;
     padding: 30px 35px 30px 25px
@@ -2834,7 +2834,7 @@ amp-sidebar .has-sub-level::after {
 }
 
 amp-sidebar .close-button {
-    background: url(/static/img/symbols/close.svg) no-repeat center/18px transparent;
+    background: url(/img/symbols/close.svg) no-repeat center/18px transparent;
     border: 0;
     height: 58px;
     position: absolute;
@@ -2852,7 +2852,7 @@ amp-sidebar .return-button {
 }
 
 amp-sidebar .return-button::before {
-    background: url(/static/img/symbols/return.svg) no-repeat center/contain transparent;
+    background: url(/img/symbols/return.svg) no-repeat center/contain transparent;
     border: 0;
     content: '';
     display: inline-block;
