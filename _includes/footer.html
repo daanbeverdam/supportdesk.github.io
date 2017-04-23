@@ -30,10 +30,10 @@
   <div class="second-footer">
     <ul class="menu menu-line">
       {% for menu in site.data.nav %}
-        <li><a href="{{ site.url }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
+        <li><a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
       {% endfor %}
     </ul>
-    <p><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of SupportDesk.<br />
+    <p class="bottom"><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of SupportDesk.<br />
         All material on this website is copyrighted by <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>.</p>
   </div>
 </footer>
