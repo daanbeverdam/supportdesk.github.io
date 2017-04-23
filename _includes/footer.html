@@ -21,8 +21,17 @@
 
       <div class="four columns">
           <h3>Support nodig?</h3>
-          <p class="bel-button"><span>Bel nu!</span> 020 337 596</p>
-          <p>SupportDesk B.V<br/>Hogehilweg 19<br />1101 CB Amsterdam<br/>Email: support @ supportdesk.nu<br/><br/>Meer gegevens</p>
+          <p class="bel-button"><span>Bel nu!</span> 020 337 596</p><br />
+          <p>{{ site.name }}<br />
+              {% for address in site.address %}
+                {{ address.line }}<br />
+              {% endfor %}
+          </p><br />
+          <p>E-mail: {{ site.email-support }}</p><br />
+          <p><a href="/bedrijfsgegevens">meer gegevens</a></p><br />
+          <p>{{ site.name }} wordt door haar klanten beoordeeld met een
+            {{ site.review-rate }} van {{ site.review-scale }} gebaseerd op {{ site.review-total }} klantbeoordelingen.
+          </p>
       </div>
     </div>
   </div>
@@ -33,7 +42,7 @@
         <li><a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
       {% endfor %}
     </ul>
-    <p class="bottom"><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of SupportDesk.<br />
+    <p class="bottom"><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of {{ site.name }}.<br />
         All material on this website is copyrighted by <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>.</p>
   </div>
 </footer>

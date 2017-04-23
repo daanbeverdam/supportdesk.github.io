@@ -3101,9 +3101,16 @@ form.amp-form-submit-success.hide-inputs > input {
 footer h3 {
     color: #fff;
 }
+footer a, p {
+    color: #999999
+}
 
 footer .menu {
     margin-bottom: 8px;
+}
+
+footer .first-footer {
+    padding-bottom: 20px;
 }
 
 .menu-line li {
