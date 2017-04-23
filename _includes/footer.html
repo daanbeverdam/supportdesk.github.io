@@ -28,14 +28,12 @@
   </div>
   </div>
   <div class="second-footer">
-    <ul>
-    {% for link in site.data.footer_links %}
-        <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-    {% endfor %}
+    <ul class="menu menu-line">
+      {% for menu in site.data.nav %}
+        <li><a href="{{ site.url }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
+      {% endfor %}
     </ul>
-    <p><a href="//www.supportdesk.nu">SupportDesk</a>™ name and logo are registered trademarks of SupportDesk.<br />
-        <a href="//www.joomla.com">Joomla!</a> is a registered trademark of <a href="//opensourcematters.org">Open Source Matters, Inc.</a><br />
-        <a href="//www.magentocommerce.com">Magento</a> is a registered trademark of Magento Inc.<br />
-        All material on this website is copyrighted by <a href="//www.supportdesk.nu">SupportDesk</a>.</p>
+    <p><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of SupportDesk.<br />
+        All material on this website is copyrighted by <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>.</p>
   </div>
 </footer>

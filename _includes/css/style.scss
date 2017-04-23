@@ -42,7 +42,7 @@ body,
 .header .tab .list-container>ul li a,
 .card,
 .searchbar input {
-    font-weight: 300;
+    font-weight: 300px;
     text-transform: none
 }
 
@@ -3096,4 +3096,18 @@ form.amp-form-submit-success.hide-inputs > input {
 
 .flag-en {
   background: url(/img/lang/en.svg) no-repeat center right/10%;
+}
+
+footer .menu {
+    margin-bottom: 8px;
+}
+
+.menu-line li {
+    margin-left: 10px;
+    padding-left: 9px;
+}
+
+footer .second-footer p {
+    font-size: 10px;
+    text-transform: none;
 }
