@@ -9,7 +9,7 @@ datePublished: 2017-04-01T08:00:00+08:00
 dateModified: 2017-04-01T08:00:00+08:00
 intro: Tariefwijzigingen per 1 april
 keywords:
-
+hits: 30
 ---
 
 # Tariefwijzigingen per 1 april

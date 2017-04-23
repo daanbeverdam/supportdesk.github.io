@@ -9,7 +9,7 @@ datePublished: 2017-04-03T08:00:00+08:00
 dateModified: 2017-04-03T08:00:00+08:00
 intro: Mage.coach - The online Magento Performance tool
 keywords:
-
+hits: 100
 ---
 
 # Mage.coach - The online Magento Performance tool

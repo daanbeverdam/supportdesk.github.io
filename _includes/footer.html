@@ -13,7 +13,8 @@
       <div class="four columns">
           <h3>Populair</h3>
           <ul>
-          {% for post in site.categories.popular limit:5 %}
+          {% assign posts = site.posts | sort: 'hits' | reverse %}
+            {% for post in posts limit:6 %}
               <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
           </ul>

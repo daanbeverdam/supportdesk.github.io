@@ -9,7 +9,7 @@ datePublished: 2017-04-14T08:00:00+08:00
 dateModified: 2017-04-14T08:00:00+08:00
 intro: Magento 2.1.6 is alive!
 keywords:
-
+hits: 40
 ---
 
 # Magento 2.1.6 is alive!
