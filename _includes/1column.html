@@ -1,0 +1,77 @@
+<section id="portfolio" class="blade blade--blog">
+  <div class="container">
+    <div>
+        <h1 class="blog__section-title"><a title="{{ page.title }}" href="{{ page.link }}">{{ page.title }}</a></h1>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+
+            <div class="row">
+              <div class="eight columns">
+                <div class="box">
+                  <div class="box__inner">
+                    <div class="box__content">
+                      <div class="eight columns">
+                        <p>{{ page.description-top }}</p>
+                        <h3>Training Take-aways</h3>
+                        <ul class="fa-ul">
+                            {% for summary in page.summary %}
+                              <li><i class="fa-li fa fa-check" aria-hidden="true"></i>{{ summary.title }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p>{{ page.description-middle }}</p>
+                        <h3>{{ page.content-title }}</h3>
+                        <p>{{ page.description-bottom }}</p>
+                        <h3>{{ page.related-title }}</h3>
+                        <ul class="fa-ul">
+                            {% for related in page.related %}
+                              <li><i class="fa-li fa fa-check" aria-hidden="true"></i>{{ related.title }}</li>
+                            {% endfor %}
+                        </ul>
+                        <div class="box__bottom">
+                        </div>
+                      </div>
+                      <div class="four columns">
+                        <a title="{{ page.title }}" href="{{ page.link }}">
+                          <amp-img noloading height=96 width=150 alt="{{ page.title }}" attribution="{{ page.title }}" layout=responsive src="img/training/{{ page.thumbnail }}.jpg"></amp-img>
+                        </a>
+                        <div class="toc">
+
+                          
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__action">
+                      <a class="go-button button" title="{{ page.title }}" href="#signup">{{ page.title }} - Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="four columns">
+              <div class="box">
+                <div class="box__inner">
+                  <div class="box__content">
+                    <div>
+                        <h3>{{ page.title-submenu }}</h3>
+                    </div>
+                      <aside id="sidebar">
+                        <ul class="list-inline quicklinks">
+                          {% for member in site.data.training %}
+                        			<li><a title="{{ member.name }}" href="{{ member.url }}">{{ member.name }}</a></li>
+                        	{% endfor %}
+                        </ul>
+                      </aside>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+  </div>
+</section>
