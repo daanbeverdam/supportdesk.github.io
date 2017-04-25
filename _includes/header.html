@@ -1,4 +1,4 @@
-<amp-sidebar id="sidebar" side="right" layout="nodisplay" aria-hidden="false" role="menu" tabindex="-1" open="">
+<amp-sidebar id="sidebar" side="right" layout="nodisplay" aria-hidden="false" role="menu" tabindex="-1">
   <form class="menu-layer primary i-amphtml-form" action="/" target="_top" novalidate="">
     <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
     <div class="items">
@@ -15,7 +15,7 @@
             <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
             <div class="items">
                 {% for subcategory in menu.subcategories %}
-                <a class="menu-item item-layer-2" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a>
+                <a class="menu-item item-layer-2" href="{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a>
                 {% endfor %}
             </div>
           </div>
@@ -39,8 +39,7 @@
       </amp-accordion>
     </div>
   </form>
-<button class="i-amphtml-screen-reader" tabindex="-1">Close the sidebar</button>
-<div style="height: 10vh; width: 100%; background-color: transparent;"></div>
+<button tabindex="-1">Close the sidebar</button>
 </amp-sidebar>
 
 
@@ -58,7 +57,7 @@
                   <div class="list-shadow"></div>
                     <ul>
                       {% for subcategory in menu.subcategories %}
-                      <li><a href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+                      <li><a href="{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
                       {% endfor %}
                     </ul>
                 </div>
