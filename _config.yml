@@ -1,5 +1,7 @@
 url: https://supportdesk.shop/
 url-non: https://supportdesk.shop
+url-shop: https://supportdesk.shop/
+
 
 # Site settings
 name: SupportDesk BV
@@ -29,7 +31,7 @@ address:
 
 review-rate: 9.4
 review-scale: 10
-review-total: 161  
+review-total: 161
 
 # Build settings
 markdown: kramdown

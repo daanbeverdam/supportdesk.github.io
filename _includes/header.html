@@ -52,13 +52,13 @@
           <div class="tabs">
             {% for menu in site.data.nav %}
               <div class="tab">
-                <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
+                <a href="{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
                 {% if menu.subcategories != null %}
                 <div class="list-container">
                   <div class="list-shadow"></div>
                     <ul>
                       {% for subcategory in menu.subcategories %}
-                      <li><a href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+                      <li><a href="{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
                       {% endfor %}
                     </ul>
                 </div>
