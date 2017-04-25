@@ -28,13 +28,13 @@
       subhref: "/contact"
     - subtitle: "Case Study"
       subhref: "/case-study"
-    - subtitle: onze klanten
+    - subtitle: "onze klanten"
       subhref: "/onze-klanten"
-    - subtitle: Klantervaring
+    - subtitle: "Klantervaring"
       subhref: "/klantervaring"
-    - subtitle: "Hoe werken wij?
+    - subtitle: "Hoe werken wij?"
       subhref: "/hoe-werken-wij"
-    - subtitle: Bedrijfsgegevens
+    - subtitle: "Bedrijfsgegevens"
       subhref: "/bedrijfsgegevens"
     - subtitle: "Pakketten en prijzen?"
       subhref: "/pakketten-en-prijzen"
