@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Meet Magento 2017 "MM17NL"
+layout: 1column
+title: Meet Magento 2017 'MM17NL'
 description:
 image:
 authorimage:
