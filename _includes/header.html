@@ -5,7 +5,7 @@
         {% for menu in site.data.nav %}
         <label class="menu-item item-layer-1 has-sub-level"><input type="checkbox">
         {% if menu.href != 'magento-support' %}
-          <a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
+          <a href="{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>
         {% else %}
           {{ menu.title }}
         {% endif %}
@@ -15,7 +15,7 @@
             <button type="reset" class="close-button" id="menu-button" on="tap:sidebar.toggle"></button>
             <div class="items">
                 {% for subcategory in menu.subcategories %}
-                <a class="menu-item item-layer-2" href="{{ site.url }}{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a>
+                <a class="menu-item item-layer-2" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a>
                 {% endfor %}
             </div>
           </div>
