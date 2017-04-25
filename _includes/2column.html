@@ -38,7 +38,7 @@
                         </a>
                         <div class="toc">
 
-                          
+
 
                         </div>
                       </div>
@@ -55,13 +55,15 @@
                 <div class="box__inner">
                   <div class="box__content">
                     <div>
-                        <h3>{{ page.title-submenu }}</h3>
+                        <h3>{{ page.title }}</h3>
                     </div>
                       <aside id="sidebar">
                         <ul class="list-inline quicklinks">
-                          {% for member in site.data.training %}
-                        			<li><a title="{{ member.name }}" href="{{ member.url }}">{{ member.name }}</a></li>
-                        	{% endfor %}
+                          {% for menu in site.data.nav %}
+                            {% for subcategory in menu.subcategories %}
+                        			  <li><a title="{{ menu.subtitle }}" href="{{ menu.subhref }}">{{ menu.subtitle }}</a></li>
+                            {% endfor %}
+                          {% endfor %}
                         </ul>
                       </aside>
                   </div>
