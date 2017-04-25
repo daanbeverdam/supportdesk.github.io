@@ -58,7 +58,7 @@
                   <div class="list-shadow"></div>
                     <ul>
                       {% for subcategory in menu.subcategories %}
-                      <li><a href="{{ menu.href }}{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+                      <li><a href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
                       {% endfor %}
                     </ul>
                 </div>

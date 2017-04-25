@@ -1,14 +1,14 @@
 - title: "Magento Support"
-  href: "magento-support"
+  href: "/magento-support"
   subcategories:
     - subtitle: "Magento APK"
-      subhref: "/magento-apk"
+      subhref: "/magento-support/magento-apk"
     - subtitle: "Magento 2"
-      subhref: "/magento-2"
+      subhref: "/magento-support/magento-2"
     - subtitle: "Magento Performance"
-      subhref: "/magento-performance"
+      subhref: "/magento-support/magento-performance"
     - subtitle: "Magento Help"
-      subhref: "/magento-help"
+      subhref: "/magento-support/magento-help"
 
 - title: "Vraag?"
   href: "/stel-je-vraag"
@@ -19,7 +19,7 @@
 - title: "Shop"
   href: "https://supportdesk.shop/"
 
-- title: "AboutUs"
+- title: "About Us"
   href: "/over-ons"
   subcategories:
     - subtitle: "Help"
