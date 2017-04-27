@@ -29,10 +29,7 @@
               {% endfor %}
           </p><br />
           <p>E-mail: {{ site.email-support }}</p><br />
-          <p><a href="/bedrijfsgegevens">meer gegevens</a></p><br />
-          <p>{{ site.name }} wordt door haar klanten beoordeeld met een
-            {{ site.review-rate }} van {{ site.review-scale }} gebaseerd op {{ site.review-total }} klantbeoordelingen.
-          </p>
+          <p><a href="/bedrijfsgegevens">meer gegevens</a></p>
       </div>
     </div>
   </div>
@@ -43,7 +40,8 @@
         <li><a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
       {% endfor %}
     </ul>
-    <p class="bottom"><a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of {{ site.name }}.<br />
+    <p class="bottom">{{ site.name }} wordt door haar klanten beoordeeld met een <strong>{{ site.review-rate }}</strong> van <strong>{{ site.review-scale }}</strong> gebaseerd op <strong>{{ site.review-total }}</strong> klantbeoordelingen.<br />
+      <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of {{ site.name }}.<br />
         All material on this website is copyrighted by <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>.</p>
   </div>
 </footer>
