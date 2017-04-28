@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 1column
 title: Magento 2.1.6 is alive!
 description:
 image:

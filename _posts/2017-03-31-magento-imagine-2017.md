@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 1column
 title: Magento Imagine 2017
 description:
 image:

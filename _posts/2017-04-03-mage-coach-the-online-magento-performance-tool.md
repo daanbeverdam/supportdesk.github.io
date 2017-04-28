@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 1column
 title: Mage.coach - The online Magento Performance tool
 description:
 image:

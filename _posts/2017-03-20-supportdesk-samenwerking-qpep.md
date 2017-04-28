@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 1column
 title: SupportDesk werkt met Qpep
 description:
 image:

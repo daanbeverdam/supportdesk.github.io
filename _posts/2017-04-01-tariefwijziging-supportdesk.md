@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 1column
 title: Tariefwijzigingen per 1 april
 description:
 image:
