@@ -1,12 +1,12 @@
-<section id="portfolio" class="blade blade--blog">
+<section class="blade blade--2column">
   <div class="container">
     <div>
-        <h1 class="blog__section-title">Magento 2 Training Portfolio</h1>
+        <h1 class="blog__section-title">SupportDesk portfolio</h1>
     </div>
 
     <div class="tablet-up">
       <div class="card-container">
-        {% for member in site.data.training %}
+        {% for member in site.data.home-grid %}
         <div class="card">
           <div class="card__image">
             <a title="{{ member.name }}" href="{{ member.url }}">
@@ -16,7 +16,7 @@
                 width="{{ member.width }}"
                 alt="{{ member.name }}"
                 layout="responsive"
-                src="img/training/{{ member.pic }}.jpg">
+                src="img/service/{{ member.pic }}.jpg">
             </amp-img></a>
           </div>
           <div class="card__content">
@@ -24,7 +24,7 @@
             <p>{{ member.description }}</p>
           </div>
           <div class="card__action">
-            <a title="{{ member.name }}" href="{{ member.url }}">Learn More</a>
+            <a title="{{ member.name }}" href="{{ member.url }}">Lees meer</a>
           </div>
         </div>
       {% endfor %}
@@ -36,7 +36,7 @@
       height="640"
       type="slides"
       layout="fixed-height">
-      {% for member in site.data.training %}
+      {% for member in site.data.home-grid %}
       <div class="card">
         <div class="card__image">
           <amp-img
@@ -45,7 +45,7 @@
               width="{{ member.width }}"
               alt="{{ member.name }}"
               layout="responsive"
-              src="img/training/{{ member.pic }}.jpg">
+              src="img/service/{{ member.pic }}.jpg">
           </amp-img>
         </div>
         <div class="card__content">
