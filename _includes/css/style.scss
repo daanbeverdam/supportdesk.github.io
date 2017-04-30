@@ -1969,11 +1969,23 @@ pre>code td {
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 16px;
-    color: #424242
+    color: #ff7f00
 }
 
 .card__title a {
     font-size: 1em
+}
+
+@media only screen and (max-width: 768px) {
+    .card__title a {
+        font-size: 1em
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card__title a {
+        font-size: 1em
+    }
 }
 
 .card__content {
