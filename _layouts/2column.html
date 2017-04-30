@@ -23,7 +23,7 @@
                                 {{ content }}
                             </div>
                             <div class="card__action">
-                              <a class="go-button button" title="{{ page.title }}" href="">{{ page.title }}</a>
+                              {% include call-me.html %}
                             </div>
                           </div>
                         </div>
@@ -37,14 +37,18 @@
                         <div class="box">
                           <div class="box__inner">
                             <div class="box__content">
-                              <div>
+                              <div class="box__sidebar">
                                   <h3>Support Diensten</h3>
                               </div>
                                 <aside id="sidebar">
                                   <ul class="list-inline quicklinks">
                                     {% for menu in site.data.nav %}
-                                  			<li><a title="{{ menu.title }}" href="{{ menu.href }}">{{ menu.title }}</a></li>
-                                  	{% endfor %}
+                                      {% if menu.subcategories != null %}
+                                        {% for subcategory in menu.subcategories %}
+                                        <li><a href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
+                                        {% endfor %}
+                                      {% endif %}
+                                    {% endfor %}
                                   </ul>
                                 </aside>
                             </div>
@@ -56,6 +60,7 @@
 
                     </div>
                 </div>
+                {% include steps.html %}
               </div>
 
             </div>

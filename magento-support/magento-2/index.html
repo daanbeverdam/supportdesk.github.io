@@ -8,8 +8,11 @@ thumbnail: magento-2-migration-upgrade
 related-title: Gerelateerde diensten
 related:
   - title: Magento 2 Performance
+    href: /magento-support/magento-performance
   - title: Magento 2 Migratie
+    href: /magento-support/magento-migratie
   - title: Magento Upgrade
+    href: /magento-support/magento-upgrade
 ---
 
 <div class="twelve columns">
@@ -37,7 +40,7 @@ related:
   <h3>{{ page.related-title }}</h3>
   <ul class="fa-ul">
       {% for related in page.related %}
-        <li><i class="fa-li fa fa-check" aria-hidden="true"></i>{{ related.title }}</li>
+        <li><i class="fa-li fa fa-check" aria-hidden="true"></i><a href="{{ related.href }}" title="{{ related.title }}">{{ related.title }}</a></li>
       {% endfor %}
   </ul>
   <div class="box__bottom">
