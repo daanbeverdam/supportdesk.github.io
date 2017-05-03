@@ -28,7 +28,7 @@
                 {{ address.line }}<br />
               {% endfor %}
           </p><br />
-          <p>E-mail: <a href="mailto:{{ site.email-support }}?subject=Mijn Support Vraag" title="{{ site.email-support }}">{{ site.email-support }}</p><br />
+          <p>E-mail: <a href="mailto:{{ site.email-support | encode_email }}?subject=Mijn Support Vraag" title="{{ site.email-support }}">{{ site.email-support }}</a></p><br />
           <p><a href="/bedrijfsgegevens">meer gegevens</a></p>
       </div>
     </div>

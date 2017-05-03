@@ -13,7 +13,7 @@ nav: hoe-werken-wij
       </div>
       <div class="nine columns">
         <h5><a name="stap">Step je vraag</a></h5>
-        <p>We zijn bereikbaar binnen kantoortijden ({{ site.hours }}u) op ons nummer: {{ site.tel }}.<br /> Of stuur een e-mail naar: {{ site.email-support }}. Alle communicatie verloopt via ons <a href="https://supportdesknu.zendesk.com/home" target="_blank" title="Zendesk online ticketsysteem">online ticketsysteem.</a></p>
+        <p>We zijn bereikbaar binnen kantoortijden ({{ site.hours }}u) op ons nummer: {{ site.tel }}.<br /> Of stuur een e-mail naar: <a href="mailto:{{ site.email-support | encode_email }}?subject=Mijn Support Vraag">{{ site.email-support }}</a>. Alle communicatie verloopt via ons <a href="https://supportdesknu.zendesk.com/home" target="_blank" title="Zendesk online ticketsysteem">online ticketsysteem.</a></p>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ nav: hoe-werken-wij
       </div>
       <div class="nine columns">
         <h5><a name="stap2">Stap 2. Aankoop pre-paid ticket</a></h5>
-        <p>Op basis van de inschatting kan er uren ingekocht worden via onze site. We werken namelijk op basis van <a href="{{ site.url}}/bestel/ideal" target="_self" title="Pre-Paid Support pakket bestellen">pre-paid tickets</a>. Hiermee bouw je een tegoed aan uren op. Het opgebouwde tegoed is te raadplegen via ons <a href="https://supportdesknu.freshbooks.com" target="_blank" title="Frehsbooks accounting systeem">accounting systeem</a>. Na akkoord voor werkzaamheden gaan we aan de slag!</p>
+        <p>Op basis van de inschatting kan er uren ingekocht worden via onze site. We werken namelijk op basis van <a href="{{ site.url-shop }}pakketten-en-prijzen" target="_self" title="Pre-Paid Support pakket bestellen">pre-paid tickets</a>. Hiermee bouw je een tegoed aan uren op. Het opgebouwde tegoed is te raadplegen via ons <a href="https://supportdesknu.freshbooks.com" target="_blank" title="Frehsbooks accounting systeem">accounting systeem</a>. Na akkoord voor werkzaamheden gaan we aan de slag!</p>
       </div>
     </div>
   </div>
@@ -57,8 +57,7 @@ nav: hoe-werken-wij
       <div class="nine columns">
         <h5><a name="stap3">Stap 3. Uitvoeren werkzaamheden</a></h5>
         <p>De werkzaamheden worden uitgevoerd en teruggekoppeld aan de opdrachtgever. Er zal uitgelegd worden wat er is uitgevoerd en de benodigde uren zijn via ons accounting systeem inzichtelijk. Na acceptatie door de klant zullen de uren worden afgeboekt van het tegoed en zal het lopende ticket worden afgesloten.</p>
-        <p>Voor verdere details over onze voorwaarden verwijzen we graag naar de <span>Algemene voorwaarden [pdf]</span></p>
-        <amp-iframe width=300 height=300 sandbox="allow-scripts allow-same-origin" layout="responsive" frameborder="0" src="/img/files/algemene_voorwaarden.pdf"></amp-iframe>
+        <p>Voor verdere details over onze voorwaarden verwijzen we graag naar de <span><a target="_blank" title="Algemene voorwaarden [pdf]" href="/img/files/algemene_voorwaarden.pdf">Algemene voorwaarden [pdf]</a></span></p>
       </div>
     </div>
   </div>

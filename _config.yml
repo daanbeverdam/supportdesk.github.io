@@ -54,4 +54,5 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-email-protect
   - html-proofer
