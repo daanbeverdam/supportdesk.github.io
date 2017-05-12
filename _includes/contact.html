@@ -1,39 +1,45 @@
-<section id="contact" class="blade blade--contact">
-    <div class="container">
-
-      <div>
-        <h1>Contact Us</h1>
-      </div>
-
+<div class="row">
+  <div class="twelve columns">
+  <form method="post" action-xhr="https://mail.mage-academy.training" target="_top">
       <div class="row">
-        <div class="twelve columns">
-            <form method="post" action-xhr="https://mail.mage-academy.training" target="_top">
-              <div class="row">
-                <div class="six columns">
-                  <div class="control-group form-group">
-                    <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Please enter your name." required>
-                  </div>
-                  <div class="control-group form-group">
-                    <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="Please enter your email address." required>
-                  </div>
-                  <div class="control-group form-group">
-                    <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="Please enter your phone number." required>
-                  </div>
-                </div>
-                <div class="six columns">
-                  <div class="control-group form-group">
-                    <textarea name="message" class="validate[required,length[6,300]] data-input" placeholder="Please enter a message." required></textarea>
-                  </div>
-                </div>
-                <div class="twelve columns">
-                  <div class="submit">
-                    <input type="submit" value="Send Message" id="button-submit">
-                    <div class="success"></div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </form>
+
+        <div class="six columns">
+          <div class="control-group form-group">
+            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="veld 1" required>
+          </div>
+          <div class="control-group form-group">
+            <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="veld 2" required>
+          </div>
+          <div class="control-group form-group">
+            <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="veld 3" required>
           </div>
         </div>
-</section>
+
+        <div class="six columns">
+          <div class="control-group form-group">
+            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="veld 4" required>
+          </div>
+          <div class="control-group form-group">
+            <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="veld 5" required>
+          </div>
+          <div class="control-group form-group">
+            <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="veld 6" required>
+          </div>
+        </div>
+
+        <div class="twelve columns">
+          <div class="control-group form-group">
+            <textarea name="message" class="validate[required,length[6,100]] data-input" placeholder="Omschrijving" required></textarea>
+          </div>
+        </div>
+
+        <div class="twelve columns">
+          <div class="submit">
+            <input type="submit" value="Verzenden" id="button-submit">
+            <div class="success"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </form>
+</div>

@@ -3112,7 +3112,7 @@ body.case-study blockquote p {
 	width: 100%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
-	background-color: #0379C4;
+	background-color: #424242;
 	color:white;
 	font-size:24px;
 	padding-top:22px;
@@ -3125,12 +3125,12 @@ body.case-study blockquote p {
 }
 
 #button-submit:hover{
-	background-color: rgba(0,0,0,0);
-	color: #0493bd
+  background-color: #bebebe;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4)
 }
 
 .submit:hover {
-	color: #3498db
+	color: #bebebe
 }
 
 #aside {
