@@ -1,0 +1,24 @@
+---
+layout: 2column
+title: Joomla Security Update versie 3.0.3
+url: joomla-security-update-versie-303
+description: Joomla Security Release 3.0.3 vrijgegeven.
+image: joomla-security-update-versie-303
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-02-04 19:01:00.000000000 +00:00
+dateModified: 2013-02-04 19:37:07.000000000 +00:00
+intro: Joomla Security Release 3.0.3 vrijgegeven.
+hits: 1797
+nav: Blog
+---
+<p><a href="blog/item/joomla-security-update-versie-257"><img src="images/nieuws/securityrelease.jpg" width="157" height="157" alt="security release" style="float: right; margin: 0px 0px 5px 5px;" /></a></p>
+<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 3.0.3</strong>.&nbsp;Het betreft hier een <strong>Joomla Security release</strong>. <br />Naast de 3<strong>&nbsp;Joomla Security</strong>&nbsp;(low Priority) aanpassingen zijn tevens 136<strong>&nbsp;bug</strong> gefixed en 2 nieuwe functionaliteiten.</p>
+<h3>Taalpakketen installeren tijdens installatie</h3>
+<p>In de nieuwe Joomla 3.0.3 is het vanaf heden mogelijk taalpakketten te installeren tijdens de installatie.</p>
+<p>Meer weten welken issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5478-joomla-3-0-3-released.html" title="Joomla 3.0.3" target="_blank">Joomla 3.0.3</a> website</p>
+<p><img src="images/nieuws/joomla_303_install_step.jpg" width="666" height="513" alt="Joomla 3.0.3 taalpakketen installeren tijdens installatie " style="float: left;" /></p>
+
+<p>{snippet meer info}</p>
+<p>&nbsp;</p>
+<p>{snippet raybogman}</p>

@@ -1,0 +1,52 @@
+---
+layout: 2column
+title: Mage.coach - The online Magento Performance tool
+url: mage-coach-the-online-magento-performance-tool
+description: Mage.coach is a set of Open Source tools that helps you make your Magento
+  web pages faster.
+image: mage-coach-the-online-magento-performance-tool
+authorimage: Mats van de Seijp
+authorname: Mats van de Seijp
+datePublished: 2017-04-02 22:24:00.000000000 +00:00
+dateModified: 2017-04-10 12:50:40.000000000 +00:00
+intro: Mage.coach is a set of Open Source tools that helps you make your Magento web
+  pages faster.
+hits: 28392
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=206:mage-coach-the-online-magento-performance-tool&amp;catid=29:blog&amp;Itemid=121" title="Mage coach - Your Magento Performance Coach"><img src="https://static.mage.coach/img/coach/penguin_report.svg" width="188" height="200" alt="Mage.coach - The Magento Performance tool" style="margin: 0px 0px 5px 5px; float: right;" /></a>Today we sat down with <a href="over-ons/1-ray-bogman">Ray Bogman</a>, inventor of <a href="https://mage.coach/">Mage.coach</a> for some more information about this new tool.</p>
+<h3>Who is Ray and what is Mage.coach?</h3>
+<p>Ray Bogman is the <span style="text-decoration: underline;">co-founder</span> and<span style="text-decoration: underline;"> technical director</span> of <a href="https://www.supportdesk.nu/" target="_blank">SupportDesk.nu</a> and regular spokesperson at many&nbsp;<strong>Magento</strong> events around the world. <strong>Mage.coach</strong> is a tool that analyses the <strong>performance, accessibility, usability</strong>&nbsp;of<strong> Magento websites.</strong></p>
+<h3>How did you come up with the idea?</h3>
+<p>For about 8 years I am interested in all theory about <strong>website performances</strong>, and how to enhance them. <br />I came up with the idea of <strong>Mage.coach</strong> after stumbling on a problem for several years and decided to do something about it. When I used to analyze the performances of websites I couldn't find tools that fitted my needs. When I discovered <strong>Sitespeed.io</strong>&nbsp;I got inspired on what was possible with open source tools and began designing my own analyzing tool. The concept was to design a product that makes website analyses generic and easy. So<strong> Mage.coach</strong> is a tool in which you can simply <strong>analyze</strong> the <strong>performance</strong> of <strong>Magento</strong> websites.</p>
+<h3>A little bit more specific about Mage.coach</h3>
+<p>We build <strong>Mage.Coach</strong> around the open source software of Sitespeed.io and started tweaking, changing and adding some extra functionalities. The concept is to make analyses easy, so imagine if you want to check how good your website performs, you only have to take 4 small steps.</p>
+<ul class="check">
+<li>Go to <a href="https://mage.coach/" target="_blank" title="mage Coach">Mage.coach</a></li>
+<li>Fill in the URL of the website you want to analyze</li>
+<li>Fill in info (browser type, device type, and connection type)</li>
+<li>Click start and our tool will send you a report.</li>
+</ul>
+<div>
+<p>The report will give you an insight in your;</p>
+</div>
+<ul class="check">
+<li>Overal performance of the website</li>
+<li>Usability of the website</li>
+<li>Accessibility of the website</li>
+<li>insight on how to enhance the SEO of the website</li>
+</ul>
+<h3>Can you only use Mage.Coach for Magento websites?</h3>
+<p>No, you can use this tool for every website. But the idea for <strong>Mage.coach</strong> is to make a <strong>plug-in system</strong> in which we write specific plug-ins to check specific <strong>Magento 1</strong> and<strong> Magento 2</strong> website features. So you can use the tool for every website but the generated advises are made specific for Magento websites, hence the name.</p>
+<h3>Since its an open source program, what's the business model?</h3>
+<p>There is no business model. Sitespeed.io and Magento are both open source programs. Open source software communities mostly depend on voluntary contributions, so this is my way to give something back to the community.</p>
+<h3>Are there already similar concepts?</h3>
+<p>The program is based on Sitespeed.io so, in a way, it is not original. But if you look at what the tool contributes, specifically on <strong>SEO</strong>, <strong>usability</strong>, and <strong>accessibility</strong> for <strong>Magento 1</strong> and <strong>2</strong> websites, it is original.</p>
+<h3>Where do you see Mage.coach in 1 year?</h3>
+<p>The official launch of <strong>Mage.coach</strong> will be held on <span style="text-decoration: underline;">April 3rd</span> during the <strong>Magento Imagine</strong> event at <strong>Las Vegas</strong>. Then we go from Private Beta to Public Beta. With the feedback we get from some experts at the event we hope to get the tool from public Beta to fully operational.<br />So Next year, hopefully, The <strong>Mage.coach</strong> is fully operational, most of our Magento user will know us and we will be busy writing a lot of plugins to make analyzing specific <strong>Magento</strong> parts easier.</p>
+<h3>Where do you see Mage.coach in 3 years?</h3>
+<p>Mage.coach is fully functional and we have a large set of plugins for our customers so they can easily get in-depth insights into their <strong>website performances</strong>. I also think Magento will have a <strong>headless</strong> environment, so it will only work at the backend of the website. In this case, <strong>Mage.coach</strong> can help website owners optimizing their front-end by selecting the right codes.</p>
+<p>Do you want to know more about <a href="https://mage.coach/" target="_blank" title="Mage.Coach">Mage.Coach</a> ? Don't hesitate to contact <a href="over-ons/1-ray-bogman" target="_self" title="Ray Bogman">Ray Bogman</a>.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet mats-van-de-seijp}</p>

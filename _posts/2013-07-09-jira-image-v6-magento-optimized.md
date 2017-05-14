@@ -1,0 +1,27 @@
+---
+layout: 2column
+title: Jira image V6 [Magento Optimized]
+url: jira-image-v6-magento-optimized
+description: Magento Optimized Jira image versie 6 beschikbaar
+image: jira-image-v6-magento-optimized
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-07-09 13:17:10.000000000 +00:00
+dateModified: 2013-08-02 09:29:25.000000000 +00:00
+intro: Magento Optimized Jira image versie 6 beschikbaar
+hits: 2265
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=100:jira-image-v6-magento-optimized&amp;catid=29:blog&amp;Itemid=121" title="Jira image V6"><img src="images/nieuws/jira-image-v6.png" width="200" height="100" alt="jira-image-v6" style="float: right;" /></a>De nieuwste versie van het Jira image, V6 is <a href="https://www.cloudvps.nl/configurator/#linux/step/2/APP" title="Jira image V6" target="_blank">beschikbaar</a> bij <a href="http://www.cloudvps.nl/" title="CloudVPS" target="_blank">CloudVPS</a>! <br />Deze VPS image is alweer de 6e release in ruim 2,5 jaar tijd en ook nu weer voorzien van de laatste optimalisatie-aanpassingen voor zowel <strong>Magento</strong> als <strong>Joomla!</strong>.</p>
+<p>De basis van deze V6 release is gebaseerd op: <br />- Centos 6.4 <br />- Directadmin <br />- Apache 2.2.x <br />- PHP 5.4.x <br />- Mysql 5.5.x <br />- Redis server 2.6.x <br />- New Relic</p>
+<p>De complete changelog bevindt zich in de "root" directory van de VPS.</p>
+<h3>Magento Redis en New Relic</h3>
+<p>Naast de vele tweaks in de VPS zijn na uitvoerige testen van bijna een jaar, zowel <strong>Redis</strong> als <strong>New Relic</strong> standaard beschikbaar in deze release. <br /><strong>Redis</strong> is vooral bedoeld voor een extra performance boost om zowel de cache als sessions in Magento op te slaan. Standaard zijn er dan ook 2 Redis servers aanwezig zodat deze onafhankelijk van elkaar gebruikt en beheerd kunnen worden. <br /> <br /><strong>New Relic</strong> is een advanced performance/analyse tool, die uitgebreid inzicht geeft in de PHP details van een Magento website, eventuele "SQL slow queries" en de server performance details. New Relic is eigenlijk een must voor iedereen die zijn shop of site technisch onder de loep wil leggen. <br />Om New Relic goed te kunnen gebruiken is wel enige kennis vereist.<br />New Relic is de eerste 2 weken gratis te gebruiken, daarna kun je zelf aangeven welk pakket het beste bij je past. Voor een juiste (historische) analyse icm Magento is de "Full" version aan te raden.</p>
+<h3>magento-speed.com</h3>
+<p>Onze demo website <a class="moz-txt-link-freetext" href="http://www.magento-speed.com/"></a><a href="http://www.magento-speed.com/">http://www.magento-speed.com/</a> is naast de VPS image v6 basis ook voorzien van Full Page Caching (FPC) voor Magento in combinatie met Redis. Kijk zelf maar eens wat de snelheden zijn!</p>
+<h3><img src="images/nieuws/magento-speed-pingdom.png" width="627" height="227" alt="magento-speed-pingdom" style="margin-left: 25px;" /></h3>
+<h3><br />Magento High Performance Mobile</h3>
+<p>Aangezien <strong>Magento mobile</strong> sinds het begin van 2008 standaard aanwezig was, is deze nooit verder echt geoptimaliseerd voor de huidige webstandaarden en Magento gerelateerde toepassingen icm de huidige vele verschillende mobile browsers. De huidige image en custom aanpassingen in Magento laten zien dat performance ook voor mobile een must is. <br />Onlangs presenteerde <a href="index.php?option=com_contact&amp;view=contact&amp;catid=31&amp;id=1-ray-bogman" title="Ray Bogman">Ray Bogman</a> tijdens de <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank">Magento User Groups Amsterdam</a> zijn bevindingen genaamd:&nbsp;"<a href="index.php?option=com_content&amp;view=article&amp;id=99:magento-mobile-performance-the-responsive-mythes&amp;catid=29:blog&amp;Itemid=121" title="Magento Mobile Performance - The Responsive Mythes">Magento Mobile Performance: The Reponsive Myths</a>".</p>
+<p><img src="images/nieuws/magento-speed-mobile-v1.png" width="666" height="511" alt="magento-speed-mobile" /></p>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

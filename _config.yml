@@ -17,6 +17,7 @@ fb_app_id: //717157511826431/unset
 logo: /img/logos/supportdesk-logo.svg
 tel: 020 337 5961
 hours: 09.00-18.00
+paginate: 5
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

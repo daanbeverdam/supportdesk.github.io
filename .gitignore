@@ -40,3 +40,7 @@ amp.html
 .jekyll-metadata
 .bundle
 docker-compose.yml
+dumpje.sql
+.mysql_history
+mysql
+importer

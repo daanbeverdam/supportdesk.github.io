@@ -1,0 +1,79 @@
+---
+layout: 2column
+title: Magento Security Update SUPEE-6788
+url: magento-security-update-supee-6788
+description: Magento Security Update SUPEE-6788 Patch Bundle
+image: magento-security-update-supee-6788
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2015-10-26 23:00:00.000000000 +00:00
+dateModified: 2015-10-29 13:42:38.000000000 +00:00
+intro: Magento Security Update SUPEE-6788 Patch Bundle
+hits: 1210
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=174:magento-security-update-supee-6788&amp;catid=29:blog&amp;Itemid=121" title="Magento Security Update SUPEE-64788 Patch Bundle"><img src="images/nieuws/securityrelease.jpg" alt="securityrelease" style="margin: 0px 0px 5px 5px; float: right;" height="157" width="157" /></a></p>
+<p>Onlangs zijn er 10 <span style="text-decoration: underline;">veiligheidslekken</span> in Magento ontdekt en opgelost in een patch <strong>SUPEE-6788</strong>. De lekken zijn aanwezig in alle versies van Magento t/m 1.9/x, dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er enkel patches beschikbaar vanaf 1.7 en hoger, maar het betreft hier een issue dat impact heeft op alle versies. &nbsp;</p>
+<h3>Wat zijn de 10 lekken van SUPEE-6788?</h3>
+<ul class="check">
+<li><strong>Cross-site Scripting Using Unvalidated Headers</strong>
+<ul>
+<li>CVSSv3 Severity: 9.3 (Critical)</li>
+</ul>
+</li>
+<li><strong>Error Reporting in Setup Exposes Configuration</strong>
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+</li>
+<li><strong>Filter Directives Can Allow Access to Protected Data</strong>
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+</li>
+<li><strong>XXE/XEE Attack on Zend XML Functionality Using Multibyte Payloads</strong>
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+</li>
+<li><strong>Potential SQL Injection in Magento Core Model Base Classes</strong>
+<ul>
+<li>CVSSv3 Severity: 7.4 (High)</li>
+</ul>
+</li>
+<li><strong>Potential Remote Code Execution Using Cron</strong>
+<ul>
+<li>CVSSv3 Severity: 7.2 (High)</li>
+</ul>
+</li>
+<li><strong>Remote Code Execution / Information Leak Using File Custom Option</strong>
+<ul>
+<li>CVSSv3 Severity: 6.5 (Medium)</li>
+</ul>
+</li>
+<li><strong>Cross-site Scripting with Error Messages</strong>
+<ul>
+<li>CVSSv3 Severity: 6.1 (Medium)</li>
+</ul>
+</li>
+<li><strong>Potential Remote Code Execution Using Error Reports and Downloadable Products</strong>
+<ul>
+<li>CVSSv3 Severity: 3.6 (Low)</li>
+</ul>
+</li>
+<li><strong>Dev Folder Not Protected</strong>
+<ul>
+<li>CVSSv3 Severity: 0 (None)</li>
+</ul>
+</li>
+</ul>
+<div class="box-hint">Important! This patch breaks backward compatibility, and can impact extensions and customizations.</div>
+<h3>Magento 1.9.2.2 update</h3>
+<p><strong>Magento</strong> adviseert om <span style="text-decoration: underline;"><strong>spoedig</strong></span> alles te update naar de laatste versie, <strong>Magento 1.9.2.2</strong>.<br />De impact van deze patch zorgt er voor dat alle geinstalleerde modules niet meer kunnen werken na het installeren van de SUPEE-6788 patch. In de nieuwe <strong>Magento 1.9.2.2</strong> is een nieuwe beveiligings toepassing beschikbaar welke modules via de backend beter beveiligd tegen misbruik.&nbsp;<br /><br />Veelal hebben de meeste modules deze beveiligings optie nog niet en is het dus noodzaak om alle modules te updaten. Dit kan misbruik van je Magento webshop voorkomen.</p>
+<h3>Wat moet ik doen om Magento Security issues te bestrijden?</h3>
+<p>Wij raden onze klanten zo spoedig mogelijk te patchen.</p>
+<div class="box-warning">Wij doen dat graag voor u. Mail ons via ons <a href="index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=130" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op 020 337 59 61.</div>
+<p>Via de Magento download website is het mogelijk de&nbsp;<a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6788">Magento security patch SUPEE-6788</a>&nbsp;te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

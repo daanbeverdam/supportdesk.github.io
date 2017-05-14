@@ -1,0 +1,26 @@
+---
+layout: 2column
+title: 'Exact meets Magento: the next level'
+url: exact-meets-magento-the-next-level
+description: 'Exact meets Magento 2015: the next level'
+image: exact-meets-magento-the-next-level
+authorimage: Rachel Tjong-A-Hung
+authorname: Rachel Tjong-A-Hung
+datePublished: 2015-08-07 14:51:47.000000000 +00:00
+dateModified: 2015-10-22 13:52:24.000000000 +00:00
+intro: 'Exact meets Magento 2015: the next level'
+hits: 1220
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=171:exact-meets-magento-the-next-level&amp;catid=29:blog&amp;Itemid=121" title="Exact meets Magento"><img src="images/nieuws/exactmeetsmagento.jpg" alt="Exact meets Magento" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p>"Na vele geslaagde edities is het event <strong><a href="http://www.exactmeetsmagento.nl/" target="_blank" title="Exact meets Magento">Exact meets Magento</a></strong> een gevestigde naam binnen de e-commercewereld. Dealer4Dealer organiseert in samenwerking met Exact op <span style="text-decoration: underline;">donderdag 17 september</span> wederom een Exact meets Magento editie."</p>
+<p>Dit jaar staat Exact meets Magento in het teken van <strong>'the next level of e-commerce'</strong>.</p>
+<p>Natuurlijk moet je met veel meer aspecten rekening houden, wil je aan de top van e-commerceland staan. Denk bijvoorbeeld aan het grip krijgen op <strong>SEO</strong>, de <strong>B2B-markt</strong> die een steeds grotere rol gaat spelen, de optimalisatie van <strong>marketing</strong> en <strong>Social Media-gebruik</strong> en <strong>kassasystemen</strong> die steeds beter geïntegreerd dienen te worden. Al met al genoeg aspecten die grote vragen kunnen opwekken. In een middag tijdens 9 BreakOut-sessie,zullen professionals je klaarstomen voor de toekomst. Ook al jouw vragen zullen tijdens deze sessie beantwoord worden. Deze sessie is gratis voor de eerste 100 aanmeldingen. Daarna zal een ticket €35,- kosten. Meld je vandaag <a href="http://www.exactmeetsmagento.nl/aanmelden/">hier</a> nog aan.</p>
+<h3>Magento 2.0 Updatesessie</h3>
+<div class="box-hint">Volgens het aanmeldformulier van het Exact meets Magento evenement is de Magento 2.0 updatesessie inmiddels volgeboekt. Je kunt je nog aanmelden voor de sessie, maar in dat geval wordt je op de reservelijst geplaatst. <br /><br />SupportDesk zelf zal ook een sessie hierover geven, mits er genoeg aanmeldingen zijn. Indien je hierbij aanwezig wilt zijn, meld je dan aan via <a href="http://goo.gl/forms/f9Eg295vsO">dit formulier</a> voor de SupportDesk Magento 2.0 Updatesessie.</div>
+<p><a href="index.php?option=com_contact&amp;view=contact&amp;id=1&amp;catid=31&amp;Itemid=279">Ray Bogman </a>zal een van de keynote speakers zijn op de Exact meets Magento editie. Hij zal je een update geven over <strong>Magento 2.0</strong></p>
+<p>Inmiddels zijn er een tal van aanmeldingen binnengestroomt, en zijn er voor de sessie van Ray nog een paar plekken over.</p>
+<p>Geen plek meer of wil je de sessie <strong>Magento 2.0</strong> van Ray nogmaals meemaken? Meld je dan via dit <a href="http://goo.gl/forms/f9Eg295vsO">formulier</a> aan voor een aparte sessie bij SupportDesk.<br />Bij genoeg aanmeldingen zullen wij een datum prikken voor een tweede sessie.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet rachel-tjong-a-hung}</p>

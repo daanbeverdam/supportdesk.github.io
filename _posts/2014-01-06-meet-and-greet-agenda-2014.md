@@ -1,0 +1,37 @@
+---
+layout: 2column
+title: Meet and Greet agenda 2014
+url: meet-and-greet-agenda-2014
+description: Meet and Greet agenda SupportDesk 2014, (Webwinkel Vakdagen, M-Commerce
+  event, Joomldagen, Magento User Group, Magento Snowcamp)
+image: meet-and-greet-agenda-2014
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2014-01-06 08:08:00.000000000 +00:00
+dateModified: 2014-01-25 13:30:49.000000000 +00:00
+intro: Meet and Greet agenda SupportDesk 2014, (Webwinkel Vakdagen, M-Commerce event,
+  Joomldagen, Magento User Group, Magento Snowcamp)
+hits: 1608
+nav: Blog
+---
+<p>Na een innoverend support jaar in 2013 gaan wij in 2014 er direct weer keihard tegen aan met het optimaliseren van de nodige Magento en Joomla! websites. Naast het direct ondersteunen van de nodige websites vinden wij het ook belangrijk om onze kennis en ervaring met anderen te delen tijdens bijeenkomsten.&nbsp;</p>
+<p>De komende periode zijn wij op diverse plekken aanwezig en vinden het altijd leuk om dan onze klanten persoonlijk te ontmoeten.</p>
+<p>Kortom, ben je ook aanwezig tijdens een van onderstaande events en vind je het leuk om ons even te spreken of altijd al willen weten welk mensen achter SupportDesk zitten, kom dan eens langs voor een kop koffie/thee of wellicht een borrel.</p>
+<p>Onze Meet and Greet agenda:</p>
+<ul class="check">
+<li>11 - 14 januari - Magento Snowcamp <a href="http://www.developers-paradise.com/ray-bogman/" title="SEO Mobile - The Truth Story" target="_blank">SEO Mobile - The True Story</a></li>
+<li>22 - 23 januari - Webwinkel Vakdagen <a href="http://www.webwinkelvakdagen.nl/nl/programma/de-waarheid-achter-mobiele-seo" title="De waarheid achter mobiele seo" target="_blank">De waarheid achter mobiele seo</a></li>
+<li>6 februari - M-commerce event <a href="http://www.mcommerce-event.nl/programma" title="http://www.mcommerce-event.nl/programma" target="_blank">Magento Mobile Performance - The Responsive Mythes</a></li>
+<li>22 - 23 maart - Joomladagen (presentatie - SEO Mobile - The Truth Story en Joomla Mobile Performance - The Responsive Mythes part II)</li>
+</ul>
+<p>Naast deze events organiseren wij maandelijks en alweer voor het 4de jaar op rij de Magento User Group te Amsterdam samen met Byte Internet.&nbsp;</p>
+<p>De agenda voor de komende periode is:</p>
+<ul class="check">
+<li>30 januari&nbsp;<a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/156251682/" title="Traffic naar je shop generen, hoe doe je dat en hoe ga ik er mee om?" target="_blank">Traffic naar je shop generen, hoe doe je dat en hoe ga ik er mee om?</a></li>
+<li>18 februari&nbsp;<a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/156251842/" title="Magento koppelen aan externe systemen (OroCRM, OpenERP, SHopCTRL)" target="_blank">Magento koppelen aan externe systemen (OroCRM, OpenERP, SHopCTRL)</a></li>
+<li>25 maart&nbsp;<a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/156251932/" title="Magento review and ratings, hoe belangrijk is een goede beoordeling en hoe krijg ik die?" target="_blank">Magento review and ratings, hoe belangrijk is een goede beoordeling en hoe krijg ik die?</a></li>
+<li>24 april&nbsp;<a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/156251962/" title="Magento hosting? Wat heb ik nou echt nodig en waar moet ik op letten?" target="_blank">Magento hosting? Wat heb ik nou echt nodig en waar moet ik op letten?</a></li>
+</ul>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

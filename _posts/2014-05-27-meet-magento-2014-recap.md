@@ -1,0 +1,37 @@
+---
+layout: 2column
+title: Meet Magento 2014 recap
+url: meet-magento-2014-recap
+description: Meet Magento 2014 Recap, het jaarlijks event voor de beginnende en gevorderde
+  webshop eigenaar of Magento liefhebber.
+image: meet-magento-2014-recap
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2014-05-27 09:59:00.000000000 +00:00
+dateModified: 2014-06-06 09:25:20.000000000 +00:00
+intro: Meet Magento 2014 Recap, het jaarlijks event voor de beginnende en gevorderde
+  webshop eigenaar of Magento liefhebber.
+hits: 1876
+nav: Blog
+---
+<center><a href="http://www.meet-magento.nl/" title="Ga naar Meet Magento" target="_blank"><img src="images/nieuws/meet_magento_2014.jpg" alt="Meet Magento 2014" style="margin: 0px 0px 0px;" /></a></center>
+<p>De <strong>Meet Magento</strong> op 21 en 22 mei 2014 was een geweldig succes. Het waren 2 dagen waar veel gepraat, geluisterd en gelachen is. Nieuwe contacten zijn opgedaan, ideeën uitgewisseld en uitdagingen zijn aangegaan.</p>
+<center><img src="images/meet_magento_2014.jpg" alt="meet magento 2014" /></center>
+<h3>Meet Magento Enterprise en Meet Magento Netwerk borrel</h3>
+<p>Woensdag was de dag dat er voor de allereerste keer een Magento congres voor solutions partners was georganiseerd. De vraag vanuit de partners was om een platform voor mensen die de intentie hebben om met Magento te gaan werken, op weg te kunnen helpen door voorlichting te geven wat er zoals komt kijken bij het opzetten en beheren van een Magento webshop.</p>
+<p>&nbsp;</p>
+<center><img src="images/nieuws/meet_magento_2014_netwerkborrel.jpg" alt="Meet Magento 2014 netwerkborrel" /></center>
+<p><br />Aansluitend was de netwerkborrel van Dutchento. 60 á 70 mensen hebben samen gegeten en geborreld. Ook was de internationale garde vertegenwoordigd en werd het een leuke en innoverende avond.</p>
+<h3>Meet Magento community presentaties en de Mangento Docters</h3>
+<p>Donderdag stond in het teken van Magento Community. Er waren workshops over heel veel uiteenlopende zaken zoals marketing, gebruik van Git, Omnichannel tot “hoe fix ik mijn website?”<br />Ook was er, voor de eerste keer, een gehele zaal gewijd aan een product dat gelieerd is aan <strong>Magento</strong> namelijk <strong>OroCRM</strong> het nieuwe CRM systeem voor ecommerce en koppeling met Magento.</p>
+<p>&nbsp;</p>
+<center><img src="images/nieuws/meet_magento_2014_orocrm.jpg" alt="Meet Magento OroCRM" /></center>
+<p><br />Voor de derde keer op rij waren de Magento dokters aanwezig om ter plekken hulp te verlenen aan iedereen die vragen had over Magento. SupportDesk was vertegenwoordigd door <a href="index.php?option=com_contact&amp;view=contact&amp;catid=31&amp;id=1-ray-bogman" title="Ray Bogman - Magento Doctor"><strong>Ray Bogman</strong></a>.</p>
+<center><img src="images/nieuws/meet_magento_2014_magento_doctor.jpg" alt="meet magento 2014 magento doctor" /></center>
+<h3>HHVM voor Magento, OroCRM voor ecommerce</h3>
+<p>Vanuit SupportDesk werd een <a href="http://www.slideshare.net/Dutchento/daniel-sloof-mm14nl" target="_blank" alt="Meet Magento HipHop Virtual Machine, HHVM&lt; Daniel Sloof">presentatie over HHVM</a> gegeven welke i.s.m Byte op Hypernode geïnstalleerd is. Daarnaast was er door SupportDesk een case over de allereerste implementatie van <strong>OroCRM Enterprise</strong> voor <a href="http://prezi.com/a-wl9d8jdou8/case-orocrm-magento-topdierenshopnl/" target="_blank" alt="Meet Magento OroCRM koppeling naar Magento, Ray Bogman">Topdierenshop en de koppeling aan Magento</a>. <strong>OroCRM</strong> is zo ingericht dat Topdierenshop een uitvoerig overzicht krijgt over abandoned carts, sales orders en nog veel meer.</p>
+<p>Ter afsluiting werd bekend gemaakt dat de <strong>Meet Magento 2015 zal plaatsvinden op 27 en 28 mei 2015</strong>. Deze zal wederom in, de door de meer dan 600 bezoekers als zeer mooi en futuristisch bestempelde, Utrechtse Jaarbeurs plaatsvinden.</p>
+<h3>Tot volgend jaar bij Meet Magento 2015!</h3>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

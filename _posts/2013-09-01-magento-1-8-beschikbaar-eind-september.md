@@ -1,0 +1,26 @@
+---
+layout: 2column
+title: Magento 1.8 beschikbaar eind september
+url: magento-1-8-beschikbaar-eind-september
+description: Magento 1.8 beschikbaar eind september, incl vele bug fixes, security,
+  BTW fixes en Redis Caching.
+image: magento-1-8-beschikbaar-eind-september
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-09-01 15:56:39.000000000 +00:00
+dateModified: 2013-09-02 05:53:41.000000000 +00:00
+intro: Magento 1.8 beschikbaar eind september, incl vele bug fixes, security, BTW
+  fixes en Redis Caching.
+hits: 2303
+nav: Blog
+---
+<p>Afgelopen week hebben de leden van het Magento 1.x community team een meeting georganiseerd om de doelstellingen en vooruitgang van <strong>Magento 1.8</strong> te bespreken.<br /><br />Deze sessie was georganiseerd door Mossen Akizian en werd gesteund door Magento (Ebay) met Piotr Kaminski (de productmanager van 1.x), Lin Shearer en Shanon Hane. Community bijdragen waren van: Brent Peterson, Ben Marks, David Shuford, Kris Brown, Sherrie Rohde, Kimberely Thomas, Sylvain Raye , en&nbsp;Tom Robertshaw.</p>
+<h3>Magento 1.8 beschikbaar eind September</h3>
+<p>Na de<strong> Magento 1.8&nbsp;</strong>alfa versie, welke afgelopen april aangekondigd werd tijdens het <strong>Magento Imagine</strong> congres, is er weinig nieuws uit het Magento kamp gemeld. Maar hier komt nu verandering in met de aankondiging van de <strong>Magento 1.8 Stable release</strong> eind September. De aanpassing voor unieke SEF-URL's op database niveau gaan de Magento 1.8 release helaas nog niet halen, deze zullen naar alle waarschijnlijkheid opgenomen worden in <strong>Magento 1.8.1,</strong> welke eind Q4 beschikbaar zijn. Het afrondings probleem met BTW en vele andere reeds gemelde bugs komen wel in de Magento 1.8 Stable Release. De laatste release notes omtrent Magento 1.8 vind je <a href="http://www.magentocommerce.com/knowledge-base/entry/ce-18-later-release-notes" title="Magento 1.8. release notes" target="_blank">hier</a>.</p>
+<p>Tevens zal de <strong>Magento 1.8.1</strong> release vele bug fixes welke gevonden zijn tijdens de Bugathons bevatten. Samengevat zullen in de Magento 1.8 en 1.8.1 veelal bugfixes, security issues, BTW en betaalondersteuning opgelost worden.</p>
+<p><strong>Update:</strong> Onlangs is bevestigd op twitter door Piotr (productmanager Magento) dat de aangepast URL's niet in de Magento 1.8 Stable release zal komen. Daar en tegen zal <strong>Redis caching</strong>&nbsp;in Magento 1.8 nu wel standaard beschibaar zijn.</p>
+<h3>Magento 2.0</h3>
+<p>Nieuws omtrent <strong>Magento 2.0</strong> is er de afgelopen maanden weinig. Dit is de eerst update sinds 5 maanden. Gezien de zeer lange lijst op <a href="https://github.com/magento/magento2/commit/a15ecb31976feb4ecb62f85257ff6b606fbdbc00" title="Magento 2.0 Changelijst" target="_blank">Github</a> is het duidelijk dat men de afgelopen maanden niet stil heeft gezeten. In totaal zijn er 5,889 gewijzigingen doorgevoerd met 171,404 aanpassingen en 145,136 verwijderden bestanden.&nbsp;</p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=106:magento-1-8-beschikbaar-eind-september&amp;catid=29:blog&amp;Itemid=121" title="Magento 1.8 beschikbaar eind september"><img src="images/nieuws/magento-2-new-products.png" width="600" height="487" alt="Magento 2.0" /></a></p>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

@@ -1,0 +1,25 @@
+---
+layout: 2column
+title: SupportDesk steunt Oxfam Novib
+url: supportdesk-steunt-oxfam-novib
+description: 'Op 16 februari 2016 is SupportDesk bedrijvenambassadeur geworden van
+  Oxfam Novib. Hiermee steunen de het microfinancierings-programma. '
+image: supportdesk-steunt-oxfam-novib
+authorimage: Hiltje Conradi
+authorname: Hiltje Conradi
+datePublished: 2016-02-26 08:08:00.000000000 +00:00
+dateModified: 2016-03-04 15:33:24.000000000 +00:00
+intro: 'Op 16 februari 2016 is SupportDesk bedrijvenambassadeur geworden van Oxfam
+  Novib. Hiermee steunen de het microfinancierings-programma. '
+hits: 813
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=183:supportdesk-steunt-oxfam-novib&amp;catid=29:blog&amp;Itemid=121"><img src="images/Logo_Oxfam_Novib_Bedrijvenambassadeur.png" alt="Logo Oxfam Novib Bedrijvenambassadeur" style="margin: 0px; padding-left: 10px; float: right;" /></a>Sinds 17 februari 2016 maakt <strong>SupportDesk</strong> deel uit van het netwerk van <strong>bedrijvenambassadeurs </strong>van <a href="http://www.oxfamnovib.nl/"><strong>Oxfam Novib</strong></a>. Als bedrijvenambassadeur bij <strong>Oxfam Novib</strong> steunt <strong>SupportDesk</strong> het microfinancierings-programma (Ondernemers voor ondernemers) en draagt daarmee bij aan de kansen voor kleine ondernemers in ontwikkelingslanden. Door middel van een maandelijkse donatie maakt <strong>Oxfam Novib</strong> het voor kleine ondernemers in ontwikkelingslanden mogelijk om hun eigen bedrijfje te starten. Hiermee kunnen ze aan de armoede ontsnappen.&nbsp;</p>
+
+<p>&nbsp;</p>
+<h3>Wie is Oxfam Novib?</h3>
+<p>De missie van <strong>Oxfam Novib</strong> is “<em>een rechtvaardige wereld zonder armoede</em>”. Volgens <strong>Oxfam Novib</strong> wordt armoede door mensen veroorzaakt maar hebben mensen ook de kracht om armoede op te lossen. <strong>Oxfam Novib</strong> verbindt mensen, overheden en bedrijven over de hele wereld om te werken aan rechtvaardigheid. <br />Naast het feit dat <strong>Oxfam Novib</strong> de armoede in de wereld probeert te bestrijden, door onder andere ondernemers in ontwikkelingslanden te steunen, brengt het zijn bedrijvenambassadeurs in Nederland met elkaar in contact. <strong>Oxfam Novib</strong> draagt hiermee tevens bij aan het ondernemersklimaat in Nederland.&nbsp;</p>
+<p>Meer informatie over het microfinancierings-programma van <strong>Oxfam Novib</strong> en de mogelijkheid om bedrijvenambassadeur te worden vindt u <a href="http://www.oxfamnovib.nl/ondernemers-voor-ondernemers-netwerk">hier</a>.</p>
+<h3>Waarom Oxfam Novib?</h3>
+<p>SupportDesk wil graag maatschappelijk betrokken zijn nu dat financieel gezien haalbaar is. <a href="over-ons/1-ray-bogman">Ray Bogman</a> (CTO &amp; Co-founder <strong>SupportDesk</strong>) en <a href="over-ons/2-wouter-den-otter">Wouter den Otter</a> (Managing Director <strong>SupportDesk</strong>) hebben zelf de kans gekregen om een bedrijf te starten en willen nu graag iets doen voor potentiële ondernemers in ontwikkelingslanden. Volgens <strong>SupportDesk</strong> is het mooie van <strong>Oxfam Novib</strong> dat ondernemers in ontwikkelingslanden niet alleen financiële steun krijgen maar ook kennis. Op deze manier kunnen bedrijven opgebouwd worden die ook daadwerkelijk een kans van slagen hebben.&nbsp;</p>
+<p>{snippet meer info}</p>

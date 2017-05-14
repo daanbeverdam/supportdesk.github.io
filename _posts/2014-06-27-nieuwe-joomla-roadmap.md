@@ -1,0 +1,37 @@
+---
+layout: 2column
+title: 'Nieuwe Joomla Roadmap '
+url: nieuwe-joomla-roadmap
+description: Nieuwe Joomla Roadmap, releases voor de komende twee jaar
+image: nieuwe-joomla-roadmap
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2014-06-27 19:36:00.000000000 +00:00
+dateModified: 2014-07-03 09:46:23.000000000 +00:00
+intro: Nieuwe Joomla Roadmap, releases voor de komende twee jaar
+hits: 1733
+nav: Blog
+---
+<h3>Joomla Roadmap met overzicht van releases</h3>
+<p>Joomla heeft een nieuwe roadmap voor de komende twee jaar gepubliceerd. In deze roadmap is te lezen welke releases er gepland zijn. Hieronder de opsomming van de belangrijkste vernieuwingen:</p>
+<p>Joomla zal een lichtgewicht CMS gaan worden met ondersteuning voor zogenaamde basis extensies als:</p>
+<ul class="check">
+<li>Contact</li>
+<li>Finder</li>
+<li>Messages</li>
+<li>Newsfeeds</li>
+<li>Redirect</li>
+<li>Search</li>
+<li>Weblinks</li>
+</ul>
+<h3>Overzicht van belangrijkste veranderingen Joomla 3 en hoger</h3>
+<p>Het team van Joomla zal de kern van Joomla afslanken door het creëren van:</p>
+<ul class="check">
+<li>De <strong>Joomla Extension Directory (JED)</strong> zal dedicated ingezet worden voor de basis extensies waardoor het super makkelijk wordt om ze te installeren. Wanneer je Joomla installeerd worden ze standaard aangeboden.</li>
+<li>Een speciale <strong>Joomla GitHub repository</strong> zal worden gebruikt om elke basis extensies individueel te kunnen upgraden, verbeteren en releasen. De verbetering en ondersteuning voor elke extensie zal fluitje van een cent worden.</li>
+<li>De nieuwe nieuwe ontwikkelingcyclus van Joomla zal helpen om de stabiliteit op lange termijn te kunnen waarborgen alsook ervoor te zorgen dat de compatibiliteit geborgd is. Bij de Minor releases zal het niet meer voorkomen dat er compatibiliteitsporblemen ontstaan en bij Major releases zal dat wel het geval zijn.</li>
+</ul>
+<p>Hieronder de roadmap (met dank aan <a href="http://www.joomlart.com" title="Joomlart" target="_blank">www.joomlart.com</a>):<a href="http://www.joomlart.com/"></a></p>
+<center><img src="images/article/joomla-roadmap.png" alt="joomla-roadmap" /></center>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

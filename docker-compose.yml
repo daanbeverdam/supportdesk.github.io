@@ -19,3 +19,13 @@ services:
             - 8080:80
           volumes:
             - ./_site:/usr/share/nginx/html
+
+    db:
+          container_name: mysql
+          restart: always
+          image: mysql:5.6.33
+          volumes:
+              - $PWD/mysql:/var/lib/mysql
+              - $PWD:/root
+          environment:
+              MYSQL_ROOT_PASSWORD: password123

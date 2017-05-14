@@ -1,0 +1,50 @@
+---
+layout: 2column
+title: Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop'
+url: magento-workshop-hoe-krijg-ik-meer-verkeer-naar-mijn-shop
+description: Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop' - 5 september
+  2014, Amsterdam
+image: magento-workshop-hoe-krijg-ik-meer-verkeer-naar-mijn-shop
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2014-08-11 07:08:39.000000000 +00:00
+dateModified: 2014-08-11 07:34:16.000000000 +00:00
+intro: Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop' - 5 september 2014,
+  Amsterdam
+hits: 1839
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=148:magento-workshop-hoe-krijg-ik-meer-verkeer-naar-mijn-shop&amp;catid=29:blog&amp;Itemid=121" title="Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop'" target="_self"><img src="images/logos/magento-user-group-logo-200.png" alt="magento-user-group-workshop-2014" style="float: right;" /></a>In de afgelopen maanden was de <strong>Magento User Group</strong> met het onderwerp <span style="text-decoration: underline;">“traffic genereren”</span> het drukst bezocht en waren we aan het eind nog láng niet uitgepraat. Genoeg reden om de jaarlijkse MUG Workshop-dag hieraan te wijden. Na de zomerstop in juni en juli gaan we vliegend van start in september!</p>
+<p><strong>Vrijdag 5 September</strong> as. zal deze MUG workshop georganiseerd worden incl. de befaamde BBQ boottocht over de Amsterdamse grachten. De presentaties zullen dit jaar verzorgd worden vanuit het hoofdkantoor van <strong>Klarna Nederland</strong> (Havengebouw, verdieping 11) te Amsterdam (5 min lopen van AMS CS).&nbsp;</p>
+<h3>Presentaties:</h3>
+<ul class="line line-icon">
+<li>12:30 - 13:00 Ontvangst</li>
+<li>13:00 - 13:40 Presentatie over Google Analytics</li>
+<li>13:40 - 14:20 Presentatie over Google Webmaster Tools</li>
+<li>14:20 - 15:00 Presentatie over A/B testing</li>
+<li>15:00 - 15:15 Pauze</li>
+<li>15:15 - 17:30 Samen voorbeeldcases behandelen</li>
+<li>17:30 - 18:00 Einde van de workshop</li>
+<li>18:00 - 20:00 Boottocht inclusief BBQ door Amsterdam</li>
+</ul>
+
+<h3>Presentatie over Google Analytics</h3>
+<p>We trappen de dag af met een presentatie over Google Analytics. Hier bespreken we de manieren van juiste informatie binnenhalen, en misschien nog wel belangrijker, hoe je hiermee omgaat. De hoofdvraag: Welke informatie kan je nou het beste inzetten om meer verkeer naar je webshop te leiden? En hoe doe je dit precies? Deze interessante presentatie wordt gegeven voor <strong>Mike van Hoenselaar</strong> (Online Boswachters).</p>
+<h3>Presentatie over Google Webmaster Tools</h3>
+<p>De praktische presentatie over Google Webmaster Tools zal voornamelijk gaan over hoe je deze tool kan inzetten om meer verkeer naar je webshop te krijgen. Hierbij komen onderwerpen voorbij als; Rich Snippets, Sitemaps en het opschonen van dode links. Deze presentatie wordt gegeven door <strong>Hans Kuijpers</strong> (HKweb).</p>
+<h3>Presentatie over A/B testing</h3>
+<p>Tot slot sluiten we de presentaties af met een praktische presentatie over A/B testing. Met deze manier van testen verzamel je veel interessante data, maar hoe pluk je hier nou de vruchten van? Deze presentatie wordt gegeven door <strong>Tim van IJssendoorn</strong> (Fingerspitz).</p>
+<h3>Voorbeeldcases behandelen</h3>
+<p>Omdat wij erin geloven dat iedereen van <span style="text-decoration: underline;">“zelf doen”</span> het meeste leert, willen we de dag afsluiten met het behandelen van verschillende cases. In groepen van maximaal 10 personen zullen we de praktische kennis uit de presentaties meteen inzetten. Hiervoor gebruiken we bestaande shops met bestaande dataverzamelingen. Wil jij jouw shop laten behandelen? Stuur dan een mail naar <strong>info [@] magento-competence-center.com.</strong></p>
+<p>&nbsp;</p>
+<h3>Boottocht inclusief BBQ door Amsterdam</h3>
+<p>Net zoals voorgaande jaren sluiten we de dag af met een boottocht door de grachten van Amsterdam. Hierbij staat een heerlijke barbecue met drankjes voor je klaar om nog wat na te praten over de kennis die de dag heeft gebracht.</p>
+<h3>Voor wie?</h3>
+<p>Deze bootcamp is bedoeld voor implementatoren van Magento webshops: beheerders, webdesigners en programmeurs. Als je een <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/184724472/" target="_blank">RSVP</a> achterlaat, vertel je dan even in welke categorie jij valt?</p>
+<h3>De kosten</h3>
+<p>Early Bird tickets: er zijn een beperkt aantal early bird tickets verkrijgbaar. Deze tickets kosten voor de workshop plus boottocht (incl. BBQ en drankjes) in totaal 80 euro. Zorg dus dat je er snel bij bent!</p>
+<p>Reguliere tickets: Op het moment dat de early bird tickets zijn uitverkocht komen de reguliere kaarten in de verkoop. Deze kaarten kosten in totaal 95 euro voor de workshop plus boottocht (incl. BBQ en drankjes).</p>
+<p>Kaartjes kan je bestellen via <br /><a href="http://mugworkshop2014.eventbrite.nl/?utm_source=blog&amp;utm_medium=blog&amp;utm_content=MUG%20workshop%202014&amp;utm_campaign=MUG%20workshop%202014" title="MUG Workshop 2014" target="_blank">http://mugworkshop2014.eventbrite.nl</a></p>
+<p>Vergeet je niet om een <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/184724472/" target="_blank">RSVP</a> door te geven? Alleen dan is je aanmelding compleet!</p>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

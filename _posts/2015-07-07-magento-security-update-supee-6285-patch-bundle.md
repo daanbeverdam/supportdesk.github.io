@@ -1,0 +1,101 @@
+---
+layout: 2column
+title: Magento Security Update SUPEE-6285 Patch Bundle
+url: magento-security-update-supee-6285-patch-bundle
+description: Magento Security Update SUPEE-6285 Patch Bundle
+image: magento-security-update-supee-6285-patch-bundle
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2015-07-07 07:56:00.000000000 +00:00
+dateModified: 2015-10-22 13:53:31.000000000 +00:00
+intro: Magento Security Update SUPEE-6285 Patch Bundle
+hits: 1395
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=168:magento-security-update-supee-6285-patch-bundle&amp;catid=29:blog&amp;Itemid=121" title="Magento Security Update SUPEE-6285 Patch Bundle"><img src="images/nieuws/securityrelease.jpg" alt="securityrelease" style="margin: 0px 0px 5px 5px; float: right;" height="157" width="157" /></a></p>
+<p>Onlangs zijn er <span style="text-decoration: underline;">8 veiligheidslekken</span> in Magento ontdekt en opgelost in een patch <strong>SUPEE-6285</strong>. De lekken zijn aanwezig in alle versies van Magento (1.6/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.6 en hoger, maar Magento geeft aan dat het hier om alle versies gaat. &nbsp;</p>
+<h3>Wat zijn de 8 lekken van SUPEE-6285?</h3>
+<ul class="check">
+<li>
+<p>Customer Information Leak via RSS and Privilege Escalation</p>
+<ul>
+<li>
+<p>Onjuiste toegang tot klant gegevens zijn beschikbaar ( bestelinformatie , order -id , naam van de klant, etc...) middels het "Guest Order Review" systeem. Deze zelfde mogelijk is ook beschikbaar via de backend.</p>
+</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity:&nbsp;7.5 (high)</span></p>
+</li>
+</ul>
+</li>
+<li>Request Forgery in Magento Connect Leads to Code Execution
+<ul>
+<li>
+<p>Een Cross-Site Request Forgery&nbsp;(CSRF) in de <strong>Magento Connect Manager</strong> kan een aanval uitvoeren tijdens de installatie van een externe module, en kan leiden tot het uitvoeren van onveilige externe code binnen je Magento omgeving. Een aanvaller kan middels een ingelogde shop eigenaar een speciale link via een ander medium gestuurd hebben om zo toegang te krijgen.</p>
+</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity:&nbsp;9.3 (Critical)</span></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Wishlist
+<ul>
+<li>
+<p>Middels de Magento Whishlist is het mogelijk om spoofing en phishing e-mails te sturen.</p>
+</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity:&nbsp;5.3 (Medium)</span></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Cart
+<ul>
+<li>In de Magento shopping cart is het mogelijk middels een aangepaste URL parameter JavaScript code te injecteren. Cookie and andere informatie (klant gegevens) kan dan verzameld worden en doorgestuurd worden naar de aanvaller.</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity:&nbsp;6.1 (Medium)</span></p>
+</li>
+</ul>
+</li>
+<li>Store Path Disclosure
+<ul>
+<li>Informantie van de gehoste Magento omgeving (server path) kan vergaard worden middels direct toegang tot een gerelateerd bestand van de Magento Connect installatie procedure.</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity:&nbsp;5.3 (Medium)</span></p>
+</li>
+</ul>
+</li>
+<li>Permissions on Log Files too Broad
+<ul>
+<li>Log bestanden op de Magento omgeving beschikken momenteel over te veel rechten welke momenteel toegang geven aan andere gebruikers.</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity: 3.8 (Low)</span></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Admin
+<ul>
+<li>
+<p>Een aanvaller kan JavaScript code injecteren&nbsp;in de titel van een Widget van de Magento Admin. De code kan later worden uitgevoerd wanneer een andere beheerder deze Widget opent. De aanvaller moet toegang tot de winkel te hebben om deze te kunnen uitvoeren. Echter, wanneer deze code uitgevoerd is, kan de aanvaller alle account overnemen.</p>
+</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity: 6.5 (Medium)</span></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Orders RSS
+<ul>
+<li>MIddels de Magento RSS order optie is het mogelijk om onveilige data te injecteren.</li>
+<li>
+<p><span style="text-decoration: underline;">CVSS Severity: 5.3 (Medium)</span></p>
+</li>
+</ul>
+</li>
+<div class="box-hint">Update 09-07-2015 : Bij het installeren van de Magento patch is het mogelijk dat er een '<strong>Access Denied</strong>' verschijnt. Dit houdt in dat de externe modules individueel geupdate of gepatched moeten worden. <br />Er is een nieuwe versie van de patch voor <strong>Magento 1.9</strong> beschikbaar gesteld die de problemen met het RWD theme oplost.</div>
+<h3>Wat moet ik doen om Magento Security issues te bestrijden?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren.</p>
+<div class="box-warning">Letop: deze patches hebben impact op oa. <strong>Apache</strong> en <strong>Nginx</strong> aangezien er een custom aanpassing in de <span style="text-decoration: underline;">.htaccess</span> file of <span style="text-decoration: underline;">Nginx config</span> nodig is.&nbsp;</div>
+<p>Wij doen dat graag voor u. Mail ons via ons <a href="index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=130" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op 020 337 59 61.</p>
+<p>Via de Magento download website is het mogelijk de&nbsp;<a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6285">Magento security patch SUPEE-6285</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>
+</ul>

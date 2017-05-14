@@ -1,0 +1,127 @@
+---
+layout: 2column
+title: Magento Security Update SUPEE-7405
+url: magento-security-update-supee-7405
+description: Magento Security Update SUPEE-7405 Patch Bundle
+image: magento-security-update-supee-7405
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2016-01-20 23:00:00.000000000 +00:00
+dateModified: 2016-01-21 13:53:20.000000000 +00:00
+intro: Magento Security Update SUPEE-7405 Patch Bundle
+hits: 1076
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=178:magento-security-update-supee-7405&amp;catid=29:blog&amp;Itemid=121" title="Magento Security Update SUPEE-64788 Patch Bundle"><img src="images/nieuws/securityrelease.jpg" alt="securityrelease" height="157" width="157" style="margin: 0px 0px 5px 5px; float: right;" /></a></p>
+<p>Onlangs zijn er 20 <span style="text-decoration: underline;">veiligheidslekken</span> in Magento ontdekt en opgelost in een patch SUPEE-7405. De lekken zijn aanwezig in alle versies van Magento t/m 1.9/x, dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er enkel patches beschikbaar vanaf 1.4 en hoger, maar het betreft hier een issue dat impact heeft op alle versies. &nbsp;</p>
+<h3>Wat zijn de 20 lekken van SUPEE-7405?</h3>
+<ul class="check">
+<li><strong>Stored XSS via email address - APPSEC-1213</strong><br />
+<ul>
+<li>CVSSv3 Severity: 9.3 (Critical)</li>
+</ul>
+</li>
+<li><strong>Stored XSS in Order Comments - APPSEC-1239</strong><br />
+<ul>
+<li>CVSSv3 Severity: 9.3 (Critical)</li>
+</ul>
+</li>
+<li><strong>Stored XSS in Order - APPSEC-1260</strong><br />
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+</li>
+<li><strong>Guest order view protection code vulnerable to brute-force attack - APPSEC-1270</strong><br />
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+<li><strong>Information Disclosure in RSS feed - APPSEC-1171</strong><br />
+<ul>
+<li>CVSSv3 Severity: 7.5 (High)</li>
+</ul>
+<li><strong>CSRF token not validated on backend login page - APPSEC-1206</strong><br />
+<ul>
+<li>CVSSv3 Severity: 7.4 (High)</li>
+</ul>
+<li><strong>Malicious files can be upload via backend - APPSEC-1306</strong><br />
+<ul>
+<li>CVSSv3 Severity: 6.5 (Medium)</li>
+</ul>
+<li><strong>CSRF leading to execution of admin actions after login - APPSEC-1179</strong><br />
+<ul>
+<li>CVSSv3 Severity: 6.1 (Medium)</li>
+</ul>
+<li><strong>Excel Formula Injection via CSV/XML export - APPSEC-1110</strong><br />
+<ul>
+<li>CVSSv3 Severity: 6.1 (Medium)</li>
+</ul>
+<li><strong>XSS in Product Custom Options - APPSEC-1267</strong><br />
+<ul>
+<li>CVSSv3 Severity: 5.9 (Medium)</li>
+</ul>
+<li><strong>Editing or Deleting Reviews without permission - APPSEC-1268</strong><br />
+<ul>
+<li>CVSSv3 Severity: 5.4 (Medium)</li>
+</ul>
+<li><strong>Disruption of email delivery - APPSEC-1177</strong><br />
+<ul>
+<li>CVSSv3 Severity: 5.3 (Medium)</li>
+</ul>
+<li><strong>CAPTCHA Bypass - APPSEC-1283</strong><br />
+<ul>
+<li>CVSSv3 Severity: 5.3 (Medium)</li>
+</ul>
+<li><strong>Admin path disclosure via Authorize.net - APPSEC-1208</strong><br />
+<ul>
+<li>CVSSv3 Severity: 5.3 (Medium)</li>
+</ul>
+<li><strong>XSS Payload in website's translation table - APPSEC-1214</strong><br />
+<ul>
+<li>CVSSv3 Severity: 4.7 (Medium)</li>
+</ul>
+<li><strong>CSRF Delete Items from Cart - APPSEC-1212</strong><br />
+<ul>
+<li>CVSSv3 Severity: 4.3 (Medium)</li>
+</ul>
+<li><strong>XSS via custom options - APPSEC-1276</strong><br />
+<ul>
+<li>CVSSv3 Severity: 4.8 (Low)</li>
+</ul>
+<li><strong>Risky serialized string filtering - APPSEC-1204</strong><br />
+<ul>
+<li>CVSSv3 Severity: 0 (Low)</li>
+</ul>
+<li><strong>Reflected XSS in backend coupon entry - APPSEC-1305</strong><br />
+<ul>
+<li>CVSSv3 Severity: 0 (Low)</li>
+</ul>
+<li><strong>Injected code can be stored in database - APPSEC-1240</strong><br />
+<ul>
+<li>CVSSv3 Severity: 0 (Low)</li>
+</ul>
+<li><strong>Injected code can be stored in database - APPSEC-1240</strong><br />
+<ul>
+<li>CVSSv3 Severity: 0 (Low)</li>
+</ul>
+</ul>
+<h3>Magento 1.9.2.3 update</h3>
+<p><strong>Magento</strong> adviseert om <span style="text-decoration: underline;"><strong>spoedig</strong></span> alles te update naar de laatste versie, <strong>Magento 1.9.2.3</strong>.<br />Deze Magento security update heeft impact op de volgende onderdelen.</p>
+<ul class="check">
+<li>admin toegang</li>
+<li>verwijderen of aanpassen van reviews</li>
+<li>manupuleren van orders</li>
+<li>orders van andere inzien</li>
+<li>klantgegevens inzien</li>
+<li>wachtwoord phishing</li>
+<li>ongeoorloofde upload</li>
+<li>denial of service (website offline brengen)</li>
+<li>omzeilen van de CAPTCHA</li>
+<li>producten uit winkelmand verwijderen</li>
+</ul>
+<p><br /><span style="font-size: 18px; line-height: 18px;">Wat moet ik doen om Magento Security issues te bestrijden?</span></p>
+<p>Wij raden onze klanten zo spoedig mogelijk te patchen.</p>
+<div class="box-warning">Wij doen dat graag voor u. Mail ons via ons <a href="index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=130" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op 020 337 59 61.</div>
+<p>Via de Magento download website is het mogelijk de&nbsp;<a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6788">Magento security patch SUPEE-6788</a>&nbsp;te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

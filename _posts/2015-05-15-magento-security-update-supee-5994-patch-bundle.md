@@ -1,0 +1,64 @@
+---
+layout: 2column
+title: Magento Security Update SUPEE-5994 Patch Bundle
+url: magento-security-update-supee-5994-patch-bundle
+image: magento-security-update-supee-5994-patch-bundle
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2015-05-15 07:56:58.000000000 +00:00
+dateModified: 2015-05-15 10:14:55.000000000 +00:00
+hits: 1505
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=161:magento-security-update-supee-5994-patch-bundle&amp;catid=29:blog&amp;Itemid=121" title="Magento Security Update SUPEE-5994 Patch Bundle"><img src="images/nieuws/securityrelease.jpg" width="157" height="157" alt="securityrelease" style="margin: 0px 0px 5px 5px; float: right;" /></a></p>
+<p><strong>ShopHack<br /></strong><br />Onlangs zijn er <span style="text-decoration: underline;">7 veiligheidslekken</span> in Magento ontdekt en opgelost in een patch <strong>SUPEE-5994</strong>. De lekken zijn aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.4 en hoger, maar Magento geeft aan dat het hier om alle versies gaat. &nbsp;</p>
+<h3>Wat zijn de 7 lekken van ShopHack?</h3>
+<ul class="check">
+<li>Admin Path Disclosure
+<ul>
+<li>
+<p>Een aanvaller kan de Admin Login verzoeken rechtstreeks een module aan te roepen, ongeacht of deze voorkomen in de Admin URL. Dit maakt het makkelijker om het wachtwoord met behulp van brute force attacks te achterhalen.</p>
+</li>
+</ul>
+</li>
+<li>Customer Address Leak through Checkout
+<ul>
+<li>
+<p>Hiermee kan een aanvaller adresgegevens (naam, adres, telefoonnummer ) van de adresboeken van andere klanten verkrijgen.Tijdens het afrekenen, kan de aanvaller toegang tot een willekeurig adresboek krijgen door het invoeren van een sequentiële ID.&nbsp;Een functionele proof of concept bestaat reeds.</p>
+</li>
+</ul>
+</li>
+<li>Customer Information Leak through Recurring Profile
+<ul>
+<li>
+<p>Dit probleem maakt dhet mogelijk voor de aanvaller &nbsp;om adres, vorige bestelling, betaalmethode en informatie van de terugkerende betaling profielen van andere klanten te verkrijgen.&nbsp;Een functionele proof of concept bestaat reeds.</p>
+</li>
+</ul>
+</li>
+<li>Local File Path Disclosure Using Media Cache
+<ul>
+<li>De aanvaller kan fictieve image URL's gebruiken om de server gegevens bloot te leggen, ongeacht de instellingen.</li>
+</ul>
+</li>
+<li>Spreadsheet Formula Injection
+<ul>
+<li>De aanvaller kan input, die door een algoritme wordt uitgevoerd, exporteren en openen in een spreadsheetprogramma zoals Microsoft Excel. De formule kan oa. gegevens exporteren, persoonlijke gegevens wijzigen.</li>
+</ul>
+</li>
+<li>Cross-site Scripting Using Authorize.Net Direct Post Module
+<ul>
+<li>Hiermee kan een aanvaller JavaScript uit voeren in het kader van klantsessie. Als een klant dan op een schadelijke link klikt, kan de aanvaller cookies stelen en de sessie overnemen, die dan persoonlijke informatie blootsteld.</li>
+</ul>
+</li>
+<li>Malicious Package Can Overwrite System Files
+<ul>
+<li>Aanvaller kan een kwaadwillende module installeren en code overschrijven.</li>
+</ul>
+</li>
+</ul>
+<h3>Wat moet ik doen om ShopHack te bestrijden?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons <a href="index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=130" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op 020 337 59 61.</p>
+<p>Via de Magento download website is het mogelijk de&nbsp;<a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-5994">Magento security patch SUPEE-5994</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

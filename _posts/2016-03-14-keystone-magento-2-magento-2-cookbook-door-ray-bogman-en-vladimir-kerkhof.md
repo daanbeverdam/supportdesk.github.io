@@ -1,15 +1,30 @@
 ---
-layout: 1column
-title: Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof
-description:
-image:
-authorimage:
+layout: 2column
+title: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof'
+url: keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
+description: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir
+  Kerkhof'
+image: keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
+authorimage: Hiltje Conradi
 authorname: Hiltje Conradi
-datePublished: 2016-03-14T08:00:00+08:00
-dateModified: 2016-03-14T08:00:00+08:00
-intro: Keystone Magento 2
-keywords:
-hits: 105
+datePublished: 2016-03-14 08:08:00.000000000 +00:00
+dateModified: 2016-03-21 10:56:55.000000000 +00:00
+intro: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof'
+hits: 11747
+nav: Blog
 ---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=184:keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof&amp;catid=29:blog&amp;Itemid=121" title="Magento 2 Cookbook - Ray Bogman &amp; Vladimir Kerkhof"><img src="images/mage2cookbook-small.jpg" alt="Magento 2 Cookbook" align="right" title="Magento 2 Cookbook" width="278" height="344" /></a><strong>Begin april 2016</strong> is het zover: het boek "<strong>Magento 2 Cookbook</strong>" geschreven door <a href="index.php?option=com_contact&amp;view=contact&amp;id=1&amp;catid=31&amp;Itemid=279" title="Ray Bogman"><strong>Ray Bogman</strong></a> (CTO &amp; co-founder <strong>SupportDesk B.V.</strong>) en conculega <a href="index.php?option=com_contact&amp;view=contact&amp;id=6&amp;catid=31&amp;Itemid=279" title="Vladimir Kerkhof"><strong>Vladimir Kerkhof</strong></a>&nbsp;zal gepubliceerd worden. Het boek bevat meer dan 400 bladzijdes en 50 praktische Magento 2 "recepten" die zullen helpen om de volle potentie van Magento te benutten met als doel een professionele webshop te bouwen. Het is geschreven voor Magento gebruikers (<strong>merchants</strong>, <strong>frontend developers</strong>, <strong>backend developers</strong> and <strong>devops</strong>) die meer inzicht en expertise willen vergaren in het managen, ontwerpen en uitbreiden van hun Magento webshop. Kennis van Magento en bekendheid met programmeren worden verwacht bij het lezen van dit kookboek.</p>
+<p>Door het kookboek format hoeft het boek niet van begin tot eind gelezen te worden maar kunnen er bepaalde hoofdstukken/ recepten uitgekozen worden die interessant lijken. Het is erg breed van opzet. Installeren, configureren, creëren en optimaliseren van een Magento 2 omgeving komen aan bod. Het Magento 2 Cookbook bevat de volgende hoofdstukken: <strong>Install Magento 2 on Apache and Nginx</strong>, <strong>Mangeto 2 system tools</strong>, <strong>Enable performance in Magento 2</strong>, <strong>Create catalog and categories</strong>, <strong>Managing your store</strong>, <strong>Creating a custom Magento 2 theme</strong>, <strong>Create a Magento 2 extention (basics)</strong>, <strong>Creating a Magento 2 extention (advanced)</strong>. Meer informatie over de hoofdstukindeling vindt u <a href="https://mage2cookbook.com" target="_new" title="Magento 2 Cookbook" alt="Magento 2 Cookbook">hier</a>.</p>
 
-# Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof
+<h3>Magento 2 Trainingen</h3>
+<p>Het Magento 2 Cookbook is een samenwerking van Ray Bogman en Vladimir Kerkhof. Zowel Ray als Vladimir zijn geen onbekenden in de wereld van Magento. Beiden kennen elkaar van het werk bij SupportDesk B.V waarbij ze onder andere Magento 2 trainingen geven aan geïnteresseerden (<a href="magento-training" title="Magento 2 Trainingen" alt="Magento 2 Trainingen">meer informatie</a>). De samenwerking voor dit boek is een logisch besluit aangezien ze elkaar qua kennisgebieden goed aanvullen. Vladimir heeft erg veel kennis van modules en de back-end gedeelte. Ray daarentegen is geen back-end programmeur maar heeft erg veel andere kwaliteiten. Het front-end gedeelte van het boek is zowel door Ray als door Vladimir samen bedacht.</p>
+<h3>Energiek, leerzaam en rustgevend project</h3>
+<p>Uit het interview met Ray Bogman ten behoeve van deze blogpost bleek dat met de komst van Magento 2 precies het juiste moment daar was om een boek te schrijven. Ray is al eerder benaderd voor het schrijven van een boek maar zowel tijdgebrek als "dyslexie angst" weerhielden hem hiervan. Eerder verschenen 3 artikelen en 4 boeken reviews van zijn hand maar zelf een boek schrijven is een ander verhaal. Er is tot nu toe weinig geschreven over Magento 2. Hooguit 2 of 3 boeken. Voor Ray was het een mooie gelegenheid om nog meer kennis op te doen over Magento 2. Ook het overwinnen van zijn dyslexie angst en het delen van kennis met derden om Magento 2 succesvol te maken zijn belangrijke redenen gewest voor het schrijven van het " Magento 2 Cookbook". Al met al was het een "energiek, leerzaam en rustgevend project", aldus Ray Bogman. Hierbij doelde hij op zowel het schrijfproces als op het boek zelf. "Het is erg fijn om je te kunnen focussen op 1 ding".</p>
+<h3>Magento Imagine</h3>
+<p>Het "Magento 2 Cookbook" verschijnt begin april 2016. Het mogelijk om <a href="https://www.packtpub.com/web-development/magento-2-cookbook" target="_blank" title="Magento 2 Cookbook" alt="Magento 2 Cookbook">hier</a> alvast een pre-order te plaatsen zodat u zeker bent van een exemplaar. De officiële lancering/presentatie van "Magento 2 Cookbook" zal plaatsvinden<span style="font-size: 10pt;"> tijdens pre</span>-imagine 2016 in Los Angeles. Mocht u toevallig in de buurt zijn, kom gezellig langs op de pre-imagine dag (zondag 10 april) voor een, door Ray Bogman, gesigneerd exemplaar.</p>
+<p><a href="https://www.packtpub.com/web-development/magento-2-cookbook" target="_blank" class="orange" style="display: block; margin: 0 auto; width: 40%;" title="Magento 2 Cookbook Bestellen">Magento 2 Cookbook Bestellen</a></p>
+<h3>Winactie:</h3>
+<p>Ben u inmiddels enthousiast geworden over het <strong>Magento 2 Cookbook</strong>? Het is mogelijk om een exemplaar te winnen. Het enige wat u hoeft te doen is de volgende vraag te beantwoorden. "Wat is de datum waarop Magento 2 gereleased werd?"</p>
+<p><a href="https://docs.google.com/a/supportdesk.nu/forms/d/1XxDmwN_MYd4pOpKsVtvQIKJaY452Ep-otuKktTxpOeM/" target="_new" class="orange" style="display: block; margin: 0 auto; width: 40%;" title="Win een Magento 2 Cookbook">Klik hier om uw antwoord in te vullen</a></p>
+<p><a href="https://mage2cookbook.com" target="_new" title="Magento 2 Cookbook">Meer informatie </a> over "Magento 2 Cookbook" (o.a. Hoofdstukindeling, nieuws rondom het boek, contact informatie)</p>
+<p>{snippet hiltjeconradi}</p>

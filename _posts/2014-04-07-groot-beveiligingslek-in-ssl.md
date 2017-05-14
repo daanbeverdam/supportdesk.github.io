@@ -1,0 +1,42 @@
+---
+layout: 2column
+title: Groot beveiligingslek in SSL
+url: groot-beveiligingslek-in-ssl
+description: GROOT BEVEILIGINSLEK IN SSL!
+image: groot-beveiligingslek-in-ssl
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2014-04-07 22:00:00.000000000 +00:00
+dateModified: 2014-05-09 12:47:09.000000000 +00:00
+intro: GROOT BEVEILIGINSLEK IN SSL!
+hits: 1747
+nav: Blog
+---
+<p><img src="images/article/heartbleed.png" alt="SSL beveiligingslek heartbleed" style="margin-left: 10px; float: right;" height="242" width="200" /></p>
+<p>Gisterenavond is bekend gemaakt dat er een groot beveiligingslek is aangetroffen in SSL (genaamd Heartbleed). Het betreft de versies:</p>
+<ul>
+<li><strong>OpenSSL 1.0.1 tot en met 1.0.1f</strong></li>
+</ul>
+<p>De volgende versies hebben GEEN probleem en zijn veilig:</p>
+<ul>
+<li>OpenSSL 1.0.1g</li>
+<li>OpenSSL 1.0.0 branch</li>
+<li>OpenSSL 0.9.8 branch</li>
+</ul>
+<h3>Wat is het risico?</h3>
+<p>Via het lek is het mogelijk een inkijkje in het geheugen te nemen en is van alles te achterhalen, tot en met de sleutels die worden gebruikt om gebruikersnamen, wachtwoorden en versleutelde e-mail te oncijferen.</p>
+<p>Dit lek is om twee redenen extra ernstig:</p>
+<ol>
+<li>Ten eerste laat een aanvaller geen sporen achter; er is dus geen methode om vast te stellen of men slachtoffer is geweest van dit type aanval. Als men erop bedacht is, kan men zijn intrusion detection-systeem wel programmeren om misbruik van het lek te herkennen. Maar zelfs dan is het volgens de vinders ondoenlijk om het uitlezen te voorkomen. Men kan ook niet zien of in het verleden een hack is geweest en de sleutels al bemachtigd zijn.<br /><br /></li>
+<li>Het lek staat al open sinds 14 maart 2012 en dus is de kans aanwezig dat een hack heeft plaatsgevonden. Alleen een patch installeren is niet afdoende. De patch helpt alleen tegen toekomstige pogingen het lek te misbruiken. Mocht een aanvaller bij een hack langs deze weg al sleutels hebben bemachtigd, dan blijven die ook na het aanbrengen van de patch bruikbaar. De patch dicht alleen het gat in OpenSSL. Om het probleem echt te verhelpen, zou de uitbater van de website zijn certificaten moeten wijzigen, zodat de eventueel bemachtigde encryptiesleutels onwerkbaar worden.</li>
+</ol>
+<h3>Wat moet ik doen?</h3>
+<p>Wij raden onze klanten aan om de patch te installeren en zo mogelijk een het SSL certificaat te wijzigen. Mocht u niet weten welke versie u heeft dan kunnen we u helpen. Mail ons via ons <a target="_self" href="http://www.supportdesk.nu/stel-je-vraag">supportaanvraagformulier</a> of bel ons op 020 337 59 61.</p>
+<h3>Meer informatie</h3>
+<p>Voor meer informatie kunt u de volgende artikelen lezen:</p>
+<p>&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://www.automatiseringgids.nl/nieuws/2014/15/gapend-gat-in-ssl-beveiliging-gevonden">www.automatiseringgids.nl/nieuws/2014/15/gapend-gat-in-ssl-beveiliging-gevonden</a><br />&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://heartbleed.com/">heartbleed.com</a></p>
+<h3>Byte klanten</h3>
+<p>Mocht u klant van Byte zijn dan hoeft u geen actie te ondernemen. Lees hier meer over op de website van Byte: <a target="_blank" href="https://www.bytenoc.nl/150-onderhoud-update-preventief-updaten-ssh-host-certificaten-en-herstarten-webservices">www.bytenoc.nl/150-onderhoud-update-preventief-updaten-ssh-host-certificaten-en-herstarten-webservices</a>.</p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

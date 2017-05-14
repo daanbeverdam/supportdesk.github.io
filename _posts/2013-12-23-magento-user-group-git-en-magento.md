@@ -1,0 +1,37 @@
+---
+layout: 2column
+title: 'Magento User Group: GIT en Magento'
+url: magento-user-group-git-en-magento
+description: 'Magento User Group Amsterdam: GIT en Magento'
+image: magento-user-group-git-en-magento
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-12-23 15:47:36.000000000 +00:00
+dateModified: 2014-04-18 13:52:41.000000000 +00:00
+intro: 'Magento User Group Amsterdam: GIT en Magento'
+hits: 1674
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=120:magento-user-group-git-en-magento&amp;catid=29:blog&amp;Itemid=121" title="Melvyn Sopacua"><img src="images/nieuws/melvyn-sopacua.jpg" alt="Melvyn Sopacua" style="float: right;" /></a>Voor de laatste keer in 2013 vond er een Magento User Group plaats bij het Magento Competence Center. Tijdens deze sessie behandelden we Git voor Magento. Deze keer nam <a href="index.php?option=com_contact&amp;view=contact&amp;catid=31&amp;id=5-melvyn-sopacua" title="Melvyn Sopacua"><strong>Melvyn Sopacua</strong></a> de Magento fanaten mee in de wereld van versiebeheer, branching en nog veel meer!</p>
+<h3>Git &amp; Janneke, een introductie over Git</h3>
+<p>Git is een open source versiebeheersysteem en wordt ook wel een softwarebroncode-managementproject genoemd. Git is gemaakt door Linus Torvalds, de ontwikkelaar van Linux. Iedere Git werkmap geeft een compleet overzicht van alle gedane wijzigingen en versies. Het verschil ten opzichte van het ‘Concurrent Versions System’ (CVS) of Subversion (SVN) is dat Git niet afhankelijk is van een gemeenschappelijke locatie of een centrale server.&nbsp;</p>
+<h3>Git branching model -&nbsp;Wat is branching?</h3>
+<p>Een branche (oftewel een kopie of tak(je)) is een aparte omgeving (development) binnen de Git hoofdmap (master) waar je modules of templates voor je website in ontwikkelt. Nadat dit gereed is, voeg je deze twee omgevingen weer samen in de hoofdmap. Het grote voordeel van branching is dat je met meerdere mensen aan een gedeelte van de website kunt werken.</p>
+<h3>Git en Magento</h3>
+<p>Een belangrijke toepassing voor <strong>Magento</strong> is <span style="text-decoration: underline;">.gitignore</span>, dit is een optie waarmee je aangeeft welke bestanden wel of niet in Git meegenomen moeten worden. Denk voor Magento aan de map met media bestanden.</p>
+<h3>MageFlow</h3>
+<p>Na de presentatie van Melvyn gaf <a href="index.php?option=com_contact&amp;view=contact&amp;catid=31&amp;id=1-ray-bogman" title="Ray Bogman"><strong>Ray Bogman</strong></a> een korte toelichting over een nieuwe manier van versiebeheer, namelijk met <strong>MageFlow</strong>. MageFlow is een SaaS oplossing waarmee je op een zeer eenvoudige manier je Magento omgeving kunt beheren en upgraden. Deze oplossing is binnenkort beschikbaar en kan zowel gekoppeld worden aan GitHub als aan BitBucket. Met de komst van MageFlow wordt versiebeheer een fluitje van een cent!</p>
+<h3>Git workshop</h3>
+<p>Tot slot gaf <strong>Flip Hess</strong> een korte demonstratie van Git. Hij paste als het ware de theorie die Melvyn had behandeld toe in de praktijk, gebruikmakende van deze handige website. Heb je de demo gemist of heb je interesse in een flipsende ;-) workshop Git &amp; Janneke van Flip? Laat hier dan jouw reactie achter. Bij voldoende geïnteresseerden plannen we in februari een workshop. We houden je op de hoogte!</p>
+<h3>Planning Magento User Groups 2014</h3>
+<p><a href="http://www.meetup.com/Magento-user-Group-Amsterdam/" title="Magento User Group Amsterdam" target="_blank"><img src="images/logos/magento-user-group-logo-200.png" alt="Magento User Group Amsterdam" style="float: right;" /></a>De planning voor de eerste helft van 2014 hebben we onlangs op onze Meetup pagina geplaatst. De onderwerpen zijn bepaald op wat de usergroup graag samen wil behandelen, bediscussïeren of meer over wil weten. Iedereen bedankt voor de input!</p>
+<ul class="check">
+<li>30 januari 2014: Traffic naar je shop genereren, hoe doe je dat en hoe ga je ermee om?</li>
+<li>18 februari 2014: Magento koppelen aan externe systemen (OroCRM, OpenERP en ShopCTRL)</li>
+<li>25 maart 2014: Magento review and rating, hoe belangrijk is een goede beoordeling en hoe krijg</li>
+<li>24 april 2014:<a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/156251962/" title="Magento hosting? Wat heb ik nou echt nodig en waar moet ik op letten?" target="_blank">Magento hosting? Wat heb ik nou echt nodig en waar moet ik op letten?</a></li>
+</ul>
+<p>Lijkt het je interessant om bij een of meerdere MUG’s mee te discussiëren? Klik dan op de link(s) hierboven of bezoek <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/" title="Magento usergroup Amsterdam">Meetup pagina</a>. We zien je ook in 2014 weer graag bij het <a href="http://maps.google.com/maps?f=q&hl=en&q=De+Ruyterkade+139%2C+1011AC%2C+Amsterdam%2C+nl">Magento Competence Center!</a></p>
+
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

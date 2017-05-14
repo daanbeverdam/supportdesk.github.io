@@ -1,25 +1,29 @@
 ---
-layout: 1column
+layout: 2column
 title: SupportDesk werkt met Qpep
-description:
-image:
-authorimage:
+url: supportdesk-samenwerking-qpep
+description: De gezondheid van het SupportDesk Team staat voorop en daarom is SupportDesk
+  een unieke samenwerking aangegaan met Qpep.
+image: supportdesk-samenwerking-qpep
+authorimage: Mats van de Seijp
 authorname: Mats van de Seijp
-datePublished: 2017-03-20T08:00:00+08:00
-dateModified: 2017-03-20T08:00:00+08:00
-intro: SupportDesk werkt met Qpep
-keywords:
-hits: 10
+datePublished: 2017-03-20 15:56:38.000000000 +00:00
+dateModified: 2017-03-22 16:55:38.000000000 +00:00
+intro: De gezondheid van het SupportDesk Team staat voorop en daarom is SupportDesk
+  een unieke samenwerking aangegaan met Qpep.
+hits: 194
+nav: Blog
 ---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=200:supportdesk-samenwerking-qpep&amp;catid=29:blog&amp;Itemid=121" title="SupportDesk werkt met Qpep"><img src="images/nieuws/qpep.png" alt="Qpep" style="float: right;" /></a>De gezondheid van het <a href="index.php?option=com_contact&amp;view=category&amp;id=31&amp;Itemid=279" title="SupportDesk Team">SupportDesk Team</a> staat voorop en daarom is SupportDesk een unieke samenwerking aangegaan met <strong>Qpep</strong>. <br /><br />Eigenaresse <a href="https://www.linkedin.com/in/babettehoogendoorn" target="_blank" title="Babette Hoogendoorn - Linkedin"><strong>Babette Hoogendoorn</strong></a>, voormalig topsporter en 7-voudig Nederlands kampioene squash, is een health &amp; performance coach en heeft een filosofie ontwikkeld op het gebied van presteren waarin het ontwikkelen van de lichaamsbewustheid centraal staat.<br /><br />Lichaamsbewustheid is het (h)erkennen van signalen van het lichaam en in staat zijn dit toe te passen in werk en leven. Doordat steeds meer werk met het hoofd gebeurd is de lichaamsbewustwording echter steeds meer op de achtergrond gaan liggen. Moeite met ontspannen, gas terugnemen, slecht luisteren naar het lichaam en zelfs een burn-out kunnen de gevolgen zijn.<br /><br />Het komende jaar zal Babette dan ook betrokken zijn bij SupportDesk als <strong>health &amp; performance coach</strong>. Doormiddel van diverse workshops, verspreid over het jaar, zal ze ons klaarstomen voor;</p>
+<ul class="check">
+<li>Omgaan met piekbelasting.</li>
+<li>Doseren van energie.</li>
+<li>Werken aan herstel.</li>
+<li>Effectief omgaan met druk &amp; stress.</li>
+<li>De samenhang tussen lichaam, geest en hoofd</li>
+</ul>
+<h3>SupportDesk slaat de handen ineen met Qpep.</h3>
+<p>Hiermee is SupportDesk in staat preventief te werk gaan om medewerkers te behoeden voor een burn-out, de signalen te herkennen en een gezondere werkomgeving te bieden.<br /><br />Ook benieuwd wat Qpep voor uw bedrijf of individueel kan betekenen? <br />Neem eens een kijkje op de website <a href="http://www.qpep.nl/" target="_new" alt="Qpep">http://www.qpep.nl/</a></p>
 
-# SupportDesk werkt met Qpep
-
-SupportDesk zit sinds de oprichting in 2012 op het basistarief van 100 euro (exlc btw).
-In de afgelopen periode is er een hoop veranderd, waaronder de toegenomen vraag naar goede techneuten.
-Gezien de stijgende kosten op diverse vlakken, ontkomen ook wij er niet aan om hierin mee te gaan.
-
-Via deze weg willen we al onze klanten daarom informeren over een een tariefwijziging.
-Het nieuwe uurtarief zal per ingang van 1 April 2017 dan ook 125 euro (exlc btw) worden.
-Er zal net als voorheen ruimte blijven voor een mooie korting, dit is afhankelijk van de nieuwe paketten en eventuele afspraken onderling.
-
-Voor een uitgebreider overzicht van onze tariefwijziging, bekijk onze producten en diensten in onze shop. Mocht u nog verdere vragen hebben, neem dan gerust contact met ons op.
+<p>{snippet meer info}</p>
+<p>{snippet mats-van-de-seijp}</p>

@@ -1,0 +1,41 @@
+---
+layout: 2column
+title: Magento Mobile Performance - The Responsive Mythes
+url: magento-mobile-performance-the-responsive-mythes
+description: Magento Mobile Performance - The Responsive Mythes. Mobile Performance
+  Optimization
+image: magento-mobile-performance-the-responsive-mythes
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-07-02 15:52:00.000000000 +00:00
+dateModified: 2017-05-13 13:12:25.000000000 +00:00
+intro: Magento Mobile Performance - The Responsive Mythes. Mobile Performance Optimization
+hits: 2170
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=99:magento-mobile-performance-the-responsive-mythes&amp;catid=29:blog&amp;Itemid=121" target="_self"><img src="images/nieuws/mug27juni.jpg" width="233" height="115" alt="mug27juni" style="float: left; margin: 0px 20px 0px 0px;" /></a>Op donderdag 27 Juni was het onderwerp van de<strong> MUG "Responsive Myths"</strong>. Er waren maar liefst 20 Muggers aanwezig en na een korte introductie ronde werd er eerst een korte presentatie gegeven door <strong>Daniel Genis</strong> van Byte Internet. Vervolgens gaf <a href="http://www.supportdesk.nu/over-ons/1-ray-bogman" target="_blank" title="SupportDesker Ray Bogman"><strong>Ray Bogman</strong></a> een interactieve presentatie over de mythes van het responsive design en de relatie met Magento shops.</p>
+<h3>Magento Mobile Performance</h3>
+<p><iframe src="http://prezi.com/embed/3nwsy5rbhmcf/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="550" height="400" frameborder="0"></iframe></p>
+<p>Wat wordt er verstaan onder een goede mobiele prestatie en is dit mogelijk in combinatie met Magento? Hieronder een to do lijst wat in de bovenstaande Prezi van <strong>Ray Bogman</strong> tijdens de Magento User Group aan bod is gekomen:</p>
+<ul class="check">
+<li>Minimaliseren http request</li>
+<li>Deflate content</li>
+<li>Merge css/js</li>
+<li>Expire data</li>
+<li>Gebruik Mobile doctype</li>
+<li>Local storage in browser van je mobiel</li>
+<li>Gebruik plaatjes alleen voor het hoofdnoodzakelijke (zoals o.a. logo's en artikelen)</li>
+<li>Plaatje optimaliseren met het gebruik van data URI's</li>
+<li>Oppassen met typefonts (weet wat je mogelijkheden en beperkingen hiermee zijn)</li>
+<li>Cache manifest bestand</li>
+<li>Test je mobiele website (meten is weten)</li>
+</ul>
+<p>Zie ook het <a href="http://www.byte.nl/blog/verslag-mug-magento-mobile-responsive-mythes/" target="_blank" title="Ga naar Byte blog">Byte blog</a>.</p>
+<h3>Waar kan ik me inschrijven voor de volgende MUG?</h3>
+<p>Ga naar deze <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank" title="Ga naar Magento Competence Center">Magento Competence Center</a> pagina en schrijf je in voor de volgende <strong>Magento User Group</strong>. Dit zal niet zomaar een MUG zijn, maar een heuse <strong>Magento SEO workshop</strong>. Lees meer hierover op de <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/123882042/" target="_blank" title="Ga naar Magento User Group Amsterdam Meetup pagina">Magento User Group Amsterdam Meetup pagina</a>. Normale ticketprijs is € 90,-&nbsp;Maar t/m 31 juli hebben we een early bird ticketprijs van € 75,-.</p>
+<p>Koop hier je <a href="http://www.supportdesk.nu/shop/checkout/cart/add?product=11" target="_blank" title="Magento SEO workshop kaartje">Magento workshop kaartje</a> en leer alles over <strong>Magento SEO</strong>.</p>
+<p>Wij zien je met veel plezier in de Magento Competence Center te Amsterdam.</p>
+<p>{snippet meer info}</p>
+<p>{snippet sannepeters}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

@@ -1,25 +1,71 @@
 ---
-layout: 1column
+layout: 2column
 title: Magento 2.1.6 is alive!
-description:
-image:
-authorimage:
+url: magento-2-1-6-is-alive
+description: De nieuwste Magento update, de Magento Community Edition 2.1.6.
+image: magento-2-1-6-is-alive
+authorimage: Ray Bogman
 authorname: Ray Bogman
-datePublished: 2017-04-14T08:00:00+08:00
-dateModified: 2017-04-14T08:00:00+08:00
-intro: Magento 2.1.6 is alive!
-keywords:
-hits: 40
+datePublished: 2017-04-14 08:47:09.000000000 +00:00
+dateModified: 2017-04-20 11:11:13.000000000 +00:00
+intro: De nieuwste Magento update, de Magento Community Edition 2.1.6.
+hits: 141
+nav: Blog
 ---
+<p><span style="text-decoration: underline;"><a href="index.php?option=com_content&amp;view=article&amp;id=212:magento-2-1-6-is-alive&amp;catid=29:blog&amp;Itemid=121" title="Magento 2.1.6 is beschikbaar"><img src="images/article/magento-upgrade.jpg" alt="magento-upgrade" style="margin: 0px 0px 5px 5px; float: right;" /></a>11 april 2017</span> kwam <strong>Magento</strong> met een nieuwe update voor de <strong>Community Edition</strong> en <strong> Enterprice Edition, 2.1.6.</strong> Deze update bevat belangrijke prestatie verbeteringen, met name voor handelingen die vallen binnen de <strong>Category Page</strong> en bij <strong>image resizing</strong>. <strong>Magento 2.1.6</strong> bevat 15 aanpassingen die veel features van de 2.1.5 versie significant zullen versnellen:</p>
+<h3>Verbeterde prestaties op Caterory Page gebied</h3>
+<ul class="check">
+<li>Het laden van configurabele producten vanuit de database gaat 5x sneller</li>
+<li>Prijs calculaties gaan nu 3-5% sneller</li>
+<li>Voorraad validatie gaat tot 20% sneller</li>
+</ul>
+<h3>Resizing image is geoptimaliseerd</h3>
+<ul class="check">
+<li>Image resize taken, uitgevoerd vanuit de <strong>Command Line Interfaceoperations</strong> , genereren nu beelden van alle afmetingen. Bekijk Magento <a href="http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/themes/theme-images.html" target="_blank" title="catalog image resizing">catalog:images:resize</a> voor meer informatie.</li>
+<li>Image resize taken vanuit de Admin is opgelost.</li>
+<li>Het aantal file system taken zijn significant verminderd bij het analyseren van images bij de frontend.</li>
+<li>Caching van image metadata is nu tot 50% sneller, afhankelijk van opslag ruimte (store size).</li>
+</ul>
+<h3>Verbeterde prestaties van Layered Navigation</h3>
+<ul class="check">
+<li>Layered navigation is nu tot 3% sneller dankzij het cachen van attribuut opties.</li>
+<li>Het aantal indexing taken dat uitgevoerd word na een product import is geminimaliseerd.</li>
+</ul>
+<p>Verder heeft de update nog redelijk wat functionele verbeteringen en reparaties meegenomen.</p>
+<h3>Catalog</h3>
+<ul class="check">
+<li>Magento vergrendelt niet langer meer de <strong>category_product_entity</strong> tabel. Door het ontgrendelen van deze tabel wordt de kans op vergrendelings-gerelateerde time-outs, die kunnen voorkomen bij het indexeren en parelle checkouts, verminderd.&nbsp;</li>
+<li>De storefront zal nu beelden weergeven die Magento resizes tijdens product save taken, in plaats van de afbeelding te resizen op de storefront. Eerder bevatte het image pad store_id en tijdens opslaan taken veranderde Magento de afbeeldingen voor de <strong>default_store_only.</strong><strong>De \Magento\CatalogInventory\Model\Stock\Status\getStockId()</strong> methode geeft nu de juiste waarden weer.</li>
+</ul>
+<h3>Configurabele producten</h3>
+<ul class="check">
+<li>De controle die Magento uitvoert om de bereidheid van de configureerbaar product te bevestigen is nu sneller. Magento berekent niet langer de configurable product special prices op de category pagina. Voorheen berekende Magento de speciale prijzen op de category pagina maar gaf deze niet weer.</li>
+</ul>
+<h3>Indexers</h3>
+<ul class="check">
+<li>Magento voert nu een gedeeltelijke re-indexing taak uit na de import wanneer je de "<span style="text-decoration: underline;">update on Schedule</span>" modus hebt ingeschakeld. Hiervoor werd dit hoe dan ook gedaan, ongeacht in welke index modus men zat.</li>
+</ul>
+<h3>Import</h3>
+<ul class="check">
+<li>Magento geeft nu ingevoerde product afbeeldingen in deze volgorde weer: eerst, de basis afbeelding, dan is de extra beelden in de volgorde waarin ze in het CSV-bestand waren opgenomen. Voorheen had Magento geen duidelijk volgorde.</li>
+</ul>
+<h3>Diversen</h3>
+<ul class="check">
+<li>Magento cached nu opties voor de Layered Navigatie-functie. Dit verminder het aantal vragen aan de database wat de prestatie verbetert.</li>
+<li>Magento voert niet langer onnodige file check activiteiten uit (bijvoorbeeld <strong>file_exists</strong>,<strong> is_file)</strong>, die de prestaties van de categorie en productpagina's verbetert.</li>
+<li>Magento cached nu metadata, waardoor de tijd om foto's voor metadata te laden wordt vermeden. Dit versnelt ook de prestaties.</li>
+<li>Magento toont nu een significante afname in Redis Traffic na de upgrade 2.1.2 tot en met 2.1.4.</li>
+</ul>
+<h3>Swatches</h3>
+<ul class="check">
+<li>Magento creëert geen overbodige objecten meer bij het initialiseren van een configureerbare product op de categorie pagina.</li>
+<li>U kunt nu swatches voor zowel de Catalogus pagina en zoekresultaten (snelle of geavanceerde) uitschakelen. Om swatches van deze verzoeken uit te schakelen, schakel uit; <strong>Winkels&gt; Configuratie&gt; Catalogus&gt; Storefront&gt; Show swatches in Product List.</strong></li>
+<li>De logica die Magento gebruikt om swatches attributen te valideren is geoptimaliseerd.</li>
+<li>Magento slaat nu Swatch data op in <strong>blok cache</strong>, die de responsiviteit van de configureerbare productpagina's verbetert.</li>
+</ul>
+<p>Zo te lezen heeft deze update veel verbeteringen met zich mee gebracht op het gebied van prestatieverbeteringen bij de Category page en voor Image resizing en heeft het veel praktische verbeteringen geïmplementeerd.</p>
+<p>Wij raden onze klanten zo spoedig mogelijk te updaten.</p>
+<div>Wij doen dat graag voor u. Mail ons via ons&nbsp;<a href="index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=130" title="Stel je vraag">supportaanvraagformulier</a>&nbsp;of bel ons op 020 337 59 61.</div>
 
-# Magento 2.1.6 is alive!
-
-SupportDesk zit sinds de oprichting in 2012 op het basistarief van 100 euro (exlc btw).
-In de afgelopen periode is er een hoop veranderd, waaronder de toegenomen vraag naar goede techneuten.
-Gezien de stijgende kosten op diverse vlakken, ontkomen ook wij er niet aan om hierin mee te gaan.
-
-Via deze weg willen we al onze klanten daarom informeren over een een tariefwijziging.
-Het nieuwe uurtarief zal per ingang van 1 April 2017 dan ook 125 euro (exlc btw) worden.
-Er zal net als voorheen ruimte blijven voor een mooie korting, dit is afhankelijk van de nieuwe paketten en eventuele afspraken onderling.
-
-Voor een uitgebreider overzicht van onze tariefwijziging, bekijk onze producten en diensten in onze shop. Mocht u nog verdere vragen hebben, neem dan gerust contact met ons op.
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

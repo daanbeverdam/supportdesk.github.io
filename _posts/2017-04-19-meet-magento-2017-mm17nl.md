@@ -1,25 +1,31 @@
 ---
-layout: 1column
-title: Meet Magento 2017 'MM17NL'
-description:
-image:
-authorimage:
+layout: 2column
+title: Meet Magento 2017 "MM17NL"
+url: meet-magento-2017-mm17nl
+description: Op 10 mei 2017 wordt de 9e editie van Meet Magento the Netherlands weer
+  georganiseerd
+image: meet-magento-2017-mm17nl
+authorimage: Mats van de Seijp
 authorname: Mats van de Seijp
-datePublished: 2017-04-19T08:00:00+08:00
-dateModified: 2017-04-19T08:00:00+08:00
-intro: Meet Magento 2017 "MM17NL"
-keywords:
-hits: 50
+datePublished: 2017-04-19 14:32:24.000000000 +00:00
+dateModified: 2017-04-20 12:13:32.000000000 +00:00
+intro: Op 10 mei 2017 wordt de 9e editie van Meet Magento the Netherlands weer georganiseerd
+hits: 142
+nav: Blog
 ---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=213:meet-magento-2017-mm17nl&amp;catid=29:blog&amp;Itemid=121" title="Meet Magento 2017 - MM17NL"><img src="images/logos/mage_run_Meet_Mageto_Nederland_2017.jpg" alt="mage run Meet Mageto Nederland 2017" style="margin: 0px 0px 5px 5px; float: right;" /></a>Op<span style="text-decoration: underline;"> 10 mei</span> wordt <a href="https://www.meet-magento.nl/" target="_blank" title="Meet Magento 2017 - MM17NL">Meet Magento</a> the Netherlands weer georganiseerd. De onderhand alweer <span style="text-decoration: underline;">9e editie</span> die wordt gehouden is “The place to” be als het gaat over <strong>Magento</strong>. Ook dit jaar is er weer een bomvolle ochtend-, dag-en avondprogramma met diverse thema’s en sprekers. Dit jaar kunnen we bij de sprekers onder andere bedrijven als <strong>Heineken</strong>, <strong>Philips</strong>, <strong>Bol.com</strong> en natuurlijk <strong>SupportDesk</strong> verwachten.</p>
+<h3>Meet Magento The Netherlands, 10 mei 2017 DeFabrique Utrecht.</h3>
+<p>Dit jaar zal het evenement in <strong>De Fabrique</strong>&nbsp;worden gehouden in Utrecht. Met plaats voor meer dan 1000 bezoekers en verschillende loodsen kan je hier perfect als <strong>Magento webwinkelier</strong>, <strong>marketeer</strong>, <strong>commerce manager</strong> of <strong>Magento</strong> liefhebber alle talks bijwonen die jou interessant lijken. De opzet van de dag is dan ook slim opgezet met drie verschillende thema’s, verdeeld over in 7 loodsen, die de rode draad van het evenement zijn. De drie thema’s die centraal zijn in deze Meet Magento editie zijn&nbsp;“Create Great Tech”, “Advance Your Business” en “Discover Magento”.</p>
+<p>Alhoewel de talks ook in de ochtend beginnen is het échte ochtendprogramma eigenlijk de <strong>Mage Run</strong>. Geïnspireerd door andere Magento evenementen over de wereld, zoals <strong>Magento Imagine</strong>, wil <strong>Meet Magento the Netherlands editie</strong> ook een gezonde en frisse start aan de dag geven. In deze run, georganiseerd door <a href="over-ons/1-ray-bogman" target="_blank" title="Ray Bogman"><strong>Ray Bogman</strong></a>, kan je ervoor kiezen om de <span style="text-decoration: underline;">3km</span> en <span style="text-decoration: underline;">5km</span> run te doen en zo de dag sportief te beginnen. De <strong>Mage Run</strong> zal om<span style="text-decoration: underline;"> 08:00</span> van start gaan en al je ook de dag sportief wilt beginnen, Klik dan op <a href="https://www.meet-magento.nl/nl/magerun/" target="_blank" title="Mage run">Mage Run</a> om je in te schrijven voor de eerste officiële editie.</p>
+<h3>Create Great Tech</h3>
+<p>Het eerste thema van het Magento evenement. Een thema met veel <span style="text-decoration: underline;">technische inhoud</span>. Vooral gericht op programmeurs, ontwikkelaars en Magento users die willen weten wat er op technisch vlak allemaal mogelijk is en mogelijk wordt binnen <strong>Magento 2</strong>. De sprekers zullen hier hun kennis delen over onder andere, <strong>Magento 2 CLI, Magento 2 accessibility, Magento 2 Customizations</strong> en <strong>GrumPHP</strong>. Binnen dit thema is <strong>SupportDesk</strong> ook actief! <strong>Ray Bogman</strong> (CTO SupportDesk) zal om <span style="text-decoration: underline;">12:30 in Loods 2C</span> gastspreker zijn. Hij zal het hebben het nieuwe product van Magento, de <strong>DevBox</strong>, en zal demonstreren hoe je een <strong>DTAP</strong> (OTAP) omgeving kan opzetten met het gebruik van Dockers en de officiële <strong>DevBox Beta</strong> van Magento.</p>
+<h3>Advance your Business</h3>
+<p>Het tweede thema is gericht op hoe Magento websites en webshops het maximale uit hun business kunnen halen. De Keynote sprekers van o.a Heineken, Philips, JMango 360, Patta zullen aantonen hoe succes kan worden geboekt op onderwerpen als Magento E-commerce, marketing, apps, mobile shopping en multichannel 2 omnichannel.</p>
+<h3>Discover Magento</h3>
+<p>Het zit al in de naam, dit thema is gericht voor iedereen die overweegt Magento te gebruiken als webwinkel software. In Loods 23 kan iedereen zich laten inspireren en informeren over de mogelijkheden die er zijn bij het gebruik van Magento Software. Er zijn speeddates, talks over de mogelijkheden van Magento en experts waar je vragen aan kan stellen. Meer informatie over de thema's, talks en tijden staan in de <a href="https://www.meet-magento.nl/agenda/" target="_blank" title="Agenda Meet Magento"><strong>agenda.</strong></a></p>
+<h3>Meet Magento Awards</h3>
+<p>Het avond programma is even uitgebreid als het dagprogramma met als centraal punt de <strong>Meet</strong>&nbsp;<strong>Magento awards.</strong>&nbsp;Ieder jaar worden de prestigieuze Magento awards uitgereikt. <span style="text-decoration: underline;">5 prijzen</span> binnen <span style="text-decoration: underline;">5 categorieën</span> zijn er te verdelen. De categorieën zijn; <strong>Magento Community, Magento Enterprise, Magento 2, Community project, Magento Innovation</strong>. <strong>Ray</strong> was onderdeel van de expert jury en heeft geholpen een voorselectie te maken van alle ingeleverde projecten.&nbsp;Hij heeft ons al laten weten dat er heel veel goede kandidaten tussen zitten. Ook zij vanaf vandaag de stembussen open! dus mocht je benieuwd zijn welke projecten er allemaal genomineerd zijn en wil je stemmen ? Klik dan<a href="https://www.meet-magento.nl/nl/awards/" target="_blank" title="Magento Awards"> hier</a>. Verder staat er in het avondprogramma ook nog een uitgrebreid diner in de planning en een afterparty met DJ.</p>
+<p><strong>SupportDesk</strong> zal tijdens het hele event aanwezig zijn, inclusief met onze eigen officiële <strong>Magento Doctor Ray</strong>. De <strong>Magento Doctors</strong> lopen tijdens het evenement rond om allerlei Magento vragen te beantwoorden. Dus wil je iets weten over&nbsp;Magento 1, Magento 2, Magento webshops&nbsp;en nog veel meer Magento gerelateerde onderwerpen? Neem dan <a href="https://www.meet-magento.nl/nl/awards/" target="_blank" title="SupportDesk contact">contact </a>met ons op en dan zien wij elkaar tijdens het <a href="https://www.meet-magento.nl/nl/" target="_blank" title="Meet Magento the Netherlands"><strong>Meet Magento the Netherlands event</strong></a>.</p>
 
-# Meet Magento 2017 "MM17NL"
-
-SupportDesk zit sinds de oprichting in 2012 op het basistarief van 100 euro (exlc btw).
-In de afgelopen periode is er een hoop veranderd, waaronder de toegenomen vraag naar goede techneuten.
-Gezien de stijgende kosten op diverse vlakken, ontkomen ook wij er niet aan om hierin mee te gaan.
-
-Via deze weg willen we al onze klanten daarom informeren over een een tariefwijziging.
-Het nieuwe uurtarief zal per ingang van 1 April 2017 dan ook 125 euro (exlc btw) worden.
-Er zal net als voorheen ruimte blijven voor een mooie korting, dit is afhankelijk van de nieuwe paketten en eventuele afspraken onderling.
-
-Voor een uitgebreider overzicht van onze tariefwijziging, bekijk onze producten en diensten in onze shop. Mocht u nog verdere vragen hebben, neem dan gerust contact met ons op.
+<p>{snippet meer info}</p>
+<p>{snippet mats-van-de-seijp}</p>
