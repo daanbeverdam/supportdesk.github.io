@@ -1,15 +1,15 @@
 ---
 layout: 2column
-title: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof'
+title: 'Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof'
 url: keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
-description: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir
+description: 'Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir
   Kerkhof'
 image: keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
 authorimage: Hiltje Conradi
 authorname: Hiltje Conradi
 datePublished: 2016-03-14 08:08:00.000000000 +00:00
 dateModified: 2016-03-21 10:56:55.000000000 +00:00
-intro: 'Keystone Magento 2: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof'
+intro: 'Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof'
 hits: 11747
 nav: Blog
 ---
