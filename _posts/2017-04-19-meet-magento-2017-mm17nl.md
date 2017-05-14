@@ -1,6 +1,6 @@
 ---
 layout: 2column
-title: Meet Magento 2017 "MM17NL"
+title: Meet Magento 2017 'MM17NL'
 url: meet-magento-2017-mm17nl
 description: Op 10 mei 2017 wordt de 9e editie van Meet Magento the Netherlands weer
   georganiseerd

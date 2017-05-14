@@ -1,6 +1,6 @@
 ---
 layout: 2column
-title: 'Presentatie: "Magento 2 Cookbook" door Ray Bogman en Vladimir Kerkhof'
+title: 'Presentatie Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof'
 url: presentatie-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
 description: 'Presentatie: "Magento 2 cookbook" door Ray Bogman en Vladimir Kerkhof'
 image: presentatie-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof
@@ -8,7 +8,7 @@ authorimage: Hiltje Conradi
 authorname: Hiltje Conradi
 datePublished: 2016-04-21 15:51:00.000000000 +00:00
 dateModified: 2016-04-30 17:20:13.000000000 +00:00
-intro: 'Presentatie: "Magento 2 cookbook" door Ray Bogman en Vladimir Kerkhof'
+intro: 'Presentatie Magento 2 cookbook door Ray Bogman en Vladimir Kerkhof'
 hits: 908
 nav: Blog
 ---

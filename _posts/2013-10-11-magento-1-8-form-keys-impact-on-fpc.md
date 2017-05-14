@@ -1,6 +1,6 @@
 ---
 layout: 2column
-title: Magento 1.8 "form_keys" impact on FPC
+title: Magento 1.8 'form_keys' impact on FPC
 url: magento-1-8-form-keys-impact-on-fpc
 description: Magento 1.8 "form_keys" impact on FPC
 image: magento-1-8-form-keys-impact-on-fpc
@@ -8,7 +8,7 @@ authorimage: Melvyn Sopacua
 authorname: Melvyn Sopacua
 datePublished: 2013-10-11 07:59:59.000000000 +00:00
 dateModified: 2013-10-22 13:26:06.000000000 +00:00
-intro: Magento 1.8 "form_keys" impact on FPC
+intro: Magento 1.8 'form_keys' impact on FPC
 hits: 15122
 nav: Blog
 ---
