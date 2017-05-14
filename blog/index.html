@@ -1,20 +1,30 @@
 ---
-layout: 1column
+layout: 2column-blog
 title: Magento en Joomla nieuws. Actuele info mbt support voor Magento en Joomla
 description: Magento en Joomla nieuws. Actuele info mbt support voor Magento en Joomla
 keywords: joomla, magento, blog, magento nieuws, magento updates, magento release, joomla nieuws, joomla updates, joomla release
 ---
+<div class="twelve columns">
 
-{% for post in paginator.posts %}
-<article>
-
+  {% for post in paginator.posts %}
+  <article>
       <header>
           <h1><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h1>
           <span class="date"><i class="icon-clock"></i><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
           <span class="author"><i class="icon-user"></i> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
       </header>
+      <div>{{ post.excerpt }}</div>
+  </article>
+  {% endfor %}
 
-  <div class="twelve columns">{{ post.excerpt }}</div>
+  <hr>
+  <div>
+    <h3>Meer artikelen...</h3>
+    <ul class="fa-ul">
+      {% for post in site.posts offset:5 %}
+        <li><i class="fa-li fa fa-check" aria-hidden="true"></i><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 
-</article>
-{% endfor %}
+</div>

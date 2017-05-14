@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+  {% include head.html %}
+    <body class="home">
+      {% include ga.html %}
+      {% include header.html %}
+      <div class="wrap">
+        <div class="content">
+          <section class="blade blade--2column">
+            <div class="container">
+              <div>
+                  <h1 class="blog__section-title"><a title="{{ page.title }}" href="{{ page.url }}">{{ page.title }}</a></h1>
+              </div>
+
+              <div class="row">
+                <div class="twelve columns">
+                    <div class="row">
+
+                      <div class="nine columns">
+                        <div class="box">
+                          <div class="box__inner">
+                            <div class="box__content">
+                                {{ content }}
+                            </div>
+                            <div class="card__action">
+                              {% include call-me.html %}
+                            </div>
+                          </div>
+                        </div>
+
+                        {% include box-magento2.html %}
+
+                      </div>
+
+
+                      <div class="three columns">
+                        {% include box-magento2cookbook.html %}
+                        {% include box-magento-apk.html %}
+                      </div>
+
+                    </div>
+                </div>
+                {% include steps.html %}
+              </div>
+
+            </div>
+          </section>
+          {% include footer.html %}
+          {% include sw.html %}
+        </div>
+      </div>
+    </body>
+</html>
