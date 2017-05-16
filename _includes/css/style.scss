@@ -2085,7 +2085,7 @@ pre>code td {
 }
 
 .box__inner {
-    padding: 0 30px 0 20px;
+    padding: 0 20px 0 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2537,7 +2537,7 @@ footer .footer-link {
 
 .home h1 {
     font-size: 36px;
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .home .hero {
@@ -3235,4 +3235,69 @@ footer .second-footer p,
     margin:0 5px 0 -10px;
     visibility: visible;
     height: 0px
+}
+
+.check {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+
+.check li:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -10px;
+    visibility: visible;
+    height: 0px;
+    color: green
+  }
+
+hr {
+    margin: 20px auto;
+    height: 3px;
+    background: #ff7f00;
+    border: 0;
+}
+
+header {
+    border-bottom: 3px solid #ff7f00;
+}
+
+header time {
+    position: relative;
+    top: 110px;
+    float: right;
+    margin: 0 0 0 10px;
+    line-height: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #bbb;
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+}
+
+header time .day {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header time .month,
+header time .year {
+    display: block;
+    margin-left: 40px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.blogs {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: #424242
+}
+
+header .author {
+    margin-top: 10px;
+    color: #acacac;
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
 }
