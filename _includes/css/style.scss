@@ -3212,7 +3212,7 @@ footer .first-footer {
 footer .second-footer p,
 .bottom a {
     font-size: 10px;
-    text-transform: none;
+    text-transform: none
 }
 
 .underline {
@@ -3240,7 +3240,7 @@ footer .second-footer p,
 .check {
     padding-left: 0;
     margin-left: 2.14285714em;
-    list-style-type: none;
+    list-style-type: none
 }
 
 .check li:before {
@@ -3256,11 +3256,11 @@ hr {
     margin: 20px auto;
     height: 3px;
     background: #ff7f00;
-    border: 0;
+    border: 0
 }
 
 header {
-    border-bottom: 3px solid #ff7f00;
+    border-bottom: 3px solid #ff7f00
 }
 
 header time {
@@ -3271,7 +3271,7 @@ header time {
     line-height: 12px;
     font-family: Arial,Helvetica,sans-serif;
     color: #bbb;
-    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0)
 }
 
 header time .day {
@@ -3279,7 +3279,7 @@ header time .day {
     top: 5px;
     left: 0;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: bold
 }
 
 header time .month,
@@ -3287,7 +3287,7 @@ header time .year {
     display: block;
     margin-left: 40px;
     font-size: 11px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .blogs {
@@ -3299,5 +3299,10 @@ header time .year {
 header .author {
     margin-top: 10px;
     color: #acacac;
-    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0)
+}
+
+article {
+    border-bottom: solid 2px #f0f0f0;
+    padding-bottom: 20px
 }
