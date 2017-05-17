@@ -5,7 +5,6 @@ description: Magento en Joomla nieuws. Actuele info mbt support voor Magento en 
 keywords: joomla, magento, blog, magento nieuws, magento updates, magento release, joomla nieuws, joomla updates, joomla release
 ---
 <div class="twelve columns">
-
   {% for post in paginator.posts %}
   <article data-permalink="{{site.url-non}}{{post.url}}">
       <header>
@@ -16,8 +15,8 @@ keywords: joomla, magento, blog, magento nieuws, magento updates, magento releas
       <div>{{ post.excerpt }}</div>
   </article>
   {% endfor %}
-
-  <hr>
+</div>
+<div class="twelve columns">
   <div>
     <h3>Meer artikelen...</h3>
     <ul class="check">
@@ -26,5 +25,4 @@ keywords: joomla, magento, blog, magento nieuws, magento updates, magento releas
       {% endfor %}
     </ul>
   </div>
-
 </div>
