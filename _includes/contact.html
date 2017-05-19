@@ -1,6 +1,6 @@
 <div class="row">
   <div class="twelve columns">
-  <form method="post" action-xhr="https://mail.mage-academy.training" target="_top">
+  <form method="post" action-xhr="/subscribe" target="_top">
       <div class="row">
 
         <div class="six columns">
@@ -31,12 +31,13 @@
           </div>
           <div class="control-group form-group">
             <label>Heeft de aanvraag spoed?</label>
-            <input type="radio" name="important" class="validate[required]" value="ja" required><label for="ja">Ja</label>
+            <p id="fee" [text]="fee-notification">werkt dit?</p>
+            <input type="radio" name="important" class="validate[required]" value="ja" on="checked:AMP.setState({fee-notification: 'Bij spoed aanvragen wordt er een opslag van 150% gehanteerd.'})" required><label for="ja">Ja</label>
             <input type="radio" name="important" class="validate[required]" value="nee"><label for="nee">Nee</label>
           </div>
-            <div class="control-group form-group">
-              <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Website URL" required>
-            </div>
+          <div class="control-group form-group">
+            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Website URL" required>
+          </div>
         </div>
 
         <div class="twelve columns">
