@@ -5,26 +5,38 @@
 
         <div class="six columns">
           <div class="control-group form-group">
-            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="veld 1" required>
+            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Volledige Naam" required>
           </div>
           <div class="control-group form-group">
-            <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="veld 2" required>
+            <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="E-mail" required>
           </div>
           <div class="control-group form-group">
-            <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="veld 3" required>
+            <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="Telefoonnummer" required>
+          </div>
+          <div class="control-group form-group">
+            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Bedrijfsnaam" required>
           </div>
         </div>
 
         <div class="six columns">
           <div class="control-group form-group">
-            <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="veld 4" required>
+            <label for="reason">Reden voor Reden voor contact met SupportDesk</label>
+            <select name="reason" class="validate[required] data-input">
+              <option value="Algemene support vraag">Algemene support vraag</option>
+              <option value="Magento 1.x support aanvraag">Magento 1.x support aanvraag</option>
+              <option value="Magento 2.x support aanvraag">Magento 2.x support aanvraag</option>
+              <option value="Joomla support aanvraag">Joomla support aanvraag</option>
+              <option value="In beheername webshop">In beheername webshop</option>
+            </select>
           </div>
           <div class="control-group form-group">
-            <input type="email" name="email" class="validate[required,custom[email]] data-input" placeholder="veld 5" required>
+            <label>Heeft de aanvraag spoed?</label>
+            <input type="radio" name="important" class="validate[required]" value="ja" required><label for="ja">Ja</label>
+            <input type="radio" name="important" class="validate[required]" value="nee"><label for="nee">Nee</label>
           </div>
-          <div class="control-group form-group">
-            <input type="phone" name="phone" class="validate[required,custom[phone]] data-input" placeholder="veld 6" required>
-          </div>
+            <div class="control-group form-group">
+              <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Website URL" required>
+            </div>
         </div>
 
         <div class="twelve columns">
