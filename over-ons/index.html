@@ -1,6 +1,76 @@
 ---
 layout: 2column
 title: Over ons
+nav: over-ons
 ---
+<p>SupportDesk zorgt voor professionele ondersteuning op Joomla! en Magento websites en webshops.
+Door het inzetten van standaardisatie en geconsolideerde werkprocessen zullen we onze klanten helpen en ondersteunen in het verkrijgen en behouden van een geoptimaliseerde webshop of website.</p>
 
-###Over ons
+<p>We zullen hierin nauw samenwerken met door SupportDesk goedgekeurde partners op het gebied van hosting en development. Op deze manier is een website-eigenaar van A tot Z in goede handen.</p>
+
+<p>Mocht het dus allemaal net even te ingewikkeld worden, dan staan wij voor u klaar. SupportDesk is de ideale partner voor systeembeheerders, webhosters, webdesigners en programmeurs.</p>
+<p>
+{% for address in site.address %}
+  {{ address.line }}<br />
+{% endfor %}
+</p>
+
+    <div class="tablet-up">
+      <div class="card-container">
+        {% for member in site.data.about-grid %}
+        {% if member.status == 'active' %}
+        <div class="card">
+          <div class="card__image">
+            <a title="{{ member.name }}" href="{{ member.url }}">
+            <amp-img
+                noloading
+                height="{{ member.height }}"
+                width="{{ member.width }}"
+                alt="{{ member.name }}"
+                layout="responsive"
+                src="/img/team/{{ member.pic }}.jpg">
+            </amp-img></a>
+          </div>
+          <div class="card__content">
+            <h3 class="card__title"><a title="{{ member.name }}" href="{{ member.url }}">{{ member.name }}</a></h3>
+            <p>{{ member.description }}</p>
+          </div>
+          <div class="card__action">
+            <a title="{{ member.name }}" href="{{ member.url }}">Lees meer</a>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <amp-carousel class="tablet-down"
+      width="auto"
+      height="490"
+      type="slides"
+      layout="fixed-height">
+      {% for member in site.data.about-grid %}
+      {% if member.status == 'active' %}
+      <div class="card">
+        <div class="card__image">
+          <a title="{{ member.name }}" href="{{ member.url }}">
+          <amp-img
+              noloading
+              height="{{ member.height }}"
+              width="{{ member.width }}"
+              alt="{{ member.name }}"
+              layout="responsive"
+              src="/img/team/{{ member.pic }}.jpg">
+          </amp-img></a>
+        </div>
+        <div class="card__content">
+          <h3 class="card__title"><a title="{{ member.name }}" href="{{ member.url }}">{{ member.name }}</a></h3>
+          <p>{{ member.description }}</p>
+        </div>
+        <div class="card__action">
+          <a title="{{ member.name }}" href="{{ member.url }}">Lees meer</a>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+    </amp-carousel>
