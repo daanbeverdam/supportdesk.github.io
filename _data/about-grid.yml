@@ -1,6 +1,6 @@
 - name: Wouter den Otter
   description: CEO SupportDesk
-  url: /over-ons/2-wouter-den-otter
+  url: /over-ons/wouter-den-otter
   pic: wouter-den-otter
   height: 150
   width: 200
@@ -8,7 +8,7 @@
 
 - name: Ray Bogman
   description: CTO SupportDesk | Magento Doctor
-  url: /over-ons/1-ray-bogman
+  url: /over-ons/ray-bogman
   pic: ray-bogman
   height: 150
   width: 200
@@ -16,128 +16,128 @@
 
 - name: Sibren Wilkeshuis
   description: Team Leader Orange
-  url: /over-ons/15-sibren-wilkeshuis
-  pic: sibren
+  url: /over-ons/sibren-wilkeshuis
+  pic: sibren-wilkeshuis
   height: 150
   width: 200
   status: active
 
 - name: Rachel Tjong-A-Hung
   description: Team Leader Red | Ticket Master
-  url: /over-ons/16-rachel-tjong-a-hung
-  pic: rachel
+  url: /over-ons/rachel-tjong-a-hung
+  pic: rachel-tjong-a-hung
   height: 150
   width: 200
   status: active
 
 - name: Olaf van Tol
   description: Team Leader Blue | Project Manager
-  url: /over-ons/38-olaf-van-tol
-  pic: pic
+  url: /over-ons/olaf-van-tol
+  pic: olaf-van-tol
   height: 150
   width: 200
   status: active
 
 - name: Ronald Bethlehem
   description: Support Engineer
-  url: /over-ons/17-ronald-bethlehem
-  pic: pic
+  url: /over-ons/ronald-bethlehem
+  pic: ronald-bethlehem
   height: 150
   width: 200
   status: active
 
 - name: Daan Beverdam
   description: Support Engineer
-  url: /over-ons/18-daan-beverdam
-  pic: pic
+  url: /over-ons/daan-beverdam
+  pic: daan-beverdam
   height: 150
   width: 200
   status: active
 
-- name: Edgar
+- name: Edgar Kirchner
   description: Support Engineer
-  url: /over-ons/
-  pic: pic
+  url: /over-ons/edgar-kirchner
+  pic: edgar-kirchner
   height: 150
   width: 200
   status: active
 
 - name: Julian Murillo
   description: Support Engineer
-  url: /over-ons/36-julian-murillo
-  pic: pic
+  url: /over-ons/julian-murillo
+  pic: julian-murillo
   height: 150
   width: 200
   status: active
 
 - name: Wilco Vogt
   description: Support Engineer
-  url: /over-ons/26-wilco-vogt
-  pic: pic
+  url: /over-ons/wilco-vogt
+  pic: wilco-vogt
   height: 150
   width: 200
   status: active
 
 - name: Yorick Germs
   description: Support Engineer
-  url: /over-ons/37-yorick-germs
-  pic: pic
+  url: /over-ons/yorick-germs
+  pic: yorick-germs
   height: 150
   width: 200
   status: active
 
 - name: Robin Westra
   description: Support Engineer
-  url: /over-ons/28-robin-westra
-  pic: pic
+  url: /over-ons/robin-westra
+  pic: robin-westra
   height: 150
   width: 200
   status: active
 
-- name: Davi
+- name: Davi Verheul
   description: Support Engineer
-  url: /over-ons/
-  pic: pic
+  url: /over-ons/davi-verheul
+  pic: davi-verheul
   height: 150
   width: 200
   status: active
 
 - name: Erik van Rijn
   description: Support Engineer
-  url: /over-ons/9-erik-van-rijn
-  pic: pic
+  url: /over-ons/erik-van-rijn
+  pic: erik-van-rijn
   height: 150
   width: 2007
   status: active
 
 - name: Enno Stuurman
   description: Support Engineer
-  url: /over-ons/8-enno-stuurman
-  pic: pic
+  url: /over-ons/enno-stuurman
+  pic: enno-stuurman
   height: 150
   width: 2007
   status: active
 
 - name: Jikke Broxterman
   description: Support Engineer
-  url: /over-ons/4-jikke-broxterman
-  pic: pic
+  url: /over-ons/jikke-broxterman
+  pic: jikke-broxterman
   height: 150
   width: 200
   status: active
 
 - name: Mike Koning
   description: Support Engineer
-  url: /over-ons/27-mike-koning
-  pic: pic
+  url: /over-ons/mike-koning
+  pic: mike-koning
   height: 150
   width: 200
   status: active
 
 - name: Patrick Coppens
   description: Support Engineer
-  url: /over-ons/39-patrick-coppens
-  pic: pic
+  url: /over-ons/patrick-coppens
+  pic: patrick-coppens
   height: 150
   width: 200
   status: active
@@ -145,23 +145,39 @@
 - name: Tim Vroom
   description: Support Engineer
   url: /over-ons/24-tim-vroom
-  pic: pic
+  pic: tim-vroom
   height: 150
   width: 200
   status: active
 
+- name: Jan Rezelman
+  description: Support Engineer
+  url: /over-ons/jan-rezelman
+  pic: jan-rezelman
+  height: 150
+  width: 200
+  status: active
+
+- name: Paul Stolk
+  description: Support Engineer
+  url: /over-ons/paul-stolk
+  pic: paul-stolk
+  height: 150
+  width: 200
+  status: gone
+
 - name: Mats van de Seijp
   description: Marketing
-  url: /over-ons/35-mats-van-de-seijp
-  pic: pic
+  url: /over-ons/mats-van-de-seijp
+  pic: mats-van-de-seijp
   height: 150
   width: 2007
   status: active
 
 - name: Frank Kooger
   description: Support Engineer
-  url: /over-ons/21-frank-kooger
-  pic: pic
+  url: /over-ons/frank-kooger
+  pic: frank-kooger
   height: 150
   width: 2007
   status: gone
