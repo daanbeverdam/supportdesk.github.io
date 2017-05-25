@@ -16,7 +16,7 @@ services:
           image: nginx
           hostname: nginx
           ports:
-            - 8080:80
+            - 80:80
           volumes:
             - ./_site:/usr/share/nginx/html
 
