@@ -1,6 +1,44 @@
 ---
 layout: 2column
 title: Contact
+description:
+keywords:
+nav: contact
 ---
 
-###Contact
+<p>Om contact met ons op te nemen kun je ons bellen op <a title="{{ site.tel }}" href="tel:{{ site.tel }}" title="{{ site.tel }}">{{ site.tel }}</a> of vul het onderstaande formulier in.</p>
+
+<h3>Adres:</h3>
+
+<p>{{ site.name }}<br />
+    {% for address in site.address %}
+      {{ address.line }}<br />
+    {% endfor %}
+</p>
+
+<h3>Bedrijfsgegevens:</h3>
+
+<p>
+<strong>Kamer van Koophandel:</strong> 55563953<br />
+<strong>BTW nummer:</strong> NL851765658B01
+</p>
+
+<p>
+<strong>Bankrekening:</strong> 479896879<br />
+<strong>IBAN:</strong> NL23ABNA0479896879<br />
+<strong>BIC:</strong> ABNANL2A<br />
+<strong>Bank naam:</strong> ABN AMRO Bank N.V.
+</p>
+
+<p>
+<strong>Informatie:</strong> info [at] supportdesk.nu<br />
+<strong>Support:</strong> support [at] supportdesk.nu<br />
+<strong>Billing:</strong> billing [at] supportdesk.nu<br />
+</p>
+
+<p>
+<strong>Telefoon:</strong><a title="{{ site.tel }}" href="tel:{{ site.tel }}" title="{{ site.tel }}">
+  {{ site.tel }}</a>
+</p>
+
+<p>Wij zijn elke werkdag beschikbaar van {{ site.hours }} uur.</p>
