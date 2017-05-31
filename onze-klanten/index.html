@@ -1,6 +1,35 @@
 ---
 layout: 2column
 title: Onze klanten
+description: Portfolio overzicht van onze Magento en Joomla! klanten.
+keywords:
+nav: onze-klanten
 ---
 
-###Onze klanten
+<div class="container portfolio">
+  <section class="points">
+    {% for member in site.data.portfolio %}
+    {% if member.status == 'active' %}
+    <div class="point" id="{{ member.name }}">
+      <div class="point-text">
+        <h3><a title="{{ member.name }}" target="_blank" href="{{ member.url }}">{{ member.name }}</a></h3>
+          <div class="point-img">
+            <a title="{{ member.name }}" target="_blank" href="{{ member.url }}">
+              <amp-img
+                noloading
+                height="{{ member.height }}"
+                width="200"
+                alt="{{ member.name }}"
+                layout="responsive"
+                src="/img/portfolio/{{ member.pic }}.png">
+              </amp-img></a>
+          </div>
+        <div class="description small">
+          <p>{{ member.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </section>
+</div>
