@@ -3385,7 +3385,7 @@ article {
 
 .point-text h3,
 .point-text .description {
-    margin: 0 20px;
+    margin: 0 0;
     width: 0
 }
 
@@ -3395,6 +3395,10 @@ article {
 
 .point-text a {
     font-size: 24px
+}
+
+.point-text .title {
+    display: none
 }
 
 .point-text .description {
@@ -3407,6 +3411,10 @@ article {
 
 .point-text .description p {
     margin-top: 0
+}
+
+.point-text .description h3 {
+    width: auto
 }
 
 @media only screen and (max-width: 768px) {

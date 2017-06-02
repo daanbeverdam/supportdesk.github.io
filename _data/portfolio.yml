@@ -1,135 +1,153 @@
 - name: Aidulac
   description: Bij Aidulac vind je alles voor het dragen van kinderen en borstvoeding geven. Aidulac geeft antwoord op je vragen over dragen of borstvoeding, via de website of in een persoonlijk gesprek. Draagdoeken, draagzakken en producten zoals borstkolven als ondersteuning bij borstvoeding koop je in de webshop. Voor persoonlijk advies kom je langs in de winkel. Gecertificeerd lactatiekundige en draagconsulent Annette Luime helpt je graag verder.
   url: https://aidulac.nl/
-  pic: logo-aidulac
+  pic: logo_aidulac
   height: 42
   status: active
 
 - name: Babyandmore
   description: Babyandmore is in 2005 begonnen met het demonstreren en verkopen van babybenodigdheden bij mensen thuis onder de naam Baby & More. Al snel was er behoefte aan aftersales in de vorm van een kleine webshop. Deze bleef maar groeien en is nu een begrip in Nederland. In 2007 is Babyandmore volledig gestopt met haar thuisparty-activiteiten en richt zich 100% op haar webshops.
   url: https://www.babyandmore.eu/
-  pic: logo-babyandmore
+  pic: logo_babyandmore
   height: 50
   status: active
 
 - name: Brouwmarkt
   description: Brouwmarkt is dé zelf maak specialist voor o.a. bier, wijn, likeur, zuivel en inmaken. Wij streven er naar de klant een kwaliteitsproduct aan te bieden met een zo laag mogelijke prijs. Naast de fysieke winkel biedt Brouwmarkt al meer dan 10 jaar gemakkelijk, voordelig en vooral vertrouwd online shoppen. Wij zijn de grootste winkel en webshop met ruim 5.100 producten direct uit voorraad leverbaar.
   url: https://www.brouwmarkt.nl/
-  pic: logo-brouwmarkt
+  pic: logo_brouwmarkt
   height: 17
   status: active
 
 - name: BEMA Beauty Products
   description: BEMA Beauty Products is voortgekomen uit een Beautycenter die wij in 1996 zijn gestart. Wij verkopen op 10 webshops in Nederland (5) en Duitsland (5) meer dan +5.000 Make-up & Huidverzorgingsproducten online. Wij zijn expert in make-up, huidverzorging- en huidverbeteringsproducten omdat ons team bestaat uit schoonheidsspecialisten en visagisten die dagelijks met deze producten werken. BEMA Beauty Products verkoopt vele bekende schoonheidsspecialistmerken online, o.a. Payot, Juvena, Dermalogica, Thalgo, Medik8, Matis, Skeyndor, Gladskin, Anastasia, Pupa en nog vele andere merken. Onze missie is om vrouwen en mannen te voorzien van huidverzorgingsproducten die je nodig hebt om er goed en verzorgt uit te zien en huidproblemen zoals; acne & puistjes, couperose, rosacea, droge en gevoelige huid te voorkomen of op te lossen. Onze schoonheidsspecialisten en visagisten hebben veel productkennis en kunnen uw voorzien van het juiste advies.
   url: https://www.bemabeauty.com/
-  pic: logo-bema
+  pic: logo_bema
   height: 90
   status: active
 
 - name: Condoom Anoniem
-  description:
-  url:
-  pic:
+  description: Condoom-Anoniem.nl is een online award winning speciaalzaak voor condooms en aanverwante producten die als missie heeft kwalitatief hoogstaande producten snel, discreet en tegen kosteffectieve prijzen te leveren. Met duizenden bestellingen en klanten per jaar behoort Condoom-anoniem tot een van de webleiders op dit gebied in Nederland.
+  url: https://www.condoom-anoniem.nl/
+  pic: logo_condoomanoniem
+  height: 50
   status: active
 
 - name: David Nieper
-  description:
-  url:
-  pic:
+  description: Now in its 55th year, David Nieper is a designer, manufacturer and retailer of luxury womenswear, knitwear and nightwear. We source fine fabrics from around the world and make everything in our workshops in England. For truly personal service contact Customer Care in the UK, France, Germany, Netherlands and Switzerland or shop online at http://www.davidnieper.nl/.
+  url: https://www.davidnieper.nl/
+  pic: logo_davidnieper
+  height: 40
   status: active
 
 - name: Duijvestein-wintersport
-  description:
-  url:
-  pic:
+  description: Sinds 1955 is de naam Duijvestein een begrip bij wintersport ‘minded’ Nederland. In meer dan 55 jaar tijd zijn vele gezinnen en generaties voorzien van het nieuwste wintersportmateriaal. Duijvestein biedt een zeer uitgebreid kwaliteitsassortiment van gerenommeerde merken. Door de goede band met leveranciers treft u bij ons regelmatig unieke aanbiedingen. Duijvestein zit bovenop de sport en daarmee op nieuwe (technologische) ontwikkelingen.
+  url: https://www.duijvestein-wintersport.nl/
+  pic: logo_duijvestein
+  height: 41
   status: active
 
 - name: Exact Nederland
-  description:
-  url:
-  pic:
+  description: Het ondersteunen van ondernemers is de kern van de werkzaamheden bij Exact. Ze bieden software-oplossingen aan die iedere zakelijke activiteit ondersteunen en die real time inzicht geven in de gehele onderneming.
+  url: https://www.exact.com/nl/
+  pic: logo_exact
+  height: 50
   status: active
 
 - name: IDCP
-  description:
-  url:
-  pic:
+  description: IDCP is internationaal actief als vertegenwoordiger van merken uit de VS en Azie. De producten verkopen we door heel Europa en daarvoor maken we gebruik van diverse websites, webshops, webservices. en daar komt veel bij kijken. Supportdesk helpt ons met de ingewikkelde vraagstukken die we daarbij tegenkomen.
+  url: http://www.idcp.nl/
+  pic: logo_idcp
+  height: 31
   status: active
 
 - name: Kabeldirect
-  description:
-  url:
-  pic:
+  description: Kabeldirect is inmiddels uitgegroeid tot een gevestigde webwinkel op het gebied van kabels en accessoires. De webshop staat bekend om zijn ruime assortiment dat dagelijks wordt uitgebreid met allerlei producten. In tegenstelling tot vele andere kabel webshops worden de kabels niet in dure, overbodige en plastic blisterverpakkingen geleverd. Dit maakt het product niet alleen goedkoper, maar ook nog eens milieuvriendelijker. Kabeldirect is van maandag tot en met vrijdag van 09:00 tot 17:00 uur geopend en op zaterdag van 10:00 tot 14:00 uur. Tijdens deze openingstijden zijn wij telefonisch (+31 (0)85-2737303), via onze chat, social media of whatsapp te bereiken voor professioneel advies of vragen. Tevens kunt u tijdens de openingstijden terecht bij onze afhaalbalie op Haefland 5A in Brunssum. Kabeldirect dé webwinkel voor al uw kabels en accessoires!
+  url: https://www.kabeldirect.nl/
+  pic: logo_kabeldirect
+  height: 51
   status: active
 
 - name: Just Brands
-  description:
-  url:
-  pic:
+  description: Je vindt onderstaande merken onder één dak in de winkels van Just Brands. De trouwe bezoekers onder ons hebben inmiddels het “Just Brands gevoel” ervaren. Zij weten dat wij winkelen tot een waar feestje maken. Persoonlijke en eerlijke benadering met een bak koffie en een glimlach creëert een waar huiskamergevoel. PME Legend. Het merk PME Legend is een eerbetoon aan de cargo-piloten en oude vrachtvliegtuigen. Dit vormt de basis voor vele stijlen, details en materialen in de collecties. Je voelt hierin het rauwe avontuur, de spanning en de adrenaline. De attitude van dit merk is 'no sweat' oftewel comfortabel en down-to-earth. Met deze collectie ben je “ready for take-off”! Cast Ironstaat voor stoer, modisch denim. Klassieke items worden in de collectie gecombineerd met een twist, waarbij gelaagdheid en denim een belangrijke rol spelen. De ontwerpen zijn mannelijk en stijlvol tegelijk. De combinatie van stoere en verfijnde materialen met bijzondere technieken geven de Cast Iron collectie een geraffineerde en soms ongepolijste uitstraling. Vanguard. De connectie met motoren, reizen en roadtrips is snel gelegd als je het merk Vanguard leert kennen. De collectie bevat zowel basics als uitgewerkte items en is een mooie mix van materialen, details en contrasten. De items zijn uitgewerkt met de herkenbare biker-accenten. Casual met een authentiek rafelrandje.
+  url: https://www.justbrands.nl/
+  pic: logo_justbrands
+  height: 115
   status: active
 
 - name: Kika
-  description:
-  url:
-  pic:
+  description: De stichting heeft als algemeen doel het werven van fondsen voor vernieuwend onderzoek en andere activiteiten op het gebied van kinderkanker, gericht op minder pijn en strijd, meer genezing en een hogere kwaliteit van leven op latere leeftijd.
+  url: https://www.kika.nl/
+  pic: logo_kika
+  height: 50
   status: active
 
 - name: Mad Ants
-  description:
-  url:
-  pic:
+  description: Let us tell you a story about a colony of hard working ants. In any given ant societies, ants work together in clear divisions of labor to solve problems, in a systematic manner. They are meticulous about how they fulfill their needs. Ants rely on clear communication between each other and are supportive of individual roles, for the collective’s overall wellbeing. This is how we are, at Mad Ants. We are an online concept store that sells a wide variety of curated unique, individual goods, sought from our finest vendors. We pride ourselves in how close we work with our sellers. Our collaboration with vendors produces one-of-a-kind pieces that are limited for Mad Ants. We work very hard at showcasing distinctive pieces, to create a pleasant surprise effect for our buyers. Our goods will speak of the buyer’s individual styles and often times, eclectic styles. The quality products sold at Mad Ants include fashion accessories and lifestyle products. The majority of our products are independent designers and brands that we will proudly promote both locally and internationally.
+  url: https://mad-ants.com/
+  pic: logo_madants
+  height: 59
   status: active
 
 - name: McGregor
-  description:
-  url:
-  pic:
+  description: McGregor is een internationaal modemerk voor heren, dames en kinderen, opgericht in 1921 in New York. De Anglo-American roots van het merk zien we terug in de luxe en sportieve collectie. McGregor.nl is de officiële webshop, waar het grootste assortiment McGregor collectie verkrijgbaar is.
+  url: http://www.mcgregor.nl/
+  pic: logo_mcgregor
+  height: 42
   status: active
 
 - name: Labbé
-  description:
-  url:
-  pic:
+  description: Labbé ontwikkeld al meer dan 50 jaar ideeën en producten om de creativiteit van kinderen te bevorderen. We weten dat kinderen enthousiast zijn maar hoe motiveer je ze? Bij Labbé denken wij dat dit te maken heeft met het spannend en interessant maken van onze producten. Het constant triggeren van "hier wil ik meer over weten" en "Hier wil ik beter in worden" bij kinderen. Dat is ons dagelijks werk bij Labbé.
+  url: http://shop.labbe.de/
+  pic: logo_labbe
+  height: 33
   status: active
 
 - name: Muller Wenskaarten
-  description:
-  url:
-  pic:
+  description: Muller wenskaarten, de online wenskaartenwinkel, is in juni 2007 opgericht en heeft als doel online echte kwaliteitswenskaarten en cadeautjes verkopen aan particulieren en bedrijven. Vanaf 1 kaart tot honderden kaarten per bestelling. Er is veel keus met een snelle levering. Met een wenskaart van Muller wenskaarten stuurt u een heel persoonlijke attentie die zeker zal opvallen bij de ontvanger!
+  url: https://www.mullerwenskaarten.nl/
+  pic: logo_mullerwenskaarten
+  height: 55
   status: active
 
 - name: Ten Kate Textiel
-  description:
-  url:
-  pic:
+  description: Ten Kate Textiel is een groothandel en specialist in textiel voor commerciële en institutionele bedrijven. U bent bij ons aan het juiste adres voor al uw textielproducten, of het nu gaat om badtextiel, bedtextiel, zorgtextiel of bedrijfskleding. Met de lancering van de nieuwe B2B webshop in 2013 met 25.000 producten is TenKateTextiel.nl de grootste online aanbieder in de zakelijke textielmarkt.
+  url: https://www.tenkatetextiel.nl/
+  pic: logo_tenkate
+  height: 21
   status: active
 
 - name: Yumeko
-  description:
-  url:
-  pic:
+  description: Veel van de producten om ons heen worden gemaakt op een manier die slecht is voor mens, dier en milieu. Dat geldt ook voor uw bed en badgoed. En dat is helemaal niet nodig. Yumeko is het groene en schone alternatief als het gaat om lekker slapen en baden. De eco keuze in kussens, dekbedden, matrassen, beddengoed, handdoeken, dekens, badmatten en badjassen. Yumeko gebruikt alleen de mooiste en zzzachtste, natuurlijke materialen van de hoogste kwaliteit. Met een eco- en/of fairtrade certificaat.
+  url: https://www.yumeko.nl/
+  pic: logo_yumeko
+  height: 70
   status: active
 
 - name: Patta
-  description:
-  url:
-  pic:
+  description: Out of love and necessity rather than profit and novelty, Patta opened its doors in 2004. Situated right in the city heart of Amsterdam, the store literally became the center of attention by bringing new excitement to the Dutch street wear scene. Founded by Edson Sabajo and Guillaume ‘Gee’ Schmidt as a means to provide themselves, as well as their friends and family with a steady supply of footwear and gear, that which has started as a hobby, has now flourished into a thriving business and recognizable brand. This unwavering determination to make success happen, the just-do-it-yourself mentality and the willingness to go against the grain are the foundation of Patta's identity. Aside from footwear staples such as Nike, adidas, ASICS, Diadora and various others you can also find products from brands like Rockwell and Patta's in-house brand and more.
+  url: https://www.patta.nl/
+  pic: logo_patta
+  height: 80
   status: active
 
 - name: Shopvoorgezondheid
-  description:
-  url:
-  pic:
+  description: Shopvoorgezondheid.nl is een webshop die is gespecialiseerd in gezondheidsproducten, wellnessproducten en veiligheidsproducten, zoals bloeddrukmeters, daglichtlampen, luchtbevochtigers, massage-apparaten, sportartikelen, weegschalen en zelftesten. De tevredenheid van de klant en klantgericht werken zijn dé uitgangspunten binnen alle afdelingen, van klantenservice tot logistiek. De shop onderscheidt zich door gebruiksgemak, informatievoorziening en een optimale service. We zijn transparant in onze prijzen, bieden u een goede prijs-kwaliteitverhouding en leveren vanuit ons eigen magazijn. U kunt uw bestelling natuurlijk ook op onze locatie in Uden ophalen. Vanuit Shopvoorgezondheid maken we gebruik van een multistore Magento omgeving. Wij streven ernaar om zo min mogelijk externe extensies in gebruik te nemen en zoveel mogelijk gebruik te maken van de Magento Core. Daar waar nodig passen wij de front-end aan. Onze Magento omgeving onderhouden wij intern en zodra wij handjes en kennis tekort schieten schakelen wij Supportdesk in om ons bij te staan. Supportdesk is een betrouwbare partner voor het oplossen van en meedenken over Magento vraagstukken. Wij zijn in ieder geval tevreden over de service en kijken uit naar een duurzame samenwerking.
+  url: https://shopvoorgezondheid.nl/
+  pic: logo_shopvoorgezondheid
+  height: 40
   status: active
 
 - name: SHCN dierenuitvaart
-  description:
-  url:
-  pic:
+  description: SHCN is een organisatie met een brede dienstverlening. Zij bieden voorlichting, paarden- en dierenuitvaartregelingen en uitvaartverzorging allemaal nauw met elkaar verbonden. Doordat zij alle kennis op paarden- en dierenuitvaartgebied in huis hebben, houden zij zoveel mogelijk in eigen hand. De organisatie van hun dienstverlening is volledig gericht op het leveren van maatwerk op basis van de unieke wensen en behoeften van hun klanten (huisdiereigenaren).
+  url: http://shcn.eu/
+  pic: logo_shcn
+  height: 75
   status: active
 
 - name: Zoe Karssen
   description:
   url: https://www.zoekarssen.com/
-  pic:
+  pic: logo_zoekarssen
+  height: 15
   status: active

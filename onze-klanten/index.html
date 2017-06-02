@@ -12,19 +12,13 @@ nav: onze-klanten
     {% if member.status == 'active' %}
     <div class="point" id="{{ member.name }}">
       <div class="point-text">
-        <h3><a title="{{ member.name }}" target="_blank" href="{{ member.url }}">{{ member.name }}</a></h3>
-          <div class="point-img">
+        <h3><a class="title" title="{{ member.name }}" target="_blank" href="{{ member.url }}">{{ member.name }}</a>
             <a title="{{ member.name }}" target="_blank" href="{{ member.url }}">
-              <amp-img
-                noloading
-                height="{{ member.height }}"
-                width="200"
-                alt="{{ member.name }}"
-                layout="responsive"
-                src="/img/portfolio/{{ member.pic }}.png">
-              </amp-img></a>
-          </div>
+              <amp-img noloading height="{{ member.height }}" width="200" alt="{{ member.name }}" layout="responsive" src="/img/portfolio/{{ member.pic }}.png"></amp-img>
+            </a>
+        </h3>
         <div class="description small">
+          <h3><a title="{{ member.name }}" target="_blank" href="{{ member.url }}">{{ member.name }}</a></h3>
           <p>{{ member.description }}</p>
         </div>
       </div>
