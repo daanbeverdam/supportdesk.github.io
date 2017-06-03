@@ -281,8 +281,8 @@ h4:before,
 h5:before {
     display: block;
     content: " ";
-    margin-top: -90px;
-    height: 90px;
+    margin-top: 0px;
+    height: 0px;
     visibility: hidden
 }
 
@@ -3433,5 +3433,90 @@ article {
     }
     .point h3 {
         margin-bottom: 30px
+    }
+}
+
+.design-principles .title {
+    margin: 100px auto;
+    max-width: 500px;
+    text-align: center
+}
+
+.design-principles .title h1,
+.design-principles .title p {
+    color: white
+}
+
+.design-principles .principles {
+    display: flex
+}
+
+.design-principles .principles-col {
+    flex: 1 1 auto;
+    width: 0
+}
+
+.design-principles .principle {
+    display: inline-flex
+}
+
+.design-principles .principle:last-child .text::after {
+    display: none
+}
+
+.design-principles .principle .image {
+    left: 30px;
+    min-width: 150px;
+    position: relative;
+    top: 50px
+}
+
+.design-principles .principle .text {
+    position: relative;
+    margin: 10px
+}
+
+.design-principles .principle .text::after {
+    background: linear-gradient(to right, #424242, #bebebe, #424242);
+    bottom: -35px;
+    content: '';
+    height: 3px;
+    position: absolute;
+    transform: rotate(180deg);
+    width: 100%
+}
+
+@media only screen and (max-width: 1024px) {
+    .design-principles .wrap::after {
+        height: 270vw;
+        width: 150vw
+    }
+    .design-principles .principles {
+        display: block;
+        padding: 20px
+    }
+    .design-principles .principles-col {
+        width: auto
+    }
+    .design-principles .principles-col:first-child .principle:last-child .text::after {
+        display: block
+    }
+    .design-principles .principle .image {
+      left: -40px;
+      top: 75px;
+      min-width: 50px;
+      margin: -40px auto;
+    }
+    .design-principles .principle .text {
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .design-principles .principle .image {
+        display: none
+    }
+    .design-principles .principles {
+        padding: 0 
     }
 }

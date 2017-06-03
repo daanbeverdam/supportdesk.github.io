@@ -1,0 +1,34 @@
+- name: Marleen Boer - Magento/Joomla/MageBridge Training workshop
+  description: Ik heb super veel gehad aan de training/coaching die ik bij Support Desk heb gehad met betrekking tot Joomla!, Magebridge en Magento. Een paar fijne leerzame dagen. De persoonlijkheid van Ray heeft hier ook zeker aan bijgedragen. Echt een training op maat die ik iedereen die met de genoemde 3 pakketten stoeit kan aanbevelen.
+  url: http://www.mbawebdesign.nl/
+  icon: fa fa-graduation-cap fa-4x
+  column: 1
+  status: active
+
+- name: Stephan Zeijlemaker - Magento gehacked!
+  description: Middenin de kerstvakantie - een belangrijke periode voor Yumeko - werd onze site gehackt en gingen we op "zwart". Bezoekers kregen de mededeling dat hun gegevens niet veilig waren en ook Google tracteerde zoekers bij de zoekresultaten op een vergelijkbare tekst. SupportDesk heeft ons zeer adequaat en heel snel geholpen en het probleem in het weekend opgelost. Niet alleen op de site, maar ook in de zoekresultaten op Google. Tot heel laat in de avond heeft Ray er persoonlijk voor gezorgd dat de site weer live ging, Google de gangbare resultaten gaf en de sales weer konden beginnen. De samenwerking was niet alleen snel en professioneel, maar ook zeer prettig en persoonlijk. Hulde!
+  url: https://www.yumeko.nl/
+  icon: fa fa-bed fa-4x
+  column: 1
+  status: active
+
+- name: Maatwerk Magento training voor professioneel projectmanagement
+  description: Naar aanleiding van een ingewikkeld Magento project heb ik vanuit Het Nieuwe Web een Magento Cursus gevolgd bij Ray, waarvoor ik vijf keer een dag op training ben geweest. Zijn ervaring en all-round Magento kennis kwamen daarbij zeer van pas om de bottlenecks in een vroeg stadium in het vizier te krijgen en daar een adequate oplossing voor te zoeken. Het heeft me erg geholpen om het project op een professionele manier vorm te kunnen geven! - Gerard de Visser
+  url: https://www.hetnieuweweb.nl/
+  icon: fa fa-handshake-o fa-4x
+  column: 1
+  status: active
+
+- name: De mobile oplossing van SupportDesk voor Magento is top!!!
+  description: Sinds wij gekozen hebben voor een aparte mobile oplossing voor onze Wild Hibiscus website is onze conversie toegenomen met 58%.
+  url: http://www.wildhibiscus.nl
+  icon: fa fa-mobile fa-4x
+  column: 2
+  status: active
+
+- name: De High Performance Magento Mobile oplossing voor onze webshop is echt een topper
+  description: De High Performance Magento Mobile oplossing voor onze webshop is echt een topper, sinds we live zijn hebben wij 50% meer bezoekers, 13% minder bounces, 71% meer pagina bezoekers en 60% meer conversie - R. Spooren
+  url: https://www.condoom-anoniem.nl/
+  icon: fa fa-bolt fa-4x
+  column: 2
+  status: active

@@ -1,6 +1,27 @@
 ---
 layout: 2column
 title: klantervaring
+description: Klantervaringen overzicht van onze Magento en Joomla! klanten.
+keywords:
+nav: klantenervaring
 ---
-
-###klantervaring
+<div class="container design-principles">
+    <div class="principles">
+      <div class="principles-col">
+        {% for member in site.data.review %}
+        {% if member.status == 'active' %}
+          <div class="principle">
+            <div class="image">
+              <i class="{{ member.icon }}" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>{{ member.name }}</h3>
+              <p></p><p>{{ member.description }}</p><p></p>
+              <p><a title="{{ member.name }}" target="_blank" href="{{ member.url }}">{{ member.url }}</a></p>
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+</div>
