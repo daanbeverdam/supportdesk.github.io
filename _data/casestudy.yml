@@ -1,0 +1,41 @@
+- name: Kika webshop - Joomla Magento
+  description: Kika
+  url: case-study/68-kika-webshop-joomla-magento-magebridge
+  pic: logo_kika
+  height: 50
+  status: active
+
+- name: Magento Cluster - Zon Zee Zuipen
+  description: SafeShops
+  url: case-study/66-magento-cluster-condoom-anoniem-zon-zee-zuipen
+  pic: logo_condoomanoniem
+  height: 50
+  status: active
+
+- name: High Performance Magento Mobile
+  description: SafeShops
+  url: case-study/115-condoom-anoniem-high-performance-magento-mobile
+  pic: logo_condoomanoniem
+  height: 50
+  status: active
+
+- name: Magento Cluster - TV commercial
+  description: Yourtablet
+  url: case-study/67-magento-cluster-yourtablet-tv-commercial
+  pic: logo_yourtablet
+  height: 50
+  status: active
+
+- name: 1 miljoen orders per maand
+  description: Leef
+  url: case-study/130-1-miljoen-orders-per-maand-leef-nl
+  pic: logo_leef
+  height: 50
+  status: active
+
+- name: Smile marketing campaigne
+  description: Piet Zoomers
+  url: case-study/131-smile-marketing-campaigne-pietzoomers-com
+  pic: logo_pietzoomers
+  height: 50
+  status: active
