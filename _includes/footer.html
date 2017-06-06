@@ -37,7 +37,7 @@
   <div class="second-footer">
     <ul class="menu menu-line">
       {% for menu in site.data.nav %}
-        <li><a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
+        <li><a href="{{ site.url-non }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
       {% endfor %}
     </ul>
     <p class="bottom">{{ site.name }} wordt door haar klanten beoordeeld met een <strong>{{ site.review-rate }}</strong> van <strong>{{ site.review-scale }}</strong> gebaseerd op <strong>{{ site.review-total }}</strong> klantbeoordelingen.<br />

@@ -32,3 +32,10 @@
   icon: fa fa-bolt fa-4x
   column: 2
   status: active
+
+- name: Kika webshop - Joomla/Magento/MageBridge
+  description: Wij hebben samengewerkt om onze webshop op te zetten. De samenwerking verliep prettig, korte lijnen en er werd snel geschakeld. Wij zijn erg tevreden over bereikbaarheid en beschikbaarheid van SupportDesk. Het is een professionele organisatie met een brede kennis. Wij zijn erg blij met het resultaat! Rinske Vedder, Stichting Kinderen Kankervrij
+  url: https://shop.kika.nl/
+  icon: fa fa-heart fa-4x
+  column: 2
+  status: active
