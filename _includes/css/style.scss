@@ -2737,7 +2737,7 @@ amp-sidebar .return-button::before {
   font-weight:500;
 	font-size: 18px;
 	border-radius: 4px;
-  border: 2px solid #999;
+  border: 3px solid #999;
 	line-height: 22px;
 	background-color: #fbfbfb;
 	padding: 13px 13px 13px 54px;
@@ -2747,13 +2747,12 @@ amp-sidebar .return-button::before {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0)
 }
 
 .data-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
+	border: 3px solid #424242;
 	color: #3498db;
 	outline: none;
   padding: 13px 13px 13px 54px
@@ -2770,13 +2769,13 @@ amp-sidebar .return-button::before {
 }
 
 .submit:hover .success{
-  width:100%;
+  width:50%;
   background-color:white
 }
 
 #button-submit{
 	float:left;
-	width: 100%;
+	width: 50%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
 	background-color: #424242;
@@ -2833,7 +2832,7 @@ form.amp-form-submit-success [submit-success] {
   color: green;
 }
 form.amp-form-submit-error [submit-error] {
-  color: green;
+  color: red;
 }
 form.amp-form-submit-success.hide-inputs > input {
   display: none
