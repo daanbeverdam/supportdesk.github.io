@@ -49,7 +49,17 @@
         <div class="twelve columns">
           <div class="submit">
             <input type="submit" value="Verzenden" id="button-submit">
-            <div class="success"></div>
+            <input type="reset" value="Reset" id="button-submit">
+            <div submit-success>
+              <template type="amp-mustache">
+                Success! Bedankt {{name}} voor je aanvraag! We nemen snel contact met je op.
+              </template>
+            </div>
+            <div submit-error>
+              <template type="amp-mustache">
+                Error! Sorry {{name}} er gaat iets mis, probeer het nog eens of bel ons even op {{ site.tel }}.
+              </template>
+            </div>
           </div>
         </div>
       </div>
