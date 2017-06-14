@@ -1,6 +1,6 @@
 <div class="row">
   <div class="twelve columns">
-  <form method="post" action-xhr="{{ site.url-form}}" target="_top">
+    <form method="post" action-xhr="{{ site.url-form}}" target="_blank">
       <div class="row">
 
         <div class="six columns">
@@ -51,18 +51,16 @@
             <input type="submit" value="Verzenden" id="button-submit">
             <input type="reset" value="Reset" id="button-submit">
           </div>
-          <div submit-success>
-            <template type="amp-mustache">
-                Success! Bedankt {{name}} voor je aanvraag! We nemen snel contact met je op.
-            </template>
-          </div>
-          <div submit-error>
-            <template type="amp-mustache">
-                Error! Sorry {{name}} er gaat iets mis, probeer het nog eens of bel ons even op {{ site.tel }}.
-            </template>
-          </div>
         </div>
       </div>
+
+      <div submit-success>
+        <template type="amp-mustache">Success! Bedankt {{name}} voor je aanvraag! We nemen snel contact met je op.</template>
+      </div>
+      <div submit-error>
+        <template type="amp-mustache">Error! Sorry {{name}} er gaat iets mis, probeer het nog eens of bel ons even op {{ site.tel }}.</template>
+      </div>
+
+    </form>
   </div>
-  </form>
 </div>
