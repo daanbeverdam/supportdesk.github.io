@@ -2786,7 +2786,10 @@ amp-sidebar .return-button::before {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700
+  font-weight:700;
+  -webkit-appearance: none;
+  -webkit-appearance:none;
+  -moz-appearance:none
 }
 
 #button-submit:hover{
