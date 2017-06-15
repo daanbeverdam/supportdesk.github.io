@@ -2832,9 +2832,13 @@ form.amp-form-submit-error [submit-error]{
 }
 form.amp-form-submit-success [submit-success] {
   color: green;
+  font-size: 2em;
+  font-weight: bold;
 }
 form.amp-form-submit-error [submit-error] {
   color: red;
+  font-size: 2em;
+  font-weight: bold;
 }
 form.amp-form-submit-success.hide-inputs > input {
   display: none
