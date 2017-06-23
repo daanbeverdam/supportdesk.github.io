@@ -16,7 +16,7 @@ before_script:
 script:
   - 'bundle exec rake test'
   - 'bundle exec rake build'
-  - 'html5validator --root _site/ --ignore "⚡" "custom-element" "amp-boilerplate" "amp-custom" '
+  - 'html5validator --root _site/ --ignore "⚡" "custom-element" "amp-boilerplate" "amp-custom" "on" '
   - './script/cibuild'
 
 branches:
