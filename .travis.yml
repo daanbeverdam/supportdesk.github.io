@@ -13,4 +13,4 @@ install:
 script:
   - 'bundle exec rake test'
   - 'bundle exec rake build'
-  - 'html5validator --root _site/'
+  - 'html5validator --root _site/ --ignore 'Attribute "⚡" not allowed' 'Attribute "amp-boilerplate" not allowed' 'Attribute "custom-element" not allowed''
