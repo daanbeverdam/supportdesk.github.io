@@ -1,12 +1,18 @@
-language: java
-jdk:
- - oraclejdk8  # vnu.jar requires Java 8
+language: python
+python:
+ - "2.7"
 
 branches:
   only:
     - master
 
-install:
- - pip install --user html5validator
+# install Java 8 as required by vnu.jar
+before_install:
+ - sudo apt-get update
+ - sudo apt-get install oracle-java8-installer
+ - sudo update-java-alternatives -s java-8-oracle
 
-script: html5validator --root _site/
+install:
+ - pip install html5validator
+
+script: html5validator --root . --blacklist reference_manual_html --ignore 'Attribute "webkitallowfullscreen" not allowed' 'Attribute "mozallowfullscreen" not allowed' 'The "frameborder" attribute on the "iframe" element is obsolete' 'No "p" element in scope but a "p" end tag seen.'
