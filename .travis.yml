@@ -13,4 +13,4 @@ install:
 script:
   - 'bundle exec rake test'
   - 'bundle exec rake build'
-  - 'html5validator --root _site/ --ignore "⚡" ' 
+  - 'html5validator --root _site/ --ignore "⚡" "custom-element" "amp-boilerplate" "amp-custom" ' 
