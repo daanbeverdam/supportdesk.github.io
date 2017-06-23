@@ -2861,6 +2861,11 @@ form.amp-form-submit-success.hide-inputs > input {
   background: url(/img/lang/en.svg) no-repeat center right/10%;
 }
 
+.center span {
+  display:table;
+  margin:0 auto;
+}
+
 footer h3 {
     color: #fff;
 }
