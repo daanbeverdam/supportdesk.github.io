@@ -13,4 +13,4 @@ install:
 script:
   - 'bundle exec rake test'
   - 'bundle exec rake build'
-  - 'html5validator --root .'
+  - 'html5validator --root _site/'
