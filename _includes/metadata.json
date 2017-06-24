@@ -22,7 +22,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ site.url }}img/magento-2-training-thumbnail.jpg",
+    "url": "{{ site.url }}img/supportdesk-thumbnail.jpg",
     "height": 780,
     "width": 1440
   }
