@@ -2066,8 +2066,14 @@ table a code {
 
 .box__image_top {
     align-items: center;
-    width: 666;
+    width: 666px;
     margin: 20px
+}
+
+.box__image_left {
+    float: left;
+    width: 67px;
+    margin-right:5px
 }
 
 .box__image amp-img {
