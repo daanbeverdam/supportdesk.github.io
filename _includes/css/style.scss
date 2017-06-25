@@ -3297,3 +3297,19 @@ a.underlined.cta:hover::before,
         flex: 0 0 100%
     }
 }
+.box-warning {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    background: #fff0eb;
+    border-color: #edb1a2;
+    color: #963e27
+}
+
+.box-warning:before {
+    font-family: 'FontAwesome';
+    content: '\f071';
+    font-size: 1.5em;
+    margin: 5px
+}

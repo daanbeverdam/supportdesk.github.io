@@ -1,0 +1,46 @@
+---
+layout: 2column
+title: Magento Security Update SUPEE-9652
+url: magento-security-update-supee-9652
+image: securityrelease.png
+imagedir: news
+height: 157
+width: 157
+position:
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2017-02-06 13:04:00.000000000 +00:00
+dateModified: 2017-04-10 12:44:59.000000000 +00:00
+hits: 73
+nav: blog
+---
+{% include img.html %}
+<p><u>6 februari 2017</u> heeft Magento een nieuwe update uitgebracht die de kwetsbaarheid van de <strong>Zend library</strong> heeft opgelost in de patch <strong>SUPEE -9652.</strong>De <strong>SUPEE-965</strong>2 patch heeft een oplossing geboden voor zowel de <strong>Enterprise</strong> als <strong>Community</strong> versie. Deze zijn te vinden onder de updates<strong> Enterprise Edition 1.1.14.3.2</strong> en <strong>Community Edition 1.9.3.2</strong>.<br>De patch adresseert de volgende problemen:</p>
+<h3>Magento EE 1.14.3.2 / CE 1.9.3.2 Release notes:</h3>
+<ul class="check">
+<li>Removal of vulnerability with the Zend framework Zend_Mail library. For more information, see Magento Security Center</li>
+<li>Updated the copyright year to 2017</li>
+</ul>
+<h3>Magento EE 1.14.3.1 / CE 1.9.3.1 Release notes:</h3>
+<ul class="check">
+<li>We restored the old tax calculation algorithm for shipping charges. The patch to apply new calculation will be available on request.</li>
+<li>Resolved an issue with setting the session lifetime to 0.</li>
+<li>The monthly cron job that cleans up the table that contains IP addresses and passwords runs properly.</li>
+<li>All configurable product images are imported.</li>
+<li>You no longer get an exception due to an undefined addCrumbs() method call.</li>
+<li>Resolved the error Notice: Undefined index: session_expire_timestamp when accessing the storefront.</li>
+<li>Values for drop-down label values are saved correctly.</li>
+<li>The "Price as configured" for bundle products displays correctly in the shopping cart.</li>
+<li>Auto-generated passwords are sent to new customers as expected.</li>
+<li>The method Mage_Api_Model_Server_Handler_Abstract::processingMethodResult() accepts scalar and array values.</li>
+<li>The default MySQL Full-Text search works as expected; it no longer returns all products.</li>
+<li>Prevented a potential Cross-Site Request Forgery (CSRF) vulnerability by changing the form key when a customer signs out of the storefront.</li>
+<li>Prevented a potential Cross-Site Scripting (XSS) vulnerability when adding a category. Only for EE edition.</li>
+<li>Catalog price rules return the correct price.</li>
+<li>Indexers now update all products instead of skipping the last product updated.</li>
+</ul>
+<p><strong>Belangrijk!</strong><br />Gebruik de <strong>CE 1.9.3.0</strong>/ <strong>EE 1.14.3.0</strong> of nieuwer voor alle nieuwe CE/EE installaties en upgrades om zo de nieuwste verbeteringen, features en beveiligingsupdates te krijgen.<br />Men kan op het moment nog niet naar deze versie updaten via Magento Connect Manager. Dit zal echter wel snel opgelost worden.</p>
+<p><strong>Wat moet ik doen om Magento Security issues te bestrijden?</strong></p>
+<p>Wij raden onze klanten zo spoedig mogelijk te patchen.</p>
+<div class="box-warning">Wij doen dat graag voor u. Mail ons via ons <a href="{{ site.url }}contact" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! {{ site.tel }}" href="tel:{{ site.tel }}">{{ site.tel }}</a>.</div>
+<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-8788">Magento security patch SUPEE-9652</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
