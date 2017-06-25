@@ -2064,6 +2064,10 @@ table a code {
     margin: 20px
 }
 
+.box__image amp-img {
+    overflow: hidden
+}
+
 .box__image_top {
     align-items: center;
     width: 666px;
@@ -2071,13 +2075,14 @@ table a code {
 }
 
 .box__image_left {
-    float: left;
-    width: 67px;
-    margin-right:5px
+    width: 100%;
 }
 
-.box__image amp-img {
-    overflow: hidden
+.certs {
+    width: 67px;
+    display: inline-block;
+    float: left;
+    padding: 0 10px
 }
 
 .box__credit {
