@@ -1,0 +1,23 @@
+---
+layout: 2column
+title: Magento 1.7.0.1 beschikbaar
+url: magento-1701-beschikbaar
+description: Magento 1.7.0.1 CE vrijgegeven. Deze Magento release bestaat uit een
+  aantal kleine aanpassingen en een Magento Security aanpassing.
+image: magento-1701-beschikbaar
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2012-06-21 17:55:59.000000000 +00:00
+dateModified: 2013-01-18 18:45:03.000000000 +00:00
+intro: Magento 1.7.0.1 CE vrijgegeven. Deze Magento release bestaat uit een aantal
+  kleine aanpassingen en een Magento Security aanpassing.
+hits: 1859
+nav: Blog
+---
+<p><a href="blog/49-magento-1701-beschikbaar" title="Magento 1.7.0.1 - Security Release"><img src="images/nieuws/magento-key.jpg" width="116" height="87" alt="magento-key" style="float: right; margin: 0px 0px 5px 5px;" /></a></p>
+<p><strong>Magento 1.7.0.1</strong> is zeer recent beschikbaar gekomen. Deze Magento release bestaat uit een aantal kleine aanpassingen, aangezien er in Magento 1.7 al een groot aantal bugs opgelost zijn geworden. Het betreft in <strong style="margin-bottom: 0px;">Magento 1.7.0.1</strong> vooral aanpassingen in de Paypal payment-module en de Magento API.</p>
+<h3>Magento Security</h3>
+<p>Tevens verbetert Magento een belangrijk security issue, namelijk de MD5 <i>"encryption_key"</i>, welke tot op heden enkel gebaseerd was op de time() setting. Deze is nu voorzien van een <i>"RandomString"</i>. Deze Magento <i>"encryption_key"</i> wordt gebruikt om creditcard-gegevens in de database van Magento op te slaan (in Nederland maken we meestal gebruik van een Payment Service Provider), en dus was het in theorie mogelijk om middels de <i style="margin-bottom: 0px;">"encryption_key"</i> in de local.xml dit eenvoudig te decrypten.</p>
+<p>Indien je je Magento website wilt upgraden zal de oude MD5(time) niet gewijzigd worden, aangezien deze al aanwezig is sinds de install. Hierdoor is deze nieuwe Magento release met betrekking tot de MD5 <i>"RandomString"</i> enkel beschikbaar bij een nieuwe installatie. Een eventuele wijzing in je bestaande Magento website zal handmatig moeten gebeuren indien je de nieuwe MD5 <i style="margin-bottom: 0px;">"encryption_key"</i> wilt gebruiken.</p>
+<p></p>
+<h3>Hulp nodig bij een Magento Upgrade?</h3>

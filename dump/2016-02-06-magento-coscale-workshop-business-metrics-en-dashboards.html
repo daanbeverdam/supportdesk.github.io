@@ -1,0 +1,40 @@
+---
+layout: 2column
+title: Magento CoScale Workshop - Business metrics en Dashboards
+url: magento-coscale-workshop-business-metrics-en-dashboards
+description: Magento CoScale Workshop - Business metrics en Dashboards - donderdag
+  10 Maart 2016, Amsterdam
+image: magento-coscale-workshop-business-metrics-en-dashboards
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2016-02-06 08:08:00.000000000 +00:00
+dateModified: 2016-03-02 16:18:53.000000000 +00:00
+intro: Magento CoScale Workshop - Business metrics en Dashboards - donderdag 10 Maart
+  2016, Amsterdam
+hits: 1075
+nav: Blog
+---
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=180:magento-coscale-workshop-business-metrics-en-dashboards&amp;catid=29:blog&amp;Itemid=121" target="_self" title="Magento CoScale Workshop - Business metrics en Dashboards"><img src="images/logos/magento-user-group-logo-200.png" alt="magento-user-group-workshop-2014" style="float: right;" /></a></p>
+<p>De eerste <strong>Magento User Group</strong> meetup van 2016 die gehost wordt door <strong>SupportDesk</strong> zal gehouden worden op <strong>Donderdag 10 Maart 2016</strong>.<br />De hands-on MUG workshop zal verzorgd worden vanuit het hoofdkantoor van <strong>True</strong> (Keienbergweg 100) te Amsterdam (15min lopen van Amsterdam Bijlmer Arena)<br />Tijdens de MUG workshop zal er gewerkt worden met de <a href="http://www.coscale.com/">CoScale tool</a>.</p>
+<h3>Wat is CoScale?</h3>
+<p>Meer weten over <strong>CoScale</strong> en wat dit voor jouw <strong>Magento webshop</strong> kan betekeken, <a href="index.php?option=com_content&amp;view=article&amp;id=175:magento-business-metrics-4-everyone&amp;catid=29:blog&amp;Itemid=121" title="CoScale, Business metrics voor iedereen">lees hier verder</a>.</p>
+<p class="box-info">02-03-2016: Aanpassing in het programma van de Magento User Group</p>
+<h3>Planning:</h3>
+<ul class="zebra">
+<li>13.45: Inloop</li>
+<li>14:00 - 15:00 : Ray Bogman opent de middag met een discussieforum rond performance verschillen tussen Magento 1 en Magento 2</li>
+<li>15:00 - 15:30 : Presentatie: Welke E-commerce Business metrieken moet u in de gaten houden om betere resultaten uit uw Magento webshop te halen?</li>
+<li>15:30 - 18:30 : Praktische hands-on workshop na een korte introductie van het Coscale Platform: 'hoe ga je ermee aan de slag, wat kan je eruit halen...'</li>
+<li>18.30: Afsluiting met borrel</li>
+</ul>
+
+<h3>Voor wie? &nbsp;</h3>
+<p>Deze workshop is bedoeld voor iedereen die met Magento werkt.</p>
+<h3>Wat heb ik nodig voor de workshop?</h3>
+<p>Vergeet niet je laptop mee te nemen.</p>
+<h3>Wil jij je website vooraf al laten monitoren?</h3>
+<p>Laat het ons dan weten door je naam en de url van je Magento webshop naar <a href="mailto:info@supportdesk.nu">info@supportdesk.nu</a> te sturen.</p>
+<p>Vergeet je niet om een RSVP door te geven? Alleen dan is je aanmelding compleet!</p>
+<p><a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/228632880/" class="orange" style="display: block; margin: 0 auto; width: 50%;">Registreer nu voor de workshop</a>.</p>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

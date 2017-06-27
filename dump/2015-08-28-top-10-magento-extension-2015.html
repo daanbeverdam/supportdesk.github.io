@@ -1,0 +1,113 @@
+---
+layout: 2column
+title: Top 10 Magento Extension 2015
+url: top-10-magento-extension-2015
+description: Top 10 Magento Extension 2015 tijdens de jaarlijkse Magento User Group
+  te Amsterdam
+image: top-10-magento-extension-2015
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2015-08-28 07:10:00.000000000 +00:00
+dateModified: 2015-10-05 18:27:44.000000000 +00:00
+intro: Top 10 Magento Extension 2015 tijdens de jaarlijkse Magento User Group te Amsterdam
+hits: 1704
+nav: Blog
+---
+<center><a href="index.php?option=com_content&amp;view=article&amp;id=172:top-10-magento-extension-2015&amp;catid=29:blog&amp;Itemid=121" title="Top 10 Magento Extension 2015"><img src="images/nieuws/mug-top-10-magento-extension-2015.jpg" alt="mug-top-10-magento-extension-2015" /></a></center>
+<h3>Magento User Group Amsterdam</h3>
+<p>Afgelopen donderdag 27 Augustus heeft de <strong>Magento User Group Amsterdam</strong> voor de 4 keer een Top 10 verkiezing gedaan van de beste Magento Extentions van dit moment.</p>
+<p>De samenstelling van de modules kon vooraf worden ingediend en is aangevuld door de aanwezige MUG-ers. Dankzij de vele inzendingen was de keuze enorm met jaar verrassend veel module van een en de zelfde bouwer. Blijkbaar vallen deze goed in de smaak bij onze Magento winkel eigenaren en ontwikkelaars.</p>
+<p>Omdat we dit jaar zoveel inzendingen hebben ontvangen zijn deze onderverdeeld in 7 categorieen om elke extenties een goede kans te geven om te winnen.<br />De 7 categorieen zijn:</p>
+<ul class="check">
+<li><a href="#backend" title="Magento Backend Extensions">Magento Backend Extensions</a></li>
+<li><a href="#frontend" title="Magento Frontend/Theming Extensions">Magento Frontend/Theming Extensions</a></li>
+<li><a href="#marketing" title="Magento Marketing Extensions">Magento Marketing Extensions</a></li>
+<li><a href="#slechtste" title="Slechtste Extensions">Worst Extensions</a>&nbsp;(slechtste)</li>
+<li><a href="#dev" title="DEV Tools">DEV Tools</a></li>
+<li><a href="#security">Magento Security Extensions</a></li>
+<li><a href="#performance">Magento Performance Extensions</a></li>
+</ul>
+<h3><img src="images/nieuws/mug-top-10-2015-1.jpg" alt="MUG Magento extention top10 2015" style="float: right;" /><a name="backend">Magento Backend Extensions</a></h3>
+<ul>
+<li><a href="http://www.magentocommerce.com/magento-connect/fooman-pdf-customiser.html" target="_blank" title="Pdf Customiser">Pdf Customiser</a> [Fooman]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/aoe-scheduler.html" target="_blank" title="AOE Scheduler">AOE Scheduler</a> [Fabrizio Branca]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/js-css-optimisation-minification-user-interface-optimization.html" target="_blank" title="Diglin_UIOptimization">Diglin_UIOptimization</a>&nbsp;[Diglin]</li>
+<li><a href="https://genmato.com/setup-script-versioning/" target="_blank" title="Genamto Setup Versioning">Genamto&nbsp;Setup Versioning</a>&nbsp;[Genmato]</li>
+<li><a href="http://www.dnd.fr/2012/09/magento-patch-how-to-optimize-re-index-processing-time-for-url-rewrite/" target="_blank" title="DND Patch Index URL">DND Patch Index URL</a>&nbsp;[Agencednd]</li>
+<li><a href="https://amasty.com/extended-product-grid-with-editor.html" target="_blank" title="Amasty Product Grid">Amasty Product Grid</a>&nbsp;[Amasty]</li>
+<li><a href="https://amasty.com/mass-product-actions.html" target="_blank" title="Amasty Mass product actions">Amasty Mass product actions</a> [Amasty]</li>
+<li><a href="https://github.com/AOEpeople/Aoe_Profiler" target="_blank" title="AOE Profiler">AOE Profiler</a> [AOE]</li>
+<li><a href="https://amasty.com/extended-product-grid-with-editor.html" target="_blank" title="Amasty Extended product grid with editor">Amasty Extended product grid with editorxtended product grid with editor</a> [Amasty]</li>
+<li><a href="https://mirasvit.com/magento-extensions/advanced-seo-suite.html" target="_blank" title="Mirasvit Advanced SEO suite">Mirasvit Advanced SEO suitedvanced SEO suite</a> [Mirasvit]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/myparcel-extension-for-magento.html" target="_blank" title="My Parcel">My Parcel</a> [TIG]</li>
+</ul>
+<h3><a name="frontend">Magento Frontend/Theming Extensions</a></h3>
+<ul>
+<li><a href="https://amasty.com/single-step-checkout.html" target="_blank" title="Single step checkout">Single step checkout</a>&nbsp;[Amasty]&nbsp;</li>
+<li><a href="http://www.onestepcheckout.com/" target="_blank" title="One Step Checkout">One Step Checkout</a> [OSC]</li>
+<li><a href="http://amasty.com/custom-stock-status.html" target="_blank" title="Custom stock status">Custom stock status</a>&nbsp;[Amasty]</li>
+<li><a href="https://store.tig.nl/postnl.html" target="_blank" title="PostNL">PostNL</a> [TIG]</li>
+<li><a href="http://amasty.com/improved-sorting.html" target="_blank" title="Improved Sorting">Improved Sorting</a>&nbsp;[Amasty]</li>
+<li><a href="https://store.tig.nl/tig-buckaroo-4-13-1-community-edition.html" target="_blank" title="Buckaroo">Buckaroo</a>&nbsp;[TIG]<a href="http://www.magentocommerce.com/magento-connect/pronav-mega-dropdown.html" target="_blank" title="Pronav">&nbsp;</a></li>
+<li><a href="http://www.snm-portal.de/pdf-print.html" target="_blank" title="Portal PDF print">Portal PDF print</a> [SNM]</li>
+<li><a href="https://mirasvit.com/magento-extensions/sphinx-search-ultimate.html" target="_blank" title="Sphinx Search">Sphinx Search</a> [Mirasvit]</li>
+<li><a href="http://themeforest.net/item/legenda-fluid-responsive-magento-theme/8193124" target="_blank" title="Legenda">Legenda</a> [Smartwave - Themeforest]</li>
+<li><a href="http://www.magikcommerce.com/magento-hello-extension/" target="_blank" title="Hello! Extension">Hello! Extension</a> [Magik commerce]</li>
+<li><a href="https://amasty.com/payment-restrictions.html" target="_blank" title="Payment restrictions">Payment restrictions</a> [Amasty]</li>
+<li><a href="https://amasty.com/improved-layered-navigation.html" target="_blank" title="Improved Layered Navigation">Improved Layered Navigation</a> [Amasty]</li>
+<li><a href="http://codecanyon.net/item/slider-revolution-responsive-magento-extension/9332896" target="_blank" title="Slider revolution responsive Magento">Slider revolution responsive Magento</a> [Nwdthemes - Themeforest]</li>
+</ul>
+<h3><img src="images/nieuws/mug-top-10-2015-2.jpg" alt="MUG Magento extention top10 2015" style="float: right;" /><a name="marketing">Magento Marketing Extensions</a></h3>
+<ul>
+<li><a href="http://www.magentocommerce.com/magento-connect/blog-community-edition-by-aheadworks.html" target="_blank" title="AW Blog">AW Blog</a> [AheadWorks]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/ebizmarts-magemonkey-official-mailchimp-and-mandrill-integration.html" target="_blank" title="MageMonkey">MageMonkey</a> [eBizmarts]</li>
+<li><a href="https://www.wyomind.com/data-feed-manager-magento.html" target="_blank">Wyomind&nbsp;Data Feed Manager</a>&nbsp;[Wyomind]</li>
+<li><a href="http://mirasvit.com/qa/magento-product-feed-export.html" target="_blank" title="Mirasvit Feed Export">Mirasvit Feed Export</a>&nbsp;[Mirasvit]</li>
+<li><a href="https://ecommerce.aheadworks.com/magento-extensions/advanced-newsletter.html" target="_blank" title="Advanced Newsletter">Advanced Newsletter</a> [Aheadworks]</li>
+<li><a href="https://amasty.com/landing-pages.html" target="_blank" title="Landing Pages">Landing Pages</a> [Amasty]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/creare-seo.html" target="_blank" title="Creare SEO">Creare SEO</a>&nbsp;[Creare]</li>
+<li><a href="https://amasty.com/meta-tags-templates.html" target="_blank" title="Meta Tags Template">Meta Tags Template</a> [Amasty]</li>
+<li><a href="http://fishpig.co.uk/magento/extensions/attribute-splash-pages/" target="_blank" title="Attribute Splash Pages">Attribute Splash Pages</a> [Fishpig]</li>
+<li><a href="http://www.extendware.com/magento-review-reminder.html" target="_blank" title="Review Reminder">Review Reminder</a> [Extendware]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/copernica-marketing-software.html" target="_blank" title="Copernica">Copernica</a> [Cream]</li>
+<li><a href="https://ecommerce.aheadworks.com/magento-extensions/automatic-related-products-2.html" target="_blank" title="Automatic related products">Automatic related products</a> [Aheadworks]</li>
+<li><a href="https://ecommerce.aheadworks.com/magento-extensions/follow-up-email2.html" target="_blank" title="Follow up email">Follow up email</a> [Aheadworks]</li>
+<li><a href="https://www.gomage.com/gomage-feed-pro.html" target="_blank" title="GoMage Feed Manager">GoMage Feed Manager</a> [GoMage]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/pay-nl-payment-gateway.html" target="_blank" title="Pay.nl">Pay.nl</a> [Pay.nl]</li>
+<li><a href="http://www.windsorcircle.com/connect/magento-to-mailchimp" target="_blank" title="Windsor Circle - Magento - Mailchimp">Windsor Circle - Magento - Mailchimp</a></li>
+<li><a href="http://www.magentocommerce.com/magento-connect/ebizmarts-magemonkey-official-mailchimp-and-mandrill-extension.html" target="_blank" title="Mage Monkey">Mage MonkeyMage Monkey</a> [Ebizmarts]&nbsp;</li>
+</ul>
+<h3><a name="slechtste">Worst Magento Extentions</a></h3>
+<ul>
+<li>Alle aziatische extensions&nbsp;</li>
+<li>Maatwerk uit India</li>
+<li>Alle atoic extensions</li>
+<li>Adyen Payment</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/the-official-ingenico-former-ogone-extension.html" target="_blank" title="Netresearch Ingenico (Ogone)">Netresearch Ingenico (Ogone)</a></li>
+<li><a href="http://www.webtexsoftware.com/prices-per-customer-magento-extension" target="_blank" title="WebTex - Customer Prices">WebTex - Customer Prices</a></li>
+<li>Slechte Reponsive Design themes (slecht voor performance)</li>
+<li>Magento ColorSwatch 1.9.x</li>
+<li>Onnodige Magento modules: modules die aan staan maar niet gebruikt worden, vertragen de shop. Tip: zet de modules uit.</li>
+</ul>
+<h3><a name="dev">Dev Tools</a></h3>
+<p>Sinds de <a href="index.php?option=com_content&amp;view=article&amp;id=156:top-10-magento-extension-2014&amp;catid=29:blog&amp;Itemid=121" title="Top 10 sessie van 2014">Top 10 sessie van 2014</a> ontstond er een nieuwe categorie genaamd “Dev tools”. De meest populaire dev tool is <strong>N-98</strong>. Je kunt N-98 beschouwen als het <span style="text-decoration: underline;">Zwitsers zakmes</span> van Magento. Je kunt er legio dingen mee configureren, zoals database sychroniseren, gebruikers aanmaken enz. Voor deze tool is kennis van Shell wel vereist en het voor een eerste gebruik aan te raden om eerst op een testomgeving te werken met N-98.</p>
+<ul>
+<li><a href="https://github.com/netz98/n98-magerun" target="_blank" title="N98-magerun">N98-magerun</a></li>
+<li><a href="https://www.jetbrains.com/phpstorm/" target="_blank" title="PHPStorm">PHPStorm</a>&nbsp;(en Magento plugin <a href="http://magicento.com/" target="_blank" title="Magicento">Magicento</a>)</li>
+</ul>
+<h3><a name="security">Magento Security Extensions</a></h3>
+<ul>
+<li><a href="https://amasty.com/magento-two-factor-authentication.html" target="_blank" title="Two factor authentication">Two factor authentication</a> [Amasty]</li>
+<li><a href="https://amasty.com/admin-actions-log.html" target="_blank" title="Admin actions log">Admin actions log</a> [Amasty]</li>
+</ul>
+<h3><img src="images/nieuws/mug-top-10-2015-3.jpg" alt="magento performance extensions" style="float: right;" /><a name="performance">Magento Performance Extensions</a></h3>
+<li><a href="https://www.rapido.nu/" target="_blank" title="Magento Image Optimization">Rapido Image Optimization</a>&nbsp;[Rapido]</li>
+<li><a href="http://www.magentocommerce.com/magento-connect/lesti-fpc-4534.html" target="_blank" title="Lesti::FPC">Lesti::FPC</a>&nbsp;[Gordon Lesti]</li>
+<li><a href="https://github.com/nexcess/magento-turpentine" target="_blank" title="Nexess turpentine">Nexess turpentine</a> [Nexess]</li>
+<li><a href="https://mirasvit.com/magento-extensions/magento-asynchronous-reindex.html" target="_blank" title="Fast&nbsp;asynchronous-reindex">Fast&nbsp;asynchronous-reindexasynchronous-reindex</a> [Mirasvit]</li>
+<h3>Byte Top 20 Magento Extension</h3>
+<p>Naast de <strong>Magento Extension</strong> aangeleverd door winkel eigenaren en ontwikkelaar was het dit jaar ook tijd om de proef op de som te nemen en te kijken welke Magento Extension nu geinstalleerd zijn op het hosting platform van <a href="https://www.byte.nl/hosting/magento" target="_blank" title="Byte">Byte</a>. Leuk is te zien dat diverse Magento Extension welke hierboven staan nu ook terug komen in de lijst van de overige klant bij Byte.</p>
+<p>Zo zien we oa. <strong>Lesti FPC</strong>, <strong>Fooman PdfCustomiser</strong> en <strong>OneStepCheckout</strong> al in de Top 10 terug komen.</p>
+<center><a href="index.php?option=com_content&amp;view=article&amp;id=172:top-10-magento-extension-2015&amp;catid=29:blog&amp;Itemid=121" title="Top 10 Magento Extension 2015"><img src="images/nieuws/mug-top-10-2015-4.jpg" alt="Byte Top 20 Magento Extension" /></a></center>
+<p>{snippet meer info}</p>
+<p>{snippet raybogman}</p>

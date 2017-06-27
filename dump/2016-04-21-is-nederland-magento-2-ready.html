@@ -1,0 +1,91 @@
+---
+layout: 2column
+title: Is Nederland Magento 2 Ready?
+url: is-nederland-magento-2-ready
+description: Is Nederland Magento 2 ready?
+image: is-nederland-magento-2-ready
+authorimage: Hiltje Conradi
+authorname: Hiltje Conradi
+datePublished: 2016-04-21 08:13:00.000000000 +00:00
+dateModified: 2016-05-24 07:43:46.000000000 +00:00
+intro: Is Nederland Magento 2 ready?
+hits: 1169
+nav: Blog
+---
+<p>Volgens onze bronnen zijn er, na 2 maanden, op dit moment 400+ shops gemigreerd naar <strong>Magento 2</strong>. 500+ <strong>Magento 2 </strong>extenties zijn beschikbaar. Zie hier een overzicht van de wereldwijd beschikbare <strong>Magento 2</strong> extenties.&nbsp;</p>
+<p>Bij <strong>SupportDesk&nbsp;</strong>zijn we echter benieuwd of Nederland al <strong>Magento 2</strong> ready is. Op 20 en 21 januari werden de Webwinkel Vakdagen 2016 gehouden waarbij <strong>SupportDesk B.V.</strong> en veel leveranciers van <strong>Magento 2</strong>&nbsp;modules aanwezig waren. Zijn deze leveranciers al <strong>Magento 2</strong> ready?&nbsp;<strong>SupportDesk</strong>&nbsp;heeft tijdens deze Webwinkel vakdagen een aantal leveranciers van Magento extenties gesproken. Hierbij kwam <strong>SupportDesk</strong>&nbsp;erachter dat veel leveranciers nog niet <strong>Magento 2</strong> ready waren op dat moment. Hoe zit dat nu, zijn er inmiddels al meer leveranciers <strong>Magento 2</strong> ready? Welke levaranciers zijn <strong>Magento 2</strong> ready en welke niet?&nbsp;</p>
+<h4>De volgende 3 vragen hebben we de leveranciers voorgelegd:</h4>
+<ol class="check">
+<li>Is hun Magento plugin klaar voor <strong>Magento 2</strong>?</li>
+<li>Hoe denken ze over <strong>Magento 2</strong>?</li>
+<li>Verwacht men een grote overgang naar <strong>Magento 2</strong>?</li>
+</ol>
+<div><img src="images/banners/magento-2.jpg" alt="magento-2" style="display: block; margin-left: auto; margin-right: auto;" height="333" width="666" /></div>
+<h4>Antwoorden van de leveranciers:</h4>
+<h3>Is Sisow Magento 2 ready?</h3>
+<ol class="m2-yes">
+<li>De <strong>Sisow</strong> betaal plugin is <strong>Magento 2</strong> ready. Ze bieden 3 plugins aan voor de verschillende versies van Magento een van deze is een plugin voor <strong>Magento 2</strong>.</li>
+<li><strong>Sisow</strong> houdt zich voornamelijk bezig met het betaalgedeelte van Magento. Het betalen gaat prima. De standaard account pagina voor het betalen wordt echter nogal omslachtig gevonden. <strong>Sisow</strong> weet niet zo goed hoe de rest van <strong>Magento 2</strong> in elkaar zit aangezien ze hier niet mee te maken krijgen. &nbsp;&nbsp;</li>
+<li>Het zal nog even duren voordat mensen over zullen gaan naar <strong>Magento 2</strong>. Er zijn nog weinig plugins beschikbaar. De oorzaak hiervan is dat ontwikkelen moeilijker is dan bij Magento 1. Ook het installeren is erg lastig. &nbsp;</li>
+</ol>
+<h3>Is Postcode.nl Magento 2 ready?</h3>
+<ol class="m2-no">
+<li><strong>Postcode.nl</strong> is momenteel bezig met het ready maken van hun plugin voor Magento 2. Ze verwachten binnen een maand live te kunnen gaan.&nbsp;</li>
+<li>Hier kunnen ze niks over zeggen.</li>
+<li><strong>Postcode.nl</strong> krijgt regelmatig de vraag of ze al <strong>Magento 2</strong> ready zijn. Vanuit dit oogpunt gezien zou je verwachten dat veel bedrijven over willen gaan of al over zijn op <strong>Magento 2</strong>. Meer durft <strong>Postcode.nl</strong> er echter niet over te zeggen.&nbsp;</li>
+</ol>
+<h3>Is Multisafepay Magento 2 ready?</h3>
+<ol class="m2-yes">
+<li>De plugin van <strong>Multisafepay</strong> is sinds 2 weken klaar voor <strong>Magento 2. </strong>Echter deze is nog&nbsp;niet vergelijkbaar met de <strong>Magento 1</strong> plugin. De <strong>Magento 2</strong> plugin is goed in ontwikkeling.&nbsp;</li>
+<li>Op het moment ziet Multisafepay dat de eerste webbouwers <strong>Magento 2</strong> aan het uitproberen zijn. Er zitten alleen nog veel kinderziektes in <strong>Magento 2</strong>.</li>
+<li><strong>Multisafepay</strong> verwacht dat <strong>Magento 2</strong> steeds meer marktaandeel zal verkrijgen. Er zijn veel geluiden van hun merchants dat ze toch nog even wachten met de overstap naar <strong>Magento 2</strong>&nbsp;vanwege de vele kinderziektes.&nbsp;</li>
+</ol>
+<div>&nbsp;</div>
+<h3>Is Omnichannel (Icepay) Magento 2 ready?</h3>
+<div>De plugin voor <strong>Magento 2</strong> is in ontwikkeling en naar verwachting zal deze volgende maand klaar zijn voor de test fase.</div>
+<h3>Is Coscale Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>De <strong>Magento 2</strong> plugin van <strong>Coscale</strong> is nog niet in ontwikkeling, maar dit staat wel in de planning.&nbsp;De planning voor deze <strong>CoScale Magento 2</strong> module is medio Q2.</li>
+<li>Ze zijn nog &nbsp;niet echt met <strong>Magento 2</strong> bezig. Ze willen nu vooral <strong>Magento 1</strong> stabiel krijgen.&nbsp;</li>
+<li>.</li>
+</ol>
+<h3>Is Sooqr Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>De plugin is nog niet <strong>Magento 2</strong> ready. Hun systeem echter wel. Sooqr heeft alleen datafeed nodig. Het is voor <strong>Sooqr</strong> geen noodzaak om over te gaan op <strong>Magento 2</strong>. Ze hebben het niet per se nodig. Momenteel zijn ze bezig de oude plugin te hermaken. Het kan nog enkele maanden duren voordat ze <strong>Magento 2</strong> ready zullen zijn.</li>
+<li><strong>Sooqr</strong> heeft niet heel veel met Magento te maken. Ze horen hele wisselende verhalen van klanten over <strong>Magento 2</strong>.</li>
+<li><strong>Sooqr</strong> denkt dat wanneer er een nieuwe site gebouwd moet worden mensen erg in dubio zullen zitten of ze <strong>Magento</strong> 1.9 of <strong>Magento 2.0</strong> zullen kiezen. Wanneer er voor Magento 1.9 wordt gekozen loop je al snel achter. Echter wanneer voor <strong>Magento 2</strong> wordt gekozen kan dit ook problemen geven omdat het nog zo nieuw is. De mensen die al een Magento website hebben zullen niet heel snel overstappen. Er zitten nog veel problemen in <strong>Magento 2</strong>.</li>
+</ol>
+<h3>Is Mailplus Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>Vanaf 1 mei gaat <strong>Mailplus</strong> hun plugin testen op Magento 2. Wanneer alles goed gaat zullen ze vanaf 1 juni live gaan.</li>
+<li><strong>Mailplus</strong> heeft <strong>Magento 2</strong> zelf nog niet kunnen testen. Ze begrepen wel van de developers dat er nog veel bugs in zitten. Voor een live omgeving is het af te raden om over te stappen.</li>
+<li>Ze hebben bij klanten nog niet echt gemerkt dat ze over zijn gestapt op <strong>Magento 2</strong>. Deze versie van Magento is waarschijnlijk nog niet goed genoeg als je al live bent. Het is te veel risico om over te gaan. Daarnaast zullen er misschien functionaliteiten verloren gaan wanneer plugins niet ondersteunt worden.</li>
+</ol>
+<h3>Is Klarna Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>De Magento 2 plugin voor Klarna komt er wel aan, maar ze zijn er op dit moment niet mee bezig.</li>
+<li>&nbsp;.</li>
+<li>&nbsp;.</li>
+</ol>
+<h3>Is active Ants al Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>Na de zomer zal de plugin <strong>Magento 2</strong> ready zijn. Het hangt een beetje van de vraag van de klanten af.</li>
+<li>Er zijn grote verbeteringen qua ontwikkeling maar er is wel een erg stijle leercurve.</li>
+<li>Voor nieuwe gebruikers van <strong>Magento</strong> is<strong> Magento 2</strong> een aanrader. Het nadeel is dat veel aanbieders van extenties er nog niet klaar voor zijn. Veel betaalmethoden zijn nog niet <strong>Magento 2</strong> ready. Het zal waarschijnlijk even op zich laten wachten voordat mensen <strong>Magento 2</strong> echt gaan gebruiken.</li>
+</ol>
+<h3>Is Belco al Magento 2 ready?</h3>
+<ol class="m2-no">
+<li>Nee nog niet. <strong>Belco</strong> heeft nog geen klanten die een <strong>Magento 2</strong> omgeving hebben en een <strong>Magento 2</strong> plugin nodig zullen hebben. Het heeft geen prioriteit. Zodra klanten er naar gaan vragen zullen ze bij Belco tijd vrij maken om de plugin klaar te maken voor <strong>Magento 2</strong>. Op dit moment hebben ze er nog geen tijd voor.</li>
+<li>Hebben niet genoeg kennis van Magento om deze vraag te kunnen beantwoorden.</li>
+<li>Belco denk dat er niet snel over zal worden gegaan op <strong>Magento 2</strong>. Mensen hebben geen inzicht in wat er allemaal komt kijken bij een upgrade. Het is daarnaast ook te ingewikkeld om even snel te doen.</li>
+</ol>
+<h3>Is Channable al Magento 2 ready?</h3>
+<ol class="m2-no">
+<li><strong>Channable</strong> is op dit moment aan het poorten naar <strong>Magento 2</strong>.</li>
+<li>De bouwers van de plugin zijn veel met Magento aan de slag. Ze vertelden dat er drastische veranderingen zijn waarbij belangrijke functionaliteiten uitgesloten worden.</li>
+<li>Bij <strong>Channable</strong> verwachten ze dat mensen zullen wachten totdat Magento versie 2.1 of zelfs 2.2 uit is voordat er overgestapt wordt. Er zullen op dit moment nog wel veel bugs in Magento 2 zitten aangezien het een volledige rewrite is.</li>
+</ol>
+<h3>Conclusie</h3>
+<div>Uit bovenstaande antwoorden blijkt dat leveranciers de kat uit de boom aan het kijken zijn. Er wordt geen aanstalten gemaakt om over te stappen naar Magento 2 omdat volgens de meeste leveranciers een update van een applicatie naar Magento 2 op dit moment nog kinderziektes zal vertonen. <strong>SupportDesk </strong>is echter nog niet klaar met het onderzoek. We zullen de lijst met leveranciers aan blijven vullen met de meest recente gegevens. Voor nu echter:</div>
+<div>&nbsp;</div>
+<div>To be continued.....</div>
