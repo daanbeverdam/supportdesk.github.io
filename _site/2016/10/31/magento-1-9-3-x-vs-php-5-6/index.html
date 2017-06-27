@@ -8,9 +8,9 @@
   <meta name="description" content="Magento en Joomla support nodig?" />
   <meta name="robots" content="NOINDEX,NOFOLLOW"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <title>Smile marketing campaigne - Pietzoomers.com - Support voor Magento en Joomla</title>
+  <title>Magento 1.9.3.x vs PHP 5.6 - Support voor Magento en Joomla</title>
   <link rel="shortcut icon" href="/img/amp_favicon.png">
-  <link rel="canonical" href="https://supportdesk.shop//case-study/131-smile-marketing-campaigne-pietzoomers-com/">
+  <link rel="canonical" href="https://supportdesk.shop//2016/10/31/magento-1-9-3-x-vs-php-5-6/">
   <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/120.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
@@ -18,10 +18,10 @@
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "https://supportdesk.shop//case-study/131-smile-marketing-campaigne-pietzoomers-com/",
-  "headline": "Smile marketing campaigne - Pietzoomers.com",
-  "datePublished": "2017-06-27T06:29:45+00:00",
-  "dateModified": "2017-06-27T06:29:45+00:00",
+  "mainEntityOfPage": "https://supportdesk.shop//2016/10/31/magento-1-9-3-x-vs-php-5-6/",
+  "headline": "Magento 1.9.3.x vs PHP 5.6",
+  "datePublished": "2016-10-31T00:00:00+00:00",
+  "dateModified": "2016-10-31T00:00:00+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -56,11 +56,11 @@
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Smile marketing campaigne - Pietzoomers.com",
+  "name": "Magento 1.9.3.x vs PHP 5.6",
   "description": "Magento en Joomla support nodig?",
   "provider": {
     "@type": "Organization",
-    "name": "Smile marketing campaigne - Pietzoomers.com",
+    "name": "Magento 1.9.3.x vs PHP 5.6",
     "sameAs": "https://supportdesk.shop/"
   }
 }
@@ -75,8 +75,8 @@
    "position": 1,
    "item":
    {
-    "@id": "/case-study/131-smile-marketing-campaigne-pietzoomers-com/",
-    "name": "Smile marketing campaigne - Pietzoomers.com"
+    "@id": "/2016/10/31/magento-1-9-3-x-vs-php-5-6/",
+    "name": "Magento 1.9.3.x vs PHP 5.6"
     }
   }
  ]
@@ -357,7 +357,7 @@
           <section class="blade blade--2column">
             <div class="container">
               <div>
-                  <h1 class="blog__section-title"><a title="Smile marketing campaigne - Pietzoomers.com" href="/case-study/131-smile-marketing-campaigne-pietzoomers-com/">Smile marketing campaigne - Pietzoomers.com</a></h1>
+                  <h1 class="blog__section-title"><a title="Magento 1.9.3.x vs PHP 5.6" href="/2016/10/31/magento-1-9-3-x-vs-php-5-6/">Magento 1.9.3.x vs PHP 5.6</a></h1>
               </div>
 
               <div class="row">
@@ -368,7 +368,26 @@
                         <div class="box">
                           <div class="box__inner">
                             <div class="box__content">
-                                
+                                <div class="box__image">
+  <a title="Magento 1.9.3.x vs PHP 5.6" href="/2016/10/31/magento-1-9-3-x-vs-php-5-6/">
+    <amp-img noloading height=195 width=300 alt="Magento 1.9.3.x vs PHP 5.6" attribution="Magento 1.9.3.x vs PHP 5.6" layout=responsive src="/img/news/php-56-magento-193.png"></amp-img>
+  </a>
+</div>
+
+<p>Since the early days of Magento 1.x we are used to use PHP.</p>
+<p>It all started with PHP 5.3 back in 2008. This PHP version was not the holy grail and had some major security issues and performance drawbacks. PHP 5.3 became end-of-life in <a href="http://php.net/eol.php" target="_blank" title="PHP 5.3 End Of Life">August 2014</a>. The fact that lots of Magento 1.x websites are still using this on a production environment maybe not be a good idea to go forward.</p>
+<p>Early March 2012 PHP introduced 5.4 and PHP 5.5 in June 2013. Both where much better on security and performance. The <strong>Magento performance</strong> increased running on PHP 5.5 version and was around 20% better than all previous versions. <br>Nowadays the majority of Magento 1.x shops are properly using PHP 5.5, but are not aware that this PHP version is also <a href="http://php.net/supported-versions.php" target="_blank" title="PHP End Of Life">end-of-life</a> since July 2016. This means no new security and bug updates are being released by Zend PHP, the maintainer of PHP. Lucky vendors like Ubuntu/Debian are maintaining there own distribution of PHP (known as a fork) on all TLS (longtime support) versions.</p>
+<p>Up until now all current versions of Magento 1.9.2.x (and lower) only supported PHP 5.5 (and lower). There was no official support for the latest PHP version 5.6, 7.0 or 7.1 on Magento 1.x.</p>
+<h3>HHVM vs PHP</h3>
+<p>In the middle of 2015 lots of debate was going on, what to use, PHP or HHVM. <strong>HHVM (HipHop virtual machine)</strong> was created by Facebook and was a state of the art new processor for PHP like code. And since all PHP version up until now where not performing great (understatement) Magento 1.x engineers started using HHVM on production. This was the first great alternative in a while. But it never officially got supported by Magento. So some Magento 1.x shop benefited while others where not able to use this, due to their Magento hosting environment or Magento module incapably.</p>
+<p>So the hype running HHVM was only short. Lucky Zend PHP was working back then on PHP NG (Next Generation) and noticed the power of HHVM and converted there PHP NG to PHP 7.0. A brand new start of the PHP stack (ps. PHP 6 was never released, trivia ;-) ).</p>
+<p>While working on PHP 7.0 the latest build from the PHP 5.x branch is know as PHP 5.6 (last of its kind). <br>So the current PHP 5.6 version is available as of now and will be maintained until December 2018 for security releases before it reaches it's <u>end-of-life</u> status.</p>
+<h3>Magento 1.9.3.x and PHP 5.6</h3>
+<p>In October 2016 Magento released a brand new version of the 1.9.x stack. Magento version 1.9.3.x which will be supporting PHP 5.6. This is great news for all merchants who are not ready to start a migration to Magento 2.x. And the PHP 5.6 version will be supported until the end of 2018 which is the same for Magento 1.x which is supported until November 2018. Merchants now will have some time left and get the maximum ROI on there Magento 1.x setup. In the meanwhile it's still advised pre-prepping for the new Magento 2 journey.</p>
+<p>Moving to <strong>Magento 2</strong> is not a easy task and not being an upgrade with a single button click, but a migration which need to be well thought true. Although the name of the software is the same, the technical infrastructure is not. An average migration project for Magento 2 could take up to 6 months or more depending on the requirements and available recourses.</p>
+<p>So enjoy Magento 1.x while you can, but always plan for the future!</p>
+<div class="box-info">PHP is a server-side scripting language designed primarily for web development but is also used as a general-purpose programming language.</div>
+
                             </div>
                             <div class="card__action">
                               <a class="go-button button orange" title="Meer info" href="/contact">meer info</a>
