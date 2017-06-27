@@ -1,0 +1,27 @@
+---
+layout: 2column
+title: Magento Security Update versie 1.4 - 1.7.0.1
+url: magento-security-update-versie-14-1701
+description: Magento Security Update versie voor 1.4 t/m 1.7.0.1. Dit betreft een Magento lek in Zend XML-RPC.
+image: securityrelease.png
+imagedir: news
+height: 157
+width: 157
+position:
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2012-07-06 06:27:21.000000000 +00:00
+dateModified: 2013-01-18 18:45:47.000000000 +00:00
+intro: Magento Security Update versie voor 1.4 t/m 1.7.0.1. Dit betreft een Magento lek in Zend XML-RPC.
+hits: 2320
+nav: blog
+---
+{% include img.html %}
+<p>Onlangs is er een <strong>Magento veiligheidslek</strong> gevonden in <u>Magento Community</u>, <u>Professional</u> en <u>Magento Enterprise</u>. Het betreft hier een Magento Security issue in het Zend Framework.</p>
+<h3>Magento XML-RPC Lek</h3>
+<p>Het betreft hier een <strong>Magento lek</strong> in de <u>Zend XML-RPC</u> functionaliteit. Middels XML-RPC is het mogelijk een externe connectie te maken van Magento naar bijv. een ERP systeem of een CMS zoals <strong>Joomla (MageBridge)</strong> of <strong>Wordpress</strong>. Het Magento lek kan er voor zorgen dat gegevens zoals <u>wachtwoorden</u>, <u>configuratie bestanden</u> of <u>database gegevens</u><br> direct beschikbaar zijn.</p>
+<h3>Magento 1.4 - 1.7.0.1</h3>
+<p>Het Magento lek is van toepassing op alle versie van 1.4 t/m 1.7.0.1 en is vooral belangrijk voor Magento webwinkels die <strong>XML-RPC</strong> gebruiken, dit kun je eenvoudig zien door in te loggen in de backend, ga dan naar <br>system -&gt; web services -&gt; user (gebruiker). Als je hier een gebruiker ziet staan is het belangrijk deze te laten fixen.</p>
+<p>Via de Magento download website is het mogelijk een <a href="http://www.magentocommerce.com/blog/important-security-update-zend-platform-vulnerability/" title="Magento Security Patch">Magento patch</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+<h3>Magento workaround</h3>
+<p>Magento heeft tevens een workaround waardoor de XML-RPC tijdelijk helemaal niet meer beschikbaar is. Gebruik deze enkel als je geen connectie hebt met een extern systeem aangezien de workaround er voor zorgt dat er dan helemaal geen connectie meer is met bijv. MageBridge, SAP, Docdata, Mammoet, WSSN, etc. Kortom alles wat middels de Magento API communiceert.</p>
