@@ -20,8 +20,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://supportdesk.shop//blog/page6/",
   "headline": "Blog",
-  "datePublished": "2017-06-27T19:29:06+00:00",
-  "dateModified": "2017-06-27T19:29:06+00:00",
+  "datePublished": "2017-06-28T18:04:37+00:00",
+  "dateModified": "2017-06-28T18:04:37+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -370,134 +370,223 @@
                             <div class="box__content">
                                 <div class="twelve columns">
   
-  <article data-permalink="https://supportdesk.shop/2013/11/06/joomla-security-update-versie-2-5-16/">
+  <article data-permalink="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
       <header>
-          <time datetime="2013-11-06"><span class="day">06</span><span class="month">Nov</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/11/06/joomla-security-update-versie-2-5-16/" title="Joomla Security Update versie 2.5.16">Joomla Security Update versie 2.5.16</a></h1>
+          <time datetime="2015-07-07"><span class="day">07</span><span class="month">Jul</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/" title="Magento Security Update SUPEE-6285 Patch Bundle">Magento Security Update SUPEE-6285 Patch Bundle</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Joomla Security Update versie 2.5.16" href="/2013/11/06/joomla-security-update-versie-2-5-16/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 2.5.16" attribution="Joomla Security Update versie 2.5.16" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Magento Security Update SUPEE-6285 Patch Bundle" href="/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
+    <amp-img noloading height=157 width=157 alt="Magento Security Update SUPEE-6285 Patch Bundle" attribution="Magento Security Update SUPEE-6285 Patch Bundle" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 2.5.16</strong>. Het betreft hier een <strong>Joomla Security release</strong>. <br>Naast de 3 <strong>Joomla Security</strong> aanpassingen zijn tevens 32 <strong>bug</strong> gefixed.</p>
-<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5518-joomla-2-5-16-released.html" target="_blank">Joomla 2.5.16</a> website</p>
-<p>Deze Joomla 2.5.16 release werd op de zelfde dag beschikbaar na het verschijnen van Joomla 2.5.15 welke blijkbaar nog diverse security problemen bleek te hebben.</p>
-<p>Joomla 2.5.16 heeft 3 security issues:</p>
+<p>Onlangs zijn er <u>8 veiligheidslekken</u> in Magento ontdekt en opgelost in een patch <strong>SUPEE-6285</strong>. De lekken zijn aanwezig in alle versies van Magento (1.6/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.6 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.</p>
+<h3>Wat zijn de 8 lekken van SUPEE-6285?</h3>
 <ul class="check">
-<li>High Priority - Core XSS Vulnerability <a href="http://developer.joomla.org/security/news/570-20131101-core-xss-vulnerability" title="Joomla 2.5.16 - security release" target="_blank">meer info</a></li>
-<li>Medium Priority - Core XSS Vulnerability <a href="http://developer.joomla.org/security/news/571-20131102-core-xss-vulnerability" title="Joomla 2.5.16 - security release" target="_blank">meer info</a></li>
-<li>Medium Priority - Core XSS Vulnerability <a href="http://developer.joomla.org/security/news/572-20131103-core-xss-vulnerability" title="Joomla 2.5.16 - security release" target="_blank">meer info</a></li>
+<li>
+<p>Customer Information Leak via RSS and Privilege Escalation</p>
+<ul>
+<li>
+<p>Onjuiste toegang tot klant gegevens zijn beschikbaar ( bestelinformatie , order -id , naam van de klant, etc...) middels het "Guest Order Review" systeem. Deze zelfde mogelijk is ook beschikbaar via de backend.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 7.5 (high)</u></p>
+</li>
 </ul>
+</li>
+<li>Request Forgery in Magento Connect Leads to Code Execution
+<ul>
+<li>
+<p>Een Cross-Site Request Forgery (CSRF) in de <strong>Magento Connect Manager</strong> kan een aanval uitvoeren tijdens de installatie van een externe module, en kan leiden tot het uitvoeren van onveilige externe code binnen je Magento omgeving. Een aanvaller kan middels een ingelogde shop eigenaar een speciale link via een ander medium gestuurd hebben om zo toegang te krijgen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 9.3 (Critical)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Wishlist
+<ul>
+<li>
+<p>Middels de Magento Whishlist is het mogelijk om spoofing en phishing e-mails te sturen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Cart
+<ul>
+<li>In de Magento shopping cart is het mogelijk middels een aangepaste URL parameter JavaScript code te injecteren. Cookie and andere informatie (klant gegevens) kan dan verzameld worden en doorgestuurd worden naar de aanvaller.</li>
+<li>
+<p><u>CVSS Severity: 6.1 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Store Path Disclosure
+<ul>
+<li>Informantie van de gehoste Magento omgeving (server path) kan vergaard worden middels direct toegang tot een gerelateerd bestand van de Magento Connect installatie procedure.</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Permissions on Log Files too Broad
+<ul>
+<li>Log bestanden op de Magento omgeving beschikken momenteel over te veel rechten welke momenteel toegang geven aan andere gebruikers.</li>
+<li>
+<p><u>CVSS Severity: 3.8 (Low)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Admin
+<ul>
+<li>
+<p>Een aanvaller kan JavaScript code injecteren in de titel van een Widget van de Magento Admin. De code kan later worden uitgevoerd wanneer een andere beheerder deze Widget opent. De aanvaller moet toegang tot de winkel te hebben om deze te kunnen uitvoeren. Echter, wanneer deze code uitgevoerd is, kan de aanvaller alle account overnemen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 6.5 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Orders RSS
+<ul>
+<li>MIddels de Magento RSS order optie is het mogelijk om onveilige data te injecteren.</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<div class="box-hint">Update 09-07-2015: Bij het installeren van de Magento patch is het mogelijk dat er een '<strong>Access Denied</strong>' verschijnt. Dit houdt in dat de externe modules individueel geupdate of gepatched moeten worden. <br>Er is een nieuwe versie van de patch voor <strong>Magento 1.9</strong> beschikbaar gesteld die de problemen met het RWD theme oplost.</div>
+<h3>Wat moet ik doen om Magento Security issues te bestrijden?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren.</p>
+<div class="box-warning">Letop: deze patches hebben impact op oa. <strong>Apache</strong> en <strong>Nginx</strong> aangezien er een custom aanpassing in de <u>.htaccess</u> file of <u>Nginx config</u> nodig is.</div>
+<p>Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
+<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6285">Magento security patch SUPEE-6285</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
+  <article data-permalink="https://supportdesk.shop/2015/06/09/fooman-pdf-customiser-important-security-update/">
       <header>
-          <time datetime="2013-08-01"><span class="day">01</span><span class="month">Aug</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/" title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x">High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x</a></h1>
+          <time datetime="2015-06-09"><span class="day">09</span><span class="month">Jun</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/06/09/fooman-pdf-customiser-important-security-update/" title="Fooman Pdf Customiser - Important Security Update">Fooman Pdf Customiser - Important Security Update</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" href="/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
-    <amp-img noloading height=157 width=157 alt="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" attribution="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Fooman Pdf Customiser - Important Security Update" href="/2015/06/09/fooman-pdf-customiser-important-security-update/">
+    <amp-img noloading height=157 width=157 alt="Fooman Pdf Customiser - Important Security Update" attribution="Fooman Pdf Customiser - Important Security Update" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe <strong>High Joomla Security</strong> release vrijgegeven voor alle versies, nl. <strong>Joomla 1.5.x, Joomla 2.5.x en Joomla 3.0.x</strong>.</p>
-<p>Voor <strong>Joomla 1.5</strong> is enkel een <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&amp;tracker_item_id=31626" title="Joomla 1.5 security patch" target="_blank">patch file</a> uitgebracht.</p>
-<h3>Highlight in de Joomla 3.1.5</h3>
-<ul class="check">
-<li>1 high security fix</li>
-<li>7 bugs gefixed</li>
-</ul>
-<h3>Highlight in de Joomla 2.5.14</h3>
-<ul class="check">
-<li>1 high security fix</li>
-<li>1 bug opgelost</li>
-</ul>
-<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements.html" title="Joomla meldingen" target="_blank">Joomla</a> website.</p>
-<p>Hulp nodig bij pathen? Bel of mail ons.</p>
+<p>De <strong>Fooman Pdf Customiser</strong> gebruikt de TCPDF Library om pdf's te genereren. Er is een lek ontdekt in de versie die gebruikt wordt bij de Pdf Customiser (Fooman v.2.1.11+).</p>
+<h3>Wat moet ik doen?</h3>
+<p>Hoewel er nog geen meldingen binnen zijn gekomen vanuit de gebruikers, wordt er wel aangeraden deze module te updaten. Bij de update komt ook de laatste versie van TCPDF Library bij met de security update. <br><br>Wij raden onze klanten dan ook aan om vandaag nog de extensie te updaten. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-31/">
+  <article data-permalink="https://supportdesk.shop/2015/05/28/critical-security-flaw-magento-blog-extension/">
       <header>
-          <time datetime="2013-04-24"><span class="day">24</span><span class="month">Apr</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-31/" title="Joomla Security Update versie 3.1">Joomla Security Update versie 3.1</a></h1>
+          <time datetime="2015-05-28"><span class="day">28</span><span class="month">May</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/05/28/critical-security-flaw-magento-blog-extension/" title="Critical Security Flaw in Magento Blog Extension (aw_blog)">Critical Security Flaw in Magento Blog Extension (aw_blog)</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Joomla Security Update versie 3.1" href="/2013/04/24/joomla-security-update-versie-31/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 3.1" attribution="Joomla Security Update versie 3.1" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Critical Security Flaw in Magento Blog Extension (aw_blog)" href="/2015/05/28/critical-security-flaw-magento-blog-extension/">
+    <amp-img noloading height=157 width=157 alt="Critical Security Flaw in Magento Blog Extension (aw_blog)" attribution="Critical Security Flaw in Magento Blog Extension (aw_blog)" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 3.1</strong>. Het betreft hier een <strong>Joomla Stable release</strong>. <br>Naast de 7 <strong>Joomla Security</strong> (low Priority) is er ook een lose patch beschikbaar voor <a href="http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&amp;frs_package_id=6668" title="Joomla 3.0.4" target="_blank">Joomla 3.0.4</a>.</p>
-<h3>Wat is er allemaal nieuw in Joomla 3.1?</h3>
-<p>Een van de nieuwe features is het "<a href="http://community.joomla.org/blogs/community/1729-tag-you-are-it.html" title="Joomla Tagging" target="_blank"><strong>Joomla Tagging</strong></a>" systeem waarmee het nu zeer eenvoudig is een artikel onderdeel te maken van verschillende categorieën door middel van een "tag" toe te voegen aan een artikel welke dan middels een menu item gekoppeld kan worden.</p>
-<p>Overige nieuwe features in Joomla 3.1 zijn o.a.:</p>
-<ul class="check">
-<li>OpenStreetMap</li>
-<li>Media Wiki</li>
-<li>Log files bekijken in debug modes</li>
-</ul>
-<h3>Highlight in de Joomla 3.x reeks</h3>
-<ul class="check">
-<li>Bootstrap template (responsive design)</li>
-<li>PostgreSQL</li>
-<li>Memcache</li>
-<li>Opslaan van een leeg artikel</li>
-<li>etc....</li>
-</ul>
-<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5494-joomla-3-1-0-stable-released.html" title="Joomla 3.1" target="_blank">Joomla 3.1</a> website</p>
-
-<div class="box__image_top">
-    <amp-img noloading height=193 width=666 alt="joomla-31" attribution="joomla-31" layout=responsive src="/img/news/joomla-31.jpg"></amp-img>
-</div>
+<p>De <strong>AheadWorks</strong> Blog (<u>aw_blog</u>) extensie voor Magento (voorafgaand van versie 1.3.10) is kwetsbaar voor een kritische SQL Injection security fout. Een remote niet geverifieerde aanvaller zou deze kwetsbaarheid kunnen misbruiken. Dit kan betekenen dat hij volledige controle zou kunnen hebben over de desbetreffende Magento server en database.</p>
+<h3><strong>Wat moet ik doen?</strong></h3>
+<p>Deze fout is doorgegeven aan aheadWorks op de 22 April 2015. Een fix is vrijgegeven op 27 April 2015.</p>
+<p>Wij raden onze klanten met een Magento webshop en gebruikmaken van de Aheadworks Blog extensie om vandaag nog de extensie te updaten. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-2510/">
+  <article data-permalink="https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/">
       <header>
-          <time datetime="2013-04-24"><span class="day">24</span><span class="month">Apr</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-2510/" title="Joomla Security Update versie 2.5.10">Joomla Security Update versie 2.5.10</a></h1>
+          <time datetime="2015-05-15"><span class="day">15</span><span class="month">May</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/" title="Magento Security Update SUPEE-5994 Patch Bundle">Magento Security Update SUPEE-5994 Patch Bundle</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Joomla Security Update versie 2.5.10" href="/2013/04/24/joomla-security-update-versie-2510/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 2.5.10" attribution="Joomla Security Update versie 2.5.10" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Magento Security Update SUPEE-5994 Patch Bundle" href="/2015/05/15/magento-security-update-supee-5994-patch-bundle/">
+    <amp-img noloading height=157 width=157 alt="Magento Security Update SUPEE-5994 Patch Bundle" attribution="Magento Security Update SUPEE-5994 Patch Bundle" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 2.5.10</strong>. Het betreft hier een <strong>Joomla Security release</strong>. <br>Naast de 7<strong>Joomla Security</strong>aanpassingen zijn tevens 38 <strong>bug</strong> gefixed.</p>
-<p>Meer weten welken issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5493-joomla-2-5-10-released.html" title="Joomla 2.5.10" target="_blank">Joomla 2.5.10</a> website</p>
-<p><strong>Update (25/04):</strong> let op bij het patchen. momenteel blijkt er een bug in <strong>Joomla 2.5.10</strong> te zitten, zie hier de <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemBrowse&amp;tracker_id=8103&amp;start=6600" title="Bug in Joomla 2.5.10" target="_blank">bug tracker</a>. Mogelijk dat op termijn Joomla nog een nieuwe release nl. <strong>Joomla 2.5.11</strong> zal uitgegeven om deze bug te verhelpen.<p>
+<p><strong>ShopHack<br></strong><br>Onlangs zijn er <u>7 veiligheidslekken</u> in Magento ontdekt en opgelost in een patch <strong>SUPEE-5994</strong>. De lekken zijn aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.4 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.</p>
+<h3>Wat zijn de 7 lekken van ShopHack?</h3>
+<ul class="check">
+<li>Admin Path Disclosure
+<ul>
+<li>
+<p>Een aanvaller kan de Admin Login verzoeken rechtstreeks een module aan te roepen, ongeacht of deze voorkomen in de Admin URL. Dit maakt het makkelijker om het wachtwoord met behulp van brute force attacks te achterhalen.</p>
+</li>
+</ul>
+</li>
+<li>Customer Address Leak through Checkout
+<ul>
+<li>
+<p>Hiermee kan een aanvaller adresgegevens (naam, adres, telefoonnummer ) van de adresboeken van andere klanten verkrijgen.Tijdens het afrekenen, kan de aanvaller toegang tot een willekeurig adresboek krijgen door het invoeren van een sequentiële ID. Een functionele proof of concept bestaat reeds.</p>
+</li>
+</ul>
+</li>
+<li>Customer Information Leak through Recurring Profile
+<ul>
+<li>
+<p>Dit probleem maakt dhet mogelijk voor de aanvaller om adres, vorige bestelling, betaalmethode en informatie van de terugkerende betaling profielen van andere klanten te verkrijgen. Een functionele proof of concept bestaat reeds.</p>
+</li>
+</ul>
+</li>
+<li>Local File Path Disclosure Using Media Cache
+<ul>
+<li>De aanvaller kan fictieve image URL's gebruiken om de server gegevens bloot te leggen, ongeacht de instellingen.</li>
+</ul>
+</li>
+<li>Spreadsheet Formula Injection
+<ul>
+<li>De aanvaller kan input, die door een algoritme wordt uitgevoerd, exporteren en openen in een spreadsheetprogramma zoals Microsoft Excel. De formule kan oa. gegevens exporteren, persoonlijke gegevens wijzigen.</li>
+</ul>
+</li>
+<li>Cross-site Scripting Using Authorize.Net Direct Post Module
+<ul>
+<li>Hiermee kan een aanvaller JavaScript uit voeren in het kader van klantsessie. Als een klant dan op een schadelijke link klikt, kan de aanvaller cookies stelen en de sessie overnemen, die dan persoonlijke informatie blootsteld.</li>
+</ul>
+</li>
+<li>Malicious Package Can Overwrite System Files
+<ul>
+<li>Aanvaller kan een kwaadwillende module installeren en code overschrijven.</li>
+</ul>
+</li>
+</ul>
+<h3>Wat moet ik doen om ShopHack te bestrijden?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
+<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-5994">Magento security patch SUPEE-5994</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/02/04/joomla-security-update-versie-303/">
+  <article data-permalink="https://supportdesk.shop/2015/02/10/magento-security-update-versie-141-902/">
       <header>
-          <time datetime="2013-02-04"><span class="day">04</span><span class="month">Feb</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/02/04/joomla-security-update-versie-303/" title="Joomla Security Update versie 3.0.3">Joomla Security Update versie 3.0.3</a></h1>
+          <time datetime="2015-02-10"><span class="day">10</span><span class="month">Feb</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/02/10/magento-security-update-versie-141-902/" title="Magento Security Update versie 1.4 - 1.9.0.2">Magento Security Update versie 1.4 - 1.9.0.2</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Joomla Security Update versie 3.0.3" href="/2013/02/04/joomla-security-update-versie-303/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 3.0.3" attribution="Joomla Security Update versie 3.0.3" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Magento Security Update versie 1.4 - 1.9.0.2" href="/2015/02/10/magento-security-update-versie-141-902/">
+    <amp-img noloading height=157 width=157 alt="Magento Security Update versie 1.4 - 1.9.0.2" attribution="Magento Security Update versie 1.4 - 1.9.0.2" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 3.0.3</strong>. Het betreft hier een <strong>Joomla Security release</strong>. <br>Naast de 3 <strong>Joomla Security</strong> (low Priority) aanpassingen zijn tevens 136 <strong>bug</strong> gefixed en 2 nieuwe functionaliteiten.</p>
-<h3>Taalpakketen installeren tijdens installatie</h3>
-<p>In de nieuwe Joomla 3.0.3 is het vanaf heden mogelijk taalpakketten te installeren tijdens de installatie.</p>
-<p>Meer weten welken issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5478-joomla-3-0-3-released.html" title="Joomla 3.0.3" target="_blank">Joomla 3.0.3</a> website</p>
-
-<div class="box__image_top">
-    <amp-img noloading height=513 width=666 alt="Joomla 3.0.3 taalpakketen installeren tijdens installatie " attribution="Joomla 3.0.3 taalpakketen installeren tijdens installatie" layout=responsive src="/img/news/joomla_303_install_step.jpg"></amp-img>
-</div>
+<p>Onlangs is er een veiligheidslek in Magento ontdekt. Het lek is aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Via dit lek kunnen gegevens uit de Magento installatie gehaald worden of backdoors geplaatst worden dus het is belangrijk dat snel gepatched wordt!</p>
+<h3>Wat is het risico?</h3>
+<p>Op dit moment is er nog geen grootschalig misbruik gemaakt van dit lek.<br>Doordat het lek nu publiekelijk is, is de verwachting dat hackers dit zullen gaan misbruiken.</p>
+<h3>Wat moet ik doen?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
+<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" title="Magento Security Patch SUPEE-5344" target="_blank">Magento security patch SUPEE-5344</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
 </div>
   </article>
   
@@ -527,7 +616,17 @@
       
         <li><a href="/2016/09/16/magento-beheer-wat-is-een-geslaagd-recept/" title="Magento beheer: wat is een geslaagd recept?">Magento beheer: wat is een geslaagd recept?</a></li>
       
+        <li><a href="/2016/09/01/exact-meets-ecommerce/" title="Exact meets Ecommerce">Exact meets Ecommerce</a></li>
+      
+        <li><a href="/2016/05/05/aankondiging-meet-magento-nederland-2016-12-en-13-mei/" title="Aankondiging Meet Magento Nederland 2016 (12 en 13 mei)">Aankondiging Meet Magento Nederland 2016 (12 en 13 mei)</a></li>
+      
+        <li><a href="/2016/05/03/magento-2-cookbook-award-nominated/" title="Magento 2 Cookbook - Award Nominated">Magento 2 Cookbook - Award Nominated</a></li>
+      
+        <li><a href="/2016/04/29/tweede-editie-webdevelopers-bootcamp-gebaseerd-op-magento-is-een-feit/" title="Tweede editie web development bootcamp, gebaseerd op Magento, is een feit! ">Tweede editie web development bootcamp, gebaseerd op Magento, is een feit! </a></li>
+      
         <li><a href="/2016/03/14/keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof/" title="Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof">Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof</a></li>
+      
+        <li><a href="/2016/02/26/supportdesk-steunt-oxfam-novib/" title="SupportDesk steunt Oxfam Novib">SupportDesk steunt Oxfam Novib</a></li>
       
         <li><a href="/2016/01/20/magento-security-update-supee-7405/" title="Magento Security Update SUPEE-7405">Magento Security Update SUPEE-7405</a></li>
       
