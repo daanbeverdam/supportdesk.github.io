@@ -3330,3 +3330,31 @@ a.underlined.cta:hover::before,
     font-size: 1.5em;
     margin: 5px
 }
+
+ol.m2-no,
+ol.m2-yes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ol.m2-no > li,
+ol.m2-yes > li {
+    margin-top:5px
+  }
+
+ol.m2-no > li:first-child,
+ol.m2-yes > li:first-child {
+    margin-top:0
+  }
+ol.m2-no > li {
+    padding:4px 0 13px 40px;
+    background: url(/img/icons/mage2-not.png) 0px 0px no-repeat;
+    background-size:30px;
+  }
+
+ol.m2-yes > li {
+    padding:4px 0 0 40px;
+    background: url(/img/icons/mage2-yes.png) 0px 10px no-repeat;
+    background-size:30px;
+  }
