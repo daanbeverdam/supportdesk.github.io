@@ -3331,6 +3331,35 @@ a.underlined.cta:hover::before,
     margin: 5px
 }
 
+.box-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    background: #ebf5fa;
+    border-color: #a1c0d0;
+    color: #1d5e80
+}
+
+.box-info:before {
+    font-family: 'FontAwesome';
+    content: '\f129';
+    font-size: 1.5em;
+    margin: 5px
+}
+
+.box-blank {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    background: #fffae6;
+    border-color: #e2c487;
+    color: #6a4f16
+}
+
 ol.m2-no,
 ol.m2-yes {
     list-style: none;
