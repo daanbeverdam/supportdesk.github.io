@@ -20,8 +20,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://supportdesk.shop//blog/page7/",
   "headline": "Blog",
-  "datePublished": "2017-06-29T18:18:15+00:00",
-  "dateModified": "2017-06-29T18:18:15+00:00",
+  "datePublished": "2017-06-29T19:34:22+00:00",
+  "dateModified": "2017-06-29T19:34:22+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -613,101 +613,30 @@
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
+  <article data-permalink="https://supportdesk.shop/2015/07/09/update-critical-patch-supee-6285/">
       <header>
-          <time datetime="2015-07-07"><span class="day">07</span><span class="month">Jul</span><span class="year">2015</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/" title="Magento Security Update SUPEE-6285 Patch Bundle">Magento Security Update SUPEE-6285 Patch Bundle</a></h1>
+          <time datetime="2015-07-09"><span class="day">09</span><span class="month">Jul</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/07/09/update-critical-patch-supee-6285/" title="Update: Critical SUPEE-6285 Patch">Update: Critical SUPEE-6285 Patch</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Magento Security Update SUPEE-6285 Patch Bundle" href="/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
-    <amp-img noloading height=157 width=157 alt="Magento Security Update SUPEE-6285 Patch Bundle" attribution="Magento Security Update SUPEE-6285 Patch Bundle" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Update: Critical SUPEE-6285 Patch" href="/2015/07/09/update-critical-patch-supee-6285/">
+    <amp-img noloading height=157 width=157 alt="Update: Critical SUPEE-6285 Patch" attribution="Update: Critical SUPEE-6285 Patch" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<p>Onlangs zijn er <u>8 veiligheidslekken</u> in Magento ontdekt en opgelost in een patch <strong>SUPEE-6285</strong>. De lekken zijn aanwezig in alle versies van Magento (1.6/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.6 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.</p>
-<h3>Wat zijn de 8 lekken van SUPEE-6285?</h3>
-<ul class="check">
-<li>
-<p>Customer Information Leak via RSS and Privilege Escalation</p>
-<ul>
-<li>
-<p>Onjuiste toegang tot klant gegevens zijn beschikbaar ( bestelinformatie , order -id , naam van de klant, etc...) middels het "Guest Order Review" systeem. Deze zelfde mogelijk is ook beschikbaar via de backend.</p>
-</li>
-<li>
-<p><u>CVSS Severity: 7.5 (high)</u></p>
-</li>
-</ul>
-</li>
-<li>Request Forgery in Magento Connect Leads to Code Execution
-<ul>
-<li>
-<p>Een Cross-Site Request Forgery (CSRF) in de <strong>Magento Connect Manager</strong> kan een aanval uitvoeren tijdens de installatie van een externe module, en kan leiden tot het uitvoeren van onveilige externe code binnen je Magento omgeving. Een aanvaller kan middels een ingelogde shop eigenaar een speciale link via een ander medium gestuurd hebben om zo toegang te krijgen.</p>
-</li>
-<li>
-<p><u>CVSS Severity: 9.3 (Critical)</u></p>
-</li>
-</ul>
-</li>
-<li>Cross-site Scripting in Wishlist
-<ul>
-<li>
-<p>Middels de Magento Whishlist is het mogelijk om spoofing en phishing e-mails te sturen.</p>
-</li>
-<li>
-<p><u>CVSS Severity: 5.3 (Medium)</u></p>
-</li>
-</ul>
-</li>
-<li>Cross-site Scripting in Cart
-<ul>
-<li>In de Magento shopping cart is het mogelijk middels een aangepaste URL parameter JavaScript code te injecteren. Cookie and andere informatie (klant gegevens) kan dan verzameld worden en doorgestuurd worden naar de aanvaller.</li>
-<li>
-<p><u>CVSS Severity: 6.1 (Medium)</u></p>
-</li>
-</ul>
-</li>
-<li>Store Path Disclosure
-<ul>
-<li>Informantie van de gehoste Magento omgeving (server path) kan vergaard worden middels direct toegang tot een gerelateerd bestand van de Magento Connect installatie procedure.</li>
-<li>
-<p><u>CVSS Severity: 5.3 (Medium)</u></p>
-</li>
-</ul>
-</li>
-<li>Permissions on Log Files too Broad
-<ul>
-<li>Log bestanden op de Magento omgeving beschikken momenteel over te veel rechten welke momenteel toegang geven aan andere gebruikers.</li>
-<li>
-<p><u>CVSS Severity: 3.8 (Low)</u></p>
-</li>
-</ul>
-</li>
-<li>Cross-site Scripting in Admin
-<ul>
-<li>
-<p>Een aanvaller kan JavaScript code injecteren in de titel van een Widget van de Magento Admin. De code kan later worden uitgevoerd wanneer een andere beheerder deze Widget opent. De aanvaller moet toegang tot de winkel te hebben om deze te kunnen uitvoeren. Echter, wanneer deze code uitgevoerd is, kan de aanvaller alle account overnemen.</p>
-</li>
-<li>
-<p><u>CVSS Severity: 6.5 (Medium)</u></p>
-</li>
-</ul>
-</li>
-<li>Cross-site Scripting in Orders RSS
-<ul>
-<li>MIddels de Magento RSS order optie is het mogelijk om onveilige data te injecteren.</li>
-<li>
-<p><u>CVSS Severity: 5.3 (Medium)</u></p>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<div class="box-hint">Update 09-07-2015: Bij het installeren van de Magento patch is het mogelijk dat er een '<strong>Access Denied</strong>' verschijnt. Dit houdt in dat de externe modules individueel geupdate of gepatched moeten worden. <br>Er is een nieuwe versie van de patch voor <strong>Magento 1.9</strong> beschikbaar gesteld die de problemen met het RWD theme oplost.</div>
-<h3>Wat moet ik doen om Magento Security issues te bestrijden?</h3>
-<p>Wij raden onze klanten met een Magento webshop de patches te installeren.</p>
-<div class="box-warning">Letop: deze patches hebben impact op oa. <strong>Apache</strong> en <strong>Nginx</strong> aangezien er een custom aanpassing in de <u>.htaccess</u> file of <u>Nginx config</u> nodig is.</div>
-<p>Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
+<p>Het uitvoeren van de <strong>SUPEE-6285 Patch</strong> of updaten naar <strong>Magento 1.9.2.0</strong> (waar deze patches ook in verwerkt zijn) is duidelijk gebleken dat dit geen <em>'stroll in the park'</em> is.</p>
+<p>Developers wereldwijd hebben massaal de patches door zitten voeren of een update gedaan van een Magento shop naar 1.9.2.0<br />Hieruit zijn een aantal errors boven water gekomen.</p>
+<h3>Wat kan ik doen bij 'Access Denied'?</h3>
+<p>Na de update of installatie van de patch is het mogelijk dat sommige custom extensies/modules niet meer zullen werken. Een reden hiervoor kan zijn dat de default 'return value' van <code>Mage_Adminhtml_Controller_Action::_isAllowed()</code> gewijzigd is van <code>true</code> naar <code>Mage::getSingleton('admin/session')-&gt;isAllowed('admin')</code>. Extensies die deze methode <u><strong>niet</strong></u> overschrijven in hun admin controllers, wellicht omdat ze geen gebruik maken van de ACL, hebben nu de toestemming "<strong>ALL</strong>" nodig.</p>
+<p>Een snelle oplossing hiervoor is om een wijziging door te voeren in de admin controllers van al deze extensies :</p>
+<p><code>protected function _isAllowed()
+{
+    return true;
+}</code></p>
+<div class="box-hint">Tevens is het mogelijk alle modules in een keer te patchen middels deze <a href="https://gist.github.com/raybogman/eec47237b8ef0d4dd0fd" target="_blank" title="SupportDesk SUPEE-6285 FixAcl">SupportDesk SUPEE-6285 FixAcl</a> fix</div>
+<h3>Kom je er zelf niet uit?</h3>
+<p>Wij helpen u graag hiermee. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
 <p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6285">Magento security patch SUPEE-6285</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
 </div>
   </article>
@@ -776,9 +705,13 @@
       
         <li><a href="/2015/08/04/magento-security-update-supee-6482-patch-bundle/" title="Magento Security Update SUPEE-6482 Patch Bundle">Magento Security Update SUPEE-6482 Patch Bundle</a></li>
       
+        <li><a href="/2015/07/09/update-critical-patch-supee-6285/" title="Update: Critical SUPEE-6285 Patch">Update: Critical SUPEE-6285 Patch</a></li>
+      
         <li><a href="/2015/07/07/magento-security-update-supee-6285-patch-bundle/" title="Magento Security Update SUPEE-6285 Patch Bundle">Magento Security Update SUPEE-6285 Patch Bundle</a></li>
       
         <li><a href="/2015/07/07/magento-new-relic-workshop-a-success/" title="Magento New Relic Workshop a success!">Magento New Relic Workshop a success!</a></li>
+      
+        <li><a href="/2015/06/22/magento-live-uk-2015/" title="Magento Live UK 2015">Magento Live UK 2015</a></li>
       
         <li><a href="/2015/06/09/fooman-pdf-customiser-important-security-update/" title="Fooman Pdf Customiser - Important Security Update">Fooman Pdf Customiser - Important Security Update</a></li>
       

@@ -20,8 +20,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://supportdesk.shop//blog/page8/",
   "headline": "Blog",
-  "datePublished": "2017-06-29T18:18:15+00:00",
-  "dateModified": "2017-06-29T18:18:15+00:00",
+  "datePublished": "2017-06-29T19:34:22+00:00",
+  "dateModified": "2017-06-29T19:34:22+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -370,6 +370,105 @@
                             <div class="box__content">
                                 <div class="twelve columns">
   
+  <article data-permalink="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
+      <header>
+          <time datetime="2015-07-07"><span class="day">07</span><span class="month">Jul</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/" title="Magento Security Update SUPEE-6285 Patch Bundle">Magento Security Update SUPEE-6285 Patch Bundle</a></h1>
+          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
+      </header>
+      <div><div class="box__image">
+  <a title="Magento Security Update SUPEE-6285 Patch Bundle" href="/2015/07/07/magento-security-update-supee-6285-patch-bundle/">
+    <amp-img noloading height=157 width=157 alt="Magento Security Update SUPEE-6285 Patch Bundle" attribution="Magento Security Update SUPEE-6285 Patch Bundle" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  </a>
+</div>
+
+<p>Onlangs zijn er <u>8 veiligheidslekken</u> in Magento ontdekt en opgelost in een patch <strong>SUPEE-6285</strong>. De lekken zijn aanwezig in alle versies van Magento (1.6/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.6 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.</p>
+<h3>Wat zijn de 8 lekken van SUPEE-6285?</h3>
+<ul class="check">
+<li>
+<p>Customer Information Leak via RSS and Privilege Escalation</p>
+<ul>
+<li>
+<p>Onjuiste toegang tot klant gegevens zijn beschikbaar ( bestelinformatie , order -id , naam van de klant, etc...) middels het "Guest Order Review" systeem. Deze zelfde mogelijk is ook beschikbaar via de backend.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 7.5 (high)</u></p>
+</li>
+</ul>
+</li>
+<li>Request Forgery in Magento Connect Leads to Code Execution
+<ul>
+<li>
+<p>Een Cross-Site Request Forgery (CSRF) in de <strong>Magento Connect Manager</strong> kan een aanval uitvoeren tijdens de installatie van een externe module, en kan leiden tot het uitvoeren van onveilige externe code binnen je Magento omgeving. Een aanvaller kan middels een ingelogde shop eigenaar een speciale link via een ander medium gestuurd hebben om zo toegang te krijgen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 9.3 (Critical)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Wishlist
+<ul>
+<li>
+<p>Middels de Magento Whishlist is het mogelijk om spoofing en phishing e-mails te sturen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Cart
+<ul>
+<li>In de Magento shopping cart is het mogelijk middels een aangepaste URL parameter JavaScript code te injecteren. Cookie and andere informatie (klant gegevens) kan dan verzameld worden en doorgestuurd worden naar de aanvaller.</li>
+<li>
+<p><u>CVSS Severity: 6.1 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Store Path Disclosure
+<ul>
+<li>Informantie van de gehoste Magento omgeving (server path) kan vergaard worden middels direct toegang tot een gerelateerd bestand van de Magento Connect installatie procedure.</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Permissions on Log Files too Broad
+<ul>
+<li>Log bestanden op de Magento omgeving beschikken momenteel over te veel rechten welke momenteel toegang geven aan andere gebruikers.</li>
+<li>
+<p><u>CVSS Severity: 3.8 (Low)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Admin
+<ul>
+<li>
+<p>Een aanvaller kan JavaScript code injecteren in de titel van een Widget van de Magento Admin. De code kan later worden uitgevoerd wanneer een andere beheerder deze Widget opent. De aanvaller moet toegang tot de winkel te hebben om deze te kunnen uitvoeren. Echter, wanneer deze code uitgevoerd is, kan de aanvaller alle account overnemen.</p>
+</li>
+<li>
+<p><u>CVSS Severity: 6.5 (Medium)</u></p>
+</li>
+</ul>
+</li>
+<li>Cross-site Scripting in Orders RSS
+<ul>
+<li>MIddels de Magento RSS order optie is het mogelijk om onveilige data te injecteren.</li>
+<li>
+<p><u>CVSS Severity: 5.3 (Medium)</u></p>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<div class="box-hint">Update 09-07-2015: Bij het installeren van de Magento patch is het mogelijk dat er een '<strong>Access Denied</strong>' verschijnt. Dit houdt in dat de externe modules individueel geupdate of gepatched moeten worden. <br>Er is een nieuwe versie van de patch voor <strong>Magento 1.9</strong> beschikbaar gesteld die de problemen met het RWD theme oplost.</div>
+<h3>Wat moet ik doen om Magento Security issues te bestrijden?</h3>
+<p>Wij raden onze klanten met een Magento webshop de patches te installeren.</p>
+<div class="box-warning">Letop: deze patches hebben impact op oa. <strong>Apache</strong> en <strong>Nginx</strong> aangezien er een custom aanpassing in de <u>.htaccess</u> file of <u>Nginx config</u> nodig is.</div>
+<p>Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
+<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-6285">Magento security patch SUPEE-6285</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
+</div>
+  </article>
+  
   <article data-permalink="https://supportdesk.shop/2015/07/07/magento-new-relic-workshop-a-success/">
       <header>
           <time datetime="2015-07-07"><span class="day">07</span><span class="month">Jul</span><span class="year">2015</span></time>
@@ -377,11 +476,11 @@
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Rachel Tjong-A-Hung</span>
       </header>
       <div><h3>Magento New Relic Workshop Amsterdam great success!</h3>
-<p>The<strong>Magento New Relic workshop</strong> on the 25th of June was hosted at our HQ in Amsterdam in coorporation with <strong><a href="https://www.byte.nl/">Byte</a></strong>. <br><br>Our very own <a href="https://supportdesk.shop/over-ons" title="Melvyn Sopacua"><strong>Melvyn Sopacua</strong></a> was the main speaker for this year's <strong><a href="http://newrelic.com/" target="_blank" title="New Relic">New Relic</a> workshop</strong>. Many excited technical and non-technical <strong>Magento Lovers</strong> crammed into the meeting room, ready to gain more knowledge of <a href="http://newrelic.com/" target="_blank" title="New Relic"><strong>New Relic</strong></a>.</p>
+<p>The <strong>Magento New Relic workshop</strong> on the 25th of June was hosted at our HQ in Amsterdam in coorporation with <strong><a href="https://www.byte.nl/">Byte</a></strong>. <br><br>Our very own <a href="https://supportdesk.shop/over-ons" title="Melvyn Sopacua"><strong>Melvyn Sopacua</strong></a> was the main speaker for this year's <strong><a href="http://newrelic.com/" target="_blank" title="New Relic">New Relic</a> workshop</strong>. Many excited technical and non-technical <strong>Magento Lovers</strong> crammed into the meeting room, ready to gain more knowledge of <a href="http://newrelic.com/" target="_blank" title="New Relic"><strong>New Relic</strong></a>.</p>
 
 <div class="box__image_top">
   <a title="Magento New Relic Workshop a success!" href="/2015/07/07/magento-new-relic-workshop-a-success/">
-    <amp-img noloading height=400 width=500 alt="Magento New Relic Workshop a success!" attribution="Magento New Relic Workshop a success!" layout=responsive src="/img/news/new_relic_goodies.jpg"></amp-img>
+    <amp-img noloading height=400 width=500 alt="Magento New Relic Workshop a success!" attribution="Magento New Relic Workshop a success!" layout=responsive src="/img/news/New_Relic_Workshop_Byte.jpg"></amp-img>
   </a>
 </div>
 
@@ -396,6 +495,37 @@
 
 <h3>Interested in New Relic with Magento?</h3>
 <p>If you are interested in implementing New Relic feel free to contact us or apply for an account directly via <a href="http://newrelic.com/" target="_blank" title="New Relic">New Relic</a>.</p>
+</div>
+  </article>
+  
+  <article data-permalink="https://supportdesk.shop/2015/06/22/magento-live-uk-2015/">
+      <header>
+          <time datetime="2015-06-22"><span class="day">22</span><span class="month">Jun</span><span class="year">2015</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2015/06/22/magento-live-uk-2015/" title="Magento Live UK 2015">Magento Live UK 2015</a></h1>
+          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
+      </header>
+      <div><div class="box__image_top">
+  <a title="Magento Live UK 2015" href="/2015/06/22/magento-live-uk-2015/">
+    <amp-img noloading height=243 width=666 alt="Magento Live UK 2015" attribution="Magento Live UK 2015" layout=responsive src="/img/news/magento-live-uk-2015.jpg"></amp-img>
+  </a>
+</div>
+
+<h3>Magento Security Essentials Seminar</h3>
+<p><a href="https://supportdesk.shop/over-ons/ray-bogman" title="Ray Bogman"><strong>Ray Bogman</strong></a> will be one of the guest speakers at <a href="http://magentolive.com/uk/schedule/" title="Magento Live UK 2015"><strong>Magento Live UK 2015</strong></a>.<br><br>In this seminar the speakers will discuss how making your eCommerce website secure should be your #1 priority. A group of industry experts will explore <strong>Magento security</strong> from the perspective of a merchant, developer, and hacker.<br />You will learn about the security essentials for daily store operations as well as long term security objectives.</p>
+<h3>Speakers:</h3>
+<ul class="check">
+<li>Ray Bogman, <em>CTO, SupportDesk</em></li>
+<li>Bastian Ike, <em>Magento Developer, AOE GmbH</em></li>
+<li>Anna Völkl, <em>Senior Magento Developer, LimeSoda</em></li>
+</ul>
+<h3>Sneak Preview</h3>
+<p>Here's a little sneak preview of the topics to be discussed by Ray:</p>
+<ul class="check">
+<li>Security is Easy &amp; Fun (Think like a script kiddie)</li>
+<li>Security, a daily routine (a daily mindset)</li>
+<li>Security as a Rockstar (On tour 2014-2015)</li>
+</ul>
+<p>The video this seminar will be available for the rest of the world to see at the end of next week. We'll be sure to keep you posted!</p>
 </div>
   </article>
   
@@ -433,90 +563,6 @@
 <h3><strong>Wat moet ik doen?</strong></h3>
 <p>Deze fout is doorgegeven aan aheadWorks op de 22 April 2015. Een fix is vrijgegeven op 27 April 2015.</p>
 <p>Wij raden onze klanten met een Magento webshop en gebruikmaken van de Aheadworks Blog extensie om vandaag nog de extensie te updaten. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
-</div>
-  </article>
-  
-  <article data-permalink="https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/">
-      <header>
-          <time datetime="2015-05-15"><span class="day">15</span><span class="month">May</span><span class="year">2015</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/" title="Magento Security Update SUPEE-5994 Patch Bundle">Magento Security Update SUPEE-5994 Patch Bundle</a></h1>
-          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
-      </header>
-      <div><div class="box__image">
-  <a title="Magento Security Update SUPEE-5994 Patch Bundle" href="/2015/05/15/magento-security-update-supee-5994-patch-bundle/">
-    <amp-img noloading height=157 width=157 alt="Magento Security Update SUPEE-5994 Patch Bundle" attribution="Magento Security Update SUPEE-5994 Patch Bundle" layout=responsive src="/img/news/securityrelease.png"></amp-img>
-  </a>
-</div>
-
-<p><strong>ShopHack<br></strong><br>Onlangs zijn er <u>7 veiligheidslekken</u> in Magento ontdekt en opgelost in een patch <strong>SUPEE-5994</strong>. De lekken zijn aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.4 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.</p>
-<h3>Wat zijn de 7 lekken van ShopHack?</h3>
-<ul class="check">
-<li>Admin Path Disclosure
-<ul>
-<li>
-<p>Een aanvaller kan de Admin Login verzoeken rechtstreeks een module aan te roepen, ongeacht of deze voorkomen in de Admin URL. Dit maakt het makkelijker om het wachtwoord met behulp van brute force attacks te achterhalen.</p>
-</li>
-</ul>
-</li>
-<li>Customer Address Leak through Checkout
-<ul>
-<li>
-<p>Hiermee kan een aanvaller adresgegevens (naam, adres, telefoonnummer ) van de adresboeken van andere klanten verkrijgen.Tijdens het afrekenen, kan de aanvaller toegang tot een willekeurig adresboek krijgen door het invoeren van een sequentiële ID. Een functionele proof of concept bestaat reeds.</p>
-</li>
-</ul>
-</li>
-<li>Customer Information Leak through Recurring Profile
-<ul>
-<li>
-<p>Dit probleem maakt dhet mogelijk voor de aanvaller om adres, vorige bestelling, betaalmethode en informatie van de terugkerende betaling profielen van andere klanten te verkrijgen. Een functionele proof of concept bestaat reeds.</p>
-</li>
-</ul>
-</li>
-<li>Local File Path Disclosure Using Media Cache
-<ul>
-<li>De aanvaller kan fictieve image URL's gebruiken om de server gegevens bloot te leggen, ongeacht de instellingen.</li>
-</ul>
-</li>
-<li>Spreadsheet Formula Injection
-<ul>
-<li>De aanvaller kan input, die door een algoritme wordt uitgevoerd, exporteren en openen in een spreadsheetprogramma zoals Microsoft Excel. De formule kan oa. gegevens exporteren, persoonlijke gegevens wijzigen.</li>
-</ul>
-</li>
-<li>Cross-site Scripting Using Authorize.Net Direct Post Module
-<ul>
-<li>Hiermee kan een aanvaller JavaScript uit voeren in het kader van klantsessie. Als een klant dan op een schadelijke link klikt, kan de aanvaller cookies stelen en de sessie overnemen, die dan persoonlijke informatie blootsteld.</li>
-</ul>
-</li>
-<li>Malicious Package Can Overwrite System Files
-<ul>
-<li>Aanvaller kan een kwaadwillende module installeren en code overschrijven.</li>
-</ul>
-</li>
-</ul>
-<h3>Wat moet ik doen om ShopHack te bestrijden?</h3>
-<p>Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
-<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" target="_blank" title="Magento Security Patch SUPEE-5994">Magento security patch SUPEE-5994</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
-</div>
-  </article>
-  
-  <article data-permalink="https://supportdesk.shop/2015/02/10/magento-security-update-versie-141-902/">
-      <header>
-          <time datetime="2015-02-10"><span class="day">10</span><span class="month">Feb</span><span class="year">2015</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2015/02/10/magento-security-update-versie-141-902/" title="Magento Security Update versie 1.4 - 1.9.0.2">Magento Security Update versie 1.4 - 1.9.0.2</a></h1>
-          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
-      </header>
-      <div><div class="box__image">
-  <a title="Magento Security Update versie 1.4 - 1.9.0.2" href="/2015/02/10/magento-security-update-versie-141-902/">
-    <amp-img noloading height=157 width=157 alt="Magento Security Update versie 1.4 - 1.9.0.2" attribution="Magento Security Update versie 1.4 - 1.9.0.2" layout=responsive src="/img/news/securityrelease.png"></amp-img>
-  </a>
-</div>
-
-<p>Onlangs is er een veiligheidslek in Magento ontdekt. Het lek is aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel <strong>Magento Community</strong> als <strong>Magento Enterprise</strong> shops hebben hiermee te maken. Via dit lek kunnen gegevens uit de Magento installatie gehaald worden of backdoors geplaatst worden dus het is belangrijk dat snel gepatched wordt!</p>
-<h3>Wat is het risico?</h3>
-<p>Op dit moment is er nog geen grootschalig misbruik gemaakt van dit lek.<br>Doordat het lek nu publiekelijk is, is de verwachting dat hackers dit zullen gaan misbruiken.</p>
-<h3>Wat moet ik doen?</h3>
-<p>Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons <a href="https://supportdesk.shop/stel-je-vraag" title="Stel je vraag">supportaanvraagformulier</a> of bel ons op <a title="Bel nu! 020-3375961" href="tel:020-3375961">020-3375961</a>.</p>
-<p>Via de Magento download website is het mogelijk de <a href="http://www.magentocommerce.com/download" title="Magento Security Patch SUPEE-5344" target="_blank">Magento security patch SUPEE-5344</a> te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.</p>
 </div>
   </article>
   
@@ -584,9 +630,13 @@
       
         <li><a href="/2015/08/04/magento-security-update-supee-6482-patch-bundle/" title="Magento Security Update SUPEE-6482 Patch Bundle">Magento Security Update SUPEE-6482 Patch Bundle</a></li>
       
+        <li><a href="/2015/07/09/update-critical-patch-supee-6285/" title="Update: Critical SUPEE-6285 Patch">Update: Critical SUPEE-6285 Patch</a></li>
+      
         <li><a href="/2015/07/07/magento-security-update-supee-6285-patch-bundle/" title="Magento Security Update SUPEE-6285 Patch Bundle">Magento Security Update SUPEE-6285 Patch Bundle</a></li>
       
         <li><a href="/2015/07/07/magento-new-relic-workshop-a-success/" title="Magento New Relic Workshop a success!">Magento New Relic Workshop a success!</a></li>
+      
+        <li><a href="/2015/06/22/magento-live-uk-2015/" title="Magento Live UK 2015">Magento Live UK 2015</a></li>
       
         <li><a href="/2015/06/09/fooman-pdf-customiser-important-security-update/" title="Fooman Pdf Customiser - Important Security Update">Fooman Pdf Customiser - Important Security Update</a></li>
       
