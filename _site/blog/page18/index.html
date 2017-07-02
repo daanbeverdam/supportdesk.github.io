@@ -20,8 +20,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://supportdesk.shop//blog/page18/",
   "headline": "Blog",
-  "datePublished": "2017-07-02T14:36:55+00:00",
-  "dateModified": "2017-07-02T14:36:55+00:00",
+  "datePublished": "2017-07-02T19:10:17+00:00",
+  "dateModified": "2017-07-02T19:10:17+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -371,185 +371,192 @@
                             <div class="box__content">
                                 <div class="twelve columns">
   
-  <article data-permalink="https://supportdesk.shop/2013/07/02/magento-mobile-performance-the-responsive-mythes/">
+  <article data-permalink="https://supportdesk.shop/2013/09/25/magento-1-8-0-0-nu-beschikbaar/">
       <header>
-          <time datetime="2013-07-02"><span class="day">02</span><span class="month">Jul</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/07/02/magento-mobile-performance-the-responsive-mythes/" title="Magento Mobile Performance - The Responsive Mythes">Magento Mobile Performance - The Responsive Mythes</a></h1>
+          <time datetime="2013-09-25"><span class="day">25</span><span class="month">Sep</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/09/25/magento-1-8-0-0-nu-beschikbaar/" title="Magento 1.8.0.0 nu beschikbaar">Magento 1.8.0.0 nu beschikbaar</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
-      <div><div class="box__image">
-  <a title="Magento Mobile Performance - The Responsive Mythes" href="/2013/07/02/magento-mobile-performance-the-responsive-mythes/">
-    <amp-img noloading height=115 width=233 alt="Magento Mobile Performance - The Responsive Mythes" attribution="Magento Mobile Performance - The Responsive Mythes" layout=responsive src="/img/news/mug27juni.jpg"></amp-img>
+      <div><div class="box__image_top">
+  <a title="Magento 1.8.0.0 nu beschikbaar" href="/2013/09/25/magento-1-8-0-0-nu-beschikbaar/">
+    <amp-img noloading height=282 width=666 alt="Magento 1.8.0.0 nu beschikbaar" attribution="Magento 1.8.0.0 nu beschikbaar" layout=responsive src="/img/news/magento-18.png"></amp-img>
   </a>
 </div>
 
-<p>Op donderdag 27 Juni was het onderwerp van de<strong> MUG "Responsive Myths"</strong>. Er waren maar liefst 20 Muggers aanwezig en na een korte introductie ronde werd er eerst een korte presentatie gegeven door <strong>Daniel Genis</strong> van Byte Internet. Vervolgens gaf <a href="https://supportdesk.shop/over-ons/ray-bogman" target="_blank" title="SupportDesker Ray Bogman"><strong>Ray Bogman</strong></a> een interactieve presentatie over de mythes van het responsive design en de relatie met Magento shops.</p>
-<h3>Magento Mobile Performance</h3>
+<p>Na 1 jaar en bijna 3 maanden is hij er dan ook eindelijk, de nieuwe <strong>Magento 1.8.0.0</strong> versie. De Magento 1.8 is dan ook de langverwachte upgrade sinds Magento 1.7.0.2.</p>
+<p>De hoogtepunten kort samengevat:</p>
+<ul class="check">
+<li>Compleet herschreven <strong>BTW</strong> berekening, afronding en configuratie</li>
+<li>Aangepast cache mogelijkheid voor enkelvoudige server omgeving</li>
+<li>Stantaard <strong>Magento Redis backend cache</strong> ondersteuning (Let op! De mappenstructuur is anders dan de losse module, de Magento Redis backend cache staat nu in /lib/Cm)</li>
+<li><strong>Magento Redis sessions</strong> ondersteuning</li>
+<li>De php_value memory_limit verhoging naar 512MB</li>
+<li>De php_value max_execution_time verhoogd naar 18000</li>
+<li>Onepage checkout template verbeteringen (elke process stap heeft zijn eigen .phtml bestand gekregen zoals billing.phtml, payment.phtml, shipping.phtml, shipping_method.phtml)</li>
+<li>Centinel 3D secure verbeterde authenticatie</li>
+<li>Toevoeging van Zend Db Statement Adapter voor optimalisatie van queries richting de database</li>
+<li>Optimalisatie van de XMLConnect voor Magento Mobile en toevoeging van betere offline mogelijkheiden</li>
+<li>langere wachtwoorden toegestaan, tot 100 karakters</li>
+<li>Aangepaste cron.php voor windows gebruikers</li>
+</ul>
+<br>
+<h3>Magento Security verbetering [upgrade aanbevolen]</h3>
+<ul class="check">
+<li>Fouten worden niet weergegeven in een nieuwe Magento installatie</li>
+<li>De session fixation kwetsbaarheid, tijdens het aanmaken van een nieuwe gebruiker, is opgelost. Aanvallers kunnen niet langer misbruik maken van dit lek en nieuwe gebruikersaccounts overnemen tijdens dit proces</li>
+<li>Het voorkomen van het verwijderen van een Magento installatie door een gebruiker met beperkte rechten</li>
+<li>Het voorkomen van aanvallen die gebruikmaken van OAuth om gevoelige informatie naar aanvallers uit te lekken die de consumer key en de user token kennen</li>
+<li>Het probleem dat aanvallers toegang krijgen tot factureringsgegevens is opgelost</li>
+<li>Diverse problemen met de beveiliging van OAuth tokens en sleutels zijn opgelost</li>
+<li>Een beveiligingslek waardoor externe code kan worden uitgevoerd is opgelost</li>
+<li>De Magento Admin Panel en web winkels zullen niet langer toestaan dat webbrowsers gebruikersnamen of wachtwoorden opslaan</li>
+<li>De Magento webwinkel heeft extra Cross Site Request Forgery (CSRF) beveiligingen, wat betekent dat een bedrieger zich niet meer kan voordoen als een nieuw geregistreerde klant en acties uitvoeren namens de klant</li>
+<li>De cryptografische methoden gebruikt om wachtwoorden op te slaan zijn verbeterd voor een betere beveiliging</li>
+</ul>
+</div>
+  </article>
+  
+  <article data-permalink="https://supportdesk.shop/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/">
+      <header>
+          <time datetime="2013-09-02"><span class="day">02</span><span class="month">Sep</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/" title="Magento SEO workshop 30 augustus 2013 Recap">Magento SEO workshop 30 augustus 2013 Recap</a></h1>
+          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
+      </header>
+      <div><div class="box__image">
+  <a title="Magento SEO workshop 30 augustus 2013 Recap" href="/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/">
+    <amp-img noloading height=115 width=165 alt="Magento SEO workshop 30 augustus 2013 Recap" attribution="Magento SEO workshop 30 augustus 2013 Recap" layout=responsive src="/img/news/blogseoworkshoprecap.jpg"></amp-img>
+  </a>
+</div>
 
-<amp-iframe width="550" height="400"
+<p>Het was me een waar genoegen om deze dag samen met de deelnemers en de sprekers tot een leerzame en succesvolle dag te brengen. Het was een zeer leerzame middag met zeer interessante presentaties van Sander Lems (<a href="http://www.ism.nl/" target="_blank" title="Ga naar ism eCompany">ism eCompany</a>), Hans Kuijpers (<a href="http://www.byte.nl/" target="_blank" title="Ga naar Byte">Byte</a> + <a href="http://www.hkweb.nl/" target="_blank" title="Ga naar HKweb">HKweb</a>) en Erik van Rijn (<a href="http://www.supportdesk.nu/" target="_self">SupportDesk</a> + <a href="http://gudz.nl/" target="_blank" title="Ga naar Gudz.nl">Gudz.nl</a>). Met als afsluiting een gezellige boottocht met bbq over de Amsterdamse grachten.</p>
+<h3>De workshop presentaties</h3>
+<p><strong>Presentatie 1: <a href="https://www.linkedin.com/in/sanderlems" target="_blank" title="LinkedIn Sander Lems">Sander Lems</a> - Magento &amp; Online Marketing</strong></p>
+<p>Wilt u maximaal rendement halen uit uw Magento webshop of denkt u hier wellicht mee te gaan werken? Magento biedt een goed fundament voor een succesvolle webwinkel. Om uw potentiële klanten online met uw producten in aanraking te laten komen dient uw productaanbod maximaal zichtbaar te zijn. Hoe u dit doet? Sander Lems geeft inzicht in de redenen waarom hij graag met Magento werkt. U ontdekt tevens welke Magento extensies u moet kennen om optimaal gebruik te maken van de online marketing mogelijkheden van Magento.</p>
+
+<amp-iframe width="597" height="486"
                         layout="responsive"
                         sandbox="allow-scripts allow-same-origin allow-popups"
                         allowfullscreen
                         frameborder="0"
-                        src="https://prezi.com/embed/3nwsy5rbhmcf/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0VnFwaCthVUc4cHZqdG84eXpIREtiWXhRPT0&amp;landing_sign=1OuJ7I8LTyAC6MeBT4wvtbBRBr_17CgudGOKkV-F9Oo">
+                        src="https://www.slideshare.net/slideshow/embed_code/25840189">
 </amp-iframe>
 
-<p>Wat wordt er verstaan onder een goede mobiele prestatie en is dit mogelijk in combinatie met Magento? Hieronder een to do lijst wat in de bovenstaande Prezi van <strong>Ray Bogman</strong> tijdens de Magento User Group aan bod is gekomen:</p>
-<ul class="check">
-<li>Minimaliseren http request</li>
-<li>Deflate content</li>
-<li>Merge css/js</li>
-<li>Expire data</li>
-<li>Gebruik Mobile doctype</li>
-<li>Local storage in browser van je mobiel</li>
-<li>Gebruik plaatjes alleen voor het hoofdnoodzakelijke (zoals o.a. logo's en artikelen)</li>
-<li>Plaatje optimaliseren met het gebruik van data URI's</li>
-<li>Oppassen met typefonts (weet wat je mogelijkheden en beperkingen hiermee zijn)</li>
-<li>Cache manifest bestand</li>
-<li>Test je mobiele website (meten is weten)</li>
-</ul>
-<p>Zie ook het <a href="https://www.byte.nl/blog/verslag-mug-magento-mobile-responsive-mythes/" target="_blank" title="Ga naar Byte blog">Byte blog</a>.</p>
+<p><strong><a href="https://www.slideshare.net/ISMeCompany/magento-seo-magento-user-group" target="_blank" title="magento seo magento user group">magento seo magento user group</a> </strong> from <strong><a href="https://www.slideshare.net/ISMeCompany" target="_blank">ISM eCompany</a></strong></p>
+<p>Wil je bovenstaande presentie downloaden, ga naar <a href="http://goo.gl/p9C4f6" target="_blank" title="Sander Lems - Magento &amp; Online Marketing">deze pagina</a>. Deze download is beschikbaar t/m 16 september.</p>
+<p><strong>Presentatie 2: <a href="https://www.linkedin.com/in/hans2103" target="_blank" title="LinkedIn Hans Kuijpers">Hans Kuijpers</a> - Rich Snippets</strong></p>
+<p>Wilt u met uw producten meer opvallen in de zoekresultaten van Google en andere zoekmachines? Hans Kuijpers laat zien hoe je dit implementeert voor de productpagina’s van je eigen Magento webshop.</p>
+
+<amp-iframe width="597" height="486"
+                        layout="responsive"
+                        sandbox="allow-scripts allow-same-origin allow-popups"
+                        allowfullscreen
+                        frameborder="0"
+                        src="https://www.slideshare.net/slideshow/embed_code/25811015">
+</amp-iframe>
+
+<p><strong> <a href="https://www.slideshare.net/hans2103/rich-snippets-in-magento-product-page-mug020" target="_blank" title="Rich Snippets in Magento product page - #MUG020">Rich Snippets in Magento product page - #MUG020</a> </strong> from <strong><a href="https://www.slideshare.net/hans2103" target="_blank">Hans Kuijpers</a></strong></p>
+<p><strong>Presentatie 3: <a href="https://www.linkedin.com/in/evrijn" target="_blank" title="LinkedIn Erik van Rijn">Erik van Rijn</a> - Adwords/Dynamic Remarketing</strong></p>
+<p>Een korte presentatie over de werking van Google Adwords Dynamics Remarketing in combinatie met Magento, zoals gezegd tijdens de presentatie bevind de plugin zich in Beta status, test de plugin en ik hoor graag wat de ervaringen zijn!</p>
+
+<amp-iframe width="597" height="486"
+                        layout="responsive"
+                        sandbox="allow-scripts allow-same-origin allow-popups"
+                        allowfullscreen
+                        frameborder="0"
+                        src="https://www.slideshare.net/slideshow/embed_code/25824097">
+</amp-iframe>
+
+<p><strong><a href="https://www.slideshare.net/ErikvanRijn/presentatie1-25824097" target="_blank" title="Presentatie1">Presentatie1</a> </strong> from <strong><a href="https://www.slideshare.net/ErikvanRijn" target="_blank">Erik van Rijn</a></strong></p>
+<h3>Afsluiting van de Magento SEO Workshop</h3>
+<p>Na een leerzame dag is niets fijner dan het gezellig af te sluiten met elkaar. Wat is er beter dan samen een boottochtje te maken over de Amsterdamse grachten. De boot was rijkelijk gevuld met een heerlijke bbq en lekkere drankjes. Zodoende konden we in het zonnetje nakletsen over de workshops van die dag en elkaar nog beter leren kennen. Varend langs o.a. Artis en de mooiste gracht van Amsterdam (Prinsengracht) met een heerlijk achtergrond muziekje was het een perfecte dag.</p>
+<p>Wil je de <strong>foto's</strong> zien? Ga dan naar deze <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/photos/17100212/" target="_blank" title="Meetup foto pagina">Meetup pagina</a>.</p>
 <h3>Waar kan ik me inschrijven voor de volgende MUG?</h3>
-<p>Ga naar deze <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank" title="Ga naar Magento Competence Center">Magento Competence Center</a> pagina en schrijf je in voor de volgende <strong>Magento User Group</strong>. Dit zal niet zomaar een MUG zijn, maar een heuse <strong>Magento SEO workshop</strong>. Lees meer hierover op de <a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/123882042/" target="_blank" title="Ga naar Magento User Group Amsterdam Meetup pagina">Magento User Group Amsterdam Meetup pagina</a>. Normale ticketprijs is € 90,- Maar t/m 31 juli hebben we een early bird ticketprijs van € 75,-.</p>
-<p>Koop hier je <a href="https://www.supportdesk.nu/shop/checkout/cart/add?product=11" target="_blank" title="Magento SEO workshop kaartje">Magento workshop kaartje</a> en leer alles over <strong>Magento SEO</strong>.</p>
+<p>Ga naar deze <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank" title="Ga naar Magento Competence Center">Magento Competence Center</a> pagina en schrijf je in voor de volgende Magento User Group. Deze is op donderavond 26 september, en heeft als onderwerp: <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/events/123031312/" target="_blank" title="Beheers je Magento backoffice">Beheers je Magento backoffice</a>. Dit is weer een normale Magento User Group die plaats zal vinden op de Ruyterkade.</p>
 <p>Wij zien je met veel plezier in de Magento Competence Center te Amsterdam.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/06/28/magento-redis-optimization-how-to/">
+  <article data-permalink="https://supportdesk.shop/2013/09/01/magento-1-8-beschikbaar-eind-september/">
       <header>
-          <time datetime="2013-06-28"><span class="day">28</span><span class="month">Jun</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/06/28/magento-redis-optimization-how-to/" title="Magento Redis Optimization - How To">Magento Redis Optimization - How To</a></h1>
+          <time datetime="2013-09-01"><span class="day">01</span><span class="month">Sep</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/09/01/magento-1-8-beschikbaar-eind-september/" title="Magento 1.8 beschikbaar eind september">Magento 1.8 beschikbaar eind september</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
-      <div><div class="box__image">
-  <a title="Magento Redis Optimization - How To" href="/2013/06/28/magento-redis-optimization-how-to/">
-    <amp-img noloading height=213 width=175 alt="Magento Redis Optimization - How To" attribution="Magento Redis Optimization - How To" layout=responsive src="/img/news/magento-redis-optimization-how-to.jpg"></amp-img>
+      <div><p>Afgelopen week hebben de leden van het Magento 1.x community team een meeting georganiseerd om de doelstellingen en vooruitgang van <strong>Magento 1.8</strong> te bespreken.<br><br>Deze sessie was georganiseerd door Mossen Akizian en werd gesteund door Magento (Ebay) met Piotr Kaminski (de productmanager van 1.x), Lin Shearer en Shanon Hane. Community bijdragen waren van: Brent Peterson, Ben Marks, David Shuford, Kris Brown, Sherrie Rohde, Kimberely Thomas, Sylvain Raye , en Tom Robertshaw.</p>
+<h3>Magento 1.8 beschikbaar eind September</h3>
+<p>Na de<strong> Magento 1.8 </strong>alfa versie, welke afgelopen april aangekondigd werd tijdens het <strong>Magento Imagine</strong> congres, is er weinig nieuws uit het Magento kamp gemeld. Maar hier komt nu verandering in met de aankondiging van de <strong>Magento 1.8 Stable release</strong> eind September. De aanpassing voor unieke SEF-URL's op database niveau gaan de Magento 1.8 release helaas nog niet halen, deze zullen naar alle waarschijnlijkheid opgenomen worden in <strong>Magento 1.8.1,</strong> welke eind Q4 beschikbaar zijn. Het afrondings probleem met BTW en vele andere reeds gemelde bugs komen wel in de Magento 1.8 Stable Release. De laatste release notes omtrent Magento 1.8 vind je <a href="http://www.magentocommerce.com/knowledge-base/entry/ce-18-later-release-notes" title="Magento 1.8. release notes" target="_blank">hier</a>.</p>
+<p>Tevens zal de <strong>Magento 1.8.1</strong> release vele bug fixes welke gevonden zijn tijdens de Bugathons bevatten. Samengevat zullen in de Magento 1.8 en 1.8.1 veelal bugfixes, security issues, BTW en betaalondersteuning opgelost worden.</p>
+<p><strong>Update:</strong> Onlangs is bevestigd op twitter door Piotr (productmanager Magento) dat de aangepast URL's niet in de Magento 1.8 Stable release zal komen. Daar en tegen zal <strong>Redis caching</strong> in Magento 1.8 nu wel standaard beschibaar zijn.</p>
+<h3>Magento 2.0</h3>
+<p>Nieuws omtrent <strong>Magento 2.0</strong> is er de afgelopen maanden weinig. Dit is de eerst update sinds 5 maanden. Gezien de zeer lange lijst op <a href="https://github.com/magento/magento2/commit/a15ecb31976feb4ecb62f85257ff6b606fbdbc00" title="Magento 2.0 Changelijst" target="_blank">Github</a> is het duidelijk dat men de afgelopen maanden niet stil heeft gezeten. In totaal zijn er 5,889 gewijzigingen doorgevoerd met 171,404 aanpassingen en 145,136 verwijderden bestanden.</p>
+<div class="box__image_top">
+  <a title="Magento 1.8 beschikbaar eind september" href="/2013/09/01/magento-1-8-beschikbaar-eind-september/">
+    <amp-img noloading height=487 width=600 alt="Magento 1.8 beschikbaar eind september" attribution="Magento 1.8 beschikbaar eind september" layout=responsive src="/img/news/magento-2-new-products.png"></amp-img>
   </a>
 </div>
 
-<p>Onlangs heeft Packtpub een boek gepubliceerd met als titel: <a href="http://www.packtpub.com/redis-optimization-how-to/book" target="_blank">Redis Optimization How To</a>. Het boek geschreven door Arun Chinnachamy geeft een goed overzicht wat er komt kijken bij een juiste implementatie van Redis.<br><strong>Redis</strong> is een <strong>Key-Value-Storage</strong> memory database welke vele voordelen biedt voor het versnellen van een website maar ook efficient grote brokken data beschikbaar stelt (big data).</p>
-<p>De volgende zaken worden redelijk tot uitgebreid in het boek behandeld:</p>
-<ul class="check">
-<li>Data store keuze (beginner)</li>
-<li>Installatie van Redis (beginner)</li>
-<li>Configuratie en tuning van Redis (halfgevorderd)</li>
-<li>Implementatie van constante verbinding in Redis (halfgevorderd)</li>
-<li>Debuggen performance bottlenecks Redis (halfgevorderd)</li>
-<li>Performing high-volume writes (gevorderd)</li>
-<li>Leverage datatypes (beginner)</li>
-<li>Geheugen optimalisatie (halfgevorderd)</li>
-<li>Transacties Pub/Sub (gevorderd)</li>
-<li>Debuggen en monitoring (halfgevorderd)</li>
-<li>Programmeertalen en client drivers (beginner)</li>
-</ul>
-<h3>Redis server of cluster</h3>
-<p>Aangezien Redis een redelijk flexibel systeem is, is deze geschikt in zowel kleine als grote systeemoplossingen. De keuze voor een kleine enkele Redis database als onderdeel van een <strong>Redis server</strong> omgeving is voor de hand liggend. Maar een Redis cluster setup zoals master/slave of master/master zijn zeer zeker op termijn mogelijk in een doorgroei pad. Aangezien Redis zijn data naast het realtime geheugengebruik ook opslaat op disk is het mogelijk deze over te zetten naar een groter Redis omgeving indien dit gewenst is. Dankzij deze techniek is een reboot van een memory-based key-value-storage database altijd fullproof.</p>
-<h3>Magento Redis</h3>
-<p>De voordelen van <strong>Redis voor Magento</strong> zijn enorm aangezien zowel de cache backend als de Magento sessies volledig in een Redis database kunnen draaien. Voor Magento betekent dit dat er geen gebruik meer gemaakt hoeft te worden van file (tmpfs) of memcache achtige oplossingen.<br>Deze cache zal dan realtime in het geheugen van de Redis server beschikbaar zijn. Het opwarmen van deze cache kan een extra performance winst met zich meebrengen aangezien klanten dan direct een gecachte pagina ter beschikking hebben.</p>
-<h3>Magento Enterprise Redis</h3>
-<p><strong>Magento Enterprise</strong> is vanaf versie 1.13.0 en hoger standaard uitgerust met de open source <strong>Magento Redis module</strong> van Colin Mollenhour. Deze module is reeds verouderd en kan beter geupdate worden. Tevens ondersteund de Magento Enterprise standaard Magento session in Redis.</p>
-<h3>Magento Full Page Cache voor Redis</h3>
-<p>Om Magento nog een extra Boost te geven is het gebruik van een <strong>Full Page Cache (FPC)</strong> een aan te raden aanvulling. Uit testresultaten blijkt een totale performance winst van 500 - 800 ms per pagina.<br>Enkele voorbeelden zijn:</p>
-<ul class="check">
-<li><a target="_blank" href="https://www.supportdesk.nu/shop/"></a><a href="https://www.supportdesk.nu/shop/">http://www.supportdesk.nu/shop/</a></li>
-<li><a target="_blank" href="http://www.wildhibiscus.nl/"></a><a href="http://www.wildhibiscus.nl/" target="_blank" title="Wild Hibiscus - Bloemen in Siroop">http://www.wildhibiscus.nl/</a></li>
-<li><a target="_blank" href="http://www.magento-speed.com/"></a><a href="http://www.magento-speed.com/" title="magento-speed.com" target="_blank">http://www.magento-speed.com/</a></li>
-</ul>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/05/28/orocrm-en-oro-platform-code-is-public/">
+  <article data-permalink="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
       <header>
-          <time datetime="2013-05-28"><span class="day">28</span><span class="month">May</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/05/28/orocrm-en-oro-platform-code-is-public/" title="OroCRM en Oro Platform live!">OroCRM en Oro Platform live!</a></h1>
+          <time datetime="2013-08-01"><span class="day">01</span><span class="month">Aug</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/" title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x">High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="OroCRM en Oro Platform live!" href="/2013/05/28/orocrm-en-oro-platform-code-is-public/">
-    <amp-img noloading height=34 width=161 alt="OroCRM en Oro Platform live!" attribution="OroCRM en Oro Platform live!" layout=responsive src="/img/news/orocrm-logo.png"></amp-img>
+  <a title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" href="/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
+    <amp-img noloading height=157 width=157 alt="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" attribution="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" layout=responsive src="/img/news/securityrelease.png"></amp-img>
   </a>
 </div>
 
-<h3>OroCRM en Oro Platform zijn vandaag vrijgegeven om te testen</h3>
-<p>Met de komst van <strong>OroCRM</strong> beginnen we een nieuw tijdperk in de wereld van <strong>E-commerce</strong> en <strong>CRM</strong>. OroCRM is nl het eerste CRM platform speciaal gemaakt voor e-commerce toepassingen zoals bijv. <strong>Magento</strong>, <strong>Joomla!</strong>, <strong>Drupal, etc...</strong></p>
-<p>Onderstaande tekst is een vrije vertaling van het persbericht gepubliceerd door <strong>Yoav Kutner (CTO OroCRM)</strong>.</p>
-<p>Het is een spannend moment voor OroCRM! Vandaag maken we onze code beschikbaar en is open voor iedereen. We hopen dat dit ons in staat stelt om meer samen te werken met onze groeiende gemeenschap. Om wat context te geven, in deze post zullen we onze product kenmerken tonen en de keuze van ons licentiemodel.</p>
-<h3>OroCRM productkenmerken</h3>
-<p>Veel tijd is er sinds het begin van het <strong>OroCRM project</strong> besteed aan het creëren van het <strong>Oro Platform </strong>en ons <strong>Business Application Platform</strong> (BAP). Via het Oro Platform willen wij de verbinding met onze ontwikkelaars binnen de gemeenschap zoeken en op een meer zinvolle manier dan de traditionele software-applicaties ontwikkelen. Het Oro Platform creëert ook de basis voor het bouwen van een echt flexibel en schaalbaar OroCRM product. Enkele van de belangrijkste kenmerken van de Oro Platform zijn:</p>
+<p>Het Joomla project heeft vandaag een nieuwe <strong>High Joomla Security</strong> release vrijgegeven voor alle versies, nl. <strong>Joomla 1.5.x, Joomla 2.5.x en Joomla 3.0.x</strong>.</p>
+<p>Voor <strong>Joomla 1.5</strong> is enkel een <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&amp;tracker_item_id=31626" title="Joomla 1.5 security patch" target="_blank">patch file</a> uitgebracht.</p>
+<h3>Highlight in de Joomla 3.1.5</h3>
 <ul class="check">
-<li>Geavanceerd zoeken</li>
-<li>REST en SOAP API's</li>
-<li>Volledige navigatie met flexibele menu-structuur - waaronder geschiedenis, de meest bekeken bestanden en een Pinbar</li>
-<li>Gebruikers-, groepen- en rollen-management met ACL</li>
-<li>Flexibele entiteiten met dynamic attributen</li>
-<li>Gegevensaudit</li>
-<li>Data Grid</li>
-<li>Formulieren automatisch opslaan</li>
+<li>1 high security fix</li>
+<li>7 bugs gefixed</li>
 </ul>
-<p>Deze productkenmerken en toekomstige functionailiteit die momenteel nog gebouwd worden, zijn de basis van het <strong>Oro Platform</strong> en zijn het begin van onze visie in het verminderen van de ontwikkeltijd in business applicatie-ontwikkeling.<br><br>Naast de volledige functieset van het Oro Platform, zullen deze ook onderdeel zijn van OroCRM en als basis dienen voor de OroCRM flexibiliteit van het product. Tevens zijn er ook extra functies toegevoegd aan OroCRM. De belangrijkste functies zijn onder meer <strong>accounts</strong>, <strong>contacten</strong> en <strong>Group Management</strong>. Aan deze functies wordt momenteel nog steeds gewerkt binnnen zowel OroCRM en Oro Platform en zijn NIET voor de productie bedoelt maar enkel voor evaluatie-doeleinden.<br><br>Komende maanden zal er hard gewerkt worden om onze visie <strong>CRM voor E-commerce</strong> verder te ontwikkelen. In de tussentijd hopen we veel feedback te ontvangen van mensen die OroCRM testen. De <a href="http://www.orocrm.com/forums" title="OroCRM Forums" target="_blank">Forums</a> zijn NU open dus meldt je aan en registreer je nu.</p>
-<h2>OroCRM licentie model</h2>
-<p>Het was ons doel om zo "ecosysteem friendly" als mogelijk te zijn, in het kiezen van onze open source-licentie.<br>Voor de Oro Platform kozen we de MIT-licentie. We kozen voor deze bijzondere licentie omdat het volledig open is aan degenen die het platform willen gebruiken om hun eigen commerciële toepassingen te creëren. We hopen dat veel open source en commerciële toepassingen zullen worden gebouwd op het Oro Platform. In feite hebben we al een product dat wordt gebouwd op het <strong>Oro Platform</strong>, <strong>Akeneo</strong>, een Open Source Product Information Management (PIM) systeem. ( <a href="http://www.akeneo.com/" title="www.akeneo.com" target="_blank">www.akeneo.com</a> ) Ze gebruiken het platform om een snelle ontwikkeling van hun product af te kunnen leveren en wilden een zo flexibele mogelijke licentie model voor de commerciële toepassingen.<br><br>Voor OroCRM kozen we voor OSL 3.0 . We kozen voor het OSL 3.0 omdat het de flexibiliteit is voor onze klanten en eenvoudig commerciële verder te verspreiden.</p>
-<h3>OroCRM en Oro Platform downloaden</h3>
-<p>OroCRM en Oro Platform zijn te <a href="http://www.orocrm.com/download" title="OroCRM en Oro Platform downloaden" target="_blank">downloaden</a> via Git.</p>
-<h3>Oro CRM documentatie</h3>
-<p>Onze documentatie is beschikbaar op onze <a href="https://magecore.atlassian.net/wiki/display/DOC/Oro+Documentaion+Home" title="OroCRM documentatie" target="_blank">wiki</a>. Momenteel wordt er nog hard werkt hieraan en zijn aanvullingen vanuit de gemeenschap van harte welkom.<br><br>Het Oro Team</p>
-<p>bron: <a href="http://www.orocrm.com/blog/news/orocrm-and-oro-platform-code-is-public">http://www.orocrm.com/blog/news/orocrm-and-oro-platform-code-is-public</a><a href="http://www.orocrm.com/blog/news/orocrm-and-oro-platform-code-is-public" target="_blank"></a></p>
+<h3>Highlight in de Joomla 2.5.14</h3>
+<ul class="check">
+<li>1 high security fix</li>
+<li>1 bug opgelost</li>
+</ul>
+<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements.html" title="Joomla meldingen" target="_blank">Joomla</a> website.</p>
+<p>Hulp nodig bij pathen? Bel of mail ons.</p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-31/">
+  <article data-permalink="https://supportdesk.shop/2013/07/09/jira-image-v6-magento-optimized/">
       <header>
-          <time datetime="2013-04-24"><span class="day">24</span><span class="month">Apr</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-31/" title="Joomla Security Update versie 3.1">Joomla Security Update versie 3.1</a></h1>
+          <time datetime="2013-07-09"><span class="day">09</span><span class="month">Jul</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/07/09/jira-image-v6-magento-optimized/" title="Jira image V6 [Magento Optimized]">Jira image V6 [Magento Optimized]</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
       <div><div class="box__image">
-  <a title="Joomla Security Update versie 3.1" href="/2013/04/24/joomla-security-update-versie-31/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 3.1" attribution="Joomla Security Update versie 3.1" layout=responsive src="/img/news/securityrelease.png"></amp-img>
+  <a title="Jira image V6 [Magento Optimized]" href="/2013/07/09/jira-image-v6-magento-optimized/">
+    <amp-img noloading height=100 width=200 alt="Jira image V6 [Magento Optimized]" attribution="Jira image V6 [Magento Optimized]" layout=responsive src="/img/news/jira-image-v6.png"></amp-img>
   </a>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 3.1</strong>. Het betreft hier een <strong>Joomla Stable release</strong>. <br>Naast de 7 <strong>Joomla Security</strong> (low Priority) is er ook een lose patch beschikbaar voor <a href="http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&amp;frs_package_id=6668" title="Joomla 3.0.4" target="_blank">Joomla 3.0.4</a>.</p>
-<h3>Wat is er allemaal nieuw in Joomla 3.1?</h3>
-<p>Een van de nieuwe features is het "<a href="http://community.joomla.org/blogs/community/1729-tag-you-are-it.html" title="Joomla Tagging" target="_blank"><strong>Joomla Tagging</strong></a>" systeem waarmee het nu zeer eenvoudig is een artikel onderdeel te maken van verschillende categorieën door middel van een "tag" toe te voegen aan een artikel welke dan middels een menu item gekoppeld kan worden.</p>
-<p>Overige nieuwe features in Joomla 3.1 zijn o.a.:</p>
-<ul class="check">
-<li>OpenStreetMap</li>
-<li>Media Wiki</li>
-<li>Log files bekijken in debug modes</li>
-</ul>
-<h3>Highlight in de Joomla 3.x reeks</h3>
-<ul class="check">
-<li>Bootstrap template (responsive design)</li>
-<li>PostgreSQL</li>
-<li>Memcache</li>
-<li>Opslaan van een leeg artikel</li>
-<li>etc....</li>
-</ul>
-<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5494-joomla-3-1-0-stable-released.html" title="Joomla 3.1" target="_blank">Joomla 3.1</a> website</p>
+<p>De nieuwste versie van het Jira image, V6 is <a href="https://www.cloudvps.nl/configurator/#linux/step/2/APP" title="Jira image V6" target="_blank">beschikbaar</a> bij <a href="http://www.cloudvps.nl/" title="CloudVPS" target="_blank">CloudVPS</a>! <br>Deze VPS image is alweer de 6e release in ruim 2,5 jaar tijd en ook nu weer voorzien van de laatste optimalisatie-aanpassingen voor zowel <strong>Magento</strong> als <strong>Joomla!</strong>.</p>
+<p>De basis van deze V6 release is gebaseerd op: <br>- Centos 6.4 <br>- Directadmin <br>- Apache 2.2.x <br>- PHP 5.4.x <br>- Mysql 5.5.x <br>- Redis server 2.6.x <br>- New Relic</p>
+<p>De complete changelog bevindt zich in de "root" directory van de VPS.</p>
+<h3>Magento Redis en New Relic</h3>
+<p>Naast de vele tweaks in de VPS zijn na uitvoerige testen van bijna een jaar, zowel <strong>Redis</strong> als <strong>New Relic</strong> standaard beschikbaar in deze release. <br><strong>Redis</strong> is vooral bedoeld voor een extra performance boost om zowel de cache als sessions in Magento op te slaan. Standaard zijn er dan ook 2 Redis servers aanwezig zodat deze onafhankelijk van elkaar gebruikt en beheerd kunnen worden. <br> <br><strong>New Relic</strong> is een advanced performance/analyse tool, die uitgebreid inzicht geeft in de PHP details van een Magento website, eventuele "SQL slow queries" en de server performance details. New Relic is eigenlijk een must voor iedereen die zijn shop of site technisch onder de loep wil leggen. <br>Om New Relic goed te kunnen gebruiken is wel enige kennis vereist.<br>New Relic is de eerste 2 weken gratis te gebruiken, daarna kun je zelf aangeven welk pakket het beste bij je past. Voor een juiste (historische) analyse icm Magento is de "Full" version aan te raden.</p>
+<h3>magento-speed.com</h3>
+<p>Onze demo website <a href="http://www.magento-speed.com/"></a><a href="http://www.magento-speed.com/">http://www.magento-speed.com/</a> is naast de VPS image v6 basis ook voorzien van Full Page Caching (FPC) voor Magento in combinatie met Redis. Kijk zelf maar eens wat de snelheden zijn!</p>
 
 <div class="box__image_top">
-    <amp-img noloading height=193 width=666 alt="joomla-31" attribution="joomla-31" layout=responsive src="/img/news/joomla-31.jpg"></amp-img>
-</div>
-</div>
-  </article>
-  
-  <article data-permalink="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-2510/">
-      <header>
-          <time datetime="2013-04-24"><span class="day">24</span><span class="month">Apr</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/04/24/joomla-security-update-versie-2510/" title="Joomla Security Update versie 2.5.10">Joomla Security Update versie 2.5.10</a></h1>
-          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
-      </header>
-      <div><div class="box__image">
-  <a title="Joomla Security Update versie 2.5.10" href="/2013/04/24/joomla-security-update-versie-2510/">
-    <amp-img noloading height=157 width=157 alt="Joomla Security Update versie 2.5.10" attribution="Joomla Security Update versie 2.5.10" layout=responsive src="/img/news/securityrelease.png"></amp-img>
-  </a>
+    <amp-img noloading height=227 width=627 alt="Magento Speed Pingdom" attribution="Magento Speed Pingdom" layout=responsive src="/img/news/magento-speed-pingdom.png"></amp-img>
 </div>
 
-<p>Het Joomla project heeft vandaag een nieuwe Joomla release vrijgegeven, <strong>versie 2.5.10</strong>. Het betreft hier een <strong>Joomla Security release</strong>. <br>Naast de 7<strong>Joomla Security</strong>aanpassingen zijn tevens 38 <strong>bug</strong> gefixed.</p>
-<p>Meer weten welken issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements/release-news/5493-joomla-2-5-10-released.html" title="Joomla 2.5.10" target="_blank">Joomla 2.5.10</a> website</p>
-<p><strong>Update (25/04):</strong> let op bij het patchen. momenteel blijkt er een bug in <strong>Joomla 2.5.10</strong> te zitten, zie hier de <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemBrowse&amp;tracker_id=8103&amp;start=6600" title="Bug in Joomla 2.5.10" target="_blank">bug tracker</a>. Mogelijk dat op termijn Joomla nog een nieuwe release nl. <strong>Joomla 2.5.11</strong> zal uitgegeven om deze bug te verhelpen.<p>
+<h3>Magento High Performance Mobile</h3>
+<p>Aangezien <strong>Magento mobile</strong> sinds het begin van 2008 standaard aanwezig was, is deze nooit verder echt geoptimaliseerd voor de huidige webstandaarden en Magento gerelateerde toepassingen icm de huidige vele verschillende mobile browsers. De huidige image en custom aanpassingen in Magento laten zien dat performance ook voor mobile een must is. <br>Onlangs presenteerde <a href="https://supportdesk.shop/over-ons/ray-bogman" title="Ray Bogman">Ray Bogman</a> tijdens de <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank">Magento User Groups Amsterdam</a> zijn bevindingen genaamd: "<a href="2013-07-02-magento-mobile-performance-the-responsive-mythes" title="Magento Mobile Performance - The Responsive Mythes">Magento Mobile Performance: The Reponsive Myths</a>".</p>
+
+<div class="box__image_top">
+    <amp-img noloading height=511 width=666 alt="Magento Speed Mobile" attribution="Magento Speed Mobile" layout=responsive src="/img/news/magento-speed-mobile-v1.png"></amp-img>
+</div>
 </div>
   </article>
   
@@ -714,6 +721,16 @@
         <li><a href="/2013/11/15/jira-image-v7-magento-optimized/" title="Jira image V7 [Magento Optimized]">Jira image V7 [Magento Optimized]</a></li>
       
         <li><a href="/2013/11/06/joomla-security-update-versie-2-5-16/" title="Joomla Security Update versie 2.5.16">Joomla Security Update versie 2.5.16</a></li>
+      
+        <li><a href="/2013/10/11/magento-1-8-form-keys-impact-on-fpc/" title="Magento 1.8 'form_keys' impact on FPC">Magento 1.8 'form_keys' impact on FPC</a></li>
+      
+        <li><a href="/2013/10/01/magento-user-group-werken-met-jouw-backend/" title="Magento User Group - Werken met jouw backend">Magento User Group - Werken met jouw backend</a></li>
+      
+        <li><a href="/2013/09/25/magento-1-8-0-0-nu-beschikbaar/" title="Magento 1.8.0.0 nu beschikbaar">Magento 1.8.0.0 nu beschikbaar</a></li>
+      
+        <li><a href="/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/" title="Magento SEO workshop 30 augustus 2013 Recap">Magento SEO workshop 30 augustus 2013 Recap</a></li>
+      
+        <li><a href="/2013/09/01/magento-1-8-beschikbaar-eind-september/" title="Magento 1.8 beschikbaar eind september">Magento 1.8 beschikbaar eind september</a></li>
       
         <li><a href="/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/" title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x">High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x</a></li>
       
@@ -941,13 +958,13 @@
             
               <li><a href="/2017/04/02/mage-coach-the-online-magento-performance-tool/" title="Mage.coach - The online Magento Performance tool">Mage.coach - The online Magento Performance tool</a></li>
           
+              <li><a href="/2013/10/11/magento-1-8-form-keys-impact-on-fpc/" title="Magento 1.8 'form_keys' impact on FPC">Magento 1.8 'form_keys' impact on FPC</a></li>
+          
               <li><a href="/2016/03/14/keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof/" title="Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof">Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof</a></li>
           
               <li><a href="/2016/02/19/shoppimon-webinar-making-the-move-to-magento-2/" title="Shoppimon Webinar: Making the move to Magento 2">Shoppimon Webinar: Making the move to Magento 2</a></li>
           
               <li><a href="/2012/07/02/magento-seo-voor-starters/" title="Magento SEO voor starters">Magento SEO voor starters</a></li>
-          
-              <li><a href="/2013/04/24/joomla-security-update-versie-31/" title="Joomla Security Update versie 3.1">Joomla Security Update versie 3.1</a></li>
           
           </ul>
       </div>

@@ -20,8 +20,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://supportdesk.shop//blog/page17/",
   "headline": "Blog",
-  "datePublished": "2017-07-02T14:36:55+00:00",
-  "dateModified": "2017-07-02T14:36:55+00:00",
+  "datePublished": "2017-07-02T19:10:17+00:00",
+  "dateModified": "2017-07-02T19:10:17+00:00",
   "description": "Magento en Joomla support nodig?",
   "author": {
     "@type": "Person",
@@ -512,65 +512,47 @@
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
+  <article data-permalink="https://supportdesk.shop/2013/10/11/magento-1-8-form-keys-impact-on-fpc/">
       <header>
-          <time datetime="2013-08-01"><span class="day">01</span><span class="month">Aug</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/" title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x">High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x</a></h1>
-          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
+          <time datetime="2013-10-11"><span class="day">11</span><span class="month">Oct</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/10/11/magento-1-8-form-keys-impact-on-fpc/" title="Magento 1.8 'form_keys' impact on FPC">Magento 1.8 'form_keys' impact on FPC</a></h1>
+          <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Melvyn Sopacua</span>
       </header>
-      <div><div class="box__image">
-  <a title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" href="/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/">
-    <amp-img noloading height=157 width=157 alt="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" attribution="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x" layout=responsive src="/img/news/securityrelease.png"></amp-img>
-  </a>
-</div>
-
-<p>Het Joomla project heeft vandaag een nieuwe <strong>High Joomla Security</strong> release vrijgegeven voor alle versies, nl. <strong>Joomla 1.5.x, Joomla 2.5.x en Joomla 3.0.x</strong>.</p>
-<p>Voor <strong>Joomla 1.5</strong> is enkel een <a href="http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&amp;tracker_item_id=31626" title="Joomla 1.5 security patch" target="_blank">patch file</a> uitgebracht.</p>
-<h3>Highlight in de Joomla 3.1.5</h3>
+      <div><h3>Magento 1.8 Form Keys</h3>
+<p>Since the beginning of time Magento's backend contained a form key that protected against XSS attacks [1]. With <strong>Magento 1.8</strong> the form key has entered the frontend for pretty much the same reason: to protect against form submission from another website, using your browser. A malicious attacker can add stuff to your cart while you're in a different browser tab or even complete an order for you. This relies on predictable URLs, because the site will not have access to the actual HTML content in the browser tab where you have your Magento order waiting. Everything sent to the Magento store will however submit your cookies and thus use your session.</p>
+<h3>Enter the form key</h3>
+<p>By adding a unique key to each form or to each link that generates an action on the server, the URL or form content becomes no longer predictable. The form key is stored in the session data and validated upon submission to the server. If they don't match - you get a form key error and the action is not completed.</p>
+<p>The way it is implemented in Magento 1.8 is not straight-forward for most of the <strong>Magento FPC implementations</strong> out there and will generate form key errors, because by default they will cache the pages containing the form key of the user that first requested the page and caused it to be stored in the full page cache.</p>
+<h3>Magento frontend implementation</h3>
+<p>First of all, the form key is not a separate block which can be excluded from FPC. And to make things worse, it's part of top level pages you will want to cache, like categories and product detail and even the homepage if it contains "add to cart" links (which most homepages out there do). For an example, take a look at <strong>app/design/frontend/base/default/template/catalog/product/list.phtml</strong>. You will notice several calls to <strong>$this-&gt;getAddToCartUrl()</strong> which is defined in <strong>app/code/core/Mage/Catalog/Block/Product/Abstract.php</strong>. In there you'll see that unconditionally, the form_key is added to the URL parameters.</p>
+<p>On the other hand, using a separate block that would allow FPC implementors to mark it dynamic, would incur a heavy performance penalty, because every link that contains a form_key or form that contains a form_key input element, would have delays for loading and executing the block from a separate file and effectively only outputs sixteen characters fetched from the user's session data.</p>
+<h3>But here's the good part</h3>
+<p>The good thing is, that a solid FPC implementation should also have code to replace the session ID that is output in some pages with the actual session ID from the currently viewing user. This code can be expanded with a replacement for the form key and this is exactly how Magento Enterprise is doing it.</p>
+<p>When a cacheable page is stored in the FPC container, one replaces the form key with a placeholder. After retrieving the stored HTML and before serving the cached page, the placeholder is restored with the form key stored in the user's session or if one does not exist, one should be generated (and subsequently stored in the user's session).</p>
+<p>Pages that receive the form key should in general not be cached or at least (partly) tailor to the current user ("dynamic blocks"). This is where the validation code will be called and when done right should no longer generate form key errors.</p>
+<h3>Update</h3>
+<p>We know of the following FPC implementations who have patched their code:</p>
 <ul class="check">
-<li>1 high security fix</li>
-<li>7 bugs gefixed</li>
+<li><a title="Information about Lesti FPC" href="http://gordonlesti.com/lestifpc/">Lesti FPC</a> as of <a title="Fix for 1.8 Form key" href="https://github.com/GordonLesti/Lesti_Fpc/commit/e3725928fcac1924ed663c33bd4067e99b3e7eb1">this commit </a></li>
+<li><a title="Information about Extendware Full Page Cache" href="http://www.extendware.com/magento-extensions/performance/full-page-cache-magento-extension.html">Extendware Full Page Cache</a>, version 1.6.8</li>
 </ul>
-<h3>Highlight in de Joomla 2.5.14</h3>
-<ul class="check">
-<li>1 high security fix</li>
-<li>1 bug opgelost</li>
-</ul>
-<p>Meer weten welke issues gefixed zijn, kijk dan op de <a href="http://www.joomla.org/announcements.html" title="Joomla meldingen" target="_blank">Joomla</a> website.</p>
-<p>Hulp nodig bij pathen? Bel of mail ons.</p>
+<p>If you are the maintainer of an FPC implementation or know that an implementation is fixed or not affected, feel free to provide me the details and we'll update the list as soon as possible.</p>
+<p>Reference:<br>[1] <a href="http://net.tutsplus.com/tutorials/php/secure-your-forms-with-form-keys/">http://net.tutsplus.com/tutorials/php/secure-your-forms-with-form-keys/</a><a href="http://net.tutsplus.com/tutorials/php/secure-your-forms-with-form-keys/"></a></p>
 </div>
   </article>
   
-  <article data-permalink="https://supportdesk.shop/2013/07/09/jira-image-v6-magento-optimized/">
+  <article data-permalink="https://supportdesk.shop/2013/10/01/magento-user-group-werken-met-jouw-backend/">
       <header>
-          <time datetime="2013-07-09"><span class="day">09</span><span class="month">Jul</span><span class="year">2013</span></time>
-          <h1><a class="blogs" href="https://supportdesk.shop/2013/07/09/jira-image-v6-magento-optimized/" title="Jira image V6 [Magento Optimized]">Jira image V6 [Magento Optimized]</a></h1>
+          <time datetime="2013-10-01"><span class="day">01</span><span class="month">Oct</span><span class="year">2013</span></time>
+          <h1><a class="blogs" href="https://supportdesk.shop/2013/10/01/magento-user-group-werken-met-jouw-backend/" title="Magento User Group - Werken met jouw backend">Magento User Group - Werken met jouw backend</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Ray Bogman</span>
       </header>
-      <div><div class="box__image">
-  <a title="Jira image V6 [Magento Optimized]" href="/2013/07/09/jira-image-v6-magento-optimized/">
-    <amp-img noloading height=100 width=200 alt="Jira image V6 [Magento Optimized]" attribution="Jira image V6 [Magento Optimized]" layout=responsive src="/img/news/jira-image-v6.png"></amp-img>
-  </a>
-</div>
+      <div><a href="http://www.meetup.com/Magento-user-Group-Amsterdam/events/119515602/" target="_self" title="Ga naar Magento User Group Amsterdam">
+  <div class="box__image">
+      <amp-img noloading height=45 width=66 alt="Magento User Group" attribution="Magento User Group" layout=responsive src="/img/news/meetuplogo.png"></amp-img>
+  </div>
+</a>
 
-<p>De nieuwste versie van het Jira image, V6 is <a href="https://www.cloudvps.nl/configurator/#linux/step/2/APP" title="Jira image V6" target="_blank">beschikbaar</a> bij <a href="http://www.cloudvps.nl/" title="CloudVPS" target="_blank">CloudVPS</a>! <br>Deze VPS image is alweer de 6e release in ruim 2,5 jaar tijd en ook nu weer voorzien van de laatste optimalisatie-aanpassingen voor zowel <strong>Magento</strong> als <strong>Joomla!</strong>.</p>
-<p>De basis van deze V6 release is gebaseerd op: <br>- Centos 6.4 <br>- Directadmin <br>- Apache 2.2.x <br>- PHP 5.4.x <br>- Mysql 5.5.x <br>- Redis server 2.6.x <br>- New Relic</p>
-<p>De complete changelog bevindt zich in de "root" directory van de VPS.</p>
-<h3>Magento Redis en New Relic</h3>
-<p>Naast de vele tweaks in de VPS zijn na uitvoerige testen van bijna een jaar, zowel <strong>Redis</strong> als <strong>New Relic</strong> standaard beschikbaar in deze release. <br><strong>Redis</strong> is vooral bedoeld voor een extra performance boost om zowel de cache als sessions in Magento op te slaan. Standaard zijn er dan ook 2 Redis servers aanwezig zodat deze onafhankelijk van elkaar gebruikt en beheerd kunnen worden. <br> <br><strong>New Relic</strong> is een advanced performance/analyse tool, die uitgebreid inzicht geeft in de PHP details van een Magento website, eventuele "SQL slow queries" en de server performance details. New Relic is eigenlijk een must voor iedereen die zijn shop of site technisch onder de loep wil leggen. <br>Om New Relic goed te kunnen gebruiken is wel enige kennis vereist.<br>New Relic is de eerste 2 weken gratis te gebruiken, daarna kun je zelf aangeven welk pakket het beste bij je past. Voor een juiste (historische) analyse icm Magento is de "Full" version aan te raden.</p>
-<h3>magento-speed.com</h3>
-<p>Onze demo website <a href="http://www.magento-speed.com/"></a><a href="http://www.magento-speed.com/">http://www.magento-speed.com/</a> is naast de VPS image v6 basis ook voorzien van Full Page Caching (FPC) voor Magento in combinatie met Redis. Kijk zelf maar eens wat de snelheden zijn!</p>
-
-<div class="box__image_top">
-    <amp-img noloading height=227 width=627 alt="Magento Speed Pingdom" attribution="Magento Speed Pingdom" layout=responsive src="/img/news/magento-speed-pingdom.png"></amp-img>
-</div>
-
-<h3>Magento High Performance Mobile</h3>
-<p>Aangezien <strong>Magento mobile</strong> sinds het begin van 2008 standaard aanwezig was, is deze nooit verder echt geoptimaliseerd voor de huidige webstandaarden en Magento gerelateerde toepassingen icm de huidige vele verschillende mobile browsers. De huidige image en custom aanpassingen in Magento laten zien dat performance ook voor mobile een must is. <br>Onlangs presenteerde <a href="https://supportdesk.shop/over-ons/ray-bogman" title="Ray Bogman">Ray Bogman</a> tijdens de <a href="https://www.meetup.com/Magento-user-Group-Amsterdam/" target="_blank">Magento User Groups Amsterdam</a> zijn bevindingen genaamd: "<a href="2013-07-02-magento-mobile-performance-the-responsive-mythes" title="Magento Mobile Performance - The Responsive Mythes">Magento Mobile Performance: The Reponsive Myths</a>".</p>
-
-<div class="box__image_top">
-    <amp-img noloading height=511 width=666 alt="Magento Speed Mobile" attribution="Magento Speed Mobile" layout=responsive src="/img/news/magento-speed-mobile-v1.png"></amp-img>
-</div>
 </div>
   </article>
   
@@ -735,6 +717,16 @@
         <li><a href="/2013/11/15/jira-image-v7-magento-optimized/" title="Jira image V7 [Magento Optimized]">Jira image V7 [Magento Optimized]</a></li>
       
         <li><a href="/2013/11/06/joomla-security-update-versie-2-5-16/" title="Joomla Security Update versie 2.5.16">Joomla Security Update versie 2.5.16</a></li>
+      
+        <li><a href="/2013/10/11/magento-1-8-form-keys-impact-on-fpc/" title="Magento 1.8 'form_keys' impact on FPC">Magento 1.8 'form_keys' impact on FPC</a></li>
+      
+        <li><a href="/2013/10/01/magento-user-group-werken-met-jouw-backend/" title="Magento User Group - Werken met jouw backend">Magento User Group - Werken met jouw backend</a></li>
+      
+        <li><a href="/2013/09/25/magento-1-8-0-0-nu-beschikbaar/" title="Magento 1.8.0.0 nu beschikbaar">Magento 1.8.0.0 nu beschikbaar</a></li>
+      
+        <li><a href="/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/" title="Magento SEO workshop 30 augustus 2013 Recap">Magento SEO workshop 30 augustus 2013 Recap</a></li>
+      
+        <li><a href="/2013/09/01/magento-1-8-beschikbaar-eind-september/" title="Magento 1.8 beschikbaar eind september">Magento 1.8 beschikbaar eind september</a></li>
       
         <li><a href="/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/" title="High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x">High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x</a></li>
       
@@ -962,13 +954,13 @@
             
               <li><a href="/2017/04/02/mage-coach-the-online-magento-performance-tool/" title="Mage.coach - The online Magento Performance tool">Mage.coach - The online Magento Performance tool</a></li>
           
+              <li><a href="/2013/10/11/magento-1-8-form-keys-impact-on-fpc/" title="Magento 1.8 'form_keys' impact on FPC">Magento 1.8 'form_keys' impact on FPC</a></li>
+          
               <li><a href="/2016/03/14/keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof/" title="Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof">Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof</a></li>
           
               <li><a href="/2016/02/19/shoppimon-webinar-making-the-move-to-magento-2/" title="Shoppimon Webinar: Making the move to Magento 2">Shoppimon Webinar: Making the move to Magento 2</a></li>
           
               <li><a href="/2012/07/02/magento-seo-voor-starters/" title="Magento SEO voor starters">Magento SEO voor starters</a></li>
-          
-              <li><a href="/2013/04/24/joomla-security-update-versie-31/" title="Joomla Security Update versie 3.1">Joomla Security Update versie 3.1</a></li>
           
           </ul>
       </div>
