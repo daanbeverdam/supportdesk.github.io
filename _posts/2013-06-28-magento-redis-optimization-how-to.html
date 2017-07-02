@@ -1,0 +1,48 @@
+---
+layout: 2column
+title: 'Magento Redis Optimization: How To'
+url: magento-redis-optimization-how-to
+description: 'Magento Redis Optimization: How To. Kies voor een snelle stabiele Magento website met Redis.'
+image: magento-redis-optimization-how-to
+imagedir: news
+height: 157
+width: 157
+position:
+authorimage: Ray Bogman
+authorname: Ray Bogman
+datePublished: 2013-06-28 08:33:02.000000000 +00:00
+dateModified: 2013-07-16 16:59:18.000000000 +00:00
+intro: 'Magento Redis Optimization: How To. Kies voor een snelle stabiele Magento website met Redis.'
+hits: 2539
+nav: blog
+redirect_from:
+  - /blog/97-magento-redis-optimization-how-to
+---
+<p><a href="blog/97-magento-redis-optimization-how-to" title="Magento Redis Optimization: How To"><img src="images/nieuws/magento-redis-optimization-how-to.jpg" width="175" height="213" alt="Magento Redis Optimization: How To" style="float: right; margin: 0 0 0 20px;" /></a>Onlangs heeft Packtpub een boek gepubliceerd met als titel: <a href="http://www.packtpub.com/redis-optimization-how-to/book" target="_blank">Redis Optimization How To</a>. Het boek geschreven door Arun Chinnachamy geeft een goed overzicht wat er komt kijken bij een juiste implementatie van Redis.<br><strong>Redis</strong> is een <strong>Key-Value-Storage</strong> memory database welke vele voordelen biedt voor het versnellen van een website maar ook efficient grote brokken data beschikbaar stelt (big data).</p>
+<p>De volgende zaken worden redelijk tot uitgebreid in het boek behandeld:</p>
+<ul class="check">
+<li>Data store keuze (beginner)</li>
+<li>Installatie van Redis (beginner)</li>
+<li>Configuratie en tuning van Redis (halfgevorderd)</li>
+<li>Implementatie van constante verbinding in Redis (halfgevorderd)</li>
+<li>Debuggen performance bottlenecks Redis (halfgevorderd)</li>
+<li>Performing high-volume writes (gevorderd)</li>
+<li>Leverage datatypes (beginner)</li>
+<li>Geheugen optimalisatie (halfgevorderd)</li>
+<li>Transacties Pub/Sub (gevorderd)</li>
+<li>Debuggen en monitoring (halfgevorderd)</li>
+<li>Programmeertalen en client drivers (beginner)</li>
+</ul>
+<h3>Redis server of cluster</h3>
+<p>Aangezien Redis een redelijk flexibel systeem is, is deze geschikt in zowel kleine als grote systeemoplossingen. De keuze voor een kleine enkele Redis database als onderdeel van een <strong>Redis server</strong> omgeving is voor de hand liggend. Maar een Redis cluster setup zoals master/slave of master/master zijn zeer zeker op termijn mogelijk in een doorgroei pad. Aangezien Redis zijn data naast het realtime geheugengebruik ook opslaat op disk is het mogelijk deze over te zetten naar een groter Redis omgeving indien dit gewenst is. Dankzij deze techniek is een reboot van een memory-based key-value-storage database altijd fullproof.</p>
+<h3>Magento Redis</h3>
+<p>De voordelen van <strong>Redis voor Magento</strong> zijn enorm aangezien zowel de cache backend als de Magento sessies volledig in een Redis database kunnen draaien. Voor Magento betekent dit dat er geen gebruik meer gemaakt hoeft te worden van file (tmpfs) of memcache achtige oplossingen.<br>Deze cache zal dan realtime in het geheugen van de Redis server beschikbaar zijn. Het opwarmen van deze cache kan een extra performance winst met zich meebrengen aangezien klanten dan direct een gecachte pagina ter beschikking hebben.</p>
+<h3>Magento Enterprise Redis</h3>
+<p><strong>Magento Enterprise</strong> is vanaf versie 1.13.0 en hoger standaard uitgerust met de open source <strong>Magento Redis module</strong> van Colin Mollenhour. Deze module is reeds verouderd en kan beter geupdate worden. Tevens ondersteund de Magento Enterprise standaard Magento session in Redis.</p>
+<h3>Magento Full Page Cache voor Redis</h3>
+<p>Om Magento nog een extra Boost te geven is het gebruik van een <strong>Full Page Cache (FPC)</strong> een aan te raden aanvulling. Uit testresultaten blijkt een totale performance winst van 500 - 800 ms per pagina.<br>Enkele voorbeelden zijn:</p>
+<ul>
+<li><a target="_blank" href="https://www.supportdesk.nu/shop/"></a><a href="https://www.supportdesk.nu/shop/">http://www.supportdesk.nu/shop/</a></li>
+<li><a target="_blank" href="http://www.wildhibiscus.nl/"></a><a href="http://www.wildhibiscus.nl/" target="_blank" title="Wild Hibiscus - Bloemen in Siroop">http://www.wildhibiscus.nl/</a></li>
+<li><a target="_blank" href="http://www.magento-speed.com/"></a><a href="http://www.magento-speed.com/" title="magento-speed.com" target="_blank">http://www.magento-speed.com/</a></li>
+</ul>
