@@ -58,4 +58,5 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
+  - jekyll-sitemap
   - html-proofer
