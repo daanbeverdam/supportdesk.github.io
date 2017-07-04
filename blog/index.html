@@ -12,9 +12,24 @@ keywords: joomla, magento, blog, magento nieuws, magento updates, magento releas
           <h1><a class="blogs" href="{{site.url-non}}{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door {% if post.authorname %}{{post.authorname}}{% else %}{{site.authorname}}{% endif%}</span>
       </header>
-      <div>{{ post.excerpt }}</div>
+      <div>{{ post.content }}</div>
   </article>
   {% endfor %}
+</div>
+<div class="twelve columns">
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Vorige</a>
+    {% else %}
+      <span class="previous">Vorige</span>
+    {% endif %}
+      <span class="page_number ">Pagina: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Volgende</a>
+    {% else %}
+      <span class="next">Volgende</span>
+      {% endif %}
+  </div>
 </div>
 <div class="twelve columns">
   <div>
