@@ -1,10 +1,12 @@
 <url>
-  <loc>{{ post.baseurl | absolute_url }}</loc>
+  <loc>{{site.url-non}}{{post.url}}</loc>
   <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   {% if page.priority %}<priority>{{page.priority}}</priority>{%endif%}
+  {% if post.image != null %}
   <image:image>
-    <image:loc>{{ post.image.source | absolute_url }}</image:loc>
+    <image:loc>{{site.url-non}}/img/{{ post.imagedir }}/{{ post.image }}</image:loc>
     <image:title><![CDATA[{{ post.title }}]]></image:title>
     <image:caption><![CDATA[{{ post.title }}]]></image:caption>
   </image:image>
+  {%endif%}
 </url>
