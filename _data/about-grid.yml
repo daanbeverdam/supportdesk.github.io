@@ -64,12 +64,6 @@
   pic: wilco-vogt
   status: active
 
-- name: Yorick Germs
-  description: Support Engineer
-  url: /over-ons/yorick-germs
-  pic: yorick-germs
-  status: active
-
 - name: Robin Westra
   description: Support Engineer
   url: /over-ons/robin-westra
@@ -135,9 +129,3 @@
   url: /over-ons/mats-van-de-seijp
   pic: mats-van-de-seijp
   status: active
-
-- name: Frank Kooger
-  description: Support Engineer
-  url: /over-ons/frank-kooger
-  pic: frank-kooger
-  status: gone

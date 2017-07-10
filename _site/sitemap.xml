@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>/post-sitemap.xml</loc>
-		<lastmod>2017-07-10T16:42:17+00:00</lastmod>
+		<loc>https://supportdesk.shop/post-sitemap.xml</loc>
+		<lastmod>2017-07-10T19:43:17+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>/page-sitemap.xml</loc>
-		<lastmod>2017-07-10T16:42:17+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>/project-sitemap.xml</loc>
-		<lastmod>2017-07-10T16:42:17+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>/category-sitemap.xml</loc>
-		<lastmod>2017-07-10T16:42:17+00:00</lastmod>
+		<loc>https://supportdesk.shop/page-sitemap.xml</loc>
+		<lastmod>2017-07-10T19:43:17+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
