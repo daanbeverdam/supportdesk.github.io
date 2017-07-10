@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://supportdesk.shop</loc>
+	</url>
+	<url>
+  <loc>https://supportdesk.shop/2017/07/01/ray-test/</loc>
+  <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/04/25/magento-user-group-magento-b2b-vs-orocommerce-b2b-copy/</loc>
+  <lastmod>2017-04-25T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-b2b-vs-orocommerce.png</image:loc>
+    <image:title><![CDATA[Magento User Group: Magento B2B vs. OroCommerce B2B]]></image:title>
+    <image:caption><![CDATA[Magento User Group: Magento B2B vs. OroCommerce B2B]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/04/19/meet-magento-2017-mm17nl/</loc>
+  <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mage_run_Meet_Mageto_Nederland_2017.jpg</image:loc>
+    <image:title><![CDATA[Meet Magento 2017 'MM17NL']]></image:title>
+    <image:caption><![CDATA[Meet Magento 2017 'MM17NL']]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/04/14/magento-2-1-6-is-alive/</loc>
+  <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-upgrade.svg</image:loc>
+    <image:title><![CDATA[Magento 2.1.6 is alive!]]></image:title>
+    <image:caption><![CDATA[Magento 2.1.6 is alive!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/04/02/mage-coach-the-online-magento-performance-tool/</loc>
+  <lastmod>2017-04-02T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/penguin_report.svg</image:loc>
+    <image:title><![CDATA[Mage.coach - The online Magento Performance tool]]></image:title>
+    <image:caption><![CDATA[Mage.coach - The online Magento Performance tool]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/04/01/tariefwijziging-supportdesk/</loc>
+  <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/logos/supportdesk-logo.svg</image:loc>
+    <image:title><![CDATA[Tariefwijzigingen per 1 april]]></image:title>
+    <image:caption><![CDATA[Tariefwijzigingen per 1 april]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/03/31/magento-imagine-2017/</loc>
+  <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-imagine-2017.jpg</image:loc>
+    <image:title><![CDATA[Magento Imagine 2017]]></image:title>
+    <image:caption><![CDATA[Magento Imagine 2017]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/03/20/supportdesk-samenwerking-qpep/</loc>
+  <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/qpep.png</image:loc>
+    <image:title><![CDATA[SupportDesk werkt met Qpep]]></image:title>
+    <image:caption><![CDATA[SupportDesk werkt met Qpep]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/02/10/supportdesk-bij-tech020/</loc>
+  <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/tech020.png</image:loc>
+    <image:title><![CDATA[SupportDesk bij TECH020]]></image:title>
+    <image:caption><![CDATA[SupportDesk bij TECH020]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/02/06/magento-security-update-supee-9652/</loc>
+  <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-9652]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-9652]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/02/03/event-e-commerce-conference/</loc>
+  <lastmod>2017-02-03T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-2-migration-upgrade.svg</image:loc>
+    <image:title><![CDATA[Event: E-commerce Conference]]></image:title>
+    <image:caption><![CDATA[Event: E-commerce Conference]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2017/01/16/magento-user-group-ken-je-e-commerce-buren-know-your-e-commerce-neighbours/</loc>
+  <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-user-group-logo-200.png</image:loc>
+    <image:title><![CDATA[Magento User Group: Ken je (e)commerce buren/Know your (e)commerce Neighbours]]></image:title>
+    <image:caption><![CDATA[Magento User Group: Ken je (e)commerce buren/Know your (e)commerce Neighbours]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/12/22/supportdesk-verhuizing/</loc>
+  <lastmod>2016-12-22T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/10/31/magento-1-9-3-x-vs-php-5-6/</loc>
+  <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/php-56-magento-193.png</image:loc>
+    <image:title><![CDATA[Magento 1.9.3.x vs PHP 5.6]]></image:title>
+    <image:caption><![CDATA[Magento 1.9.3.x vs PHP 5.6]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/10/11/magento-security-update-supee-8788/</loc>
+  <lastmod>2016-10-11T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-8788]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-8788]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/09/16/magento-beheer-wat-is-een-geslaagd-recept/</loc>
+  <lastmod>2016-09-16T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/SupportDesk-chef.png</image:loc>
+    <image:title><![CDATA[Magento beheer: wat is een geslaagd recept?]]></image:title>
+    <image:caption><![CDATA[Magento beheer: wat is een geslaagd recept?]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/09/01/exact-meets-ecommerce/</loc>
+  <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/exactmeetsmagento.jpg</image:loc>
+    <image:title><![CDATA[Exact meets Ecommerce]]></image:title>
+    <image:caption><![CDATA[Exact meets Ecommerce]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/05/05/aankondiging-meet-magento-nederland-2016-12-en-13-mei/</loc>
+  <lastmod>2016-05-05T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/Meet_Magento_NL_2016_utrecht_logo.png</image:loc>
+    <image:title><![CDATA[Aankondiging Meet Magento Nederland 2016 (12 en 13 mei)]]></image:title>
+    <image:caption><![CDATA[Aankondiging Meet Magento Nederland 2016 (12 en 13 mei)]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/05/03/magento-2-cookbook-award-nominated/</loc>
+  <lastmod>2016-05-03T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-2-cookbook-awards-2016.png</image:loc>
+    <image:title><![CDATA[Magento 2 Cookbook - Award Nominated]]></image:title>
+    <image:caption><![CDATA[Magento 2 Cookbook - Award Nominated]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/04/29/tweede-editie-webdevelopers-bootcamp-gebaseerd-op-magento-is-een-feit/</loc>
+  <lastmod>2016-04-29T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/supportdesk-frissr-bootcamp-2.jpg</image:loc>
+    <image:title><![CDATA[Tweede editie web development bootcamp, gebaseerd op Magento, is een feit! ]]></image:title>
+    <image:caption><![CDATA[Tweede editie web development bootcamp, gebaseerd op Magento, is een feit! ]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/04/21/presentatie-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof/</loc>
+  <lastmod>2016-04-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mage2cookbook-small.jpg</image:loc>
+    <image:title><![CDATA[Presentatie Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof]]></image:title>
+    <image:caption><![CDATA[Presentatie Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/04/21/is-nederland-magento-2-ready/</loc>
+  <lastmod>2016-04-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-2.jpg</image:loc>
+    <image:title><![CDATA[Is Nederland Magento 2 Ready?]]></image:title>
+    <image:caption><![CDATA[Is Nederland Magento 2 Ready?]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/03/14/keystone-magento-2-magento-2-cookbook-door-ray-bogman-en-vladimir-kerkhof/</loc>
+  <lastmod>2016-03-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mage2cookbook-small.jpg</image:loc>
+    <image:title><![CDATA[Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof]]></image:title>
+    <image:caption><![CDATA[Keystone Magento 2 Magento 2 Cookbook door Ray Bogman en Vladimir Kerkhof]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/02/26/supportdesk-steunt-oxfam-novib/</loc>
+  <lastmod>2016-02-26T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/Logo_Oxfam_Novib_Bedrijvenambassadeur.png</image:loc>
+    <image:title><![CDATA[SupportDesk steunt Oxfam Novib]]></image:title>
+    <image:caption><![CDATA[SupportDesk steunt Oxfam Novib]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/02/19/shoppimon-webinar-making-the-move-to-magento-2/</loc>
+  <lastmod>2016-02-19T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento2-logo.png</image:loc>
+    <image:title><![CDATA[Shoppimon Webinar: Making the move to Magento 2]]></image:title>
+    <image:caption><![CDATA[Shoppimon Webinar: Making the move to Magento 2]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/02/06/magento-coscale-workshop-business-metrics-en-dashboards/</loc>
+  <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-user-group-logo-200.png</image:loc>
+    <image:title><![CDATA[Magento CoScale Workshop - Business metrics en Dashboards]]></image:title>
+    <image:caption><![CDATA[Magento CoScale Workshop - Business metrics en Dashboards]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/01/20/magento-security-update-supee-7405/</loc>
+  <lastmod>2016-01-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-7405]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-7405]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/01/13/ontmoet-supportdesk-tijdens-de-webwinkel-vakdagen-2016/</loc>
+  <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-doctor-wwvd-2016-big.jpg</image:loc>
+    <image:title><![CDATA[Ontmoet SupportDesk tijdens de Webwinkel Vakdagen 2016]]></image:title>
+    <image:caption><![CDATA[Ontmoet SupportDesk tijdens de Webwinkel Vakdagen 2016]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2016/01/04/voorkom-daling-in-seo-activeer-full-ssl-nu/</loc>
+  <lastmod>2016-01-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/ssl-lock.png</image:loc>
+    <image:title><![CDATA[Voorkom daling in SEO, activeer full SSL nu!]]></image:title>
+    <image:caption><![CDATA[Voorkom daling in SEO, activeer full SSL nu!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/10/26/magento-security-update-supee-6788/</loc>
+  <lastmod>2015-10-26T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-6788]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-6788]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/10/22/magento-business-metrics-4-everyone/</loc>
+  <lastmod>2015-10-22T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/coscale-merchant-dashboard.jpg</image:loc>
+    <image:title><![CDATA[Magento Business Metrics 4 everyone!]]></image:title>
+    <image:caption><![CDATA[Magento Business Metrics 4 everyone!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/10/21/joomla-security-update-3-4-5/</loc>
+  <lastmod>2015-10-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update 3.4.5]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update 3.4.5]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/08/28/top-10-magento-extension-2015/</loc>
+  <lastmod>2015-08-28T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug-top-10-magento-extension-2015.jpg</image:loc>
+    <image:title><![CDATA[Top 10 Magento Extension 2015]]></image:title>
+    <image:caption><![CDATA[Top 10 Magento Extension 2015]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/08/07/exact-meets-magento-the-next-level/</loc>
+  <lastmod>2015-08-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/exactmeetsmagento.jpg</image:loc>
+    <image:title><![CDATA[Exact meets Magento: the next level]]></image:title>
+    <image:caption><![CDATA[Exact meets Magento: the next level]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/08/04/magento-security-update-supee-6482-patch-bundle/</loc>
+  <lastmod>2015-08-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-6482 Patch Bundle]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-6482 Patch Bundle]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/07/09/update-critical-patch-supee-6285/</loc>
+  <lastmod>2015-07-09T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Update: Critical SUPEE-6285 Patch]]></image:title>
+    <image:caption><![CDATA[Update: Critical SUPEE-6285 Patch]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/07/07/magento-security-update-supee-6285-patch-bundle/</loc>
+  <lastmod>2015-07-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-6285 Patch Bundle]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-6285 Patch Bundle]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/07/07/magento-new-relic-workshop-a-success/</loc>
+  <lastmod>2015-07-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/New_Relic_Workshop_Byte.jpg</image:loc>
+    <image:title><![CDATA[Magento New Relic Workshop a success!]]></image:title>
+    <image:caption><![CDATA[Magento New Relic Workshop a success!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/06/22/magento-live-uk-2015/</loc>
+  <lastmod>2015-06-22T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-live-uk-2015.jpg</image:loc>
+    <image:title><![CDATA[Magento Live UK 2015]]></image:title>
+    <image:caption><![CDATA[Magento Live UK 2015]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/06/09/fooman-pdf-customiser-important-security-update/</loc>
+  <lastmod>2015-06-09T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Fooman Pdf Customiser - Important Security Update]]></image:title>
+    <image:caption><![CDATA[Fooman Pdf Customiser - Important Security Update]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/05/28/critical-security-flaw-magento-blog-extension/</loc>
+  <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Critical Security Flaw in Magento Blog Extension (aw_blog)]]></image:title>
+    <image:caption><![CDATA[Critical Security Flaw in Magento Blog Extension (aw_blog)]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/05/20/meet-magento-awards-nominatie/</loc>
+  <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/meet-magento-awards-nominatie.jpeg</image:loc>
+    <image:title><![CDATA[Meet Magento Awards Nominatie]]></image:title>
+    <image:caption><![CDATA[Meet Magento Awards Nominatie]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/</loc>
+  <lastmod>2015-05-15T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update SUPEE-5994 Patch Bundle]]></image:title>
+    <image:caption><![CDATA[Magento Security Update SUPEE-5994 Patch Bundle]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/04/21/meet-magento-awards-2015/</loc>
+  <lastmod>2015-04-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/meet-magento-awards-2015.png</image:loc>
+    <image:title><![CDATA[Meet Magento Awards 2015]]></image:title>
+    <image:caption><![CDATA[Meet Magento Awards 2015]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/04/21/google-geeft-voorrang-aan-mobiel-vriendelijke-sites/</loc>
+  <lastmod>2015-04-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-joomla-mobile.jpg</image:loc>
+    <image:title><![CDATA[Google geeft voorrang aan mobiel-vriendelijke sites]]></image:title>
+    <image:caption><![CDATA[Google geeft voorrang aan mobiel-vriendelijke sites]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/04/17/urgent-shoplift-magento-patch/</loc>
+  <lastmod>2015-04-17T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Urgent: Shoplift Magento patch]]></image:title>
+    <image:caption><![CDATA[Urgent: Shoplift Magento patch]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2015/02/10/magento-security-update-versie-141-902/</loc>
+  <lastmod>2015-02-10T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update versie 1.4 - 1.9.0.2]]></image:title>
+    <image:caption><![CDATA[Magento Security Update versie 1.4 - 1.9.0.2]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/11/26/top-10-magento-extension-2014/</loc>
+  <lastmod>2014-11-26T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug-top-10-magento-extension-2014.jpg</image:loc>
+    <image:title><![CDATA[Top 10 Magento Extension 2014]]></image:title>
+    <image:caption><![CDATA[Top 10 Magento Extension 2014]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/11/24/magento-1-9-1-nu-beschikbaar/</loc>
+  <lastmod>2014-11-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-community-19.jpg</image:loc>
+    <image:title><![CDATA[Magento 1.9.1 nu beschikbaar]]></image:title>
+    <image:caption><![CDATA[Magento 1.9.1 nu beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/11/12/is-je-website-mobile-friendly/</loc>
+  <lastmod>2014-11-12T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mobile-friendly.jpg</image:loc>
+    <image:title><![CDATA[Is je Joomla! website of Magento webshop Mobile Friendly?]]></image:title>
+    <image:caption><![CDATA[Is je Joomla! website of Magento webshop Mobile Friendly?]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/11/04/magento-klantbezoek-neemt-af/</loc>
+  <lastmod>2014-11-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-mobile.svg</image:loc>
+    <image:title><![CDATA[Klantbezoek neemt af]]></image:title>
+    <image:caption><![CDATA[Klantbezoek neemt af]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/09/24/groot-beveiligingslek-shell-shock-in-bash-linux/</loc>
+  <lastmod>2014-09-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/shellshock.jpg</image:loc>
+    <image:title><![CDATA[Groot beveiligingslek 'Shell Shock' in Bash [Linux]]]></image:title>
+    <image:caption><![CDATA[Groot beveiligingslek 'Shell Shock' in Bash [Linux]]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/09/08/magento-user-group-traffic-genereren/</loc>
+  <lastmod>2014-09-08T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/ray_bogman.jpg</image:loc>
+    <image:title><![CDATA[Magento User Group: Traffic Genereren]]></image:title>
+    <image:caption><![CDATA[Magento User Group: Traffic Genereren]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/09/01/google-gaat-https-meetellen-in-ranking/</loc>
+  <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/https-security.png</image:loc>
+    <image:title><![CDATA[Google gaat HTTPS meetellen in ranking]]></image:title>
+    <image:caption><![CDATA[Google gaat HTTPS meetellen in ranking]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/08/11/magento-workshop-hoe-krijg-ik-meer-verkeer-naar-mijn-shop/</loc>
+  <lastmod>2014-08-11T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-user-group-logo-200.png</image:loc>
+    <image:title><![CDATA[Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop']]></image:title>
+    <image:caption><![CDATA[Magento Workshop 'hoe krijg ik meer verkeer naar mijn shop']]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/07/28/joomla-update-3-3-3-en-2-5-24/</loc>
+  <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/Joomla_33.png</image:loc>
+    <image:title><![CDATA[Joomla update 3.3.3 en 2.5.24]]></image:title>
+    <image:caption><![CDATA[Joomla update 3.3.3 en 2.5.24]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/07/14/google-analytics-enhanced-ecommerce/</loc>
+  <lastmod>2014-07-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/enhanced-ecommerce-settings.png</image:loc>
+    <image:title><![CDATA[Google Analytics Enhanced Ecommerce]]></image:title>
+    <image:caption><![CDATA[Google Analytics Enhanced Ecommerce]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/07/04/google-panda-4-0-nieuwe-seo-regels/</loc>
+  <lastmod>2014-07-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/panda-4-update-supermarket-fight.gif</image:loc>
+    <image:title><![CDATA[Google Panda 4.0 - nieuwe SEO regels]]></image:title>
+    <image:caption><![CDATA[Google Panda 4.0 - nieuwe SEO regels]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/06/27/nieuwe-joomla-roadmap/</loc>
+  <lastmod>2014-06-27T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla-roadmap.png</image:loc>
+    <image:title><![CDATA[Nieuwe Joomla Roadmap ]]></image:title>
+    <image:caption><![CDATA[Nieuwe Joomla Roadmap ]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/06/20/nieuwe-e-commerce-wet-en-magento/</loc>
+  <lastmod>2014-06-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/05/29/magento-user-group-review-en-ratings/</loc>
+  <lastmod>2014-05-29T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-user-group-review-ratings-kiyoh.jpg</image:loc>
+    <image:title><![CDATA[Magento User Group: Review en Ratings]]></image:title>
+    <image:caption><![CDATA[Magento User Group: Review en Ratings]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/05/27/meet-magento-2014-recap/</loc>
+  <lastmod>2014-05-27T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/meet_magento_2014.jpg</image:loc>
+    <image:title><![CDATA[Meet Magento 2014 recap]]></image:title>
+    <image:caption><![CDATA[Meet Magento 2014 recap]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/05/13/magento-1-9-nu-beschikbaar/</loc>
+  <lastmod>2014-05-13T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-community-19.jpg</image:loc>
+    <image:title><![CDATA[Magento 1.9 nu beschikbaar]]></image:title>
+    <image:caption><![CDATA[Magento 1.9 nu beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/05/08/ontmoet-supportdesk-tijdens-meet-magento-2014/</loc>
+  <lastmod>2014-05-08T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/meet_magento_2014.jpg</image:loc>
+    <image:title><![CDATA[Ontmoet SupportDesk tijdens Meet Magento 2014]]></image:title>
+    <image:caption><![CDATA[Ontmoet SupportDesk tijdens Meet Magento 2014]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/05/01/joomla-update-3-3-3-2-4-en-2-5-20/</loc>
+  <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/Joomla_33.png</image:loc>
+    <image:title><![CDATA[Joomla update 3.3, 3.2.4 en 2.5.20]]></image:title>
+    <image:caption><![CDATA[Joomla update 3.3, 3.2.4 en 2.5.20]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/04/25/magento-user-group-magento-hosting/</loc>
+  <lastmod>2014-04-25T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/Magento-user-group-24-april-2014.jpg</image:loc>
+    <image:title><![CDATA[Magento User Group - Magento Hosting]]></image:title>
+    <image:caption><![CDATA[Magento User Group - Magento Hosting]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/04/07/groot-beveiligingslek-in-ssl/</loc>
+  <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/heartbleed.png</image:loc>
+    <image:title><![CDATA[Groot beveiligingslek in SSL]]></image:title>
+    <image:caption><![CDATA[Groot beveiligingslek in SSL]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/04/01/orocrm-1-0-0-nu-beschikbaar/</loc>
+  <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/03/14/magento-patch-voor-php-5-4/</loc>
+  <lastmod>2014-03-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-upgrade.svg</image:loc>
+    <image:title><![CDATA[Magento patch voor PHP 5.4]]></image:title>
+    <image:caption><![CDATA[Magento patch voor PHP 5.4]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/03/06/joomla-update-versie-2-5-19-en-3-2-3/</loc>
+  <lastmod>2014-03-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update 2.5.19 en 3.2.3]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update 2.5.19 en 3.2.3]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/02/27/orocrm-1-april-live/</loc>
+  <lastmod>2014-02-27T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-user-group-orocrm.jpg</image:loc>
+    <image:title><![CDATA[OroCRM 1 April Live]]></image:title>
+    <image:caption><![CDATA[OroCRM 1 April Live]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/02/07/magento-support-is-een-verhaal-apart/</loc>
+  <lastmod>2014-02-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-support.svg</image:loc>
+    <image:title><![CDATA[Magento support: is een verhaal apart]]></image:title>
+    <image:caption><![CDATA[Magento support: is een verhaal apart]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/02/07/joomla-update-versie-2-5-18/</loc>
+  <lastmod>2014-02-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla-25.png</image:loc>
+    <image:title><![CDATA[Joomla Update versie 2.5.18]]></image:title>
+    <image:caption><![CDATA[Joomla Update versie 2.5.18]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/01/23/webdesginer-magazine-geld-verdienen-met-je-webshop/</loc>
+  <lastmod>2014-01-23T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/webdesginer-magazine-webwinkel-vakdagen-2014.jpg</image:loc>
+    <image:title><![CDATA[Webdesginer Magazine - Geld verdienen met je webshop]]></image:title>
+    <image:caption><![CDATA[Webdesginer Magazine - Geld verdienen met je webshop]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/01/15/magento-developers-paradise-2014/</loc>
+  <lastmod>2014-01-15T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-developers-paradise-2014.jpg</image:loc>
+    <image:title><![CDATA[Magento Developers Paradise 2014]]></image:title>
+    <image:caption><![CDATA[Magento Developers Paradise 2014]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2014/01/06/meet-and-greet-agenda-2014/</loc>
+  <lastmod>2014-01-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/12/23/magento-user-group-git-en-magento/</loc>
+  <lastmod>2013-12-23T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/melvyn-sopacua.jpg</image:loc>
+    <image:title><![CDATA[Magento User Group - GIT en Magento]]></image:title>
+    <image:caption><![CDATA[Magento User Group - GIT en Magento]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/12/18/joomla-update-versie-2-5-17-en-3-2-1/</loc>
+  <lastmod>2013-12-18T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla-25.png</image:loc>
+    <image:title><![CDATA[Joomla Update versie 2.5.17 en 3.2.1]]></image:title>
+    <image:caption><![CDATA[Joomla Update versie 2.5.17 en 3.2.1]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/12/10/magento-1-8-1-nu-beschikbaar/</loc>
+  <lastmod>2013-12-10T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-1.8.1.0.jpg</image:loc>
+    <image:title><![CDATA[Magento 1.8.1 nu beschikbaar]]></image:title>
+    <image:caption><![CDATA[Magento 1.8.1 nu beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/12/06/joomla-3-extension-development/</loc>
+  <lastmod>2013-12-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/11/29/snelste-magento-mobile-webshop-in-de-wereld/</loc>
+  <lastmod>2013-11-29T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/article/magento-mobile.svg</image:loc>
+    <image:title><![CDATA[Snelste Magento Mobile webshop in de Wereld!]]></image:title>
+    <image:caption><![CDATA[Snelste Magento Mobile webshop in de Wereld!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/11/27/top-10-magento-extension/</loc>
+  <lastmod>2013-11-27T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug-top-10-magento-extension-2014.jpg</image:loc>
+    <image:title><![CDATA[Top 10 Magento Extension]]></image:title>
+    <image:caption><![CDATA[Top 10 Magento Extension]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/11/15/jira-image-v7-magento-optimized/</loc>
+  <lastmod>2013-11-15T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/11/06/joomla-security-update-versie-2-5-16/</loc>
+  <lastmod>2013-11-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 2.5.16]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 2.5.16]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/10/11/magento-1-8-form-keys-impact-on-fpc/</loc>
+  <lastmod>2013-10-11T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/10/01/magento-user-group-werken-met-jouw-backend/</loc>
+  <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento User Group - Werken met jouw backend]]></image:title>
+    <image:caption><![CDATA[Magento User Group - Werken met jouw backend]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/09/25/magento-1-8-0-0-nu-beschikbaar/</loc>
+  <lastmod>2013-09-25T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-18.png</image:loc>
+    <image:title><![CDATA[Magento 1.8.0.0 nu beschikbaar]]></image:title>
+    <image:caption><![CDATA[Magento 1.8.0.0 nu beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/09/02/magento-seo-workshop-30-augustus-2013-recap/</loc>
+  <lastmod>2013-09-02T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/blogseoworkshoprecap.jpg</image:loc>
+    <image:title><![CDATA[Magento SEO workshop 30 augustus 2013 Recap]]></image:title>
+    <image:caption><![CDATA[Magento SEO workshop 30 augustus 2013 Recap]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/09/01/magento-1-8-beschikbaar-eind-september/</loc>
+  <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-2-new-products.png</image:loc>
+    <image:title><![CDATA[Magento 1.8 beschikbaar eind september]]></image:title>
+    <image:caption><![CDATA[Magento 1.8 beschikbaar eind september]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/08/30/responsive-design-voor-magento-of-joomla/</loc>
+  <lastmod>2013-08-30T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-joomla-responsive-design.png</image:loc>
+    <image:title><![CDATA[Responsive design voor Magento of Joomla!]]></image:title>
+    <image:caption><![CDATA[Responsive design voor Magento of Joomla!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/08/26/banken-nog-niet-klaar-voor-mobile-website-checkout/</loc>
+  <lastmod>2013-08-26T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/08/20/magento-seo-workshop-30-augustus-2013/</loc>
+  <lastmod>2013-08-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/MagentoSEOWorkshop-30Augustus2013.png</image:loc>
+    <image:title><![CDATA[Magento SEO workshop 30 augustus 2013]]></image:title>
+    <image:caption><![CDATA[Magento SEO workshop 30 augustus 2013]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/08/02/geoptimaliseerde-magento-jira-image-versie-6-redis-magento-apk/</loc>
+  <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/image_redis.png</image:loc>
+    <image:title><![CDATA[Geoptimaliseerde Magento Jira Image Versie 6 + Redis + Magento APK]]></image:title>
+    <image:caption><![CDATA[Geoptimaliseerde Magento Jira Image Versie 6 + Redis + Magento APK]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/08/01/high-security-joomla-release-voor-1-5-x-2-5-x-en-3-0-x/</loc>
+  <lastmod>2013-08-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x]]></image:title>
+    <image:caption><![CDATA[High Security Joomla release voor 1.5.x, 2.5.x en 3.0.x]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/07/09/jira-image-v6-magento-optimized/</loc>
+  <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/jira-image-v6.png</image:loc>
+    <image:title><![CDATA[Jira image V6 [Magento Optimized]]]></image:title>
+    <image:caption><![CDATA[Jira image V6 [Magento Optimized]]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/07/02/magento-mobile-performance-the-responsive-mythes/</loc>
+  <lastmod>2013-07-02T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug27juni.jpg</image:loc>
+    <image:title><![CDATA[Magento Mobile Performance - The Responsive Mythes]]></image:title>
+    <image:caption><![CDATA[Magento Mobile Performance - The Responsive Mythes]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/07/01/joomla-3-het-beginnersboek/</loc>
+  <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla-coffee-machine.png</image:loc>
+    <image:title><![CDATA[Joomla! 3 - Het Beginnersboek]]></image:title>
+    <image:caption><![CDATA[Joomla! 3 - Het Beginnersboek]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/06/28/magento-redis-optimization-how-to/</loc>
+  <lastmod>2013-06-28T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-redis-optimization-how-to.jpg</image:loc>
+    <image:title><![CDATA[Magento Redis Optimization - How To]]></image:title>
+    <image:caption><![CDATA[Magento Redis Optimization - How To]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/06/24/magento-user-group-magento-mobile-responsive-mythes/</loc>
+  <lastmod>2013-06-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento User Group: Magento mobile - responsive mythes]]></image:title>
+    <image:caption><![CDATA[Magento User Group: Magento mobile - responsive mythes]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/06/14/nieuwe-magento-user-group-events-bekend/</loc>
+  <lastmod>2013-06-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Nieuwe Magento User Group events bekend]]></image:title>
+    <image:caption><![CDATA[Nieuwe Magento User Group events bekend]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/06/13/magento-performance-optimization-how-to/</loc>
+  <lastmod>2013-06-13T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-performance-optimazation-how-to.jpg</image:loc>
+    <image:title><![CDATA[Magento Performance Optimization - How To]]></image:title>
+    <image:caption><![CDATA[Magento Performance Optimization - How To]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/06/03/meet-magento-2013-recap/</loc>
+  <lastmod>2013-06-03T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mm13headerrecap.jpg</image:loc>
+    <image:title><![CDATA[Meet Magento 2013 Recap]]></image:title>
+    <image:caption><![CDATA[Meet Magento 2013 Recap]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/05/29/win-5-apk-s-tijdens-mm13nl/</loc>
+  <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/05/28/orocrm-en-oro-platform-code-is-public/</loc>
+  <lastmod>2013-05-28T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/orocrm-logo.png</image:loc>
+    <image:title><![CDATA[OroCRM en Oro Platform live!]]></image:title>
+    <image:caption><![CDATA[OroCRM en Oro Platform live!]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/05/17/magento-of-joomla-gehacked-10-stappen-ter-verbetering/</loc>
+  <lastmod>2013-05-17T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/website-security.jpg</image:loc>
+    <image:title><![CDATA[Magento of Joomla! gehacked? 10 stappen ter verbetering]]></image:title>
+    <image:caption><![CDATA[Magento of Joomla! gehacked? 10 stappen ter verbetering]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/05/08/supportdesk-op-meet-magento-2013/</loc>
+  <lastmod>2013-05-08T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mm13header.jpg</image:loc>
+    <image:title><![CDATA[SupportDesk op Meet Magento 2013]]></image:title>
+    <image:caption><![CDATA[SupportDesk op Meet Magento 2013]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/04/29/supportdesk-migratie-naar-zendesk-icm-freshbooks/</loc>
+  <lastmod>2013-04-29T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/nieuwesystemen.jpg</image:loc>
+    <image:title><![CDATA[SupportDesk migratie naar Zendesk icm Freshbooks]]></image:title>
+    <image:caption><![CDATA[SupportDesk migratie naar Zendesk icm Freshbooks]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/04/24/joomla-security-update-versie-31/</loc>
+  <lastmod>2013-04-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 3.1]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 3.1]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/04/24/joomla-security-update-versie-2510/</loc>
+  <lastmod>2013-04-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 2.5.10]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 2.5.10]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/04/09/magento-18/</loc>
+  <lastmod>2013-04-09T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/04/03/magento-caching-varnish-redis-imagine-recap/</loc>
+  <lastmod>2013-04-03T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento Caching (Varnish, Redis) & Imagine recap]]></image:title>
+    <image:caption><![CDATA[Magento Caching (Varnish, Redis) & Imagine recap]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/03/25/magento-2-0-magento-1-8-snowcamp-orocrm/</loc>
+  <lastmod>2013-03-25T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-doktor.jpg</image:loc>
+    <image:title><![CDATA[Magento 2.0 - Magento 1.8 - Snowcamp - OroCrm ]]></image:title>
+    <image:caption><![CDATA[Magento 2.0 - Magento 1.8 - Snowcamp - OroCrm ]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/03/22/supportdesk-is-verhuisd/</loc>
+  <lastmod>2013-03-22T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/verhuisbericht.jpg</image:loc>
+    <image:title><![CDATA[SupportDesk is verhuisd]]></image:title>
+    <image:caption><![CDATA[SupportDesk is verhuisd]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/03/18/joomla-dagen-2013/</loc>
+  <lastmod>2013-03-18T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla2013.png</image:loc>
+    <image:title><![CDATA[Joomla!dagen 2013]]></image:title>
+    <image:caption><![CDATA[Joomla!dagen 2013]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/03/04/magento-cluster-hosting-voor-tv-commercial/</loc>
+  <lastmod>2013-03-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/ecommerce-apps_supportdesk.jpg</image:loc>
+    <image:title><![CDATA[Magento Cluster hosting voor TV commercial]]></image:title>
+    <image:caption><![CDATA[Magento Cluster hosting voor TV commercial]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/03/04/magento-2-0-magento-snowcamp-recap/</loc>
+  <lastmod>2013-03-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento 2.0 & Magento Snowcamp recap]]></image:title>
+    <image:caption><![CDATA[Magento 2.0 & Magento Snowcamp recap]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/02/19/magento-error-pages/</loc>
+  <lastmod>2013-02-19T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/errorpages.jpg</image:loc>
+    <image:title><![CDATA[Magento error pages]]></image:title>
+    <image:caption><![CDATA[Magento error pages]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/02/14/magento-user-group-transactionele-e-mail-e-mail-marketing/</loc>
+  <lastmod>2013-02-14T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento User Group: transactionele e-mail + e-mail marketing]]></image:title>
+    <image:caption><![CDATA[Magento User Group: transactionele e-mail + e-mail marketing]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/02/04/joomla-security-update-versie-303/</loc>
+  <lastmod>2013-02-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 3.0.3]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 3.0.3]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/02/04/joomla-security-update-versie-259/</loc>
+  <lastmod>2013-02-04T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 2.5.9]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 2.5.9]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2013/01/10/ontmoet-supportdesk-tijdens-de-webwinkel-vakdagen-2013/</loc>
+  <lastmod>2013-01-10T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/supportdesk.jpg</image:loc>
+    <image:title><![CDATA[Ontmoet SupportDesk tijdens de Webwinkel Vakdagen 2013]]></image:title>
+    <image:caption><![CDATA[Ontmoet SupportDesk tijdens de Webwinkel Vakdagen 2013]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/12/24/cookiewetgeving-oplossing/</loc>
+  <lastmod>2012-12-24T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/cookies-supportdesk.jpg</image:loc>
+    <image:title><![CDATA[Cookiewetgeving oplossing]]></image:title>
+    <image:caption><![CDATA[Cookiewetgeving oplossing]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/12/13/magento-hosting-special-in-webdesigner-magazine/</loc>
+  <lastmod>2012-12-13T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/wdm-magento-webshopspecial-200.jpg</image:loc>
+    <image:title><![CDATA[Magento Hosting special in Webdesigner Magazine]]></image:title>
+    <image:caption><![CDATA[Magento Hosting special in Webdesigner Magazine]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/11/15/magento-user-group/</loc>
+  <lastmod>2012-11-15T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/mug.png</image:loc>
+    <image:title><![CDATA[Magento User Group]]></image:title>
+    <image:caption><![CDATA[Magento User Group]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/11/09/magento-1-7-transactionele-e-mails/</loc>
+  <lastmod>2012-11-09T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-email.png</image:loc>
+    <image:title><![CDATA[Magento 1.7 Transactionele e-mails]]></image:title>
+    <image:caption><![CDATA[Magento 1.7 Transactionele e-mails]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/11/05/magento-kerstvoorbereidingen/</loc>
+  <lastmod>2012-11-05T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-apk-kerstvoorbereidingen.png</image:loc>
+    <image:title><![CDATA[Magento kerstvoorbereidingen]]></image:title>
+    <image:caption><![CDATA[Magento kerstvoorbereidingen]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/09/27/joomla-30-beschikbaar/</loc>
+  <lastmod>2012-09-27T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla-3.0.jpg</image:loc>
+    <image:title><![CDATA[Joomla 3.0 beschikbaar]]></image:title>
+    <image:caption><![CDATA[Joomla 3.0 beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/09/13/joomla-security-update-versie-257/</loc>
+  <lastmod>2012-09-13T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Update versie 2.5.7]]></image:title>
+    <image:caption><![CDATA[Joomla Security Update versie 2.5.7]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/09/07/btw-verhoging-magento-per-1-oktober/</loc>
+  <lastmod>2012-09-07T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/btw-verhoging-magento.jpg</image:loc>
+    <image:title><![CDATA[BTW verhoging Magento per 1 Oktober]]></image:title>
+    <image:caption><![CDATA[BTW verhoging Magento per 1 Oktober]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/08/30/magento-sneller-maken/</loc>
+  <lastmod>2012-08-30T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/sd-gtmetrix.jpg</image:loc>
+    <image:title><![CDATA[Magento sneller maken]]></image:title>
+    <image:caption><![CDATA[Magento sneller maken]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/07/06/magento-security-update-versie-14-1701/</loc>
+  <lastmod>2012-07-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Magento Security Update versie 1.4 - 1.7.0.1]]></image:title>
+    <image:caption><![CDATA[Magento Security Update versie 1.4 - 1.7.0.1]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/07/06/joomla-404-pagina-maken/</loc>
+  <lastmod>2012-07-06T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/joomla404default.jpg</image:loc>
+    <image:title><![CDATA[Joomla 404 pagina maken]]></image:title>
+    <image:caption><![CDATA[Joomla 404 pagina maken]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/07/02/magento-seo-voor-starters/</loc>
+  <lastmod>2012-07-02T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-seo-200.jpg</image:loc>
+    <image:title><![CDATA[Magento SEO voor starters]]></image:title>
+    <image:caption><![CDATA[Magento SEO voor starters]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/06/21/magento-1701-beschikbaar/</loc>
+  <lastmod>2012-06-21T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/magento-key.jpg</image:loc>
+    <image:title><![CDATA[Magento 1.7.0.1 beschikbaar]]></image:title>
+    <image:caption><![CDATA[Magento 1.7.0.1 beschikbaar]]></image:caption>
+  </image:image>
+  
+</url>
+<url>
+  <loc>https://supportdesk.shop/2012/06/20/joomla-security-release-255-256/</loc>
+  <lastmod>2012-06-20T00:00:00+00:00</lastmod>
+  <priority>0.8</priority>
+  
+  <image:image>
+    <image:loc>https://supportdesk.shop/img/news/securityrelease.png</image:loc>
+    <image:title><![CDATA[Joomla Security Release 2.5.5/2.5.6]]></image:title>
+    <image:caption><![CDATA[Joomla Security Release 2.5.5/2.5.6]]></image:caption>
+  </image:image>
+  
+</url>
+
+</urlset>

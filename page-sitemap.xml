@@ -6,6 +6,6 @@ layout: null
   {% for page in site.pages %}{% unless page.url contains '/blog/' %}{% unless page.url contains '/page/' %}{% unless page.url contains '.xml' %}{% unless page.url contains '.txt' %}{% unless page.url contains '.css' %}{% unless page.url contains '/404/' %}
 	<url>
     <loc>{{ site.url-non}}{{ page.url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
 	</url>{% endunless %}{% endunless %}{% endunless %}{% endunless %}{% endunless %}{% endunless %}{% endfor %}
 </urlset>
