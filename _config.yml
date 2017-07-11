@@ -1,6 +1,6 @@
-baseurl: 
-url: https://supportdesk.shop/
-url-non: https://supportdesk.shop
+baseurl:
+url: https://supportdesk.shop
+url-slash: https://supportdesk.shop/
 url-shop: https://www.supportdesk.nu/shop/
 url-form: https://mail.supportdesk.shop/form.php
 zendesk: https://supportdesknu.zendesk.com/
@@ -52,16 +52,10 @@ permalink: pretty
 sass:
     style: compressed
 
-sitemap:
-  lastmod: 2016-09-26
-  priority: 0.7
-  changefreq: 'monthly'
-  exclude: 'yes'
-
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
   - jekyll-sitemap
