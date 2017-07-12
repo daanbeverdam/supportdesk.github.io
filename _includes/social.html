@@ -3,11 +3,11 @@
 <meta name="twitter:creator" content="@supportdesknu">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 <meta name="twitter:title" content="{{ page.title | truncate:70  }}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description | truncate:200 }}{% else %}{{ site.description | truncate:200 }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate:200 }}{% else %}{{ site.description | strip_html | truncate:200 }}{% endif %}">
 <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
 <meta property="og:image" content="{{ site.url }}{{ site.logo }}">
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 <meta property="og:site_name" content="{{ site.domain-name }} - {{ site-title }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description | truncate:200 }}{% else %}{{ site.description | truncate:200 }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate:200 }}{% else %}{{ site.description | strip_html | truncate:200 }}{% endif %}">
 <meta property="fb:app_id" content="{{ site.fb_app_id }}">
