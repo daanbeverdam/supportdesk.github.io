@@ -6,6 +6,7 @@ services:
           image: jekyll/jekyll:pages
           hostname: jekyll
           command: jekyll build --watch --incremental --profile
+#          command: jekyll build --watch --incremental --profile --config _config.yml,_config-dev.yml
           ports:
             - 4000:4000
           volumes:
