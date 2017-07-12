@@ -23,7 +23,7 @@
 <meta property="og:image" content="https://supportdesk.shop/img/logos/supportdesk-logo.svg">
 <meta property="og:title" content="Magento Security Update SUPEE-5994 Patch Bundle">
 <meta property="og:url" content="https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/">
-<meta property="og:site_name" content="SupportDesk - ">
+<meta property="og:site_name" content="SupportDesk - Support voor Magento en Joomla">
 <meta property="og:description" content="Magento Security Update SUPEE-5994 Patch Bundle">
 <meta property="fb:app_id" content="//717157511826431/unset">
 
@@ -32,7 +32,99 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/180.png">
+  
+  <script type="application/ld+json">{
+"@context": "http://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": "https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/",
+ "headline": "Magento Security Update SUPEE-5994 Patch Bundle",
+ "image": {
+   "@type": "ImageObject",
+   "url": "https://supportdesk.shop/img/news/securityrelease.png",
+   "width": "157",
+   "height": "157"
+ },
+ "editor": "Ray Bogman",
+ "genre": "Support voor Magento en Joomla",
+ "wordcount": "441",
+ "publisher":
+  {
+    "@type": "Organization",
+    "name": "Support voor Magento en Joomla",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://supportdesk.shop/img/logos/supportdesk-logo.jpg",
+      "width": "700",
+      "height": "133"
+    }
+  },
+ "url": "https://supportdesk.shop/2015/05/15/magento-security-update-supee-5994-patch-bundle/",
+ "datePublished": "2015-05-15T00:00:00+00:00",
+ "dateCreated": "2015-05-15T00:00:00+00:00",
+ "dateModified": "2015-05-15T00:00:00+00:00",
+ "description": "Magento Security Update SUPEE-5994 Patch Bundle",
+ "articleBody": "
+  
+    
+  
 
+
+ShopHackOnlangs zijn er 7 veiligheidslekken in Magento ontdekt en opgelost in een patch SUPEE-5994. De lekken zijn aanwezig in alle versies van Magento (1.4/x - 1.9/x), dus zowel Magento Community als Magento Enterprise shops hebben hiermee te maken. Officieel zijn er alleen patches beschikbaar vanaf 1.4 en hoger, maar Magento geeft aan dat het hier om alle versies gaat.
+Wat zijn de 7 lekken van ShopHack?
+
+Admin Path Disclosure
+
+
+Een aanvaller kan de Admin Login verzoeken rechtstreeks een module aan te roepen, ongeacht of deze voorkomen in de Admin URL. Dit maakt het makkelijker om het wachtwoord met behulp van brute force attacks te achterhalen.
+
+
+
+Customer Address Leak through Checkout
+
+
+Hiermee kan een aanvaller adresgegevens (naam, adres, telefoonnummer ) van de adresboeken van andere klanten verkrijgen.Tijdens het afrekenen, kan de aanvaller toegang tot een willekeurig adresboek krijgen door het invoeren van een sequentiële ID. Een functionele proof of concept bestaat reeds.
+
+
+
+Customer Information Leak through Recurring Profile
+
+
+Dit probleem maakt dhet mogelijk voor de aanvaller om adres, vorige bestelling, betaalmethode en informatie van de terugkerende betaling profielen van andere klanten te verkrijgen. Een functionele proof of concept bestaat reeds.
+
+
+
+Local File Path Disclosure Using Media Cache
+
+De aanvaller kan fictieve image URL's gebruiken om de server gegevens bloot te leggen, ongeacht de instellingen.
+
+
+Spreadsheet Formula Injection
+
+De aanvaller kan input, die door een algoritme wordt uitgevoerd, exporteren en openen in een spreadsheetprogramma zoals Microsoft Excel. De formule kan oa. gegevens exporteren, persoonlijke gegevens wijzigen.
+
+
+Cross-site Scripting Using Authorize.Net Direct Post Module
+
+Hiermee kan een aanvaller JavaScript uit voeren in het kader van klantsessie. Als een klant dan op een schadelijke link klikt, kan de aanvaller cookies stelen en de sessie overnemen, die dan persoonlijke informatie blootsteld.
+
+
+Malicious Package Can Overwrite System Files
+
+Aanvaller kan een kwaadwillende module installeren en code overschrijven.
+
+
+
+Wat moet ik doen om ShopHack te bestrijden?
+Wij raden onze klanten met een Magento webshop de patches te installeren. Wij doen dat graag voor u. Mail ons via ons supportaanvraagformulier of bel ons op 020-3375961.
+Via de Magento download website is het mogelijk de Magento security patch SUPEE-5994 te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.
+",
+ "author": {
+    "@type": "Person",
+    "name": "Ray Bogman"
+  }
+}
+</script>
+  
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "WebSite",

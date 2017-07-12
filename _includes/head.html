@@ -17,7 +17,9 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/180.png">
-
+  {% if page.nav == 'blog' or page.nav == 'blog-video' or page.nav == 'blog-iframe' or page.nav == 'blog-lightbox' %}
+  <script type="application/ld+json">{% include blogposting.json %}</script>
+  {% endif %}
   <script type="application/ld+json">{% include website.json %}</script>
   {% if page.nav == 'magentotraining' %}
   <script type="application/ld+json">{% include course.json %}</script>

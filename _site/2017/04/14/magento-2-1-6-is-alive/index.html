@@ -23,7 +23,7 @@
 <meta property="og:image" content="https://supportdesk.shop/img/logos/supportdesk-logo.svg">
 <meta property="og:title" content="Magento 2.1.6 is alive!">
 <meta property="og:url" content="https://supportdesk.shop/2017/04/14/magento-2-1-6-is-alive/">
-<meta property="og:site_name" content="SupportDesk - ">
+<meta property="og:site_name" content="SupportDesk - Support voor Magento en Joomla">
 <meta property="og:description" content="De nieuwste Magento update, de Magento Community Edition 2.1.6.">
 <meta property="fb:app_id" content="//717157511826431/unset">
 
@@ -32,7 +32,105 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/180.png">
+  
+  <script type="application/ld+json">{
+"@context": "http://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": "https://supportdesk.shop/2017/04/14/magento-2-1-6-is-alive/",
+ "headline": "Magento 2.1.6 is alive!",
+ "image": {
+   "@type": "ImageObject",
+   "url": "https://supportdesk.shop/img/article/magento-upgrade.svg",
+   "width": "200",
+   "height": "200"
+ },
+ "editor": "Ray Bogman",
+ "genre": "Support voor Magento en Joomla",
+ "wordcount": "670",
+ "publisher":
+  {
+    "@type": "Organization",
+    "name": "Support voor Magento en Joomla",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://supportdesk.shop/img/logos/supportdesk-logo.jpg",
+      "width": "700",
+      "height": "133"
+    }
+  },
+ "url": "https://supportdesk.shop/2017/04/14/magento-2-1-6-is-alive/",
+ "datePublished": "2017-04-14T00:00:00+00:00",
+ "dateCreated": "2017-04-14T00:00:00+00:00",
+ "dateModified": "2017-04-14T00:00:00+00:00",
+ "description": "De nieuwste Magento update, de Magento Community Edition 2.1.6.",
+ "articleBody": "
+  
+    
+  
 
+
+11 april 2017 kwam Magento met een nieuwe update voor de Community Edition en  Enterprice Edition, 2.1.6. Deze update bevat belangrijke prestatie verbeteringen, met name voor handelingen die vallen binnen de Category Page en bij image resizing. Magento 2.1.6 bevat 15 aanpassingen die veel features van de 2.1.5 versie significant zullen versnellen:
+Verbeterde prestaties op Caterory Page gebied
+
+Het laden van configurabele producten vanuit de database gaat 5x sneller
+Prijs calculaties gaan nu 3-5% sneller
+Voorraad validatie gaat tot 20% sneller
+
+Resizing image is geoptimaliseerd
+
+Image resize taken, uitgevoerd vanuit de Command Line Interfaceoperations , genereren nu beelden van alle afmetingen. Bekijk Magento catalog:images:resize voor meer informatie.
+Image resize taken vanuit de Admin is opgelost.
+Het aantal file system taken zijn significant verminderd bij het analyseren van images bij de frontend.
+Caching van image metadata is nu tot 50% sneller, afhankelijk van opslag ruimte (store size).
+
+Verbeterde prestaties van Layered Navigation
+
+Layered navigation is nu tot 3% sneller dankzij het cachen van attribuut opties.
+Het aantal indexing taken dat uitgevoerd word na een product import is geminimaliseerd.
+
+Verder heeft de update nog redelijk wat functionele verbeteringen en reparaties meegenomen.
+Catalog
+
+Magento vergrendelt niet langer meer de category_product_entity tabel. Door het ontgrendelen van deze tabel wordt de kans op vergrendelings-gerelateerde time-outs, die kunnen voorkomen bij het indexeren en parelle checkouts, verminderd.
+De storefront zal nu beelden weergeven die Magento resizes tijdens product save taken, in plaats van de afbeelding te resizen op de storefront. Eerder bevatte het image pad store_id en tijdens opslaan taken veranderde Magento de afbeeldingen voor de default_store_only. De getStockId() methode geeft nu de juiste waarden weer.
+
+Configurabele producten
+
+De controle die Magento uitvoert om de bereidheid van de configureerbaar product te bevestigen is nu sneller. Magento berekent niet langer de configurable product special prices op de category pagina. Voorheen berekende Magento de speciale prijzen op de category pagina maar gaf deze niet weer.
+
+Indexers
+
+Magento voert nu een gedeeltelijke re-indexing taak uit na de import wanneer je de "update on Schedule" modus hebt ingeschakeld. Hiervoor werd dit hoe dan ook gedaan, ongeacht in welke index modus men zat.
+
+Import
+
+Magento geeft nu ingevoerde product afbeeldingen in deze volgorde weer: eerst, de basis afbeelding, dan is de extra beelden in de volgorde waarin ze in het CSV-bestand waren opgenomen. Voorheen had Magento geen duidelijk volgorde.
+
+Diversen
+
+Magento cached nu opties voor de Layered Navigatie-functie. Dit verminder het aantal vragen aan de database wat de prestatie verbetert.
+Magento voert niet langer onnodige file check activiteiten uit (bijvoorbeeld file_exists, is_file), die de prestaties van de categorie en productpagina's verbetert.
+Magento cached nu metadata, waardoor de tijd om foto's voor metadata te laden wordt vermeden. Dit versnelt ook de prestaties.
+Magento toont nu een significante afname in Redis Traffic na de upgrade 2.1.2 tot en met 2.1.4.
+
+Swatches
+
+Magento creëert geen overbodige objecten meer bij het initialiseren van een configureerbare product op de categorie pagina.
+U kunt nu swatches voor zowel de Catalogus pagina en zoekresultaten (snelle of geavanceerde) uitschakelen. Om swatches van deze verzoeken uit te schakelen, schakel uit; Winkels&gt; Configuratie&gt; Catalogus&gt; Storefront&gt; Show swatches in Product List.
+De logica die Magento gebruikt om swatches attributen te valideren is geoptimaliseerd.
+Magento slaat nu Swatch data op in blok cache, die de responsiviteit van de configureerbare productpagina's verbetert.
+
+Zo te lezen heeft deze update veel verbeteringen met zich mee gebracht op het gebied van prestatieverbeteringen bij de Category page en voor Image resizing en heeft het veel praktische verbeteringen geïmplementeerd.
+Wij raden onze klanten zo spoedig mogelijk te updaten.
+Wij doen dat graag voor u. Mail ons via ons supportaanvraagformulier of bel ons op 020 337 59 61.
+",
+ "author": {
+    "@type": "Person",
+    "name": "Ray Bogman"
+  }
+}
+</script>
+  
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "WebSite",

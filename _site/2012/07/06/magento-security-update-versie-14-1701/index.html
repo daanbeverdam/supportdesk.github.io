@@ -23,7 +23,7 @@
 <meta property="og:image" content="https://supportdesk.shop/img/logos/supportdesk-logo.svg">
 <meta property="og:title" content="Magento Security Update versie 1.4 - 1.7.0.1">
 <meta property="og:url" content="https://supportdesk.shop/2012/07/06/magento-security-update-versie-14-1701/">
-<meta property="og:site_name" content="SupportDesk - ">
+<meta property="og:site_name" content="SupportDesk - Support voor Magento en Joomla">
 <meta property="og:description" content="Magento Security Update versie voor 1.4 t/m 1.7.0.1. Dit betreft een Magento lek in Zend XML-RPC.">
 <meta property="fb:app_id" content="//717157511826431/unset">
 
@@ -32,7 +32,59 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/180.png">
+  
+  <script type="application/ld+json">{
+"@context": "http://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": "https://supportdesk.shop/2012/07/06/magento-security-update-versie-14-1701/",
+ "headline": "Magento Security Update versie 1.4 - 1.7.0.1",
+ "image": {
+   "@type": "ImageObject",
+   "url": "https://supportdesk.shop/img/news/securityrelease.png",
+   "width": "157",
+   "height": "157"
+ },
+ "editor": "Ray Bogman",
+ "genre": "Support voor Magento en Joomla",
+ "wordcount": "269",
+ "publisher":
+  {
+    "@type": "Organization",
+    "name": "Support voor Magento en Joomla",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://supportdesk.shop/img/logos/supportdesk-logo.jpg",
+      "width": "700",
+      "height": "133"
+    }
+  },
+ "url": "https://supportdesk.shop/2012/07/06/magento-security-update-versie-14-1701/",
+ "datePublished": "2012-07-06T00:00:00+00:00",
+ "dateCreated": "2012-07-06T00:00:00+00:00",
+ "dateModified": "2012-07-06T00:00:00+00:00",
+ "description": "Magento Security Update versie voor 1.4 t/m 1.7.0.1. Dit betreft een Magento lek in Zend XML-RPC.",
+ "articleBody": "
+  
+    
+  
 
+
+Onlangs is er een Magento veiligheidslek gevonden in Magento Community, Professional en Magento Enterprise. Het betreft hier een Magento Security issue in het Zend Framework.
+Magento XML-RPC Lek
+Het betreft hier een Magento lek in de Zend XML-RPC functionaliteit. Middels XML-RPC is het mogelijk een externe connectie te maken van Magento naar bijv. een ERP systeem of een CMS zoals Joomla (MageBridge) of Wordpress. Het Magento lek kan er voor zorgen dat gegevens zoals wachtwoorden, configuratie bestanden of database gegevens direct beschikbaar zijn.
+Magento 1.4 - 1.7.0.1
+Het Magento lek is van toepassing op alle versie van 1.4 t/m 1.7.0.1 en is vooral belangrijk voor Magento webwinkels die XML-RPC gebruiken, dit kun je eenvoudig zien door in te loggen in de backend, ga dan naar system -&gt; web services -&gt; user (gebruiker). Als je hier een gebruiker ziet staan is het belangrijk deze te laten fixen.
+Via de Magento download website is het mogelijk een Magento patch te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.
+Magento workaround
+Magento heeft tevens een workaround waardoor de XML-RPC tijdelijk helemaal niet meer beschikbaar is. Gebruik deze enkel als je geen connectie hebt met een extern systeem aangezien de workaround er voor zorgt dat er dan helemaal geen connectie meer is met bijv. MageBridge, SAP, Docdata, Mammoet, WSSN, etc. Kortom alles wat middels de Magento API communiceert.
+",
+ "author": {
+    "@type": "Person",
+    "name": "Ray Bogman"
+  }
+}
+</script>
+  
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "WebSite",

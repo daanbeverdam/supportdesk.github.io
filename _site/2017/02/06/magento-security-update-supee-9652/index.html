@@ -23,7 +23,7 @@
 <meta property="og:image" content="https://supportdesk.shop/img/logos/supportdesk-logo.svg">
 <meta property="og:title" content="Magento Security Update SUPEE-9652">
 <meta property="og:url" content="https://supportdesk.shop/2017/02/06/magento-security-update-supee-9652/">
-<meta property="og:site_name" content="SupportDesk - ">
+<meta property="og:site_name" content="SupportDesk - Support voor Magento en Joomla">
 <meta property="og:description" content="Magento en Joomla support nodig?">
 <meta property="fb:app_id" content="//717157511826431/unset">
 
@@ -32,7 +32,80 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/img/icons/167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/180.png">
+  
+  <script type="application/ld+json">{
+"@context": "http://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": "https://supportdesk.shop/2017/02/06/magento-security-update-supee-9652/",
+ "headline": "Magento Security Update SUPEE-9652",
+ "image": {
+   "@type": "ImageObject",
+   "url": "https://supportdesk.shop/img/news/securityrelease.png",
+   "width": "157",
+   "height": "157"
+ },
+ "editor": "Ray Bogman",
+ "genre": "Support voor Magento en Joomla",
+ "wordcount": "434",
+ "publisher":
+  {
+    "@type": "Organization",
+    "name": "Support voor Magento en Joomla",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://supportdesk.shop/img/logos/supportdesk-logo.jpg",
+      "width": "700",
+      "height": "133"
+    }
+  },
+ "url": "https://supportdesk.shop/2017/02/06/magento-security-update-supee-9652/",
+ "datePublished": "2017-02-06T00:00:00+00:00",
+ "dateCreated": "2017-02-06T00:00:00+00:00",
+ "dateModified": "2017-02-06T00:00:00+00:00",
+ "description": "Magento en Joomla support nodig?",
+ "articleBody": "
+  
+    
+  
 
+
+6 februari 2017 heeft Magento een nieuwe update uitgebracht die de kwetsbaarheid van de Zend library heeft opgelost in de patch SUPEE -9652.De SUPEE-9652 patch heeft een oplossing geboden voor zowel de Enterprise als Community versie. Deze zijn te vinden onder de updates Enterprise Edition 1.1.14.3.2 en Community Edition 1.9.3.2.De patch adresseert de volgende problemen:
+Magento EE 1.14.3.2 / CE 1.9.3.2 Release notes:
+
+Removal of vulnerability with the Zend framework Zend_Mail library. For more information, see Magento Security Center
+Updated the copyright year to 2017
+
+Magento EE 1.14.3.1 / CE 1.9.3.1 Release notes:
+
+We restored the old tax calculation algorithm for shipping charges. The patch to apply new calculation will be available on request.
+Resolved an issue with setting the session lifetime to 0.
+The monthly cron job that cleans up the table that contains IP addresses and passwords runs properly.
+All configurable product images are imported.
+You no longer get an exception due to an undefined addCrumbs() method call.
+Resolved the error Notice: Undefined index: session_expire_timestamp when accessing the storefront.
+Values for drop-down label values are saved correctly.
+The "Price as configured" for bundle products displays correctly in the shopping cart.
+Auto-generated passwords are sent to new customers as expected.
+The method Mage_Api_Model_Server_Handler_Abstract::processingMethodResult() accepts scalar and array values.
+The default MySQL Full-Text search works as expected; it no longer returns all products.
+Prevented a potential Cross-Site Request Forgery (CSRF) vulnerability by changing the form key when a customer signs out of the storefront.
+Prevented a potential Cross-Site Scripting (XSS) vulnerability when adding a category. Only for EE edition.
+Catalog price rules return the correct price.
+Indexers now update all products instead of skipping the last product updated.
+
+Belangrijk!Gebruik de CE 1.9.3.0/ EE 1.14.3.0 of nieuwer voor alle nieuwe CE/EE installaties en upgrades om zo de nieuwste verbeteringen, features en beveiligingsupdates te krijgen.Men kan op het moment nog niet naar deze versie updaten via Magento Connect Manager. Dit zal echter wel snel opgelost worden.
+Wat moet ik doen om Magento Security issues te bestrijden?
+Wij raden onze klanten zo spoedig mogelijk te patchen.
+Wij doen dat graag voor u. Mail ons via ons supportaanvraagformulier of bel ons op 020-3375961.
+Via de Magento download website is het mogelijk de Magento security patch SUPEE-9652 te installeren. Maak altijd eerst een backup van de database en bestanden voor de patch wordt geïmplementeerd.
+",
+ "author": {
+    "@type": "Person",
+    "name": "Ray Bogman"
+  }
+}
+</script>
+  
   <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "WebSite",
