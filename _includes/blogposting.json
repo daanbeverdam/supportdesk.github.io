@@ -1,0 +1,36 @@
+{
+"@context": "http://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+ "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+ "image": {
+   "@type": "ImageObject",
+   "url": "{{ site.url}}/img/{{ page.imagedir }}/{{ page.image }}",
+   "width": "{{ page.width }}",
+   "height": "{{ page.height }}"
+ },
+ "editor": "{{ page.authorname }}",
+ "genre": "{{ site.title }}",
+ "wordcount": "{{ page.content | number_of_words }}",
+ "publisher":
+  {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.logo-jpg }}",
+      "width": "700",
+      "height": "133"
+    }
+  },
+ "url": "{{ site.url }}{{ page.url }}",
+ "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+ "dateCreated": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+ "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+ "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
+ "articleBody": "{{ page.content | strip_html }}",
+ "author": {
+    "@type": "Person",
+    "name": "{{ page.authorname }}"
+  }
+}

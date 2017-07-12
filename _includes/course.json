@@ -6,6 +6,6 @@
   "provider": {
     "@type": "Organization",
     "name": "{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}",
-    "sameAs": "{{ site.url }}"
+    "sameAs": "{{ site.url }}{{ page.url }}"
   }
 }

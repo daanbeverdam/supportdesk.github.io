@@ -1,0 +1,22 @@
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@supportdesknu">
+<meta name="twitter:creator" content="@supportdesknu">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+<meta name="twitter:title" content="{{ page.title | truncate:70  }}">
+
+{% if page.twitterdescription %}
+<meta name="twitter:description" content="{{ page.twitterdescription | truncate:200 }}">
+{% else %}
+<meta name="twitter:description" content="{{ page.description | truncate:200 }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
+{% endif %}
+
+<meta property="og:image" content="{{ site.url }}{{ site.logo }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+<meta property="og:site_name" content="{{ site.domain-name }} - {{ site-title }}">
+<meta property="og:description" content="{{ page.description | truncate:200 }}">
+<meta property="fb:app_id" content="{{ site.fb_app_id }}" />
