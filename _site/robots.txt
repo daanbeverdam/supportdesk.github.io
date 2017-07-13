@@ -1,3 +1,5 @@
 User-agent: *
 
 Sitemap: https://supportdesk.shop/sitemap.xml
+Sitemap: https://supportdesk.shop/post-sitemap.xml
+Sitemap: https://supportdesk.shop/page-sitemap.xml

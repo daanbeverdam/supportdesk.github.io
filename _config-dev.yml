@@ -1,9 +1,9 @@
 baseurl:
 url: http://localhost
-url-slash: url: http://localhost/
-url-shop: url: http://localhost/shop/
-url-form: https://mail.supportdesk.shop/form.php
-zendesk: https://supportdesknu.zendesk.com/
+#url-slash: url: http://localhost/
+#url-shop: url: http://localhost/shop/
+#url-form: https://mail.supportdesk.shop/form.php
+#zendesk: https://supportdesknu.zendesk.com/
 
 # Site settings
 name: SupportDesk BV
@@ -57,7 +57,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  #- jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
   - jekyll-sitemap
