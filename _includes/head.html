@@ -2,16 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  {% if page.meta %}<meta property="og:description" content="{{page.meta}}">{% else %}<meta property="og:description" content="{{site.description}}">{% endif %}
-  {% if page.meta %}<meta name="description" content="{{page.meta}}" />{% else %}<meta name="description" content="{{site.description}}" />{% endif %}
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="robots" content="{{ site.robots }}"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
+  {% include social.html %}
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} - {{ site.sufix }}</title>
   <link rel="shortcut icon" href="/img/amp_favicon.png">
   <link rel="dns-prefetch" href="{{ site.url }}">
   <link rel="preconnect" href="{{ site.url }}">
   <link rel="prerender" href="{{ site.url }}">
-  {% include social.html %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/120.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/152.png">
