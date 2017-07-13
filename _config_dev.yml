@@ -1,7 +1,7 @@
 baseurl:
-url: https://supportdesk.shop
-url-slash: https://supportdesk.shop/
-url-shop: https://www.supportdesk.nu/shop/
+url: http://localhost
+url-slash: url: http://localhost/
+url-shop: url: http://localhost/shop/
 url-form: https://mail.supportdesk.shop/form.php
 zendesk: https://supportdesknu.zendesk.com/
 
@@ -15,7 +15,7 @@ email: info@supportdesk.nu
 email-support: support@supportdesk.nu
 description: "Magento en Joomla support nodig?"
 google_analytics: //UA-31123279-1//unset
-fb_app_id: 197353897051595
+fb_app_id: //197353897051595//unset
 logo: /img/logos/supportdesk-logo.svg
 logo-jpg: /img/logos/supportdesk-logo.jpg
 logo-tumb: /img/logos/supportdesk-logo-tumb.jpg

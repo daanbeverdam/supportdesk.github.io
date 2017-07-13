@@ -8,6 +8,7 @@
   {% include social.html %}
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} - {{ site.sufix }}</title>
   <link rel="shortcut icon" href="/img/amp_favicon.png">
+  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.name }} Laatste 10 blog posts (atom)" />
   <link rel="dns-prefetch" href="{{ site.url }}">
   <link rel="preconnect" href="{{ site.url }}">
   <link rel="prerender" href="{{ site.url }}">
