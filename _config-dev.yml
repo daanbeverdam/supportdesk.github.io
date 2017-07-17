@@ -61,7 +61,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-#  - jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
   - jekyll-sitemap
