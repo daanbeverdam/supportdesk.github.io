@@ -6,7 +6,7 @@
       {% for menu in site.data.nav %}
         <label class="menu-item item-layer-1 has-sub-level"><input type="checkbox">
 
-          {% if menu.href == '/magento-support' or menu.href == '/over-ons' %}
+          {% if menu.href == '/magento-support' or menu.href == '/over-ons' or menu.href == '/shop' %}
             {{ menu.title }}
           {% else %}
             <a href="{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a>

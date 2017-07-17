@@ -37,7 +37,14 @@
   href: "/magento-training"
 
 - title: "Shop"
-  href: "https://supportdesk.shop/"
+  href: "https://www.supportdesk.nu/shop"
+  subcategories:
+    - subtitle: "Diensten"
+      subhref: "https://www.supportdesk.nu/shop/diensten"
+    - subtitle: "Producten"
+      subhref: "https://www.supportdesk.nu/shop/producten"
+    - subtitle: "Training"
+      subhref: "https://www.supportdesk.nu/shop/training"
 
 - title: "AboutUs"
   href: "/over-ons"

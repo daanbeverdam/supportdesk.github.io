@@ -1,6 +1,6 @@
 baseurl:
-url: https://supportdesk.shop
-url-slash: https://supportdesk.shop/
+url: https://www.supportdesk.nu
+url-slash: https://www.supportdesk.nu/
 url-shop: https://www.supportdesk.nu/shop
 url-form: https://mail.supportdesk.shop/form.php
 zendesk: https://supportdesknu.zendesk.com/
@@ -10,11 +10,11 @@ name: SupportDesk BV
 title: Support voor Magento en Joomla
 sufix: Support voor Magento en Joomla
 domain-name: SupportDesk
-robots: NOINDEX,NOFOLLOW
+robots: INDEX,FOLLOW
 email: info@supportdesk.nu
 email-support: support@supportdesk.nu
 description: "Magento en Joomla support nodig?"
-google_analytics: //UA-31123279-1//unset
+google_analytics: UA-31123279-1
 fb_app_id: 197353897051595
 logo: /img/logos/supportdesk-logo.svg
 logo-jpg: /img/logos/supportdesk-logo.jpg
