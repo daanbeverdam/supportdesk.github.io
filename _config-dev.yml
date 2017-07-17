@@ -39,9 +39,13 @@ social:
     url: https://www.linkedin.com/company/supportdesknu
 
 # Postal address (add as many lines as necessary)
-address:
+address-amsterdam:
   - line: Hogehilweg 19
   - line: 1101 CB, Amsterdam
+
+address-rotterdam:
+  - line: Marconistraat 16
+  - line: 3029 AK Rotterdam
 
 review-rate: 9.4
 review-scale: 10
@@ -57,7 +61,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
   - jekyll-sitemap

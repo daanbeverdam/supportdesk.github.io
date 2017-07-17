@@ -356,24 +356,17 @@
           <h1><a class="blogs" href="http://localhost/2017/06/27/supportdesk-opent-tweede-kantoor/" title="SupportDesk opent tweede kantoor">SupportDesk opent tweede kantoor</a></h1>
           <span class="author"><i class="fa fa-user-circle" aria-hidden="true"></i> Geschreven door Mats van de Seijp</span>
       </header>
-      <div><div class="box__image">
-  <a title="SupportDesk opent tweede kantoor" href="/2017/06/27/supportdesk-opent-tweede-kantoor/">
-    <amp-img noloading height=200 width=200 alt="SupportDesk opent tweede kantoor" attribution="SupportDesk opent tweede kantoor" layout=responsive src="/img/article/service-contract.svg"></amp-img>
-  </a>
-</div>
-
+      <div>{% include img.html %}
 <h3>SupportDesk opent haar tweede kantoor in jubileumjaar</h3>
 <p><strong>SupportDesk</strong> zet haar 5-jarig jubileumjaar extra luister bij met de opening van een tweede kantoor in <strong>Rotterdam</strong>. Door een sterke groei in de markt en daarmee ook collega’s, werd het huidige pand op de <u>Hogehilweg 19 in Amsterdam</u> te klein. Per <u>1 juli</u> zal <strong>SupportDesk</strong> zich daarom dan ook gaan vestigen in de <strong>Science Towers</strong> in <strong>Rotterdam</strong>.</p>
 <p>In het nieuwe kantoor zal een heel team aan <strong>support engineers</strong> zich vestigen die zich gaan bezighouden met diverse werkzaamheden voor onze klanten. Denk hierbij aan het migreren van webshops van <strong>Magento 1</strong> naar <strong>Magento 2</strong>, het oplossen van diverse <strong>Magento Business Intelligence</strong> vraagstukken en het verbeteren en monitoren van <strong>Magento Performance</strong> issues.</p>
 <p><strong>SupportDesk</strong> is in 2012 opgericht en vierde op 1 juni haar 5 jarig jubileum. Begonnen met slechts 2 man, is het bedrijf uitgegroeid tot een gevestigde naam op het gebied van <strong>Magento Support</strong> met nu twee vestigingen en 25 man in dienst. Met de opening van de tweede locatie zet SupportDesk een belangrijke stap naar groei in de toekomst.</p>
 <p>Het SupportDesk kantoor in Rotterdam is te bereiken op;<br><br>
-  
-    Marconistraat 16<br />
-  
-    3029 AK Rotterdam<br />
-  
+  {% for address in site.address-rotterdam %}
+    {{ address.line }}<br />
+  {% endfor %}
 Science Towers, 8e verdieping</p>
-<a title="Bel nu! 010-3074831" href="tel:010-3074831">010-3074831</a>
+<a title="Bel nu! {{ site.tel-rt }}" href="tel:{{ site.tel-rt }}">{{ site.tel-rt }}</a>
 </div>
   </article>
   
