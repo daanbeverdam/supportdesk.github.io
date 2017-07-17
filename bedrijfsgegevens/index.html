@@ -8,35 +8,39 @@ nav: bedrijfsgegevens
 
 <h3>Adres:</h3>
 
-<p>{{ site.name }}<br />
-    {% for address in site.address %}
-      {{ address.line }}<br />
+<p>{{ site.name }}<br>
+    {% for address in site.address-amsterdam %}
+      {{ address.line }}<br>
+    {% endfor %}
+    <br>
+    {% for address in site.address-rotterdam %}
+      {{ address.line }}<br>
     {% endfor %}
 </p>
 
 <h3>Bedrijfsgegevens:</h3>
 
 <p>
-<strong>Kamer van Koophandel:</strong> 55563953<br />
+<strong>Kamer van Koophandel:</strong> 55563953<br>
 <strong>BTW nummer:</strong> NL851765658B01
 </p>
 
 <p>
-<strong>Bankrekening:</strong> 479896879<br />
-<strong>IBAN:</strong> NL23ABNA0479896879<br />
-<strong>BIC:</strong> ABNANL2A<br />
+<strong>Bankrekening:</strong> 479896879<br>
+<strong>IBAN:</strong> NL23ABNA0479896879<br>
+<strong>BIC:</strong> ABNANL2A<br>
 <strong>Bank naam:</strong> ABN AMRO Bank N.V.
 </p>
 
 <p>
-<strong>Informatie:</strong> info [at] supportdesk.nu<br />
-<strong>Support:</strong> support [at] supportdesk.nu<br />
-<strong>Billing:</strong> billing [at] supportdesk.nu<br />
+<strong>Informatie:</strong> info [at] supportdesk.nu<br>
+<strong>Support:</strong> support [at] supportdesk.nu<br>
+<strong>Billing:</strong> billing [at] supportdesk.nu<br>
 </p>
 
 <p>
-<strong>Telefoon:</strong><a title="{{ site.tel }}" href="tel:{{ site.tel }}">
-  {{ site.tel }}</a>
+<strong>Telefoon:</strong> <a title="{{ site.tel }}" href="tel:{{ site.tel }}">{{ site.tel }}</a><br>
+<strong>Telefoon:</strong> <a title="{{ site.tel-rt }}" href="tel:{{ site.tel-rt }}">{{ site.tel-rt }}</a>
 </p>
 
 <p>Wij zijn elke werkdag beschikbaar van {{ site.hours }} uur.</p>

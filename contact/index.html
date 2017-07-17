@@ -10,9 +10,13 @@ nav: contact
 
 <h3>Adres:</h3>
 
-<p>{{ site.name }}<br />
-    {% for address in site.address %}
-      {{ address.line }}<br />
+<p>{{ site.name }}<br>
+    {% for address in site.address-amsterdam %}
+      {{ address.line }}<br>
+    {% endfor %}
+    <br>
+    {% for address in site.address-rotterdam %}
+      {{ address.line }}<br>
     {% endfor %}
 </p>
 
@@ -37,8 +41,8 @@ nav: contact
 </p>
 
 <p>
-<strong>Telefoon:</strong><a title="{{ site.tel }}" href="tel:{{ site.tel }}" title="{{ site.tel }}">
-  {{ site.tel }}</a>
+<strong>Telefoon:</strong> <a title="{{ site.tel }}" href="tel:{{ site.tel }}">{{ site.tel }}</a><br>
+<strong>Telefoon:</strong> <a title="{{ site.tel-rt }}" href="tel:{{ site.tel-rt }}">{{ site.tel-rt }}</a>
 </p>
 
 <p>Wij zijn elke werkdag beschikbaar van {{ site.hours }} uur.</p>

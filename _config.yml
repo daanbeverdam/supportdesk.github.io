@@ -20,6 +20,7 @@ logo: /img/logos/supportdesk-logo.svg
 logo-jpg: /img/logos/supportdesk-logo.jpg
 logo-tumb: /img/logos/supportdesk-logo-tumb.jpg
 tel: 020-3375961
+tel-rt: 010-3074831
 hours: 09.00-18.00
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -39,9 +40,14 @@ social:
     url: https://www.linkedin.com/company/supportdesknu
 
 # Postal address (add as many lines as necessary)
-address:
+address-amsterdam:
   - line: Hogehilweg 19
   - line: 1101 CB, Amsterdam
+
+address-rotterdam:
+  - line: Marconistraat 16
+  - line: 3029 AK Rotterdam
+
 
 review-rate: 9.4
 review-scale: 10

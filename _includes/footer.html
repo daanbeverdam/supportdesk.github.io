@@ -5,7 +5,7 @@
       <div class="four columns">
           <h3>Laatste nieuws</h3>
           <ul>
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit:8 %}
               <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
           </ul>
@@ -14,7 +14,7 @@
           <h3>Populair</h3>
           <ul>
           {% assign posts = site.posts | sort: 'hits' | reverse %}
-            {% for post in posts limit:5 %}
+            {% for post in posts limit:7 %}
               <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
           </ul>
@@ -22,13 +22,19 @@
 
       <div class="four columns">
           <h3>Support nodig?</h3>
-          <a class="go-button button black" title="Bel nu! {{ site.tel }}" href="tel:{{ site.tel }}">Bel nu! <span class="phone-orange">{{ site.tel }}</span></a><br /><br />
-          <p>{{ site.name }}<br />
-              {% for address in site.address %}
-                {{ address.line }}<br />
+          <a class="go-button button black" title="Bel nu! {{ site.tel }}" href="tel:{{ site.tel }}">Bel nu! <span class="phone-orange">{{ site.tel }}</span></a><br><br>
+          <p>
+              {% for address in site.address-amsterdam %}
+                {{ address.line }}<br>
               {% endfor %}
-          </p><br />
-          <p>E-mail: <a href="mailto:{{ site.email-support | encode_email }}?subject=Mijn Support Vraag" title="{{ site.email-support }}">{{ site.email-support }}</a></p><br />
+          </p>
+          <a class="go-button button black" title="Bel nu! {{ site.tel-rt }}" href="tel:{{ site.tel-rt }}">Bel nu! <span class="phone-orange">{{ site.tel-rt }}</span></a><br><br>
+          <p>
+              {% for address in site.address-rotterdam %}
+                {{ address.line }}<br>
+              {% endfor %}
+          </p><br>
+          <p>E-mail: <a href="mailto:{{ site.email-support | encode_email }}?subject=Mijn Support Vraag" title="{{ site.email-support }}">{{ site.email-support }}</a></p><br>
           <p><a href="/bedrijfsgegevens">meer gegevens</a></p>
       </div>
     </div>
@@ -40,8 +46,8 @@
         <li><a href="{{ site.url }}{{ menu.href }}" title="{{ menu.title }}">{{ menu.title }}</a></li>
       {% endfor %}
     </ul>
-    <p class="bottom">{{ site.name }} wordt door haar klanten beoordeeld met een <strong>{{ site.review-rate }}</strong> van <strong>{{ site.review-scale }}</strong> gebaseerd op <strong>{{ site.review-total }}</strong> klantbeoordelingen.<br />
-      <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of {{ site.name }}.<br />
+    <p class="bottom">{{ site.name }} wordt door haar klanten beoordeeld met een <strong>{{ site.review-rate }}</strong> van <strong>{{ site.review-scale }}</strong> gebaseerd op <strong>{{ site.review-total }}</strong> klantbeoordelingen.<br>
+      <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>™ name and logo are registered trademarks of {{ site.name }}.<br>
         All material on this website is copyrighted by <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>.</p>
   </div>
 </footer>
