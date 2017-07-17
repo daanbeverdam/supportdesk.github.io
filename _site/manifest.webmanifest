@@ -1,7 +1,7 @@
 {
   "name": "SupportDesk BV",
   "short_name": "Support voor Magento en Joomla",
-  "start_url": "https://supportdesk.shop",
+  "start_url": "http://localhost",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#0379C4",
