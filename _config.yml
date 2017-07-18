@@ -1,6 +1,6 @@
 baseurl:
-url: https://www.supportdesk.nu
-url-slash: https://www.supportdesk.nu/
+url: https://staging.supportdesk.nu
+url-slash: https://staging.supportdesk.nu/
 url-shop: https://www.supportdesk.nu/shop
 url-form: https://mail.supportdesk.shop/form.php
 zendesk: https://supportdesknu.zendesk.com/
